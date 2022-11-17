@@ -1,0 +1,75 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%
+
+}
+
+button {
+    padding: 4px 12px;
+}
+
+main {
+    margin: 5px;
+}
+
+nav {
+    height: auto;
+}
+
+#addHoleBtn, #resetBtn {
+    margin: 0;
+    padding: 3px 6px;
+    width: 60px;
+}
+
+.addShotBtn, .rmShotBtn {
+    margin: 0;
+    padding: 3px 6px;
+    width: 45px;
+    height: 45px
+}
+
+#stats-main {
+    width: 200px;
+}
+
+h6, p {
+    font-size: 10px;
+
+}
+
+#accordionGolfHoles {
+    margin: 2px;
+}
+
+#accordion-header {
+    height: 40px;
+}
+
+.accordion-button {
+    padding: 8px 10px;
+}
+
+.accordion-body {
+    padding: 4px 5px;
+}
+
+.holeInfo {
+    width: 100px;
+    height: 100px;
+}
+
+.scoreDiv, .parDiv {
+    width: 40px;
+}
+
+select {
+    height: 25.83px;
+    margin-bottom: 8px
+}
+
+.shot {
+    width: 150px;
+}
