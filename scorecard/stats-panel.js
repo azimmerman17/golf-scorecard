@@ -26,7 +26,7 @@ function statBuild(array, parent) {
     }
 }
 
-const doc = document.getElementById('statsPanel')
+const statsDoc = document.getElementById('statsPanel')
 
 for (let i = 0; i < statDivArr.length; i++) {
     const elm = document.createElement('div');
@@ -38,7 +38,7 @@ for (let i = 0; i < statDivArr.length; i++) {
         statDiv.className = 'd-flex flex-row justify-content-around flex-wrap'
     elm.append(heading);
     elm.append(statDiv)
-    doc.append(elm);
+    statsDoc.append(elm);
     switch (statDivArr[i]) {
         case 'Scoring':
             statBuild(scoreDivArr, statDiv)

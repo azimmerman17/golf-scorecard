@@ -73,3 +73,20 @@ select {
 .shot {
     width: 150px;
 }
+
+.yardInput {
+    width: 50px;
+}
+
+.shotDiv {
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:  1px solid gray;
+    padding: 5px 1px;
+    border-radius: 10px;
+    height: 70px;
+    margin: 2px;
+}
+

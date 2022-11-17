@@ -47,15 +47,15 @@
             </button>
             <div class="d-flex justify-content-evenly" id="stats-main">
                 <div id="par-main">
-                    <h3 class="text-center">##</h3>
+                    <h3 class="text-center">0</h3>
                     <h6 class="text-center">Par</h6>
                 </div>
                 <div id="score-main">
-                    <h3 class="text-center">##</h3>
+                    <h3 class="text-center">0</h3>
                     <h6 class="text-center">Strokes</h6>
                 </div>
                 <div id="vspar-main">
-                    <h3 class="text-center">##</h3>
+                    <h3 class="text-center">E</h3>
                     <h6 class="text-center">(+/-)</h6>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                 </button>
               </h2>
               <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionGolfHoles">
-                <div class="accordion-body d-flex flex-wrap">
+                <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole1">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -96,12 +96,35 @@
                             <h6 class="text-center">Shot</h6>
                         </button>
                         <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn1">
-                            <i class="bi bi-x"></i>
+                            <i class="bi bi-dash"></i>
                             <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
-                    
+                    <!-- <div>
+                        <div>
+                            <h4>Shot 1</h4>
+                        </div>
+                        <div>
+                            <label for="lieHole1Shot1"></label>
+                            <select class="text-center" name="lieHole1Shot1" id="lieHole1Shot1">
+                                <option value="">-</option>
+                                <option value="t">Tee</option>
+                                <option value="f">Fairway</option>
+                                <option value="r">Rough</option>
+                                <option value="g">Green</option>
+                                <option value="s">Sand</option>
+                                <option value="x">Recovery</option>
+                                <option value="p">Penalty</option>
+                            </select>
+                            <h6 class="text-center">Lie</h6>
+                        </div>
+                        <div>
+                            <label for="lieHole1Shot1"></label>
+                            <input class="text-center" name="distHole1Shot1" id="distHole1Shot1">
+                            <h6 class="text-center">Yards</h6>
+                        </div>
+                    </div> -->
                 </div>
               </div>
             </div>
@@ -113,7 +136,7 @@
                   </button>
                 </h2>
                 <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole2">
                       <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -132,7 +155,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn2">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn2">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -147,7 +174,7 @@
                   </button>
                 </h2>
                 <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole3">
                       <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -166,7 +193,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn3">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn3">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -181,7 +212,7 @@
                   </button>
                 </h2>
                 <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole4">
                       <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -200,7 +231,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn4">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn4">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -215,7 +250,7 @@
                   </button>
                 </h2>
                 <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole5">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -234,7 +269,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn5">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn5">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -249,7 +288,7 @@
                   </button>
                 </h2>
                 <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole6">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -268,7 +307,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn6">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn6">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -283,7 +326,7 @@
                   </button>
                 </h2>
                 <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole7">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -302,7 +345,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn7">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn7">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -317,7 +364,7 @@
                   </button>
                 </h2>
                 <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole8">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -336,7 +383,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn8">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn8">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -351,7 +402,7 @@
                   </button>
                 </h2>
                 <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole9">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -370,7 +421,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn9">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn9">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -385,7 +440,7 @@
                   </button>
                 </h2>
                 <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole10">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -404,7 +459,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn10">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn10">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -419,7 +478,7 @@
                 </button>
                 </h2>
                 <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionGolfHoles">
-                <div class="accordion-body d-flex flex-wrap">
+                <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole11">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -438,7 +497,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn11">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn11">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -453,7 +516,7 @@
                 </button>
                 </h2>
                 <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionGolfHoles">
-                <div class="accordion-body d-flex flex-wrap">
+                <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole12">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -472,7 +535,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn12">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn12">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -487,7 +554,7 @@
                 </button>
                 </h2>
                 <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionGolfHoles">
-                <div class="accordion-body d-flex flex-wrap">
+                <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole13">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -506,7 +573,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn13">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn13">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -521,7 +592,7 @@
                 </button>
                 </h2>
                 <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionGolfHoles">
-                <div class="accordion-body d-flex flex-wrap">
+                <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole14">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -540,7 +611,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn14">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn14">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -555,7 +630,7 @@
                   </button>
                 </h2>
                 <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole15">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -574,7 +649,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn15">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn15">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -589,7 +668,7 @@
                   </button>
                 </h2>
                 <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole16">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -608,7 +687,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn16">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn16">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -623,7 +706,7 @@
                   </button>
                 </h2>
                 <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole17">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -642,7 +725,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn17">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn17">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -657,7 +744,7 @@
                   </button>
                 </h2>
                 <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#accordionGolfHoles">
-                  <div class="accordion-body d-flex flex-wrap">
+                  <div class="accordion-body d-flex flex-wrap" id="accordion-body-hole18">
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
@@ -676,7 +763,11 @@
                         </div>
                         <button class="btn btn-outline-success addShotBtn" id="addShotBtn18">
                             <i class="bi bi-plus"></i>
-                            <h6 class="text-center">Add Shot</h6>
+                            <h6 class="text-center">Shot</h6>
+                        </button>
+                        <button class="btn btn-outline-danger rmShotBtn" id="rmShotBtn18">
+                            <i class="bi bi-dash"></i>
+                            <h6 class="text-center">Shot</h6>
                         </button>
                     </div>
                     <!-- shots here -->
@@ -685,5 +776,6 @@
             </div>
         </div>
     </main>
+    <script src="scorecard/scorecard-build.js"></script>
   </body>
 </html>
