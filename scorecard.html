@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="assests/css/style.css" rel="stylesheet">
+    <script src="scorecard/stats.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -41,19 +42,21 @@
     </aside>
     <main id="main">
         <div class="d-flex justify-content-between">
-            <button class="btn btn-outline-success" id="addHoleBtn">
-                <i class="bi bi-plus"></i>
-                <h6 class="text-center">Add Hole</h6>
+            <button class="btn btn-outline-primary" id="addHoleBtn"> 
+                <i class="bi bi-save"></i> 
+                <!-- <i class="bi bi-plus"></i> -->
+                <h6 class="text-center">Save</h6>
             </button>
             <div class="d-flex justify-content-evenly" id="stats-main">
+                <div id="score-main-div">
+                    <h3 class="text-center" id="score-main">0</h3>
+                    <h6 class="text-center">Strokes</h6>
+                </div>
                 <div id="par-main">
                     <h3 class="text-center">0</h3>
                     <h6 class="text-center">Par</h6>
                 </div>
-                <div id="score-main">
-                    <h3 class="text-center">0</h3>
-                    <h6 class="text-center">Strokes</h6>
-                </div>
+
                 <div id="vspar-main">
                     <h3 class="text-center">E</h3>
                     <h6 class="text-center">(+/-)</h6>
@@ -78,7 +81,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score1">##</h4>
+                            <h4 class="scoreValue text-center" id="score1">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -140,7 +143,7 @@
                       <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score2">##</h4>
+                            <h4 class="scoreValue text-center" id="score2">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -178,7 +181,7 @@
                       <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score3">##</h4>
+                            <h4 class="scoreValue text-center" id="score3">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -216,7 +219,7 @@
                       <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score4">##</h4>
+                            <h4 class="scoreValue text-center" id="score4">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -254,7 +257,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score5">##</h4>
+                            <h4 class="scoreValue text-center" id="score5">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -292,7 +295,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score6">##</h4>
+                            <h4 class="scoreValue text-center" id="score6">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -330,7 +333,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score7">##</h4>
+                            <h4 class="scoreValue text-center" id="score7">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -368,7 +371,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score8">##</h4>
+                            <h4 class="scoreValue text-center" id="score8">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -406,7 +409,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score9">##</h4>
+                            <h4 class="scoreValue text-center" id="score9">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -444,7 +447,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score10">##</h4>
+                            <h4 class="scoreValue text-center" id="score10">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -482,7 +485,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score11">##</h4>
+                            <h4 class="scoreValue text-center" id="score11">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -520,7 +523,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score12">##</h4>
+                            <h4 class="scoreValue text-center" id="score12">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -558,7 +561,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score13">##</h4>
+                            <h4 class="scoreValue text-center" id="score13">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -596,7 +599,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score14">##</h4>
+                            <h4 class="scoreValue text-center" id="score14">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -634,7 +637,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score15">##</h4>
+                            <h4 class="scoreValue text-center" id="score15">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -672,7 +675,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score16">##</h4>
+                            <h4 class="scoreValue text-center" id="score16">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -710,7 +713,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score17">##</h4>
+                            <h4 class="scoreValue text-center" id="score17">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">
@@ -748,7 +751,7 @@
                     <!-- Hole Info -->
                     <div class="holeInfo d-flex flex-wrap justify-content-evenly align-center">
                         <div class="scoreDiv">
-                            <h4 class="scoreValue text-center" id="score18">##</h4>
+                            <h4 class="scoreValue text-center" id="score18">0</h4>
                             <h6 class="text-center">Strokes</h6>
                         </div>
                         <div class="parDiv d-flex flex-column">

@@ -13,7 +13,7 @@ lieList.push(new lieLocation('Green','g'))
 // lieList.push(new lieLocation('Recovery','x'))
 // lieList.push(new lieLocation('Penalty','p'))
 
-//listener ADD function
+//listener to add shots to the DOM
 function addShot(i) {
 let doc = document.querySelector(`#accordion-body-hole${i}`)
 let shotDiv = document.createElement('div')
@@ -23,7 +23,7 @@ let shotDiv = document.createElement('div')
 const shotBanner = document.createElement('div')
     shotBanner.className = 'shotBanner'
 let shotNum = document.createElement('h4')
-    shotNum.textContent = `${1}`
+    shotNum.textContent = round.holes[i - 1].shots.length
     shotNum.className = 'text-center'
 let shotTxt = document.createElement('h6')
     shotTxt.textContent = 'Shot'
@@ -33,23 +33,23 @@ let shotTxt = document.createElement('h6')
 const yardDiv = document.createElement('div')
     yardDiv.className = 'yardDiv'
 let yardLabel = document.createElement('label')
-    yardLabel.for = `yardH${i}S${i}`
+    yardLabel.for = `yardH${i}S${round.holes[i - 1].shots.length + 1}`
 let yardInput = document.createElement('input')
     yardInput.className = 'yardInput text-center'
-    yardInput.name = `yardH${i}S${i}`
+    yardInput.name = `yardH${i}S${round.holes[i - 1].shots.length + 1}`
     yardInput.id = yardInput.name
     yardInput.type = 'number'
 let yardTxt = document.createElement('h6')
-    yardTxt.textContent = 'Yards'
+    yardTxt.textContent = 'Dist'
     yardTxt.className = 'text-center'
 
 // shot lie -- displays option for lie
 const lieDiv = document.createElement('div')
     lieDiv.className = 'lieDiv'
 let lieLabel = document.createElement('label')
-    lieLabel.for = `lieH${i}S${i}`
+    lieLabel.for = `lieH${i}S${round.holes[i - 1].shots.length + 1}`
 let lieSelect = document.createElement('select')
-    lieSelect.name = `lieH${1}S${1}`
+    lieSelect.name = `lieH${i}S${round.holes[i - 1].shots.length + 1}`
     lieSelect.id = lieSelect.name
 for (let j = 0; j < lieList.length; j++) {
     let lieOption = document.createElement('option')
@@ -68,13 +68,40 @@ shotDiv.append(shotBanner,yardDiv, lieDiv)
 doc.append(shotDiv)
 }
 
+// listeners for DOM
 for (let i = 1; i <= 18; i++) {
-    document.getElementById(`addShotBtn${i}`).addEventListener('click', function () {
+    document.getElementById(`addShotBtn${i}`).addEventListener('click',(() => {
+        round.holes[i - 1].shots.push(new Shot(round.holes[i - 1].shots.length + 1, ))
+        updateAddShot(round.holes[i - 1])
+        upadateDOM()
         addShot(i)
-    }
-     );
-    // document.getElementById(`rmShotBtn${i}`).addEventListener('click',
-        
-    // );
-
+    }));
+    // document.getElementById(`rmShotBtn${i}`).addEventListener('click', (() => {
+    //     removeShot(i)
+    // }));
+    // document.getElementById(`parHole${i}`).addEventListener('click', (() => {
+    //     console.log('click')
+    // }))
 };
+
+
+
+//updates to scorecard
+function updateAddShot(hole) {
+    round.score += 1
+    hole.strokes = hole.shots.length
+
+    console.log(round)
+    console.log(hole)
+}
+
+
+
+// make this work for the entire document
+function upadateDOM() {
+    document.getElementById('score-main').innerHTML = round.score
+    document.getElementById('Score-panel').innerHTML = round.score
+    for (let i = 1; i <= 18; i++) {
+        document.getElementById(`score${i}`).innerHTML = round.holes[i - 1].strokes
+    }
+}

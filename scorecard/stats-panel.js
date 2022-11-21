@@ -16,6 +16,7 @@ function statBuild(array, parent) {
             statElm.className = 'p-2'
         const statValue = document.createElement('h5');
             statValue.className = 'text-center'
+            statValue.id = array[j] + '-panel'
             statValue.textContent = '#';  //will need to be a function to grab data
         const statName = document.createElement('p');
             statName.className = 'text-center'
