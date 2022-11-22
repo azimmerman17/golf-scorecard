@@ -73,24 +73,32 @@ for (let i = 1; i <= 18; i++) {
     document.getElementById(`addShotBtn${i}`).addEventListener('click',(() => {
         round.holes[i - 1].shots.push(new Shot(round.holes[i - 1].shots.length + 1, ))
         updateAddShot(round.holes[i - 1])
-        upadateDOM()
+        updateDOM()
         addShot(i)
     }));
     // document.getElementById(`rmShotBtn${i}`).addEventListener('click', (() => {
     //     removeShot(i)
     // }));
-    // document.getElementById(`parHole${i}`).addEventListener('click', (() => {
-    //     console.log('click')
-    // }))
+    document.getElementById(`parHole${i}`).addEventListener('change', (() => {
+        updatePar(round.holes[i-1], i)
+        updateDOM()
+    }))
 };
-
 
 
 //updates to scorecard
 function updateAddShot(hole) {
     round.score += 1
     hole.strokes = hole.shots.length
+}
 
+function updatePar(hole, i) {
+    hole.par = document.getElementById(`parHole${i}`).value / 1
+    let roundPar = 0
+    for (let j = 1; j <= round.holes.length; j++) {
+        roundPar +=  round.holes[j-1].par
+    }
+    round.par = roundPar
     console.log(round)
     console.log(hole)
 }
@@ -98,9 +106,29 @@ function updateAddShot(hole) {
 
 
 // make this work for the entire document
-function upadateDOM() {
+function updateDOM() {
     document.getElementById('score-main').innerHTML = round.score
     document.getElementById('Score-panel').innerHTML = round.score
+    document.getElementById('par-main').innerHTML = round.par
+    document.getElementById('Par-panel').innerHTML = round.par
+   if (round.score - round.par === 0) {
+        document.getElementById('vspar-main').innerHTML = 'E'
+        document.getElementById('vspar-main').style.color = 'green'
+        document.getElementById('Vspar-panel').innerHTML = 'E'
+        document.getElementById('vspar-main').style.color = 'green'
+    } else if (round.score - round.par > 0) {
+        document.getElementById('vspar-main').innerHTML = `+${round.score - round.par}`
+        document.getElementById('vspar-main').style.color = 'black'
+        document.getElementById('Vspar-panel').innerHTML = `+${round.score - round.par}`
+        document.getElementById('vspar-main').style.color = 'black'
+    } else if  (round.score - round.par < 0){
+        document.getElementById('vspar-main').innerHTML = round.score - round.par
+        document.getElementById('vspar-main').style.color = 'red'
+        document.getElementById('Vspar-panel').innerHTML = round.score - round.par
+        document.getElementById('vspar-main').style.color = 'red'
+    }
+    console.log(round.score - round.par)
+
     for (let i = 1; i <= 18; i++) {
         document.getElementById(`score${i}`).innerHTML = round.holes[i - 1].strokes
     }

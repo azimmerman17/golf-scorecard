@@ -17,6 +17,9 @@ function statBuild(array, parent) {
         const statValue = document.createElement('h5');
             statValue.className = 'text-center'
             statValue.id = array[j] + '-panel'
+            if (array[j] === '(+/-)') {
+                statValue.id = 'Vspar-panel'
+            }
             statValue.textContent = '#';  //will need to be a function to grab data
         const statName = document.createElement('p');
             statName.className = 'text-center'
