@@ -65,3 +65,31 @@ for (let i = 1; i <= 18; i++) {
 
 let round = new Round(holesArr, roundStatsObj)
 
+//updates to stats
+function updateAddShot(hole) {
+    hole.score = hole.shots.length
+    let roundScore = 0
+    for (let i = 1; i <= round.holes.length; i++) {
+        roundScore +=  round.holes[i-1].score
+    }
+    round.score = roundScore
+
+}
+
+function updateRmShot(hole) {
+    hole.score = hole.shots.length
+    let roundScore = 0
+    for (let i = 1; i <= round.holes.length; i++) {
+        roundScore +=  round.holes[i-1].score
+    }
+    round.score = roundScore
+}
+
+function updatePar(hole, i) {
+    hole.par = document.getElementById(`parHole${i}`).value / 1
+    let roundPar = 0
+    for (let j = 1; j <= round.holes.length; j++) {
+        roundPar +=  round.holes[j-1].par
+    }
+    round.par = roundPar
+}

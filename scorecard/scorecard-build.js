@@ -18,6 +18,8 @@ function addShot(i) {
 let doc = document.querySelector(`#accordion-body-hole${i}`)
 let shotDiv = document.createElement('div')
     shotDiv.className = 'shotDiv d-flex bg-light'
+    shotDiv.id = `h${i}S${round.holes[i-1].shots.length}`
+
 
 // shot Banner -- displays shot number
 const shotBanner = document.createElement('div')
@@ -70,43 +72,39 @@ doc.append(shotDiv)
 
 // listeners for DOM
 for (let i = 1; i <= 18; i++) {
+    // add shot
     document.getElementById(`addShotBtn${i}`).addEventListener('click',(() => {
         round.holes[i - 1].shots.push(new Shot(round.holes[i - 1].shots.length + 1, ))
         updateAddShot(round.holes[i - 1])
-        updateDOM()
+        updateDocStats()
         addShot(i)
+        console.log(round)
+        console.log(round.holes[i - 1])
     }));
-    // document.getElementById(`rmShotBtn${i}`).addEventListener('click', (() => {
-    //     removeShot(i)
-    // }));
+
+    // remove shot 
+    document.getElementById(`rmShotBtn${i}`).addEventListener('click', (() => {
+        if(round.holes[i - 1].score.length !== 0) {
+            round.holes[i - 1].shots.pop()
+            document.querySelector(`#h${i}S${round.holes[i-1].score}`).remove()
+            updateRmShot(round.holes[i - 1])
+            updateDocStats()
+        }
+        console.log(round)
+        console.log(round.holes[i - 1])
+    }));
+
+    // change par
     document.getElementById(`parHole${i}`).addEventListener('change', (() => {
         updatePar(round.holes[i-1], i)
-        updateDOM()
+        updateDocStats()
+        console.log(round)
+        console.log(round.holes[i - 1])
     }))
 };
 
-
-//updates to scorecard
-function updateAddShot(hole) {
-    round.score += 1
-    hole.strokes = hole.shots.length
-}
-
-function updatePar(hole, i) {
-    hole.par = document.getElementById(`parHole${i}`).value / 1
-    let roundPar = 0
-    for (let j = 1; j <= round.holes.length; j++) {
-        roundPar +=  round.holes[j-1].par
-    }
-    round.par = roundPar
-    console.log(round)
-    console.log(hole)
-}
-
-
-
 // make this work for the entire document
-function updateDOM() {
+function updateDocStats() {
     document.getElementById('score-main').innerHTML = round.score
     document.getElementById('Score-panel').innerHTML = round.score
     document.getElementById('par-main').innerHTML = round.par
@@ -127,9 +125,8 @@ function updateDOM() {
         document.getElementById('Vspar-panel').innerHTML = round.score - round.par
         document.getElementById('vspar-main').style.color = 'red'
     }
-    console.log(round.score - round.par)
 
     for (let i = 1; i <= 18; i++) {
-        document.getElementById(`score${i}`).innerHTML = round.holes[i - 1].strokes
+        document.getElementById(`score${i}`).innerHTML = round.holes[i - 1].score
     }
 }
