@@ -9,7 +9,7 @@ function Round(holesArr,roundStatsObj) {
 function Hole(holeNum,stats) {
     this.holeNme = `Hole ${holeNum}`
     this.holeNum = holeNum
-    this.strokes = 0,  // shots.length
+    this.score = 0,  // shots.length
     this.par = 0,  // user input
     this.length = null,  // user input !!Shot 1 dist
     this.shots =[] // add shots to arrey
@@ -25,7 +25,7 @@ function Shot(shotNum) {
         statDist: null,  // user input
         startLoc: null,   // user input
         endDist: 0,   // user input
-        endLoc: 0,  // user input
+        endLoc: 'h',  // user input
     } 
     this.sg = {} // strokes gained object
 }
