@@ -6,24 +6,39 @@ document.getElementById('statHeading').textContent = statHeader
 // array's for stats
 let statDivArr = ['Scoring', 'Hole Scores', 'Performance', 'Strokes Gained']
 let scoreDivArr = ['Score', 'Par', '(+/-)']
-let parDivArr = ['Eagles+', 'Birdies', 'Par', 'Bogeys', '2x Bogeys+']
+let parDivArr = ['Eagle+', 'Birdie', 'Par', 'Bogey', 'DblBogey+']
 let perfDivArr = ['Fwy', 'GIR', 'Putts', 'Scrambling', 'Drive Dist', 'Prox to Hole']
 let sgDivArr = ['Tee', 'Approach', 'Short Game', 'Putting']
 
 function statBuild(array, parent) {
-    for(let j = 0; j < array.length; j++) {
+    for(let i = 0; i < array.length; i++) {
         const statElm = document.createElement('div');
             statElm.className = 'p-2'
         const statValue = document.createElement('h5');
             statValue.className = 'text-center'
-            statValue.id = array[j] + '-panel'
-            if (array[j] === '(+/-)') {
-                statValue.id = 'Vspar-panel'
+            switch (array[i]) {
+                case '(+/-)':
+                    statValue.id = 'vsPar-panel'
+                    break
+                case 'Drive Dist':
+                    statValue.id = 'driveDist-panel'
+                    break                
+                case 'Prox to Hole':
+                    statValue.id = 'proxToHole-panel'
+                    break
+                case 'Short Game':
+                    statValue.id = 'shortGame-panel'
+                    break
+                default:
+                    statValue.id = array[i] + '-panel'
             }
-            statValue.textContent = '#';  //will need to be a function to grab data
+            if (array === parDivArr) {
+                statValue.id = array[i] + '-holes-panel'
+            }
+            statValue.textContent = '0';  //will need to be a function to grab data
         const statName = document.createElement('p');
             statName.className = 'text-center'
-            statName.textContent = array[j];
+            statName.textContent = array[i];
         statElm.append(statValue);
         statElm.append(statName);
         parent.append(statElm);
