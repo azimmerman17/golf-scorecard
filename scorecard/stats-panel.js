@@ -7,13 +7,13 @@ document.getElementById('statHeading').textContent = statHeader
 let statDivArr = ['Scoring', 'Hole Scores', 'Performance', 'Strokes Gained']
 let scoreDivArr = ['Score', 'Par', '(+/-)']
 let parDivArr = ['Eagle+', 'Birdie', 'Par', 'Bogey', 'DblBogey+']
-let perfDivArr = ['Fwy', 'GIR', 'Putts', 'Scrambling', 'Drive Dist', 'Prox to Hole']
+let perfDivArr = ['Drive Dist', 'Fwy', 'Gir', 'Prox to Hole', 'Scrambling', 'Sand Save', 'Putts']
 let sgDivArr = ['Tee', 'Approach', 'Short Game', 'Putting']
 
 function statBuild(array, parent) {
     for(let i = 0; i < array.length; i++) {
         const statElm = document.createElement('div');
-            statElm.className = 'p-2'
+            statElm.className = 'p-2 m-2'
         const statValue = document.createElement('h5');
             statValue.className = 'text-center'
             switch (array[i]) {
@@ -28,6 +28,9 @@ function statBuild(array, parent) {
                     break
                 case 'Short Game':
                     statValue.id = 'shortGame-panel'
+                    break
+                case 'Sand Save':
+                    statValue.id = 'sandSave-panel'
                     break
                 default:
                     statValue.id = array[i] + '-panel'
@@ -54,7 +57,7 @@ for (let i = 0; i < statDivArr.length; i++) {
         heading.className = 'text-center fw-bold';
         heading.textContent = statDivArr[i];
     const statDiv = document.createElement('div');
-        statDiv.className = 'd-flex flex-row justify-content-around flex-wrap'
+        statDiv.className = 'd-flex flex-row flex-wrap justify-content-around'
     elm.append(heading);
     elm.append(statDiv)
     statsDoc.append(elm);

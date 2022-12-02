@@ -174,4 +174,10 @@ function updateDocStats() {
 // performance stats
     document.getElementById('Fwy-panel').innerHTML = round.stats.fwy 
     document.getElementById('driveDist-panel').innerHTML = round.stats.driveDist
+    document.getElementById('Putts-panel').innerHTML = round.stats.putts
+    document.getElementById('Scrambling-panel').innerHTML = round.stats.scrambling
+    document.getElementById('Gir-panel').innerHTML = round.stats.gir
+    document.getElementById('proxToHole-panel').innerHTML = round.stats.proxToHle
+    document.getElementById('sandSave-panel').innerHTML = round.stats.sandSave
+
 }
