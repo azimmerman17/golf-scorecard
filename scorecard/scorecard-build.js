@@ -51,6 +51,7 @@ let sup = document.createElement('super')
     sup.innerHTML = '*'
     yardInput.addEventListener('keyup', (() => {
         updateDist(holeNmb, shotNmb, round.holes[holeNmb - 1])
+        updateDocStats()
     }))
 
 // shot lie -- displays option for lie
@@ -72,6 +73,7 @@ let lieTxt = document.createElement('h6')
     lieTxt.className = 'text-center'
     lieSelect.addEventListener('change', (() => {
         updateLoc(holeNmb, shotNmb, round.holes[holeNmb - 1])
+        updateDocStats()
     }))
 
 yardTxt.append(sup)
@@ -171,6 +173,7 @@ function updateDocStats() {
             document.getElementById('DblBogey+-holes-panel').innerHTML = dblBogey
         }
     }
+
 // performance stats
     document.getElementById('Fwy-panel').innerHTML = round.stats.fwy 
     document.getElementById('driveDist-panel').innerHTML = round.stats.driveDist
@@ -179,5 +182,13 @@ function updateDocStats() {
     document.getElementById('Gir-panel').innerHTML = round.stats.gir
     document.getElementById('proxToHole-panel').innerHTML = round.stats.proxToHle
     document.getElementById('sandSave-panel').innerHTML = round.stats.sandSave
+
+//strokes gained
+    document.getElementById('Total-panel').innerHTML = round.sg.total 
+    console.log(round.sg.approach )
+    document.getElementById('Tee-panel').innerHTML = round.sg.tee 
+    document.getElementById('Approach-panel').innerHTML = round.sg.approach 
+    document.getElementById('shortGame-panel').innerHTML = round.sg.shortGame 
+    document.getElementById('Putting-panel').innerHTML = round.sg.putting
 
 }

@@ -78,6 +78,7 @@ For details on strokes gained [read this from the PGA TOUR](https://www.pgatour.
 | Putting | The number of putts a player takes from a specific distance is measured against a statistical baseline to determine the player's strokes gained or lost on a hole.The total is the sum of all shots in this catagory. |
 
  * Strokes Gained definitions are modified from defitions used by the [PGATOUR](https://www.pgatour.com/stats.html)
+ * POSTIVE NUMBERS INCIDATE SHOTS BETTER THAN THE STATISTICAL BASLINE!
 
 ## **Continued Development**
 

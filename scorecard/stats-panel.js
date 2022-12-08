@@ -8,7 +8,7 @@ let statDivArr = ['Scoring', 'Hole Scores', 'Performance', 'Strokes Gained']
 let scoreDivArr = ['Score', 'Par', '(+/-)']
 let parDivArr = ['Eagle+', 'Birdie', 'Par', 'Bogey', 'DblBogey+']
 let perfDivArr = ['Drive Dist', 'Fwy', 'Gir', 'Prox to Hole', 'Scrambling', 'Sand Save', 'Putts']
-let sgDivArr = ['Tee', 'Approach', 'Short Game', 'Putting']
+let sgDivArr = ['Total', 'Tee', 'Approach', 'Short Game', 'Putting']
 
 function statBuild(array, parent) {
     for(let i = 0; i < array.length; i++) {
