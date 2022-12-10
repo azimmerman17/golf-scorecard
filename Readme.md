@@ -15,12 +15,25 @@ Final Product will allow golfers to input shot data and track stats and strokes 
 | Remove Shot | Removes final shot from that hole |
 
 ### User Input
-
 | **Input** | **Useage** |
 | --- | --- |
+| Ability | Selection for players ability to calculate the expected score and strokes gained |
 | Par | Set par for the hole played
 | Dist* | Set the distance of the shot from where it was hit from.  Unit is yards, with expection for putts (feet) |
 | Loc | Set the location of the shot from where it was hit from. |
+
+### Abilities
+
+| Ability | Description |
+| --- | --- |
+| PGA Tour | Statsitics calculated on PGA Tour events.  For reference, PGA Tour scoring averge is generally around 71 shots |
+| 75 Average | Players who average a score of 75 or are around a 5 handicap |
+| 80 Average | Players who average a score of 80 or are around a 10 handicap |
+| 85 Average | Players who average a score of 85 or are around a 15 handicap |
+| 90 Average | Players who average a score of 90 or are around a 20 handicap.  This is a bogey golfer |
+| 95 Average | Players who average a score of 95 or are around a 25 handicap |
+| 100 Average | Players who average a score of 100 or are around a 30 handicap |
+
 
 ### Shots
 
@@ -42,6 +55,8 @@ Final Product will allow golfers to input shot data and track stats and strokes 
 | Strokes | Number of strokes hit for either the round or hole also called, Score |
 | Par | Number of expected strokes hit for hole or round |
 | (+/-) | Score in relation to par |
+| Expected Score | Score expected through Strokes Gained based on the selected ability |
+| Strokes Gained | Number of strokes above / below the expected score.  Postive numbers indicate rounds better than the statistical baseline.  For more info, see the Strokes Gained section
 
 ### Hole Scores
 
@@ -69,7 +84,7 @@ Final Product will allow golfers to input shot data and track stats and strokes 
 
 ### Strokes Gained Stats
 
-For details on strokes gained [read this from the PGA TOUR](https://www.pgatour.com/news/2016/05/31/strokes-gained-defined.html)
+For details on strokes gained read this from the [PGA TOUR](https://www.pgatour.com/news/2016/05/31/strokes-gained-defined.html)
 
 | Catagory | Definition |
 | --- | --- |
@@ -86,7 +101,6 @@ For details on strokes gained [read this from the PGA TOUR](https://www.pgatour.
 
 - Features Under Devolopment
     - Usage of Save and Reset Buttons
-    - Addition of Strokes Gained stats
     - Addition of more stats (TBD)
 
 - Future Features
