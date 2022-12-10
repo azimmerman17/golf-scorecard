@@ -1,11592 +1,7250 @@
+// AMATUER DATA - CENTERED ON AVERAGE OF 80
+// AMATUER DATA - every 10 shots = +/- .556 = .0556 per shot
+// PUTTING DATA - every 10 shots = +/- .100 = .0100 per shot
+
 let stokesGainedData = [
     // HOLED
     {
         lie: 't',
         distance: 0,
         pgaTour: 0,
-        eighty: 0,
-        ninety: 0,
-        oneHundred: 0,
-        originalPGA: 0
+        amatuer: 0,
     }, {
         lie: 'f',
         distance: 0,
         pgaTour: 0,
-        eighty: 0,
-        ninety: 0,
-        oneHundred: 0,
-        originalPGA: 0
+        amatuer: 0,
     }, {
         lie: 'r',
         distance: 0,
         pgaTour: 0,
-        eighty: 0,
-        ninety: 0,
-        oneHundred: 0,
-        originalPGA: 0
+        amatuer: 0,
     }, {
         lie: 'x',
         distance: 0,
         pgaTour: 0,
-        eighty: 0,
-        ninety: 0,
-        oneHundred: 0,
-        originalPGA: 0
+        amatuer: 0,
     }, {
         lie: 's',
         distance: 0,
         pgaTour: 0,
-        eighty: 0,
-        ninety: 0,
-        oneHundred: 0,
-        originalPGA: 0
+        amatuer: 0,
     }, {
         lie: 'g',
         distance: 0,
         pgaTour: 0,
-        eighty: 0,
-        ninety: 0,
-        oneHundred: 0,
-        originalPGA: 0
+        amatuer: 0,
     }, {
         lie: 'h',
         distance: 0,
         pgaTour: 0,
-        eighty: 0,
-        ninety: 0,
-        oneHundred: 0,
-        originalPGA: 0
+        amatuer: 0,
     },
     // TEE SHOTS
     {
         lie: 't',
         distance: 1,
         pgaTour: 1.263,
-        eighty: 2.094,
-        ninety: 2.65,
-        oneHundred: 3.206,
-        originalPGA: 1.5
+        amatuer: 2.094,
     }, {
         lie: 't',
         distance: 2,
         pgaTour: 1.554,
-        eighty: 2.144,
-        ninety: 2.7,
-        oneHundred: 3.256,
-        originalPGA: 1.55
+        amatuer: 2.144,
     }, {
         lie: 't',
         distance: 3,
         pgaTour: 1.767,
-        eighty: 2.194,
-        ninety: 2.75,
-        oneHundred: 3.306,
-        originalPGA: 1.6
+        amatuer: 2.194,
     }, {
         lie: 't',
         distance: 4,
        pgaTour: 1.911,
-        eighty: 2.244,
-        ninety: 2.8,
-        oneHundred: 3.356,
-        originalPGA: 1.65
+        amatuer: 2.244,
     }, {
         lie: 't',
         distance: 5,
         pgaTour: 1.991,
-        eighty: 2.294,
-        ninety: 2.85,
-        oneHundred: 3.406,
-        originalPGA: 1.7
+        amatuer: 2.294,
     }, {
         lie: 't',
         distance: 6,
         pgaTour: 2.05,
-        eighty: 2.344,
-        ninety: 2.9,
-        oneHundred: 3.456,
-        originalPGA: 1.75
+        amatuer: 2.344,
     }, {
         lie: 't',
         distance: 7,
         pgaTour: 2.09,
-        eighty: 2.394,
-        ninety: 2.95,
-        oneHundred: 3.506,
-        originalPGA: 1.8
+        amatuer: 2.394,
     }, {
         lie: 't',
         distance: 8,
         pgaTour: 2.128,
-        eighty: 2.444,
-        ninety: 3,
-        oneHundred: 3.556,
-        originalPGA: 1.85
+        amatuer: 2.444,
     }, {
         lie: 't',
         distance: 9,
         pgaTour: 2.162,
-        eighty: 2.494,
-        ninety: 3.05,
-        oneHundred: 3.606,
-        originalPGA: 1.9
+        amatuer: 2.494,
     }, {
         lie: 't',
         distance: 10,
         pgaTour: 2.18,
-        eighty: 2.594,
-        ninety: 3.15,
-        oneHundred: 3.706,
-        originalPGA: 2
+        amatuer: 2.594,
     }, {
         lie: 't',
         distance: 11,
         pgaTour: 2.216,
-        eighty: 2.604,
-        ninety: 3.16,
-        oneHundred: 3.716,
-        originalPGA: 2.01
+        amatuer: 2.604,
     }, {
         lie: 't',
         distance: 12,
         pgaTour: 2.242,
-        eighty: 2.614,
-        ninety: 3.17,
-        oneHundred: 3.726,
-        originalPGA: 2.02
+        amatuer: 2.614,
     }, {
         lie: 't',
         distance: 13,
         pgaTour: 2.262,
-        eighty: 2.624,
-        ninety: 3.18,
-        oneHundred: 3.736,
-        originalPGA: 2.03
+        amatuer: 2.624,
     }, {
         lie: 't',
         distance: 14,
         pgaTour: 2.287,
-        eighty: 2.634,
-        ninety: 3.19,
-        oneHundred: 3.746,
-        originalPGA: 2.04
+        amatuer: 2.634,
     }, {
         lie: 't',
         distance: 15,
         pgaTour: 2.31,
-        eighty: 2.644,
-        ninety: 3.2,
-        oneHundred: 3.756,
-        originalPGA: 2.05
+        amatuer: 2.644,
     }, {
         lie: 't',
         distance: 16,
         pgaTour: 2.33,
-        eighty: 2.654,
-        ninety: 3.21,
-        oneHundred: 3.766,
-        originalPGA: 2.06
+        amatuer: 2.654,
     }, {
         lie: 't',
         distance: 17,
         pgaTour: 2.351,
-        eighty: 2.664,
-        ninety: 3.22,
-        oneHundred: 3.776,
-        originalPGA: 2.07
+        amatuer: 2.664,
     }, {
         lie: 't',
         distance: 18,
         pgaTour: 2.358,
-        eighty: 2.674,
-        ninety: 3.23,
-        oneHundred: 3.786,
-        originalPGA: 2.08
+        amatuer: 2.674,
     }, {
         lie: 't',
         distance: 19,
         pgaTour: 2.373,
-        eighty: 2.684,
-        ninety: 3.24,
-        oneHundred: 3.796,
-        originalPGA: 2.09
+        amatuer: 2.684,
     }, {
         lie: 't',
         distance: 20,
         pgaTour: 2.4,
-        eighty: 2.694,
-        ninety: 3.25,
-        oneHundred: 3.806,
-        originalPGA: 2.1
+        amatuer: 2.694,
     }, {
         lie: 't',
         distance: 21,
         pgaTour: 2.416,
-        eighty: 2.704,
-        ninety: 3.26,
-        oneHundred: 3.816,
-        originalPGA: 2.11
+        amatuer: 2.704,
     }, {
         lie: 't',
         distance: 22,
         pgaTour: 2.427,
-        eighty: 2.714,
-        ninety: 3.27,
-        oneHundred: 3.826,
-        originalPGA: 2.12
+        amatuer: 2.714,
     }, {
         lie: 't',
         distance: 23,
         pgaTour: 2.439,
-        eighty: 2.724,
-        ninety: 3.28,
-        oneHundred: 3.836,
-        originalPGA: 2.13
+        amatuer: 2.724,
     }, {
         lie: 't',
         distance: 24,
         pgaTour: 2.45,
-        eighty: 2.734,
-        ninety: 3.29,
-        oneHundred: 3.846,
-        originalPGA: 2.14
+        amatuer: 2.734,
     }, {
         lie: 't',
         distance: 25,
         pgaTour: 2.46,
-        eighty: 2.744,
-        ninety: 3.3,
-        oneHundred: 3.856,
-        originalPGA: 2.15
+        amatuer: 2.744,
     }, {
         lie: 't',
         distance: 26,
         pgaTour: 2.471,
-        eighty: 2.754,
-        ninety: 3.31,
-        oneHundred: 3.866,
-        originalPGA: 2.16
+        amatuer: 2.754,
     }, {
         lie: 't',
         distance: 27,
         pgaTour: 2.483,
-        eighty: 2.764,
-        ninety: 3.32,
-        oneHundred: 3.876,
-        originalPGA: 2.17
+        amatuer: 2.764,
     }, {
         lie: 't',
         distance: 28,
         pgaTour: 2.494,
-        eighty: 2.774,
-        ninety: 3.33,
-        oneHundred: 3.886,
-        originalPGA: 2.18
+        amatuer: 2.774,
     }, {
         lie: 't',
         distance: 29,
         pgaTour: 2.507,
-        eighty: 2.784,
-        ninety: 3.34,
-        oneHundred: 3.896,
-        originalPGA: 2.19
+        amatuer: 2.784,
     }, {
         lie: 't',
         distance: 30,
         pgaTour: 2.52,
-        eighty: 2.794,
-        ninety: 3.35,
-        oneHundred: 3.906,
-        originalPGA: 2.2
+        amatuer: 2.794,
     }, {
         lie: 't',
         distance: 31,
         pgaTour: 2.526,
-        eighty: 2.804,
-        ninety: 3.36,
-        oneHundred: 3.916,
-        originalPGA: 2.21
+        amatuer: 2.804,
     }, {
         lie: 't',
         distance: 32,
         pgaTour: 2.531,
-        eighty: 2.814,
-        ninety: 3.37,
-        oneHundred: 3.926,
-        originalPGA: 2.22
+        amatuer: 2.814,
     }, {
         lie: 't',
         distance: 33,
         pgaTour: 2.537,
-        eighty: 2.824,
-        ninety: 3.38,
-        oneHundred: 3.936,
-        originalPGA: 2.23
+        amatuer: 2.824,
     }, {
         lie: 't',
         distance: 34,
         pgaTour: 2.543,
-        eighty: 2.834,
-        ninety: 3.39,
-        oneHundred: 3.946,
-        originalPGA: 2.24
+        amatuer: 2.834,
     }, {
         lie: 't',
         distance: 35,
         pgaTour: 2.549,
-        eighty: 2.844,
-        ninety: 3.4,
-        oneHundred: 3.956,
-        originalPGA: 2.25
+        amatuer: 2.844,
     }, {
         lie: 't',
         distance: 36,
         pgaTour: 2.554,
-        eighty: 2.854,
-        ninety: 3.41,
-        oneHundred: 3.966,
-        originalPGA: 2.26
+        amatuer: 2.854,
     }, {
         lie: 't',
         distance: 37,
         pgaTour: 2.56,
-        eighty: 2.864,
-        ninety: 3.42,
-        oneHundred: 3.976,
-        originalPGA: 2.27
+        amatuer: 2.864,
     }, {
         lie: 't',
         distance: 38,
         pgaTour: 2.566,
-        eighty: 2.874,
-        ninety: 3.43,
-        oneHundred: 3.986,
-        originalPGA: 2.28
+        amatuer: 2.874,
     }, {
         lie: 't',
         distance: 39,
         pgaTour: 2.571,
-        eighty: 2.884,
-        ninety: 3.44,
-        oneHundred: 3.996,
-        originalPGA: 2.29
+        amatuer: 2.884,
     }, {
         lie: 't',
         distance: 40,
         pgaTour: 2.577,
-        eighty: 2.894,
-        ninety: 3.45,
-        oneHundred: 4.006,
-        originalPGA: 2.3
+        amatuer: 2.894,
     }, {
         lie: 't',
         distance: 41,
         pgaTour: 2.583,
-        eighty: 2.904,
-        ninety: 3.46,
-        oneHundred: 4.016,
-        originalPGA: 2.31
+        amatuer: 2.904,
     }, {
         lie: 't',
         distance: 42,
         pgaTour: 2.589,
-        eighty: 2.914,
-        ninety: 3.47,
-        oneHundred: 4.026,
-        originalPGA: 2.32
+        amatuer: 2.914,
     }, {
         lie: 't',
         distance: 43,
         pgaTour: 2.594,
-        eighty: 2.924,
-        ninety: 3.48,
-        oneHundred: 4.036,
-        originalPGA: 2.33
+        amatuer: 2.924,
     }, {
         lie: 't',
         distance: 44,
         pgaTour: 2.6,
-        eighty: 2.934,
-        ninety: 3.49,
-        oneHundred: 4.046,
-        originalPGA: 2.34
+        amatuer: 2.934,
     }, {
         lie: 't',
         distance: 45,
         pgaTour: 2.606,
-        eighty: 2.944,
-        ninety: 3.5,
-        oneHundred: 4.056,
-        originalPGA: 2.35
+        amatuer: 2.944,
     }, {
         lie: 't',
         distance: 46,
         pgaTour: 2.611,
-        eighty: 2.954,
-        ninety: 3.51,
-        oneHundred: 4.066,
-        originalPGA: 2.36
+        amatuer: 2.954,
     }, {
         lie: 't',
         distance: 47,
         pgaTour: 2.617,
-        eighty: 2.964,
-        ninety: 3.52,
-        oneHundred: 4.076,
-        originalPGA: 2.37
+        amatuer: 2.964,
     }, {
         lie: 't',
         distance: 48,
         pgaTour: 2.623,
-        eighty: 2.974,
-        ninety: 3.53,
-        oneHundred: 4.086,
-        originalPGA: 2.38
+        amatuer: 2.974,
     }, {
         lie: 't',
         distance: 49,
         pgaTour: 2.629,
-        eighty: 2.984,
-        ninety: 3.54,
-        oneHundred: 4.096,
-        originalPGA: 2.39
+        amatuer: 2.984,
     }, {
         lie: 't',
         distance: 50,
         pgaTour: 2.634,
-        eighty: 2.994,
-        ninety: 3.55,
-        oneHundred: 4.106,
-        originalPGA: 2.4
+        amatuer: 2.994,
     }, {
         lie: 't',
         distance: 51,
         pgaTour: 2.64,
-        eighty: 3.004,
-        ninety: 3.56,
-        oneHundred: 4.116,
-        originalPGA: 2.41
+        amatuer: 3.004,
     }, {
         lie: 't',
         distance: 52,
         pgaTour: 2.646,
-        eighty: 3.014,
-        ninety: 3.57,
-        oneHundred: 4.126,
-        originalPGA: 2.42
+        amatuer: 3.014,
     }, {
         lie: 't',
         distance: 53,
         pgaTour: 2.651,
-        eighty: 3.024,
-        ninety: 3.58,
-        oneHundred: 4.136,
-        originalPGA: 2.43
+        amatuer: 3.024,
     }, {
         lie: 't',
         distance: 54,
         pgaTour: 2.657,
-        eighty: 3.034,
-        ninety: 3.59,
-        oneHundred: 4.146,
-        originalPGA: 2.44
+        amatuer: 3.034,
     }, {
         lie: 't',
         distance: 55,
         pgaTour: 2.663,
-        eighty: 3.044,
-        ninety: 3.6,
-        oneHundred: 4.156,
-        originalPGA: 2.45
+        amatuer: 3.044,
     }, {
         lie: 't',
         distance: 56,
         pgaTour: 2.669,
-        eighty: 3.054,
-        ninety: 3.61,
-        oneHundred: 4.166,
-        originalPGA: 2.46
+        amatuer: 3.054,
     }, {
         lie: 't',
         distance: 57,
         pgaTour: 2.674,
-        eighty: 3.064,
-        ninety: 3.62,
-        oneHundred: 4.176,
-        originalPGA: 2.47
+        amatuer: 3.064,
     }, {
         lie: 't',
         distance: 58,
         pgaTour: 2.68,
-        eighty: 3.074,
-        ninety: 3.63,
-        oneHundred: 4.186,
-        originalPGA: 2.48
+        amatuer: 3.074,
     }, {
         lie: 't',
         distance: 59,
         pgaTour: 2.686,
-        eighty: 3.084,
-        ninety: 3.64,
-        oneHundred: 4.196,
-        originalPGA: 2.49
+        amatuer: 3.084,
     }, {
         lie: 't',
         distance: 60,
         pgaTour: 2.691,
-        eighty: 3.094,
-        ninety: 3.65,
-        oneHundred: 4.206,
-        originalPGA: 2.5
+        amatuer: 3.094,
     }, {
         lie: 't',
         distance: 61,
         pgaTour: 2.697,
-        eighty: 3.104,
-        ninety: 3.66,
-        oneHundred: 4.216,
-        originalPGA: 2.51
+        amatuer: 3.104,
     }, {
         lie: 't',
         distance: 62,
         pgaTour: 2.703,
-        eighty: 3.114,
-        ninety: 3.67,
-        oneHundred: 4.226,
-        originalPGA: 2.52
+        amatuer: 3.114,
     }, {
         lie: 't',
         distance: 63,
         pgaTour: 2.709,
-        eighty: 3.124,
-        ninety: 3.68,
-        oneHundred: 4.236,
-        originalPGA: 2.53
+        amatuer: 3.124,
     }, {
         lie: 't',
         distance: 64,
         pgaTour: 2.714,
-        eighty: 3.134,
-        ninety: 3.69,
-        oneHundred: 4.246,
-        originalPGA: 2.54
+        amatuer: 3.134,
     }, {
         lie: 't',
         distance: 65,
         pgaTour: 2.72,
-        eighty: 3.144,
-        ninety: 3.7,
-        oneHundred: 4.256,
-        originalPGA: 2.55
+        amatuer: 3.144,
     }, {
         lie: 't',
         distance: 66,
         pgaTour: 2.726,
-        eighty: 3.154,
-        ninety: 3.71,
-        oneHundred: 4.266,
-        originalPGA: 2.56
+        amatuer: 3.154,
     }, {
         lie: 't',
         distance: 67,
         pgaTour: 2.731,
-        eighty: 3.164,
-        ninety: 3.72,
-        oneHundred: 4.276,
-        originalPGA: 2.57
+        amatuer: 3.164,
     }, {
         lie: 't',
         distance: 68,
         pgaTour: 2.737,
-        eighty: 3.174,
-        ninety: 3.73,
-        oneHundred: 4.286,
-        originalPGA: 2.58
+        amatuer: 3.174,
     }, {
         lie: 't',
         distance: 69,
         pgaTour: 2.743,
-        eighty: 3.184,
-        ninety: 3.74,
-        oneHundred: 4.296,
-        originalPGA: 2.59
+        amatuer: 3.184,
     }, {
         lie: 't',
         distance: 70,
         pgaTour: 2.749,
-        eighty: 3.194,
-        ninety: 3.75,
-        oneHundred: 4.306,
-        originalPGA: 2.6
+        amatuer: 3.194,
     }, {
         lie: 't',
         distance: 71,
         pgaTour: 2.754,
-        eighty: 3.204,
-        ninety: 3.76,
-        oneHundred: 4.316,
-        originalPGA: 2.61
+        amatuer: 3.204,
     }, {
         lie: 't',
         distance: 72,
         pgaTour: 2.76,
-        eighty: 3.214,
-        ninety: 3.77,
-        oneHundred: 4.326,
-        originalPGA: 2.62
+        amatuer: 3.214,
     }, {
         lie: 't',
         distance: 73,
         pgaTour: 2.766,
-        eighty: 3.224,
-        ninety: 3.78,
-        oneHundred: 4.336,
-        originalPGA: 2.63
+        amatuer: 3.224,
     }, {
         lie: 't',
         distance: 74,
         pgaTour: 2.771,
-        eighty: 3.234,
-        ninety: 3.79,
-        oneHundred: 4.346,
-        originalPGA: 2.64
+        amatuer: 3.234,
     }, {
         lie: 't',
         distance: 75,
         pgaTour: 2.777,
-        eighty: 3.244,
-        ninety: 3.8,
-        oneHundred: 4.356,
-        originalPGA: 2.65
+        amatuer: 3.244,
     }, {
         lie: 't',
         distance: 76,
         pgaTour: 2.783,
-        eighty: 3.254,
-        ninety: 3.81,
-        oneHundred: 4.366,
-        originalPGA: 2.66
+        amatuer: 3.254,
     }, {
         lie: 't',
         distance: 77,
         pgaTour: 2.789,
-        eighty: 3.264,
-        ninety: 3.82,
-        oneHundred: 4.376,
-        originalPGA: 2.67
+        amatuer: 3.264,
     }, {
         lie: 't',
         distance: 78,
         pgaTour: 2.794,
-        eighty: 3.274,
-        ninety: 3.83,
-        oneHundred: 4.386,
-        originalPGA: 2.68
+        amatuer: 3.274,
     }, {
         lie: 't',
         distance: 79,
         pgaTour: 2.8,
-        eighty: 3.284,
-        ninety: 3.84,
-        oneHundred: 4.396,
-        originalPGA: 2.69
+        amatuer: 3.284,
     }, {
         lie: 't',
         distance: 80,
         pgaTour: 2.806,
-        eighty: 3.294,
-        ninety: 3.85,
-        oneHundred: 4.406,
-        originalPGA: 2.7
+        amatuer: 3.294,
     }, {
         lie: 't',
         distance: 81,
         pgaTour: 2.811,
-        eighty: 3.304,
-        ninety: 3.86,
-        oneHundred: 4.416,
-        originalPGA: 2.71
+        amatuer: 3.304,
     }, {
         lie: 't',
         distance: 82,
         pgaTour: 2.817,
-        eighty: 3.314,
-        ninety: 3.87,
-        oneHundred: 4.426,
-        originalPGA: 2.72
+        amatuer: 3.314,
     }, {
         lie: 't',
         distance: 83,
         pgaTour: 2.823,
-        eighty: 3.324,
-        ninety: 3.88,
-        oneHundred: 4.436,
-        originalPGA: 2.73
+        amatuer: 3.324,
     }, {
         lie: 't',
         distance: 84,
         pgaTour: 2.829,
-        eighty: 3.334,
-        ninety: 3.89,
-        oneHundred: 4.446,
-        originalPGA: 2.74
+        amatuer: 3.334,
     }, {
         lie: 't',
         distance: 85,
         pgaTour: 2.834,
-        eighty: 3.344,
-        ninety: 3.9,
-        oneHundred: 4.456,
-        originalPGA: 2.75
+        amatuer: 3.344,
     }, {
         lie: 't',
         distance: 86,
         pgaTour: 2.84,
-        eighty: 3.354,
-        ninety: 3.91,
-        oneHundred: 4.466,
-        originalPGA: 2.76
+        amatuer: 3.354,
     }, {
         lie: 't',
         distance: 87,
         pgaTour: 2.846,
-        eighty: 3.364,
-        ninety: 3.92,
-        oneHundred: 4.476,
-        originalPGA: 2.77
+        amatuer: 3.364,
     }, {
         lie: 't',
         distance: 88,
         pgaTour: 2.851,
-        eighty: 3.374,
-        ninety: 3.93,
-        oneHundred: 4.486,
-        originalPGA: 2.78
+        amatuer: 3.374,
     }, {
         lie: 't',
         distance: 89,
         pgaTour: 2.857,
-        eighty: 3.384,
-        ninety: 3.94,
-        oneHundred: 4.496,
-        originalPGA: 2.79
+        amatuer: 3.384,
     }, {
         lie: 't',
         distance: 90,
         pgaTour: 2.863,
-        eighty: 3.394,
-        ninety: 3.95,
-        oneHundred: 4.506,
-        originalPGA: 2.8
+        amatuer: 3.394,
     }, {
         lie: 't',
         distance: 91,
         pgaTour: 2.869,
-        eighty: 3.404,
-        ninety: 3.96,
-        oneHundred: 4.516,
-        originalPGA: 2.81
+        amatuer: 3.404,
     }, {
         lie: 't',
         distance: 92,
         pgaTour: 2.874,
-        eighty: 3.414,
-        ninety: 3.97,
-        oneHundred: 4.526,
-        originalPGA: 2.82
+        amatuer: 3.414,
     }, {
         lie: 't',
         distance: 93,
         pgaTour: 2.88,
-        eighty: 3.424,
-        ninety: 3.98,
-        oneHundred: 4.536,
-        originalPGA: 2.83
+        amatuer: 3.424,
     }, {
         lie: 't',
         distance: 94,
         pgaTour: 2.886,
-        eighty: 3.434,
-        ninety: 3.99,
-        oneHundred: 4.546,
-        originalPGA: 2.84
+        amatuer: 3.434,
     }, {
         lie: 't',
         distance: 95,
         pgaTour: 2.891,
-        eighty: 3.444,
-        ninety: 4,
-        oneHundred: 4.556,
-        originalPGA: 2.85
+        amatuer: 3.444,
     }, {
         lie: 't',
         distance: 96,
         pgaTour: 2.897,
-        eighty: 3.454,
-        ninety: 4.01,
-        oneHundred: 4.566,
-        originalPGA: 2.86
+        amatuer: 3.454,
     }, {
         lie: 't',
         distance: 97,
         pgaTour: 2.903,
-        eighty: 3.464,
-        ninety: 4.02,
-        oneHundred: 4.576,
-        originalPGA: 2.87
+        amatuer: 3.464,
     }, {
         lie: 't',
         distance: 98,
         pgaTour: 2.909,
-        eighty: 3.474,
-        ninety: 4.03,
-        oneHundred: 4.586,
-        originalPGA: 2.88
+        amatuer: 3.474,
     }, {
         lie: 't',
         distance: 99,
         pgaTour: 2.914,
-        eighty: 3.484,
-        ninety: 4.04,
-        oneHundred: 4.596,
-        originalPGA: 2.89
+        amatuer: 3.484,
     }, {
         lie: 't',
         distance: 100,
         pgaTour: 2.92,
-        eighty: 3.514,
-        ninety: 4.07,
-        oneHundred: 4.626,
-        originalPGA: 2.92
+        amatuer: 3.514,
     }, {
         lie: 't',
         distance: 101,
         pgaTour: 2.924,
-        eighty: 3.518,
-        ninety: 4.074,
-        oneHundred: 4.63,
-        originalPGA: 2.924
+        amatuer: 3.518,
     }, {
         lie: 't',
         distance: 102,
         pgaTour: 2.927,
-        eighty: 3.521,
-        ninety: 4.077,
-        oneHundred: 4.633,
-        originalPGA: 2.927
+        amatuer: 3.521,
     }, {
         lie: 't',
         distance: 103,
         pgaTour: 2.931,
-        eighty: 3.525,
-        ninety: 4.081,
-        oneHundred: 4.637,
-        originalPGA: 2.931
+        amatuer: 3.525,
     }, {
         lie: 't',
         distance: 104,
         pgaTour: 2.934,
-        eighty: 3.528,
-        ninety: 4.084,
-        oneHundred: 4.64,
-        originalPGA: 2.934
+        amatuer: 3.528,
     }, {
         lie: 't',
         distance: 105,
         pgaTour: 2.938,
-        eighty: 3.532,
-        ninety: 4.088,
-        oneHundred: 4.644,
-        originalPGA: 2.938
+        amatuer: 3.532,
     }, {
         lie: 't',
         distance: 106,
         pgaTour: 2.941,
-        eighty: 3.535,
-        ninety: 4.091,
-        oneHundred: 4.647,
-        originalPGA: 2.941
+        amatuer: 3.535,
     }, {
         lie: 't',
         distance: 107,
         pgaTour: 2.945,
-        eighty: 3.539,
-        ninety: 4.095,
-        oneHundred: 4.651,
-        originalPGA: 2.945
+        amatuer: 3.539,
     }, {
         lie: 't',
         distance: 108,
         pgaTour: 2.948,
-        eighty: 3.542,
-        ninety: 4.098,
-        oneHundred: 4.654,
-        originalPGA: 2.948
+        amatuer: 3.542,
     }, {
         lie: 't',
         distance: 109,
         pgaTour: 2.952,
-        eighty: 3.546,
-        ninety: 4.102,
-        oneHundred: 4.658,
-        originalPGA: 2.952
+        amatuer: 3.546,
     }, {
         lie: 't',
         distance: 110,
         pgaTour: 2.955,
-        eighty: 3.549,
-        ninety: 4.105,
-        oneHundred: 4.661,
-        originalPGA: 2.955
+        amatuer: 3.549,
     }, {
         lie: 't',
         distance: 111,
         pgaTour: 2.959,
-        eighty: 3.553,
-        ninety: 4.109,
-        oneHundred: 4.665,
-        originalPGA: 2.959
+        amatuer: 3.553,
     }, {
         lie: 't',
         distance: 112,
         pgaTour: 2.962,
-        eighty: 3.556,
-        ninety: 4.112,
-        oneHundred: 4.668,
-        originalPGA: 2.962
+        amatuer: 3.556,
     }, {
         lie: 't',
         distance: 113,
         pgaTour: 2.966,
-        eighty: 3.56,
-        ninety: 4.116,
-        oneHundred: 4.672,
-        originalPGA: 2.966
+        amatuer: 3.56,
     }, {
         lie: 't',
         distance: 114,
         pgaTour: 2.969,
-        eighty: 3.563,
-        ninety: 4.119,
-        oneHundred: 4.675,
-        originalPGA: 2.969
+        amatuer: 3.563,
     }, {
         lie: 't',
         distance: 115,
         pgaTour: 2.973,
-        eighty: 3.567,
-        ninety: 4.123,
-        oneHundred: 4.679,
-        originalPGA: 2.973
+        amatuer: 3.567,
     }, {
         lie: 't',
         distance: 116,
         pgaTour: 2.976,
-        eighty: 3.57,
-        ninety: 4.126,
-        oneHundred: 4.682,
-        originalPGA: 2.976
+        amatuer: 3.57,
     }, {
         lie: 't',
         distance: 117,
         pgaTour: 2.98,
-        eighty: 3.574,
-        ninety: 4.13,
-        oneHundred: 4.686,
-        originalPGA: 2.98
+        amatuer: 3.574,
     }, {
         lie: 't',
         distance: 118,
         pgaTour: 2.983,
-        eighty: 3.577,
-        ninety: 4.133,
-        oneHundred: 4.689,
-        originalPGA: 2.983
+        amatuer: 3.577,
     }, {
         lie: 't',
         distance: 119,
         pgaTour: 2.987,
-        eighty: 3.581,
-        ninety: 4.137,
-        oneHundred: 4.693,
-        originalPGA: 2.987
+        amatuer: 3.581,
     }, {
         lie: 't',
         distance: 120,
         pgaTour: 2.99,
-        eighty: 3.584,
-        ninety: 4.14,
-        oneHundred: 4.696,
-        originalPGA: 2.99
+        amatuer: 3.584,
     }, {
         lie: 't',
         distance: 121,
         pgaTour: 2.989,
-        eighty: 3.583,
-        ninety: 4.139,
-        oneHundred: 4.695,
-        originalPGA: 2.989
+        amatuer: 3.583,
     }, {
         lie: 't',
         distance: 122,
         pgaTour: 2.988,
-        eighty: 3.582,
-        ninety: 4.138,
-        oneHundred: 4.694,
-        originalPGA: 2.988
+        amatuer: 3.582,
     }, {
         lie: 't',
         distance: 123,
         pgaTour: 2.987,
-        eighty: 3.581,
-        ninety: 4.137,
-        oneHundred: 4.693,
-        originalPGA: 2.987
+        amatuer: 3.581,
     }, {
         lie: 't',
         distance: 124,
         pgaTour: 2.986,
-        eighty: 3.58,
-        ninety: 4.136,
-        oneHundred: 4.692,
-        originalPGA: 2.986
+        amatuer: 3.58,
     }, {
         lie: 't',
         distance: 125,
         pgaTour: 2.985,
-        eighty: 3.579,
-        ninety: 4.135,
-        oneHundred: 4.691,
-        originalPGA: 2.985
+        amatuer: 3.579,
     }, {
         lie: 't',
         distance: 126,
         pgaTour: 2.984,
-        eighty: 3.578,
-        ninety: 4.134,
-        oneHundred: 4.69,
-        originalPGA: 2.984
+        amatuer: 3.578,
     }, {
         lie: 't',
         distance: 127,
         pgaTour: 2.983,
-        eighty: 3.577,
-        ninety: 4.133,
-        oneHundred: 4.689,
-        originalPGA: 2.983
+        amatuer: 3.577,
     }, {
         lie: 't',
         distance: 128,
         pgaTour: 2.982,
-        eighty: 3.576,
-        ninety: 4.132,
-        oneHundred: 4.688,
-        originalPGA: 2.982
+        amatuer: 3.576,
     }, {
         lie: 't',
         distance: 129,
         pgaTour: 2.981,
-        eighty: 3.575,
-        ninety: 4.131,
-        oneHundred: 4.687,
-        originalPGA: 2.981
+        amatuer: 3.575,
     }, {
         lie: 't',
         distance: 130,
         pgaTour: 2.98,
-        eighty: 3.574,
-        ninety: 4.13,
-        oneHundred: 4.686,
-        originalPGA: 2.98
+        amatuer: 3.574,
     }, {
         lie: 't',
         distance: 131,
         pgaTour: 2.979,
-        eighty: 3.573,
-        ninety: 4.129,
-        oneHundred: 4.685,
-        originalPGA: 2.979
+        amatuer: 3.573,
     }, {
         lie: 't',
         distance: 132,
         pgaTour: 2.978,
-        eighty: 3.572,
-        ninety: 4.128,
-        oneHundred: 4.684,
-        originalPGA: 2.978
+        amatuer: 3.572,
     }, {
         lie: 't',
         distance: 133,
         pgaTour: 2.977,
-        eighty: 3.571,
-        ninety: 4.127,
-        oneHundred: 4.683,
-        originalPGA: 2.977
+        amatuer: 3.571,
     }, {
         lie: 't',
         distance: 134,
         pgaTour: 2.976,
-        eighty: 3.57,
-        ninety: 4.126,
-        oneHundred: 4.682,
-        originalPGA: 2.976
+        amatuer: 3.57,
     }, {
         lie: 't',
         distance: 135,
         pgaTour: 2.975,
-        eighty: 3.569,
-        ninety: 4.125,
-        oneHundred: 4.681,
-        originalPGA: 2.975
+        amatuer: 3.569,
     }, {
         lie: 't',
         distance: 136,
         pgaTour: 2.974,
-        eighty: 3.568,
-        ninety: 4.124,
-        oneHundred: 4.68,
-        originalPGA: 2.974
+        amatuer: 3.568,
     }, {
         lie: 't',
         distance: 137,
         pgaTour: 2.973,
-        eighty: 3.567,
-        ninety: 4.123,
-        oneHundred: 4.679,
-        originalPGA: 2.973
+        amatuer: 3.567,
     }, {
         lie: 't',
         distance: 138,
         pgaTour: 2.972,
-        eighty: 3.566,
-        ninety: 4.122,
-        oneHundred: 4.678,
-        originalPGA: 2.972
+        amatuer: 3.566,
     }, {
         lie: 't',
         distance: 139,
         pgaTour: 2.971,
-        eighty: 3.565,
-        ninety: 4.121,
-        oneHundred: 4.677,
-        originalPGA: 2.971
+        amatuer: 3.565,
     }, {
         lie: 't',
         distance: 140,
         pgaTour: 2.97,
-        eighty: 3.564,
-        ninety: 4.12,
-        oneHundred: 4.676,
-        originalPGA: 2.97
+        amatuer: 3.564,
     }, {
         lie: 't',
         distance: 141,
         pgaTour: 2.971,
-        eighty: 3.565,
-        ninety: 4.121,
-        oneHundred: 4.677,
-        originalPGA: 2.971
+        amatuer: 3.565,
     }, {
         lie: 't',
         distance: 142,
         pgaTour: 2.972,
-        eighty: 3.566,
-        ninety: 4.122,
-        oneHundred: 4.678,
-        originalPGA: 2.972
+        amatuer: 3.566,
     }, {
         lie: 't',
         distance: 143,
         pgaTour: 2.973,
-        eighty: 3.567,
-        ninety: 4.123,
-        oneHundred: 4.679,
-        originalPGA: 2.973
+        amatuer: 3.567,
     }, {
         lie: 't',
         distance: 144,
         pgaTour: 2.974,
-        eighty: 3.568,
-        ninety: 4.124,
-        oneHundred: 4.68,
-        originalPGA: 2.974
+        amatuer: 3.568,
     }, {
         lie: 't',
         distance: 145,
         pgaTour: 2.975,
-        eighty: 3.569,
-        ninety: 4.125,
-        oneHundred: 4.681,
-        originalPGA: 2.975
+        amatuer: 3.569,
     }, {
         lie: 't',
         distance: 146,
         pgaTour: 2.976,
-        eighty: 3.57,
-        ninety: 4.126,
-        oneHundred: 4.682,
-        originalPGA: 2.976
+        amatuer: 3.57,
     }, {
         lie: 't',
         distance: 147,
         pgaTour: 2.977,
-        eighty: 3.571,
-        ninety: 4.127,
-        oneHundred: 4.683,
-        originalPGA: 2.977
+        amatuer: 3.571,
     }, {
         lie: 't',
         distance: 148,
         pgaTour: 2.978,
-        eighty: 3.572,
-        ninety: 4.128,
-        oneHundred: 4.684,
-        originalPGA: 2.978
+        amatuer: 3.572,
     }, {
         lie: 't',
         distance: 149,
         pgaTour: 2.979,
-        eighty: 3.573,
-        ninety: 4.129,
-        oneHundred: 4.685,
-        originalPGA: 2.979
+        amatuer: 3.573,
     }, {
         lie: 't',
         distance: 150,
         pgaTour: 2.98,
-        eighty: 3.574,
-        ninety: 4.13,
-        oneHundred: 4.686,
-        originalPGA: 2.98
+        amatuer: 3.574,
     }, {
         lie: 't',
         distance: 151,
         pgaTour: 2.981,
-        eighty: 3.575,
-        ninety: 4.131,
-        oneHundred: 4.687,
-        originalPGA: 2.981
+        amatuer: 3.575,
     }, {
         lie: 't',
         distance: 152,
         pgaTour: 2.982,
-        eighty: 3.576,
-        ninety: 4.132,
-        oneHundred: 4.688,
-        originalPGA: 2.982
+        amatuer: 3.576,
     }, {
         lie: 't',
         distance: 153,
         pgaTour: 2.983,
-        eighty: 3.577,
-        ninety: 4.133,
-        oneHundred: 4.689,
-        originalPGA: 2.983
+        amatuer: 3.577,
     }, {
         lie: 't',
         distance: 154,
         pgaTour: 2.984,
-        eighty: 3.578,
-        ninety: 4.134,
-        oneHundred: 4.69,
-        originalPGA: 2.984
+        amatuer: 3.578,
     }, {
         lie: 't',
         distance: 155,
         pgaTour: 2.985,
-        eighty: 3.579,
-        ninety: 4.135,
-        oneHundred: 4.691,
-        originalPGA: 2.985
+        amatuer: 3.579,
     }, {
         lie: 't',
         distance: 156,
         pgaTour: 2.986,
-        eighty: 3.58,
-        ninety: 4.136,
-        oneHundred: 4.692,
-        originalPGA: 2.986
+        amatuer: 3.58,
     }, {
         lie: 't',
         distance: 157,
         pgaTour: 2.987,
-        eighty: 3.581,
-        ninety: 4.137,
-        oneHundred: 4.693,
-        originalPGA: 2.987
+        amatuer: 3.581,
     }, {
         lie: 't',
         distance: 158,
         pgaTour: 2.988,
-        eighty: 3.582,
-        ninety: 4.138,
-        oneHundred: 4.694,
-        originalPGA: 2.988
+        amatuer: 3.582,
     }, {
         lie: 't',
         distance: 159,
         pgaTour: 2.989,
-        eighty: 3.583,
-        ninety: 4.139,
-        oneHundred: 4.695,
-        originalPGA: 2.989
+        amatuer: 3.583,
     }, {
         lie: 't',
         distance: 160,
         pgaTour: 2.99,
-        eighty: 3.584,
-        ninety: 4.14,
-        oneHundred: 4.696,
-        originalPGA: 2.99
+        amatuer: 3.584,
     }, {
         lie: 't',
         distance: 161,
         pgaTour: 2.993,
-        eighty: 3.587,
-        ninety: 4.143,
-        oneHundred: 4.699,
-        originalPGA: 2.993
+        amatuer: 3.587,
     }, {
         lie: 't',
         distance: 162,
         pgaTour: 2.996,
-        eighty: 3.59,
-        ninety: 4.146,
-        oneHundred: 4.702,
-        originalPGA: 2.996
+        amatuer: 3.59,
     }, {
         lie: 't',
         distance: 163,
         pgaTour: 2.999,
-        eighty: 3.593,
-        ninety: 4.149,
-        oneHundred: 4.705,
-        originalPGA: 2.999
+        amatuer: 3.593,
     }, {
         lie: 't',
         distance: 164,
         pgaTour: 3.002,
-        eighty: 3.596,
-        ninety: 4.152,
-        oneHundred: 4.708,
-        originalPGA: 3.002
+        amatuer: 3.596,
     }, {
         lie: 't',
         distance: 165,
         pgaTour: 3.005,
-        eighty: 3.599,
-        ninety: 4.155,
-        oneHundred: 4.711,
-        originalPGA: 3.005
+        amatuer: 3.599,
     }, {
         lie: 't',
         distance: 166,
         pgaTour: 3.008,
-        eighty: 3.602,
-        ninety: 4.158,
-        oneHundred: 4.714,
-        originalPGA: 3.008
+        amatuer: 3.602,
     }, {
         lie: 't',
         distance: 167,
         pgaTour: 3.011,
-        eighty: 3.605,
-        ninety: 4.161,
-        oneHundred: 4.717,
-        originalPGA: 3.011
+        amatuer: 3.605,
     }, {
         lie: 't',
         distance: 168,
         pgaTour: 3.014,
-        eighty: 3.608,
-        ninety: 4.164,
-        oneHundred: 4.72,
-        originalPGA: 3.014
+        amatuer: 3.608,
     }, {
         lie: 't',
         distance: 169,
         pgaTour: 3.017,
-        eighty: 3.611,
-        ninety: 4.167,
-        oneHundred: 4.723,
-        originalPGA: 3.017
+        amatuer: 3.611,
     }, {
         lie: 't',
         distance: 170,
         pgaTour: 3.02,
-        eighty: 3.614,
-        ninety: 4.17,
-        oneHundred: 4.726,
-        originalPGA: 3.02
+        amatuer: 3.614,
     }, {
         lie: 't',
         distance: 171,
         pgaTour: 3.023,
-        eighty: 3.617,
-        ninety: 4.173,
-        oneHundred: 4.729,
-        originalPGA: 3.023
+        amatuer: 3.617,
     }, {
         lie: 't',
         distance: 172,
         pgaTour: 3.026,
-        eighty: 3.62,
-        ninety: 4.176,
-        oneHundred: 4.732,
-        originalPGA: 3.026
+        amatuer: 3.62,
     }, {
         lie: 't',
         distance: 173,
         pgaTour: 3.029,
-        eighty: 3.623,
-        ninety: 4.179,
-        oneHundred: 4.735,
-        originalPGA: 3.029
+        amatuer: 3.623,
     }, {
         lie: 't',
         distance: 174,
         pgaTour: 3.032,
-        eighty: 3.626,
-        ninety: 4.182,
-        oneHundred: 4.738,
-        originalPGA: 3.032
+        amatuer: 3.626,
     }, {
         lie: 't',
         distance: 175,
         pgaTour: 3.035,
-        eighty: 3.629,
-        ninety: 4.185,
-        oneHundred: 4.741,
-        originalPGA: 3.035
+        amatuer: 3.629,
     }, {
         lie: 't',
         distance: 176,
         pgaTour: 3.038,
-        eighty: 3.632,
-        ninety: 4.188,
-        oneHundred: 4.744,
-        originalPGA: 3.038
+        amatuer: 3.632,
     }, {
         lie: 't',
         distance: 177,
         pgaTour: 3.041,
-        eighty: 3.635,
-        ninety: 4.191,
-        oneHundred: 4.747,
-        originalPGA: 3.041
+        amatuer: 3.635,
     }, {
         lie: 't',
         distance: 178,
         pgaTour: 3.044,
-        eighty: 3.638,
-        ninety: 4.194,
-        oneHundred: 4.75,
-        originalPGA: 3.044
+        amatuer: 3.638,
     }, {
         lie: 't',
         distance: 179,
         pgaTour: 3.047,
-        eighty: 3.641,
-        ninety: 4.197,
-        oneHundred: 4.753,
-        originalPGA: 3.047
+        amatuer: 3.641,
     }, {
         lie: 't',
         distance: 180,
         pgaTour: 3.05,
-        eighty: 3.644,
-        ninety: 4.2,
-        oneHundred: 4.756,
-        originalPGA: 3.05
+        amatuer: 3.644,
     }, {
         lie: 't',
         distance: 181,
         pgaTour: 3.054,
-        eighty: 3.648,
-        ninety: 4.204,
-        oneHundred: 4.76,
-        originalPGA: 3.054
+        amatuer: 3.648,
     }, {
         lie: 't',
         distance: 182,
         pgaTour: 3.057,
-        eighty: 3.651,
-        ninety: 4.207,
-        oneHundred: 4.763,
-        originalPGA: 3.057
+        amatuer: 3.651,
     }, {
         lie: 't',
         distance: 183,
         pgaTour: 3.061,
-        eighty: 3.655,
-        ninety: 4.211,
-        oneHundred: 4.767,
-        originalPGA: 3.061
+        amatuer: 3.655,
     }, {
         lie: 't',
         distance: 184,
         pgaTour: 3.064,
-        eighty: 3.658,
-        ninety: 4.214,
-        oneHundred: 4.77,
-        originalPGA: 3.064
+        amatuer: 3.658,
     }, {
         lie: 't',
         distance: 185,
         pgaTour: 3.068,
-        eighty: 3.662,
-        ninety: 4.218,
-        oneHundred: 4.774,
-        originalPGA: 3.068
+        amatuer: 3.662,
     }, {
         lie: 't',
         distance: 186,
         pgaTour: 3.071,
-        eighty: 3.665,
-        ninety: 4.221,
-        oneHundred: 4.777,
-        originalPGA: 3.071
+        amatuer: 3.665,
     }, {
         lie: 't',
         distance: 187,
         pgaTour: 3.075,
-        eighty: 3.669,
-        ninety: 4.225,
-        oneHundred: 4.781,
-        originalPGA: 3.075
+        amatuer: 3.669,
     }, {
         lie: 't',
         distance: 188,
         pgaTour: 3.078,
-        eighty: 3.672,
-        ninety: 4.228,
-        oneHundred: 4.784,
-        originalPGA: 3.078
+        amatuer: 3.672,
     }, {
         lie: 't',
         distance: 189,
         pgaTour: 3.082,
-        eighty: 3.676,
-        ninety: 4.232,
-        oneHundred: 4.788,
-        originalPGA: 3.082
+        amatuer: 3.676,
     }, {
         lie: 't',
         distance: 190,
         pgaTour: 3.085,
-        eighty: 3.679,
-        ninety: 4.235,
-        oneHundred: 4.791,
-        originalPGA: 3.085
+        amatuer: 3.679,
     }, {
         lie: 't',
         distance: 191,
         pgaTour: 3.089,
-        eighty: 3.683,
-        ninety: 4.239,
-        oneHundred: 4.795,
-        originalPGA: 3.089
+        amatuer: 3.683,
     }, {
         lie: 't',
         distance: 192,
         pgaTour: 3.092,
-        eighty: 3.686,
-        ninety: 4.242,
-        oneHundred: 4.798,
-        originalPGA: 3.092
+        amatuer: 3.686,
     }, {
         lie: 't',
         distance: 193,
         pgaTour: 3.096,
-        eighty: 3.69,
-        ninety: 4.246,
-        oneHundred: 4.802,
-        originalPGA: 3.096
+        amatuer: 3.69,
     }, {
         lie: 't',
         distance: 194,
         pgaTour: 3.099,
-        eighty: 3.693,
-        ninety: 4.249,
-        oneHundred: 4.805,
-        originalPGA: 3.099
+        amatuer: 3.693,
     }, {
         lie: 't',
         distance: 195,
         pgaTour: 3.103,
-        eighty: 3.697,
-        ninety: 4.253,
-        oneHundred: 4.809,
-        originalPGA: 3.103
+        amatuer: 3.697,
     }, {
         lie: 't',
         distance: 196,
-        desc: 'teeShot',
         pgaTour: 3.106,
-        eighty: 3.7,
-        ninety: 4.256,
-        oneHundred: 4.812,
-        originalPGA: 3.106
+        amatuer: 3.7,
     }, {
         lie: 't',
         distance: 197,
         pgaTour: 3.11,
-        eighty: 3.704,
-        ninety: 4.26,
-        oneHundred: 4.816,
-        originalPGA: 3.11
+        amatuer: 3.704,
     }, {
         lie: 't',
         distance: 198,
         pgaTour: 3.113,
-        eighty: 3.707,
-        ninety: 4.263,
-        oneHundred: 4.819,
-        originalPGA: 3.113
+        amatuer: 3.707,
     }, {
         lie: 't',
         distance: 199,
         pgaTour: 3.117,
-        eighty: 3.711,
-        ninety: 4.267,
-        oneHundred: 4.823,
-        originalPGA: 3.117
+        amatuer: 3.711,
     }, {
         lie: 't',
         distance: 200,
         pgaTour: 3.12,
-        eighty: 3.714,
-        ninety: 4.27,
-        oneHundred: 4.826,
-        originalPGA: 3.12
+        amatuer: 3.714,
     }, {
         lie: 't',
         distance: 201,
         pgaTour: 3.123,
-        eighty: 3.717,
-        ninety: 4.273,
-        oneHundred: 4.829,
-        originalPGA: 3.123
+        amatuer: 3.717,
     }, {
         lie: 't',
         distance: 202,
         pgaTour: 3.125,
-        eighty: 3.719,
-        ninety: 4.275,
-        oneHundred: 4.831,
-        originalPGA: 3.125
+        amatuer: 3.719,
     }, {
         lie: 't',
         distance: 203,
         pgaTour: 3.128,
-        eighty: 3.722,
-        ninety: 4.278,
-        oneHundred: 4.834,
-        originalPGA: 3.128
+        amatuer: 3.722,
     }, {
         lie: 't',
         distance: 204,
         pgaTour: 3.13,
-        eighty: 3.724,
-        ninety: 4.28,
-        oneHundred: 4.836,
-        originalPGA: 3.13
+        amatuer: 3.724,
     }, {
         lie: 't',
         distance: 205,
         pgaTour: 3.133,
-        eighty: 3.727,
-        ninety: 4.283,
-        oneHundred: 4.839,
-        originalPGA: 3.133
+        amatuer: 3.727,
     }, {
         lie: 't',
         distance: 206,
         pgaTour: 3.135,
-        eighty: 3.729,
-        ninety: 4.285,
-        oneHundred: 4.841,
-        originalPGA: 3.135
+        amatuer: 3.729,
     }, {
         lie: 't',
         distance: 207,
         pgaTour: 3.138,
-        eighty: 3.732,
-        ninety: 4.288,
-        oneHundred: 4.844,
-        originalPGA: 3.138
+        amatuer: 3.732,
     }, {
         lie: 't',
         distance: 208,
         pgaTour: 3.14,
-        eighty: 3.734,
-        ninety: 4.29,
-        oneHundred: 4.846,
-        originalPGA: 3.14
+        amatuer: 3.734,
     }, {
         lie: 't',
         distance: 209,
         pgaTour: 3.143,
-        eighty: 3.737,
-        ninety: 4.293,
-        oneHundred: 4.849,
-        originalPGA: 3.143
+        amatuer: 3.737,
     }, {
         lie: 't',
         distance: 210,
         pgaTour: 3.145,
-        eighty: 3.739,
-        ninety: 4.295,
-        oneHundred: 4.851,
-        originalPGA: 3.145
+        amatuer: 3.739,
     }, {
         lie: 't',
         distance: 211,
         pgaTour: 3.148,
-        eighty: 3.742,
-        ninety: 4.298,
-        oneHundred: 4.854,
-        originalPGA: 3.148
+        amatuer: 3.742,
     }, {
         lie: 't',
         distance: 212,
         pgaTour: 3.15,
-        eighty: 3.744,
-        ninety: 4.3,
-        oneHundred: 4.856,
-        originalPGA: 3.15
+        amatuer: 3.744,
     }, {
         lie: 't',
         distance: 213,
         pgaTour: 3.153,
-        eighty: 3.747,
-        ninety: 4.303,
-        oneHundred: 4.859,
-        originalPGA: 3.153
+        amatuer: 3.747,
     }, {
         lie: 't',
         distance: 214,
         pgaTour: 3.155,
-        eighty: 3.749,
-        ninety: 4.305,
-        oneHundred: 4.861,
-        originalPGA: 3.155
+        amatuer: 3.749,
     }, {
         lie: 't',
         distance: 215,
         pgaTour: 3.158,
-        eighty: 3.752,
-        ninety: 4.308,
-        oneHundred: 4.864,
-        originalPGA: 3.158
+        amatuer: 3.752,
     }, {
         lie: 't',
         distance: 216,
         pgaTour: 3.16,
-        eighty: 3.754,
-        ninety: 4.31,
-        oneHundred: 4.866,
-        originalPGA: 3.16
+        amatuer: 3.754,
     }, {
         lie: 't',
         distance: 217,
         pgaTour: 3.163,
-        eighty: 3.757,
-        ninety: 4.313,
-        oneHundred: 4.869,
-        originalPGA: 3.163
+        amatuer: 3.757,
     }, {
         lie: 't',
         distance: 218,
         pgaTour: 3.165,
-        eighty: 3.759,
-        ninety: 4.315,
-        oneHundred: 4.871,
-        originalPGA: 3.165
+        amatuer: 3.759,
     }, {
         lie: 't',
         distance: 219,
         pgaTour: 3.168,
-        eighty: 3.762,
-        ninety: 4.318,
-        oneHundred: 4.874,
-        originalPGA: 3.168
+        amatuer: 3.762,
     }, {
         lie: 't',
         distance: 220,
         pgaTour: 3.17,
-        eighty: 3.764,
-        ninety: 4.32,
-        oneHundred: 4.876,
-        originalPGA: 3.17
+        amatuer: 3.764,
     }, {
         lie: 't',
         distance: 221,
         pgaTour: 3.174,
-        eighty: 3.768,
-        ninety: 4.324,
-        oneHundred: 4.88,
-        originalPGA: 3.174
+        amatuer: 3.768,
     }, {
         lie: 't',
         distance: 222,
         pgaTour: 3.178,
-        eighty: 3.772,
-        ninety: 4.328,
-        oneHundred: 4.884,
-        originalPGA: 3.178
+        amatuer: 3.772,
     }, {
         lie: 't',
         distance: 223,
         pgaTour: 3.182,
-        eighty: 3.776,
-        ninety: 4.332,
-        oneHundred: 4.888,
-        originalPGA: 3.182
+        amatuer: 3.776,
     }, {
         lie: 't',
         distance: 224,
         pgaTour: 3.186,
-        eighty: 3.78,
-        ninety: 4.336,
-        oneHundred: 4.892,
-        originalPGA: 3.186
+        amatuer: 3.78,
     }, {
         lie: 't',
         distance: 225,
         pgaTour: 3.19,
-        eighty: 3.784,
-        ninety: 4.34,
-        oneHundred: 4.896,
-        originalPGA: 3.19
+        amatuer: 3.784,
     }, {
         lie: 't',
         distance: 226,
         pgaTour: 3.194,
-        eighty: 3.788,
-        ninety: 4.344,
-        oneHundred: 4.9,
-        originalPGA: 3.194
+        amatuer: 3.788,
     }, {
         lie: 't',
         distance: 227,
         pgaTour: 3.198,
-        eighty: 3.792,
-        ninety: 4.348,
-        oneHundred: 4.904,
-        originalPGA: 3.198
+        amatuer: 3.792,
     }, {
         lie: 't',
         distance: 228,
         pgaTour: 3.202,
-        eighty: 3.796,
-        ninety: 4.352,
-        oneHundred: 4.908,
-        originalPGA: 3.202
+        amatuer: 3.796,
     }, {
         lie: 't',
         distance: 229,
         pgaTour: 3.206,
-        eighty: 3.8,
-        ninety: 4.356,
-        oneHundred: 4.912,
-        originalPGA: 3.206
+        amatuer: 3.8,
     }, {
         lie: 't',
         distance: 230,
         pgaTour: 3.21,
-        eighty: 3.804,
-        ninety: 4.36,
-        oneHundred: 4.916,
-        originalPGA: 3.21
+        amatuer: 3.804,
     }, {
         lie: 't',
         distance: 231,
         pgaTour: 3.214,
-        eighty: 3.808,
-        ninety: 4.364,
-        oneHundred: 4.92,
-        originalPGA: 3.214
+        amatuer: 3.808,
     }, {
         lie: 't',
         distance: 232,
         pgaTour: 3.218,
-        eighty: 3.812,
-        ninety: 4.368,
-        oneHundred: 4.924,
-        originalPGA: 3.218
+        amatuer: 3.812,
     }, {
         lie: 't',
         distance: 233,
         pgaTour: 3.222,
-        eighty: 3.816,
-        ninety: 4.372,
-        oneHundred: 4.928,
-        originalPGA: 3.222
+        amatuer: 3.816,
     }, {
         lie: 't',
         distance: 234,
         pgaTour: 3.226,
-        eighty: 3.82,
-        ninety: 4.376,
-        oneHundred: 4.932,
-        originalPGA: 3.226
+        amatuer: 3.82,
     }, {
         lie: 't',
         distance: 235,
         pgaTour: 3.23,
-        eighty: 3.824,
-        ninety: 4.38,
-        oneHundred: 4.936,
-        originalPGA: 3.23
+        amatuer: 3.824,
     }, {
         lie: 't',
         distance: 236,
         pgaTour: 3.234,
-        eighty: 3.828,
-        ninety: 4.384,
-        oneHundred: 4.94,
-        originalPGA: 3.234
+        amatuer: 3.828,
     }, {
         lie: 't',
         distance: 237,
         pgaTour: 3.238,
-        eighty: 3.832,
-        ninety: 4.388,
-        oneHundred: 4.944,
-        originalPGA: 3.238
+        amatuer: 3.832,
     }, {
         lie: 't',
         distance: 238,
         pgaTour: 3.242,
-        eighty: 3.836,
-        ninety: 4.392,
-        oneHundred: 4.948,
-        originalPGA: 3.242
+        amatuer: 3.836,
     }, {
         lie: 't',
         distance: 239,
         pgaTour: 3.246,
-        eighty: 3.84,
-        ninety: 4.396,
-        oneHundred: 4.952,
-        originalPGA: 3.246
+        amatuer: 3.84,
     }, {
         lie: 't',
         distance: 240,
         pgaTour: 3.25,
-        eighty: 3.844,
-        ninety: 4.4,
-        oneHundred: 4.956,
-        originalPGA: 3.25
+        amatuer: 3.844,
     }, {
         lie: 't',
         distance: 241,
         pgaTour: 3.26,
-        eighty: 3.854,
-        ninety: 4.41,
-        oneHundred: 4.966,
-        originalPGA: 3.26
+        amatuer: 3.854,
     }, {
         lie: 't',
         distance: 242,
         pgaTour: 3.27,
-        eighty: 3.864,
-        ninety: 4.42,
-        oneHundred: 4.976,
-        originalPGA: 3.27
+        amatuer: 3.864,
     }, {
         lie: 't',
         distance: 243,
         pgaTour: 3.28,
-        eighty: 3.874,
-        ninety: 4.43,
-        oneHundred: 4.986,
-        originalPGA: 3.28
+        amatuer: 3.874,
     }, {
         lie: 't',
         distance: 244,
         pgaTour: 3.29,
-        eighty: 3.884,
-        ninety: 4.44,
-        oneHundred: 4.996,
-        originalPGA: 3.29
+        amatuer: 3.884,
     }, {
         lie: 't',
         distance: 245,
         pgaTour: 3.3,
-        eighty: 3.894,
-        ninety: 4.45,
-        oneHundred: 5.006,
-        originalPGA: 3.3
+        amatuer: 3.894,
     }, {
         lie: 't',
         distance: 246,
         pgaTour: 3.31,
-        eighty: 3.904,
-        ninety: 4.46,
-        oneHundred: 5.016,
-        originalPGA: 3.31
+        amatuer: 3.904,
     }, {
         lie: 't',
         distance: 247,
         pgaTour: 3.32,
-        eighty: 3.914,
-        ninety: 4.47,
-        oneHundred: 5.026,
-        originalPGA: 3.32
+        amatuer: 3.914,
     }, {
         lie: 't',
         distance: 248,
         pgaTour: 3.33,
-        eighty: 3.924,
-        ninety: 4.48,
-        oneHundred: 5.036,
-        originalPGA: 3.33
+        amatuer: 3.924,
     }, {
         lie: 't',
         distance: 249,
         pgaTour: 3.34,
-        eighty: 3.934,
-        ninety: 4.49,
-        oneHundred: 5.046,
-        originalPGA: 3.34
+        amatuer: 3.934,
     }, {
         lie: 't',
         distance: 250,
         pgaTour: 3.35,
-        eighty: 3.944,
-        ninety: 4.5,
-        oneHundred: 5.056,
-        originalPGA: 3.35
+        amatuer: 3.944,
     }, {
         lie: 't',
         distance: 251,
         pgaTour: 3.36,
-        eighty: 3.954,
-        ninety: 4.51,
-        oneHundred: 5.066,
-        originalPGA: 3.36
+        amatuer: 3.954,
     }, {
         lie: 't',
         distance: 252,
         pgaTour: 3.37,
-        eighty: 3.964,
-        ninety: 4.52,
-        oneHundred: 5.076,
-        originalPGA: 3.37
+        amatuer: 3.964,
     }, {
         lie: 't',
         distance: 253,
         pgaTour: 3.38,
-        eighty: 3.974,
-        ninety: 4.53,
-        oneHundred: 5.086,
-        originalPGA: 3.38
+        amatuer: 3.974,
     }, {
         lie: 't',
         distance: 254,
         pgaTour: 3.39,
-        eighty: 3.984,
-        ninety: 4.54,
-        oneHundred: 5.096,
-        originalPGA: 3.39
+        amatuer: 3.984,
     }, {
         lie: 't',
         distance: 255,
         pgaTour: 3.4,
-        eighty: 3.994,
-        ninety: 4.55,
-        oneHundred: 5.106,
-        originalPGA: 3.4
+        amatuer: 3.994,
     }, {
         lie: 't',
         distance: 256,
         pgaTour: 3.41,
-        eighty: 4.004,
-        ninety: 4.56,
-        oneHundred: 5.116,
-        originalPGA: 3.41
+        amatuer: 4.004,
     }, {
         lie: 't',
         distance: 257,
         pgaTour: 3.42,
-        eighty: 4.014,
-        ninety: 4.57,
-        oneHundred: 5.126,
-        originalPGA: 3.42
+        amatuer: 4.014,
     }, {
         lie: 't',
         distance: 258,
         pgaTour: 3.43,
-        eighty: 4.024,
-        ninety: 4.58,
-        oneHundred: 5.136,
-        originalPGA: 3.43
+        amatuer: 4.024,
     }, {
         lie: 't',
         distance: 259,
         pgaTour: 3.44,
-        eighty: 4.034,
-        ninety: 4.59,
-        oneHundred: 5.146,
-        originalPGA: 3.44
+        amatuer: 4.034,
     }, {
         lie: 't',
         distance: 260,
         pgaTour: 3.45,
-        eighty: 4.044,
-        ninety: 4.6,
-        oneHundred: 5.156,
-        originalPGA: 3.45
+        amatuer: 4.044,
     }, {
         lie: 't',
         distance: 261,
         pgaTour: 3.46,
-        eighty: 4.054,
-        ninety: 4.61,
-        oneHundred: 5.166,
-        originalPGA: 3.46
+        amatuer: 4.054,
     }, {
         lie: 't',
         distance: 262,
         pgaTour: 3.47,
-        eighty: 4.064,
-        ninety: 4.62,
-        oneHundred: 5.176,
-        originalPGA: 3.47
+        amatuer: 4.064,
     }, {
         lie: 't',
         distance: 263,
         pgaTour: 3.48,
-        eighty: 4.074,
-        ninety: 4.63,
-        oneHundred: 5.186,
-        originalPGA: 3.48
+        amatuer: 4.074,
     }, {
         lie: 't',
         distance: 264,
         pgaTour: 3.49,
-        eighty: 4.084,
-        ninety: 4.64,
-        oneHundred: 5.196,
-        originalPGA: 3.49
+        amatuer: 4.084,
     }, {
         lie: 't',
         distance: 265,
         pgaTour: 3.5,
-        eighty: 4.094,
-        ninety: 4.65,
-        oneHundred: 5.206,
-        originalPGA: 3.5
+        amatuer: 4.094,
     }, {
         lie: 't',
         distance: 266,
         pgaTour: 3.51,
-        eighty: 4.104,
-        ninety: 4.66,
-        oneHundred: 5.216,
-        originalPGA: 3.51
+        amatuer: 4.104,
     }, {
         lie: 't',
         distance: 267,
         pgaTour: 3.52,
-        eighty: 4.114,
-        ninety: 4.67,
-        oneHundred: 5.226,
-        originalPGA: 3.52
+        amatuer: 4.114,
     }, {
         lie: 't',
         distance: 268,
         pgaTour: 3.53,
-        eighty: 4.124,
-        ninety: 4.68,
-        oneHundred: 5.236,
-        originalPGA: 3.53
+        amatuer: 4.124,
     }, {
         lie: 't',
         distance: 269,
         pgaTour: 3.54,
-        eighty: 4.134,
-        ninety: 4.69,
-        oneHundred: 5.246,
-        originalPGA: 3.54
+        amatuer: 4.134,
     }, {
         lie: 't',
         distance: 270,
         pgaTour: 3.55,
-        eighty: 4.144,
-        ninety: 4.7,
-        oneHundred: 5.256,
-        originalPGA: 3.55
+        amatuer: 4.144,
     }, {
         lie: 't',
         distance: 271,
         pgaTour: 3.56,
-        eighty: 4.154,
-        ninety: 4.71,
-        oneHundred: 5.266,
-        originalPGA: 3.56
+        amatuer: 4.154,
     }, {
         lie: 't',
         distance: 272,
         pgaTour: 3.57,
-        eighty: 4.164,
-        ninety: 4.72,
-        oneHundred: 5.276,
-        originalPGA: 3.57
+        amatuer: 4.164,
     }, {
         lie: 't',
         distance: 273,
         pgaTour: 3.58,
-        eighty: 4.174,
-        ninety: 4.73,
-        oneHundred: 5.286,
-        originalPGA: 3.58
+        amatuer: 4.174,
     }, {
         lie: 't',
         distance: 274,
         pgaTour: 3.59,
-        eighty: 4.184,
-        ninety: 4.74,
-        oneHundred: 5.296,
-        originalPGA: 3.59
+        amatuer: 4.184,
     }, {
         lie: 't',
         distance: 275,
         pgaTour: 3.6,
-        eighty: 4.194,
-        ninety: 4.75,
-        oneHundred: 5.306,
-        originalPGA: 3.6
+        amatuer: 4.194,
     }, {
         lie: 't',
         distance: 276,
         pgaTour: 3.61,
-        eighty: 4.204,
-        ninety: 4.76,
-        oneHundred: 5.316,
-        originalPGA: 3.61
+        amatuer: 4.204,
     }, {
         lie: 't',
         distance: 277,
         pgaTour: 3.62,
-        eighty: 4.214,
-        ninety: 4.77,
-        oneHundred: 5.326,
-        originalPGA: 3.62
+        amatuer: 4.214,
     }, {
         lie: 't',
         distance: 278,
         pgaTour: 3.63,
-        eighty: 4.224,
-        ninety: 4.78,
-        oneHundred: 5.336,
-        originalPGA: 3.63
+        amatuer: 4.224,
     }, {
         lie: 't',
         distance: 279,
         pgaTour: 3.64,
-        eighty: 4.234,
-        ninety: 4.79,
-        oneHundred: 5.346,
-        originalPGA: 3.64
+        amatuer: 4.234,
     }, {
         lie: 't',
         distance: 280,
         pgaTour: 3.65,
-        eighty: 4.244,
-        ninety: 4.8,
-        oneHundred: 5.356,
-        originalPGA: 3.65
+        amatuer: 4.244,
     }, {
         lie: 't',
         distance: 281,
         pgaTour: 3.653,
-        eighty: 4.247,
-        ninety: 4.803,
-        oneHundred: 5.359,
-        originalPGA: 3.653
+        amatuer: 4.247,
     }, {
         lie: 't',
         distance: 282,
         pgaTour: 3.656,
-        eighty: 4.25,
-        ninety: 4.806,
-        oneHundred: 5.362,
-        originalPGA: 3.656
+        amatuer: 4.25,
     }, {
         lie: 't',
         distance: 283,
         pgaTour: 3.659,
-        eighty: 4.253,
-        ninety: 4.809,
-        oneHundred: 5.365,
-        originalPGA: 3.659
+        amatuer: 4.253,
     }, {
         lie: 't',
         distance: 284,
         pgaTour: 3.662,
-        eighty: 4.256,
-        ninety: 4.812,
-        oneHundred: 5.368,
-        originalPGA: 3.662
+        amatuer: 4.256,
     }, {
         lie: 't',
         distance: 285,
         pgaTour: 3.665,
-        eighty: 4.259,
-        ninety: 4.815,
-        oneHundred: 5.371,
-        originalPGA: 3.665
+        amatuer: 4.259,
     }, {
         lie: 't',
         distance: 286,
         pgaTour: 3.668,
-        eighty: 4.262,
-        ninety: 4.818,
-        oneHundred: 5.374,
-        originalPGA: 3.668
+        amatuer: 4.262,
     }, {
         lie: 't',
         distance: 287,
         pgaTour: 3.671,
-        eighty: 4.265,
-        ninety: 4.821,
-        oneHundred: 5.377,
-        originalPGA: 3.671
+        amatuer: 4.265,
     }, {
         lie: 't',
         distance: 288,
         pgaTour: 3.674,
-        eighty: 4.268,
-        ninety: 4.824,
-        oneHundred: 5.38,
-        originalPGA: 3.674
+        amatuer: 4.268,
     }, {
         lie: 't',
         distance: 289,
         pgaTour: 3.677,
-        eighty: 4.271,
-        ninety: 4.827,
-        oneHundred: 5.383,
-        originalPGA: 3.677
+        amatuer: 4.271,
     }, {
         lie: 't',
         distance: 290,
         pgaTour: 3.68,
-        eighty: 4.274,
-        ninety: 4.83,
-        oneHundred: 5.386,
-        originalPGA: 3.68
+        amatuer: 4.274,
     }, {
         lie: 't',
         distance: 291,
         pgaTour: 3.683,
-        eighty: 4.277,
-        ninety: 4.833,
-        oneHundred: 5.389,
-        originalPGA: 3.683
+        amatuer: 4.277,
     }, {
         lie: 't',
         distance: 292,
         pgaTour: 3.686,
-        eighty: 4.28,
-        ninety: 4.836,
-        oneHundred: 5.392,
-        originalPGA: 3.686
+        amatuer: 4.28,
     }, {
         lie: 't',
         distance: 293,
         pgaTour: 3.689,
-        eighty: 4.283,
-        ninety: 4.839,
-        oneHundred: 5.395,
-        originalPGA: 3.689
+        amatuer: 4.283,
     }, {
         lie: 't',
         distance: 294,
         pgaTour: 3.692,
-        eighty: 4.286,
-        ninety: 4.842,
-        oneHundred: 5.398,
-        originalPGA: 3.692
+        amatuer: 4.286,
     }, {
         lie: 't',
         distance: 295,
         pgaTour: 3.695,
-        eighty: 4.289,
-        ninety: 4.845,
-        oneHundred: 5.401,
-        originalPGA: 3.695
+        amatuer: 4.289,
     }, {
         lie: 't',
         distance: 296,
         pgaTour: 3.698,
-        eighty: 4.292,
-        ninety: 4.848,
-        oneHundred: 5.404,
-        originalPGA: 3.698
+        amatuer: 4.292,
     }, {
         lie: 't',
         distance: 297,
         pgaTour: 3.701,
-        eighty: 4.295,
-        ninety: 4.851,
-        oneHundred: 5.407,
-        originalPGA: 3.701
+        amatuer: 4.295,
     }, {
         lie: 't',
         distance: 298,
         pgaTour: 3.704,
-        eighty: 4.298,
-        ninety: 4.854,
-        oneHundred: 5.41,
-        originalPGA: 3.704
+        amatuer: 4.298,
     }, {
         lie: 't',
         distance: 299,
         pgaTour: 3.707,
-        eighty: 4.301,
-        ninety: 4.857,
-        oneHundred: 5.413,
-        originalPGA: 3.707
+        amatuer: 4.301,
     }, {
         lie: 't',
         distance: 300,
         pgaTour: 3.71,
-        eighty: 4.304,
-        ninety: 4.86,
-        oneHundred: 5.416,
-        originalPGA: 3.71
+        amatuer: 4.304,
     }, {
         lie: 't',
         distance: 301,
         pgaTour: 3.714,
-        eighty: 4.308,
-        ninety: 4.864,
-        oneHundred: 5.42,
-        originalPGA: 3.714
+        amatuer: 4.308,
     }, {
         lie: 't',
         distance: 302,
         pgaTour: 3.718,
-        eighty: 4.312,
-        ninety: 4.868,
-        oneHundred: 5.424,
-        originalPGA: 3.718
+        amatuer: 4.312,
     }, {
         lie: 't',
         distance: 303,
         pgaTour: 3.722,
-        eighty: 4.316,
-        ninety: 4.872,
-        oneHundred: 5.428,
-        originalPGA: 3.722
+        amatuer: 4.316,
     }, {
         lie: 't',
         distance: 304,
         pgaTour: 3.726,
-        eighty: 4.32,
-        ninety: 4.876,
-        oneHundred: 5.432,
-        originalPGA: 3.726
+        amatuer: 4.32,
     }, {
         lie: 't',
         distance: 305,
         pgaTour: 3.73,
-        eighty: 4.324,
-        ninety: 4.88,
-        oneHundred: 5.436,
-        originalPGA: 3.73
+        amatuer: 4.324,
     }, {
         lie: 't',
         distance: 306,
         pgaTour: 3.734,
-        eighty: 4.328,
-        ninety: 4.884,
-        oneHundred: 5.44,
-        originalPGA: 3.734
+        amatuer: 4.328,
     }, {
         lie: 't',
         distance: 307,
         pgaTour: 3.738,
-        eighty: 4.332,
-        ninety: 4.888,
-        oneHundred: 5.444,
-        originalPGA: 3.738
+        amatuer: 4.332,
     }, {
         lie: 't',
         distance: 308,
         pgaTour: 3.742,
-        eighty: 4.336,
-        ninety: 4.892,
-        oneHundred: 5.448,
-        originalPGA: 3.742
+        amatuer: 4.336,
     }, {
         lie: 't',
         distance: 309,
         pgaTour: 3.746,
-        eighty: 4.34,
-        ninety: 4.896,
-        oneHundred: 5.452,
-        originalPGA: 3.746
+        amatuer: 4.34,
     }, {
         lie: 't',
         distance: 310,
         pgaTour: 3.75,
-        eighty: 4.344,
-        ninety: 4.9,
-        oneHundred: 5.456,
-        originalPGA: 3.75
+        amatuer: 4.344,
     }, {
         lie: 't',
         distance: 311,
         pgaTour: 3.754,
-        eighty: 4.348,
-        ninety: 4.904,
-        oneHundred: 5.46,
-        originalPGA: 3.754
+        amatuer: 4.348,
     }, {
         lie: 't',
         distance: 312,
         pgaTour: 3.758,
-        eighty: 4.352,
-        ninety: 4.908,
-        oneHundred: 5.464,
-        originalPGA: 3.758
+        amatuer: 4.352,
     }, {
         lie: 't',
         distance: 313,
         pgaTour: 3.762,
-        eighty: 4.356,
-        ninety: 4.912,
-        oneHundred: 5.468,
-        originalPGA: 3.762
+        amatuer: 4.356,
     }, {
         lie: 't',
         distance: 314,
         pgaTour: 3.766,
-        eighty: 4.36,
-        ninety: 4.916,
-        oneHundred: 5.472,
-        originalPGA: 3.766
+        amatuer: 4.36,
     }, {
         lie: 't',
         distance: 315,
         pgaTour: 3.77,
-        eighty: 4.364,
-        ninety: 4.92,
-        oneHundred: 5.476,
-        originalPGA: 3.77
+        amatuer: 4.364,
     }, {
         lie: 't',
         distance: 316,
         pgaTour: 3.774,
-        eighty: 4.368,
-        ninety: 4.924,
-        oneHundred: 5.48,
-        originalPGA: 3.774
+        amatuer: 4.368,
     }, {
         lie: 't',
         distance: 317,
         pgaTour: 3.778,
-        eighty: 4.372,
-        ninety: 4.928,
-        oneHundred: 5.484,
-        originalPGA: 3.778
+        amatuer: 4.372,
     }, {
         lie: 't',
         distance: 318,
         pgaTour: 3.782,
-        eighty: 4.376,
-        ninety: 4.932,
-        oneHundred: 5.488,
-        originalPGA: 3.782
+        amatuer: 4.376,
     }, {
         lie: 't',
         distance: 319,
         pgaTour: 3.786,
-        eighty: 4.38,
-        ninety: 4.936,
-        oneHundred: 5.492,
-        originalPGA: 3.786
+        amatuer: 4.38,
     }, {
         lie: 't',
         distance: 320,
         pgaTour: 3.79,
-        eighty: 4.384,
-        ninety: 4.94,
-        oneHundred: 5.496,
-        originalPGA: 3.79
+        amatuer: 4.384,
     }, {
         lie: 't',
         distance: 321,
         pgaTour: 3.794,
-        eighty: 4.388,
-        ninety: 4.944,
-        oneHundred: 5.5,
-        originalPGA: 3.794
+        amatuer: 4.388,
     }, {
         lie: 't',
         distance: 322,
         pgaTour: 3.797,
-        eighty: 4.391,
-        ninety: 4.947,
-        oneHundred: 5.503,
-        originalPGA: 3.797
+        amatuer: 4.391,
     }, {
         lie: 't',
         distance: 323,
         pgaTour: 3.801,
-        eighty: 4.395,
-        ninety: 4.951,
-        oneHundred: 5.507,
-        originalPGA: 3.801
+        amatuer: 4.395,
     }, {
         lie: 't',
         distance: 324,
         pgaTour: 3.804,
-        eighty: 4.398,
-        ninety: 4.954,
-        oneHundred: 5.51,
-        originalPGA: 3.804
+        amatuer: 4.398,
     }, {
         lie: 't',
         distance: 325,
         pgaTour: 3.808,
-        eighty: 4.402,
-        ninety: 4.958,
-        oneHundred: 5.514,
-        originalPGA: 3.808
+        amatuer: 4.402,
     }, {
         lie: 't',
         distance: 326,
         pgaTour: 3.811,
-        eighty: 4.405,
-        ninety: 4.961,
-        oneHundred: 5.517,
-        originalPGA: 3.811
+        amatuer: 4.405,
     }, {
         lie: 't',
         distance: 327,
         pgaTour: 3.815,
-        eighty: 4.409,
-        ninety: 4.965,
-        oneHundred: 5.521,
-        originalPGA: 3.815
+        amatuer: 4.409,
     }, {
         lie: 't',
         distance: 328,
         pgaTour: 3.818,
-        eighty: 4.412,
-        ninety: 4.968,
-        oneHundred: 5.524,
-        originalPGA: 3.818
+        amatuer: 4.412,
     }, {
         lie: 't',
         distance: 329,
         pgaTour: 3.822,
-        eighty: 4.416,
-        ninety: 4.972,
-        oneHundred: 5.528,
-        originalPGA: 3.822
+        amatuer: 4.416,
     }, {
         lie: 't',
         distance: 330,
         pgaTour: 3.825,
-        eighty: 4.419,
-        ninety: 4.975,
-        oneHundred: 5.531,
-        originalPGA: 3.825
+        amatuer: 4.419,
     }, {
         lie: 't',
         distance: 331,
         pgaTour: 3.829,
-        eighty: 4.423,
-        ninety: 4.979,
-        oneHundred: 5.535,
-        originalPGA: 3.829
+        amatuer: 4.423,
     }, {
         lie: 't',
         distance: 332,
         pgaTour: 3.832,
-        eighty: 4.426,
-        ninety: 4.982,
-        oneHundred: 5.538,
-        originalPGA: 3.832
+        amatuer: 4.426,
     }, {
         lie: 't',
         distance: 333,
         pgaTour: 3.836,
-        eighty: 4.43,
-        ninety: 4.986,
-        oneHundred: 5.542,
-        originalPGA: 3.836
+        amatuer: 4.43,
     }, {
         lie: 't',
         distance: 334,
         pgaTour: 3.839,
-        eighty: 4.433,
-        ninety: 4.989,
-        oneHundred: 5.545,
-        originalPGA: 3.839
+        amatuer: 4.433,
     }, {
         lie: 't',
         distance: 335,
         pgaTour: 3.843,
-        eighty: 4.437,
-        ninety: 4.993,
-        oneHundred: 5.549,
-        originalPGA: 3.843
+        amatuer: 4.437,
     }, {
         lie: 't',
         distance: 336,
         pgaTour: 3.846,
-        eighty: 4.44,
-        ninety: 4.996,
-        oneHundred: 5.552,
-        originalPGA: 3.846
+        amatuer: 4.44,
     }, {
         lie: 't',
         distance: 337,
         pgaTour: 3.85,
-        eighty: 4.444,
-        ninety: 5,
-        oneHundred: 5.556,
-        originalPGA: 3.85
+        amatuer: 4.444,
     }, {
         lie: 't',
         distance: 338,
         pgaTour: 3.853,
-        eighty: 4.447,
-        ninety: 5.003,
-        oneHundred: 5.559,
-        originalPGA: 3.853
+        amatuer: 4.447,
     }, {
         lie: 't',
         distance: 339,
         pgaTour: 3.857,
-        eighty: 4.451,
-        ninety: 5.007,
-        oneHundred: 5.563,
-        originalPGA: 3.857
+        amatuer: 4.451,
     }, {
         lie: 't',
         distance: 340,
         pgaTour: 3.86,
-        eighty: 4.454,
-        ninety: 5.01,
-        oneHundred: 5.566,
-        originalPGA: 3.86
+        amatuer: 4.454,
     }, {
         lie: 't',
         distance: 341,
         pgaTour: 3.863,
-        eighty: 4.457,
-        ninety: 5.013,
-        oneHundred: 5.569,
-        originalPGA: 3.863
+        amatuer: 4.457,
     }, {
         lie: 't',
         distance: 342,
         pgaTour: 3.866,
-        eighty: 4.46,
-        ninety: 5.016,
-        oneHundred: 5.572,
-        originalPGA: 3.866
+        amatuer: 4.46,
     }, {
         lie: 't',
         distance: 343,
         pgaTour: 3.869,
-        eighty: 4.463,
-        ninety: 5.019,
-        oneHundred: 5.575,
-        originalPGA: 3.869
+        amatuer: 4.463,
     }, {
         lie: 't',
         distance: 344,
         pgaTour: 3.872,
-        eighty: 4.466,
-        ninety: 5.022,
-        oneHundred: 5.578,
-        originalPGA: 3.872
+        amatuer: 4.466,
     }, {
         lie: 't',
         distance: 345,
         pgaTour: 3.875,
-        eighty: 4.469,
-        ninety: 5.025,
-        oneHundred: 5.581,
-        originalPGA: 3.875
+        amatuer: 4.469,
     }, {
         lie: 't',
         distance: 346,
         pgaTour: 3.878,
-        eighty: 4.472,
-        ninety: 5.028,
-        oneHundred: 5.584,
-        originalPGA: 3.878
+        amatuer: 4.472,
     }, {
         lie: 't',
         distance: 347,
         pgaTour: 3.881,
-        eighty: 4.475,
-        ninety: 5.031,
-        oneHundred: 5.587,
-        originalPGA: 3.881
+        amatuer: 4.475,
     }, {
         lie: 't',
         distance: 348,
         pgaTour: 3.884,
-        eighty: 4.478,
-        ninety: 5.034,
-        oneHundred: 5.59,
-        originalPGA: 3.884
+        amatuer: 4.478,
     }, {
         lie: 't',
         distance: 349,
         pgaTour: 3.887,
-        eighty: 4.481,
-        ninety: 5.037,
-        oneHundred: 5.593,
-        originalPGA: 3.887
+        amatuer: 4.481,
     }, {
         lie: 't',
         distance: 350,
         pgaTour: 3.89,
-        eighty: 4.484,
-        ninety: 5.04,
-        oneHundred: 5.596,
-        originalPGA: 3.89
+        amatuer: 4.484,
     }, {
         lie: 't',
         distance: 351,
         pgaTour: 3.893,
-        eighty: 4.487,
-        ninety: 5.043,
-        oneHundred: 5.599,
-        originalPGA: 3.893
+        amatuer: 4.487,
     }, {
         lie: 't',
         distance: 352,
         pgaTour: 3.896,
-        eighty: 4.49,
-        ninety: 5.046,
-        oneHundred: 5.602,
-        originalPGA: 3.896
+        amatuer: 4.49,
     }, {
         lie: 't',
         distance: 353,
         pgaTour: 3.899,
-        eighty: 4.493,
-        ninety: 5.049,
-        oneHundred: 5.605,
-        originalPGA: 3.899
+        amatuer: 4.493,
     }, {
         lie: 't',
         distance: 354,
         pgaTour: 3.902,
-        eighty: 4.496,
-        ninety: 5.052,
-        oneHundred: 5.608,
-        originalPGA: 3.902
+        amatuer: 4.496,
     }, {
         lie: 't',
         distance: 355,
         pgaTour: 3.905,
-        eighty: 4.499,
-        ninety: 5.055,
-        oneHundred: 5.611,
-        originalPGA: 3.905
+        amatuer: 4.499,
     }, {
         lie: 't',
         distance: 356,
         pgaTour: 3.908,
-        eighty: 4.502,
-        ninety: 5.058,
-        oneHundred: 5.614,
-        originalPGA: 3.908
+        amatuer: 4.502,
     }, {
         lie: 't',
         distance: 357,
         pgaTour: 3.911,
-        eighty: 4.505,
-        ninety: 5.061,
-        oneHundred: 5.617,
-        originalPGA: 3.911
+        amatuer: 4.505,
     }, {
         lie: 't',
         distance: 358,
         pgaTour: 3.914,
-        eighty: 4.508,
-        ninety: 5.064,
-        oneHundred: 5.62,
-        originalPGA: 3.914
+        amatuer: 4.508,
     }, {
         lie: 't',
         distance: 359,
         pgaTour: 3.917,
-        eighty: 4.511,
-        ninety: 5.067,
-        oneHundred: 5.623,
-        originalPGA: 3.917
+        amatuer: 4.511,
     }, {
         lie: 't',
         distance: 360,
         pgaTour: 3.92,
-        eighty: 4.514,
-        ninety: 5.07,
-        oneHundred: 5.626,
-        originalPGA: 3.92
+        amatuer: 4.514,
     }, {
         lie: 't',
         distance: 361,
         pgaTour: 3.922,
-        eighty: 4.516,
-        ninety: 5.072,
-        oneHundred: 5.628,
-        originalPGA: 3.922
+        amatuer: 4.516,
     }, {
         lie: 't',
         distance: 362,
         pgaTour: 3.924,
-        eighty: 4.518,
-        ninety: 5.074,
-        oneHundred: 5.63,
-        originalPGA: 3.924
+        amatuer: 4.518,
     }, {
         lie: 't',
         distance: 363,
         pgaTour: 3.926,
-        eighty: 4.52,
-        ninety: 5.076,
-        oneHundred: 5.632,
-        originalPGA: 3.926
+        amatuer: 4.52,
     }, {
         lie: 't',
         distance: 364,
         pgaTour: 3.928,
-        eighty: 4.522,
-        ninety: 5.078,
-        oneHundred: 5.634,
-        originalPGA: 3.928
+        amatuer: 4.522,
     }, {
         lie: 't',
         distance: 365,
         pgaTour: 3.93,
-        eighty: 4.524,
-        ninety: 5.08,
-        oneHundred: 5.636,
-        originalPGA: 3.93
+        amatuer: 4.524,
     }, {
         lie: 't',
         distance: 366,
         pgaTour: 3.932,
-        eighty: 4.526,
-        ninety: 5.082,
-        oneHundred: 5.638,
-        originalPGA: 3.932
+        amatuer: 4.526,
     }, {
         lie: 't',
         distance: 367,
         pgaTour: 3.934,
-        eighty: 4.528,
-        ninety: 5.084,
-        oneHundred: 5.64,
-        originalPGA: 3.934
+        amatuer: 4.528,
     }, {
         lie: 't',
         distance: 368,
         pgaTour: 3.936,
-        eighty: 4.53,
-        ninety: 5.086,
-        oneHundred: 5.642,
-        originalPGA: 3.936
+        amatuer: 4.53,
     }, {
         lie: 't',
         distance: 369,
         pgaTour: 3.938,
-        eighty: 4.532,
-        ninety: 5.088,
-        oneHundred: 5.644,
-        originalPGA: 3.938
+        amatuer: 4.532,
     }, {
         lie: 't',
         distance: 370,
         pgaTour: 3.94,
-        eighty: 4.534,
-        ninety: 5.09,
-        oneHundred: 5.646,
-        originalPGA: 3.94
+        amatuer: 4.534,
     }, {
         lie: 't',
         distance: 371,
         pgaTour: 3.942,
-        eighty: 4.536,
-        ninety: 5.092,
-        oneHundred: 5.648,
-        originalPGA: 3.942
+        amatuer: 4.536,
     }, {
         lie: 't',
         distance: 372,
         pgaTour: 3.944,
-        eighty: 4.538,
-        ninety: 5.094,
-        oneHundred: 5.65,
-        originalPGA: 3.944
+        amatuer: 4.538,
     }, {
         lie: 't',
         distance: 373,
         pgaTour: 3.946,
-        eighty: 4.54,
-        ninety: 5.096,
-        oneHundred: 5.652,
-        originalPGA: 3.946
+        amatuer: 4.54,
     }, {
         lie: 't',
         distance: 374,
         pgaTour: 3.948,
-        eighty: 4.542,
-        ninety: 5.098,
-        oneHundred: 5.654,
-        originalPGA: 3.948
+        amatuer: 4.542,
     }, {
         lie: 't',
         distance: 375,
         pgaTour: 3.95,
-        eighty: 4.544,
-        ninety: 5.1,
-        oneHundred: 5.656,
-        originalPGA: 3.95
+        amatuer: 4.544,
     }, {
         lie: 't',
         distance: 376,
         pgaTour: 3.952,
-        eighty: 4.546,
-        ninety: 5.102,
-        oneHundred: 5.658,
-        originalPGA: 3.952
+        amatuer: 4.546,
     }, {
         lie: 't',
         distance: 377,
         pgaTour: 3.954,
-        eighty: 4.548,
-        ninety: 5.104,
-        oneHundred: 5.66,
-        originalPGA: 3.954
+        amatuer: 4.548,
     }, {
         lie: 't',
         distance: 378,
         pgaTour: 3.956,
-        eighty: 4.55,
-        ninety: 5.106,
-        oneHundred: 5.662,
-        originalPGA: 3.956
+        amatuer: 4.55,
     }, {
         lie: 't',
         distance: 379,
         pgaTour: 3.958,
-        eighty: 4.552,
-        ninety: 5.108,
-        oneHundred: 5.664,
-        originalPGA: 3.958
+        amatuer: 4.552,
     }, {
         lie: 't',
         distance: 380,
         pgaTour: 3.96,
-        eighty: 4.554,
-        ninety: 5.11,
-        oneHundred: 5.666,
-        originalPGA: 3.96
+        amatuer: 4.554,
     }, {
         lie: 't',
         distance: 381,
         pgaTour: 3.962,
-        eighty: 4.556,
-        ninety: 5.112,
-        oneHundred: 5.668,
-        originalPGA: 3.962
+        amatuer: 4.556,
     }, {
         lie: 't',
         distance: 382,
         pgaTour: 3.963,
-        eighty: 4.557,
-        ninety: 5.113,
-        oneHundred: 5.669,
-        originalPGA: 3.963
+        amatuer: 4.557,
     }, {
         lie: 't',
         distance: 383,
         pgaTour: 3.965,
-        eighty: 4.559,
-        ninety: 5.115,
-        oneHundred: 5.671,
-        originalPGA: 3.965
+        amatuer: 4.559,
     }, {
         lie: 't',
         distance: 384,
         pgaTour: 3.966,
-        eighty: 4.56,
-        ninety: 5.116,
-        oneHundred: 5.672,
-        originalPGA: 3.966
+        amatuer: 4.56,
     }, {
         lie: 't',
         distance: 385,
         pgaTour: 3.968,
-        eighty: 4.562,
-        ninety: 5.118,
-        oneHundred: 5.674,
-        originalPGA: 3.968
+        amatuer: 4.562,
     }, {
         lie: 't',
         distance: 386,
         pgaTour: 3.969,
-        eighty: 4.563,
-        ninety: 5.119,
-        oneHundred: 5.675,
-        originalPGA: 3.969
+        amatuer: 4.563,
     }, {
         lie: 't',
         distance: 387,
         pgaTour: 3.971,
-        eighty: 4.565,
-        ninety: 5.121,
-        oneHundred: 5.677,
-        originalPGA: 3.971
+        amatuer: 4.565,
     }, {
         lie: 't',
         distance: 388,
         pgaTour: 3.972,
-        eighty: 4.566,
-        ninety: 5.122,
-        oneHundred: 5.678,
-        originalPGA: 3.972
+        amatuer: 4.566,
     }, {
         lie: 't',
         distance: 389,
         pgaTour: 3.974,
-        eighty: 4.568,
-        ninety: 5.124,
-        oneHundred: 5.68,
-        originalPGA: 3.974
+        amatuer: 4.568,
     }, {
         lie: 't',
         distance: 390,
         pgaTour: 3.975,
-        eighty: 4.569,
-        ninety: 5.125,
-        oneHundred: 5.681,
-        originalPGA: 3.975
+        amatuer: 4.569,
     }, {
         lie: 't',
         distance: 391,
         pgaTour: 3.977,
-        eighty: 4.571,
-        ninety: 5.127,
-        oneHundred: 5.683,
-        originalPGA: 3.977
+        amatuer: 4.571,
     }, {
         lie: 't',
         distance: 392,
         pgaTour: 3.978,
-        eighty: 4.572,
-        ninety: 5.128,
-        oneHundred: 5.684,
-        originalPGA: 3.978
+        amatuer: 4.572,
     }, {
         lie: 't',
         distance: 393,
         pgaTour: 3.98,
-        eighty: 4.574,
-        ninety: 5.13,
-        oneHundred: 5.686,
-        originalPGA: 3.98
+        amatuer: 4.574,
     }, {
         lie: 't',
         distance: 394,
         pgaTour: 3.981,
-        eighty: 4.575,
-        ninety: 5.131,
-        oneHundred: 5.687,
-        originalPGA: 3.981
+        amatuer: 4.575,
     }, {
         lie: 't',
         distance: 395,
         pgaTour: 3.983,
-        eighty: 4.577,
-        ninety: 5.133,
-        oneHundred: 5.689,
-        originalPGA: 3.983
+        amatuer: 4.577,
     }, {
         lie: 't',
         distance: 396,
         pgaTour: 3.984,
-        eighty: 4.578,
-        ninety: 5.134,
-        oneHundred: 5.69,
-        originalPGA: 3.984
+        amatuer: 4.578,
     }, {
         lie: 't',
         distance: 397,
         pgaTour: 3.986,
-        eighty: 4.58,
-        ninety: 5.136,
-        oneHundred: 5.692,
-        originalPGA: 3.986
+        amatuer: 4.58,
     }, {
         lie: 't',
         distance: 398,
         pgaTour: 3.987,
-        eighty: 4.581,
-        ninety: 5.137,
-        oneHundred: 5.693,
-        originalPGA: 3.987
+        amatuer: 4.581,
     }, {
         lie: 't',
         distance: 399,
         pgaTour: 3.989,
-        eighty: 4.583,
-        ninety: 5.139,
-        oneHundred: 5.695,
-        originalPGA: 3.989
+        amatuer: 4.583,
     }, {
         lie: 't',
         distance: 400,
         pgaTour: 3.99,
-        eighty: 4.584,
-        ninety: 5.14,
-        oneHundred: 5.696,
-        originalPGA: 3.99
+        amatuer: 4.584,
     }, {
         lie: 't',
         distance: 401,
         pgaTour: 3.992,
-        eighty: 4.586,
-        ninety: 5.142,
-        oneHundred: 5.698,
-        originalPGA: 3.992
+        amatuer: 4.586,
     }, {
         lie: 't',
         distance: 402,
         pgaTour: 3.993,
-        eighty: 4.587,
-        ninety: 5.143,
-        oneHundred: 5.699,
-        originalPGA: 3.993
+        amatuer: 4.587,
     }, {
         lie: 't',
         distance: 403,
         pgaTour: 3.995,
-        eighty: 4.589,
-        ninety: 5.145,
-        oneHundred: 5.701,
-        originalPGA: 3.995
+        amatuer: 4.589,
     }, {
         lie: 't',
         distance: 404,
         pgaTour: 3.996,
-        eighty: 4.59,
-        ninety: 5.146,
-        oneHundred: 5.702,
-        originalPGA: 3.996
+        amatuer: 4.59,
     }, {
         lie: 't',
         distance: 405,
         pgaTour: 3.998,
-        eighty: 4.592,
-        ninety: 5.148,
-        oneHundred: 5.704,
-        originalPGA: 3.998
+        amatuer: 4.592,
     }, {
         lie: 't',
         distance: 406,
         pgaTour: 3.999,
-        eighty: 4.593,
-        ninety: 5.149,
-        oneHundred: 5.705,
-        originalPGA: 3.999
+        amatuer: 4.593,
     }, {
         lie: 't',
         distance: 407,
         pgaTour: 4.001,
-        eighty: 4.595,
-        ninety: 5.151,
-        oneHundred: 5.707,
-        originalPGA: 4.001
+        amatuer: 4.595,
     }, {
         lie: 't',
         distance: 408,
         pgaTour: 4.002,
-        eighty: 4.596,
-        ninety: 5.152,
-        oneHundred: 5.708,
-        originalPGA: 4.002
+        amatuer: 4.596,
     }, {
         lie: 't',
         distance: 409,
         pgaTour: 4.004,
-        eighty: 4.598,
-        ninety: 5.154,
-        oneHundred: 5.71,
-        originalPGA: 4.004
+        amatuer: 4.598,
     }, {
         lie: 't',
         distance: 410,
         pgaTour: 4.005,
-        eighty: 4.599,
-        ninety: 5.155,
-        oneHundred: 5.711,
-        originalPGA: 4.005
+        amatuer: 4.599,
     }, {
         lie: 't',
         distance: 411,
         pgaTour: 4.007,
-        eighty: 4.601,
-        ninety: 5.157,
-        oneHundred: 5.713,
-        originalPGA: 4.007
+        amatuer: 4.601,
     }, {
         lie: 't',
         distance: 412,
         pgaTour: 4.008,
-        eighty: 4.602,
-        ninety: 5.158,
-        oneHundred: 5.714,
-        originalPGA: 4.008
+        amatuer: 4.602,
     }, {
         lie: 't',
         distance: 413,
         pgaTour: 4.01,
-        eighty: 4.604,
-        ninety: 5.16,
-        oneHundred: 5.716,
-        originalPGA: 4.01
+        amatuer: 4.604,
     }, {
         lie: 't',
         distance: 414,
         pgaTour: 4.011,
-        eighty: 4.605,
-        ninety: 5.161,
-        oneHundred: 5.717,
-        originalPGA: 4.011
+        amatuer: 4.605,
     }, {
         lie: 't',
         distance: 415,
         pgaTour: 4.013,
-        eighty: 4.607,
-        ninety: 5.163,
-        oneHundred: 5.719,
-        originalPGA: 4.013
+        amatuer: 4.607,
     }, {
         lie: 't',
         distance: 416,
         pgaTour: 4.014,
-        eighty: 4.608,
-        ninety: 5.164,
-        oneHundred: 5.72,
-        originalPGA: 4.014
+        amatuer: 4.608,
     }, {
         lie: 't',
         distance: 417,
         pgaTour: 4.016,
-        eighty: 4.61,
-        ninety: 5.166,
-        oneHundred: 5.722,
-        originalPGA: 4.016
+        amatuer: 4.61,
     }, {
         lie: 't',
         distance: 418,
         pgaTour: 4.017,
-        eighty: 4.611,
-        ninety: 5.167,
-        oneHundred: 5.723,
-        originalPGA: 4.017
+        amatuer: 4.611,
     }, {
         lie: 't',
         distance: 419,
         pgaTour: 4.019,
-        eighty: 4.613,
-        ninety: 5.169,
-        oneHundred: 5.725,
-        originalPGA: 4.019
+        amatuer: 4.613,
     }, {
         lie: 't',
         distance: 420,
         pgaTour: 4.02,
-        eighty: 4.614,
-        ninety: 5.17,
-        oneHundred: 5.726,
-        originalPGA: 4.02
+        amatuer: 4.614,
     }, {
         lie: 't',
         distance: 421,
         pgaTour: 4.023,
-        eighty: 4.617,
-        ninety: 5.173,
-        oneHundred: 5.729,
-        originalPGA: 4.023
+        amatuer: 4.617,
     }, {
         lie: 't',
         distance: 422,
         pgaTour: 4.026,
-        eighty: 4.62,
-        ninety: 5.176,
-        oneHundred: 5.732,
-        originalPGA: 4.026
+        amatuer: 4.62,
     }, {
         lie: 't',
         distance: 423,
         pgaTour: 4.029,
-        eighty: 4.623,
-        ninety: 5.179,
-        oneHundred: 5.735,
-        originalPGA: 4.029
+        amatuer: 4.623,
     }, {
         lie: 't',
         distance: 424,
         pgaTour: 4.032,
-        eighty: 4.626,
-        ninety: 5.182,
-        oneHundred: 5.738,
-        originalPGA: 4.032
+        amatuer: 4.626,
     }, {
         lie: 't',
         distance: 425,
         pgaTour: 4.035,
-        eighty: 4.629,
-        ninety: 5.185,
-        oneHundred: 5.741,
-        originalPGA: 4.035
+        amatuer: 4.629,
     }, {
         lie: 't',
         distance: 426,
         pgaTour: 4.038,
-        eighty: 4.632,
-        ninety: 5.188,
-        oneHundred: 5.744,
-        originalPGA: 4.038
+        amatuer: 4.632,
     }, {
         lie: 't',
         distance: 427,
         pgaTour: 4.041,
-        eighty: 4.635,
-        ninety: 5.191,
-        oneHundred: 5.747,
-        originalPGA: 4.041
+        amatuer: 4.635,
     }, {
         lie: 't',
         distance: 428,
         pgaTour: 4.044,
-        eighty: 4.638,
-        ninety: 5.194,
-        oneHundred: 5.75,
-        originalPGA: 4.044
+        amatuer: 4.638,
     }, {
         lie: 't',
         distance: 429,
         pgaTour: 4.047,
-        eighty: 4.641,
-        ninety: 5.197,
-        oneHundred: 5.753,
-        originalPGA: 4.047
+        amatuer: 4.641,
     }, {
         lie: 't',
         distance: 430,
         pgaTour: 4.05,
-        eighty: 4.644,
-        ninety: 5.2,
-        oneHundred: 5.756,
-        originalPGA: 4.05
+        amatuer: 4.644,
     }, {
         lie: 't',
         distance: 431,
         pgaTour: 4.053,
-        eighty: 4.647,
-        ninety: 5.203,
-        oneHundred: 5.759,
-        originalPGA: 4.053
+        amatuer: 4.647,
     }, {
         lie: 't',
         distance: 432,
         pgaTour: 4.056,
-        eighty: 4.65,
-        ninety: 5.206,
-        oneHundred: 5.762,
-        originalPGA: 4.056
+        amatuer: 4.65,
     }, {
         lie: 't',
         distance: 433,
         pgaTour: 4.059,
-        eighty: 4.653,
-        ninety: 5.209,
-        oneHundred: 5.765,
-        originalPGA: 4.059
+        amatuer: 4.653,
     }, {
         lie: 't',
         distance: 434,
         pgaTour: 4.062,
-        eighty: 4.656,
-        ninety: 5.212,
-        oneHundred: 5.768,
-        originalPGA: 4.062
+        amatuer: 4.656,
     }, {
         lie: 't',
         distance: 435,
         pgaTour: 4.065,
-        eighty: 4.659,
-        ninety: 5.215,
-        oneHundred: 5.771,
-        originalPGA: 4.065
+        amatuer: 4.659,
     }, {
         lie: 't',
         distance: 436,
         pgaTour: 4.068,
-        eighty: 4.662,
-        ninety: 5.218,
-        oneHundred: 5.774,
-        originalPGA: 4.068
+        amatuer: 4.662,
     }, {
         lie: 't',
         distance: 437,
         pgaTour: 4.071,
-        eighty: 4.665,
-        ninety: 5.221,
-        oneHundred: 5.777,
-        originalPGA: 4.071
+        amatuer: 4.665,
     }, {
         lie: 't',
         distance: 438,
         pgaTour: 4.074,
-        eighty: 4.668,
-        ninety: 5.224,
-        oneHundred: 5.78,
-        originalPGA: 4.074
+        amatuer: 4.668,
     }, {
         lie: 't',
         distance: 439,
         pgaTour: 4.077,
-        eighty: 4.671,
-        ninety: 5.227,
-        oneHundred: 5.783,
-        originalPGA: 4.077
+        amatuer: 4.671,
     }, {
         lie: 't',
         distance: 440,
         pgaTour: 4.08,
-        eighty: 4.674,
-        ninety: 5.23,
-        oneHundred: 5.786,
-        originalPGA: 4.08
+        amatuer: 4.674,
     }, {
         lie: 't',
         distance: 441,
         pgaTour: 4.085,
-        eighty: 4.679,
-        ninety: 5.235,
-        oneHundred: 5.791,
-        originalPGA: 4.085
+        amatuer: 4.679,
     }, {
         lie: 't',
         distance: 442,
         pgaTour: 4.089,
-        eighty: 4.683,
-        ninety: 5.239,
-        oneHundred: 5.795,
-        originalPGA: 4.089
+        amatuer: 4.683,
     }, {
         lie: 't',
         distance: 443,
         pgaTour: 4.094,
-        eighty: 4.688,
-        ninety: 5.244,
-        oneHundred: 5.8,
-        originalPGA: 4.094
+        amatuer: 4.688,
     }, {
         lie: 't',
         distance: 444,
         pgaTour: 4.098,
-        eighty: 4.692,
-        ninety: 5.248,
-        oneHundred: 5.804,
-        originalPGA: 4.098
+        amatuer: 4.692,
     }, {
         lie: 't',
         distance: 445,
         pgaTour: 4.103,
-        eighty: 4.697,
-        ninety: 5.253,
-        oneHundred: 5.809,
-        originalPGA: 4.103
+        amatuer: 4.697,
     }, {
         lie: 't',
         distance: 446,
         pgaTour: 4.107,
-        eighty: 4.701,
-        ninety: 5.257,
-        oneHundred: 5.813,
-        originalPGA: 4.107
+        amatuer: 4.701,
     },
 {
         lie: 't',
         distance: 447,
         pgaTour: 4.112,
-        eighty: 4.706,
-        ninety: 5.262,
-        oneHundred: 5.818,
-        originalPGA: 4.112
+        amatuer: 4.706,
     }, {
         lie: 't',
         distance: 448,
         pgaTour: 4.116,
-        eighty: 4.71,
-        ninety: 5.266,
-        oneHundred: 5.822,
-        originalPGA: 4.116
+        amatuer: 4.71,
     }, {
         lie: 't',
         distance: 449,
         pgaTour: 4.121,
-        eighty: 4.715,
-        ninety: 5.271,
-        oneHundred: 5.827,
-        originalPGA: 4.121
+        amatuer: 4.715,
     }, {
         lie: 't',
         distance: 450,
         pgaTour: 4.125,
-        eighty: 4.719,
-        ninety: 5.275,
-        oneHundred: 5.831,
-        originalPGA: 4.125
+        amatuer: 4.719,
     }, {
         lie: 't',
         distance: 451,
         pgaTour: 4.13,
-        eighty: 4.724,
-        ninety: 5.28,
-        oneHundred: 5.836,
-        originalPGA: 4.13
+        amatuer: 4.724,
     }, {
         lie: 't',
         distance: 452,
         pgaTour: 4.134,
-        eighty: 4.728,
-        ninety: 5.284,
-        oneHundred: 5.84,
-        originalPGA: 4.134
+        amatuer: 4.728,
     }, {
         lie: 't',
         distance: 453,
         pgaTour: 4.139,
-        eighty: 4.733,
-        ninety: 5.289,
-        oneHundred: 5.845,
-        originalPGA: 4.139
+        amatuer: 4.733,
     }, {
         lie: 't',
         distance: 454,
         pgaTour: 4.143,
-        eighty: 4.737,
-        ninety: 5.293,
-        oneHundred: 5.849,
-        originalPGA: 4.143
+        amatuer: 4.737,
     }, {
         lie: 't',
         distance: 455,
         pgaTour: 4.148,
-        eighty: 4.742,
-        ninety: 5.298,
-        oneHundred: 5.854,
-        originalPGA: 4.148
+        amatuer: 4.742,
     }, {
         lie: 't',
         distance: 456,
         pgaTour: 4.152,
-        eighty: 4.746,
-        ninety: 5.302,
-        oneHundred: 5.858,
-        originalPGA: 4.152
+        amatuer: 4.746,
     }, {
         lie: 't',
         distance: 457,
         pgaTour: 4.157,
-        eighty: 4.751,
-        ninety: 5.307,
-        oneHundred: 5.863,
-        originalPGA: 4.157
+        amatuer: 4.751,
     }, {
         lie: 't',
         distance: 458,
         pgaTour: 4.161,
-        eighty: 4.755,
-        ninety: 5.311,
-        oneHundred: 5.867,
-        originalPGA: 4.161
+        amatuer: 4.755,
     }, {
         lie: 't',
         distance: 459,
         pgaTour: 4.166,
-        eighty: 4.76,
-        ninety: 5.316,
-        oneHundred: 5.872,
-        originalPGA: 4.166
+        amatuer: 4.76,
     }, {
         lie: 't',
         distance: 460,
         pgaTour: 4.17,
-        eighty: 4.764,
-        ninety: 5.32,
-        oneHundred: 5.876,
-        originalPGA: 4.17
+        amatuer: 4.764,
     }, {
         lie: 't',
         distance: 461,
         pgaTour: 4.176,
-        eighty: 4.77,
-        ninety: 5.326,
-        oneHundred: 5.882,
-        originalPGA: 4.176
+        amatuer: 4.77,
     }, {
         lie: 't',
         distance: 462,
         pgaTour: 4.181,
-        eighty: 4.775,
-        ninety: 5.331,
-        oneHundred: 5.887,
-        originalPGA: 4.181
+        amatuer: 4.775,
     }, {
         lie: 't',
         distance: 463,
         pgaTour: 4.187,
-        eighty: 4.781,
-        ninety: 5.337,
-        oneHundred: 5.893,
-        originalPGA: 4.187
+        amatuer: 4.781,
     }, {
         lie: 't',
         distance: 464,
         pgaTour: 4.192,
-        eighty: 4.786,
-        ninety: 5.342,
-        oneHundred: 5.898,
-        originalPGA: 4.192
+        amatuer: 4.786,
     }, {
         lie: 't',
         distance: 465,
         pgaTour: 4.198,
-        eighty: 4.792,
-        ninety: 5.348,
-        oneHundred: 5.904,
-        originalPGA: 4.198
+        amatuer: 4.792,
     }, {
         lie: 't',
         distance: 466,
         pgaTour: 4.203,
-        eighty: 4.797,
-        ninety: 5.353,
-        oneHundred: 5.909,
-        originalPGA: 4.203
+        amatuer: 4.797,
     }, {
         lie: 't',
         distance: 467,
         pgaTour: 4.209,
-        eighty: 4.803,
-        ninety: 5.359,
-        oneHundred: 5.915,
-        originalPGA: 4.209
+        amatuer: 4.803,
     }, {
         lie: 't',
         distance: 468,
         pgaTour: 4.214,
-        eighty: 4.808,
-        ninety: 5.364,
-        oneHundred: 5.92,
-        originalPGA: 4.214
+        amatuer: 4.808,
     }, {
         lie: 't',
         distance: 469,
         pgaTour: 4.22,
-        eighty: 4.814,
-        ninety: 5.37,
-        oneHundred: 5.926,
-        originalPGA: 4.22
+        amatuer: 4.814,
     }, {
         lie: 't',
         distance: 470,
         pgaTour: 4.225,
-        eighty: 4.819,
-        ninety: 5.375,
-        oneHundred: 5.931,
-        originalPGA: 4.225
+        amatuer: 4.819,
     }, {
         lie: 't',
         distance: 471,
         pgaTour: 4.231,
-        eighty: 4.825,
-        ninety: 5.381,
-        oneHundred: 5.937,
-        originalPGA: 4.231
+        amatuer: 4.825,
     }, {
         lie: 't',
         distance: 472,
         pgaTour: 4.236,
-        eighty: 4.83,
-        ninety: 5.386,
-        oneHundred: 5.942,
-        originalPGA: 4.236
+        amatuer: 4.83,
     }, {
         lie: 't',
         distance: 473,
         pgaTour: 4.242,
-        eighty: 4.836,
-        ninety: 5.392,
-        oneHundred: 5.948,
-        originalPGA: 4.242
+        amatuer: 4.836,
     }, {
         lie: 't',
         distance: 474,
         pgaTour: 4.247,
-        eighty: 4.841,
-        ninety: 5.397,
-        oneHundred: 5.953,
-        originalPGA: 4.247
+        amatuer: 4.841,
     }, {
         lie: 't',
         distance: 475,
         pgaTour: 4.253,
-        eighty: 4.847,
-        ninety: 5.403,
-        oneHundred: 5.959,
-        originalPGA: 4.253
+        amatuer: 4.847,
     }, {
         lie: 't',
         distance: 476,
         pgaTour: 4.258,
-        eighty: 4.852,
-        ninety: 5.408,
-        oneHundred: 5.964,
-        originalPGA: 4.258
+        amatuer: 4.852,
     }, {
         lie: 't',
         distance: 477,
         pgaTour: 4.264,
-        eighty: 4.858,
-        ninety: 5.414,
-        oneHundred: 5.97,
-        originalPGA: 4.264
+        amatuer: 4.858,
     }, {
         lie: 't',
         distance: 478,
         pgaTour: 4.269,
-        eighty: 4.863,
-        ninety: 5.419,
-        oneHundred: 5.975,
-        originalPGA: 4.269
+        amatuer: 4.863,
     }, {
         lie: 't',
         distance: 479,
         pgaTour: 4.275,
-        eighty: 4.869,
-        ninety: 5.425,
-        oneHundred: 5.981,
-        originalPGA: 4.275
+        amatuer: 4.869,
     }, {
         lie: 't',
         distance: 480,
         pgaTour: 4.28,
-        eighty: 4.874,
-        ninety: 5.43,
-        oneHundred: 5.986,
-        originalPGA: 4.28
+        amatuer: 4.874,
     }, {
         lie: 't',
         distance: 481,
         pgaTour: 4.287,
-        eighty: 4.881,
-        ninety: 5.437,
-        oneHundred: 5.993,
-        originalPGA: 4.287
+        amatuer: 4.881,
     }, {
         lie: 't',
         distance: 482,
         pgaTour: 4.293,
-        eighty: 4.887,
-        ninety: 5.443,
-        oneHundred: 5.999,
-        originalPGA: 4.293
+        amatuer: 4.887,
     }, {
         lie: 't',
         distance: 483,
         pgaTour: 4.3,
-        eighty: 4.894,
-        ninety: 5.45,
-        oneHundred: 6.006,
-        originalPGA: 4.3
+        amatuer: 4.894,
     }, {
         lie: 't',
         distance: 484,
         pgaTour: 4.306,
-        eighty: 4.9,
-        ninety: 5.456,
-        oneHundred: 6.012,
-        originalPGA: 4.306
+        amatuer: 4.9,
     }, {
         lie: 't',
         distance: 485,
         pgaTour: 4.313,
-        eighty: 4.907,
-        ninety: 5.463,
-        oneHundred: 6.019,
-        originalPGA: 4.313
+        amatuer: 4.907,
     }, {
         lie: 't',
         distance: 486,
         pgaTour: 4.319,
-        eighty: 4.913,
-        ninety: 5.469,
-        oneHundred: 6.025,
-        originalPGA: 4.319
+        amatuer: 4.913,
     }, {
         lie: 't',
         distance: 487,
         pgaTour: 4.326,
-        eighty: 4.92,
-        ninety: 5.476,
-        oneHundred: 6.032,
-        originalPGA: 4.326
+        amatuer: 4.92,
     }, {
         lie: 't',
         distance: 488,
         pgaTour: 4.332,
-        eighty: 4.926,
-        ninety: 5.482,
-        oneHundred: 6.038,
-        originalPGA: 4.332
+        amatuer: 4.926,
     }, {
         lie: 't',
         distance: 489,
         pgaTour: 4.339,
-        eighty: 4.933,
-        ninety: 5.489,
-        oneHundred: 6.045,
-        originalPGA: 4.339
+        amatuer: 4.933,
     }, {
         lie: 't',
         distance: 490,
         pgaTour: 4.345,
-        eighty: 4.939,
-        ninety: 5.495,
-        oneHundred: 6.051,
-        originalPGA: 4.345
+        amatuer: 4.939,
     }, {
         lie: 't',
         distance: 491,
         pgaTour: 4.352,
-        eighty: 4.946,
-        ninety: 5.502,
-        oneHundred: 6.058,
-        originalPGA: 4.352
+        amatuer: 4.946,
     }, {
         lie: 't',
         distance: 492,
         pgaTour: 4.358,
-        eighty: 4.952,
-        ninety: 5.508,
-        oneHundred: 6.064,
-        originalPGA: 4.358
+        amatuer: 4.952,
     }, {
         lie: 't',
         distance: 493,
         pgaTour: 4.365,
-        eighty: 4.959,
-        ninety: 5.515,
-        oneHundred: 6.071,
-        originalPGA: 4.365
+        amatuer: 4.959,
     }, {
         lie: 't',
         distance: 494,
         pgaTour: 4.371,
-        eighty: 4.965,
-        ninety: 5.521,
-        oneHundred: 6.077,
-        originalPGA: 4.371
+        amatuer: 4.965,
     }, {
         lie: 't',
         distance: 495,
         pgaTour: 4.378,
-        eighty: 4.972,
-        ninety: 5.528,
-        oneHundred: 6.084,
-        originalPGA: 4.378
+        amatuer: 4.972,
     }, {
         lie: 't',
         distance: 496,
         pgaTour: 4.384,
-        eighty: 4.978,
-        ninety: 5.534,
-        oneHundred: 6.09,
-        originalPGA: 4.384
+        amatuer: 4.978,
     }, {
         lie: 't',
         distance: 497,
         pgaTour: 4.391,
-        eighty: 4.985,
-        ninety: 5.541,
-        oneHundred: 6.097,
-        originalPGA: 4.391
+        amatuer: 4.985,
     }, {
         lie: 't',
         distance: 498,
         pgaTour: 4.397,
-        eighty: 4.991,
-        ninety: 5.547,
-        oneHundred: 6.103,
-        originalPGA: 4.397
+        amatuer: 4.991,
     }, {
         lie: 't',
         distance: 499,
         pgaTour: 4.404,
-        eighty: 4.998,
-        ninety: 5.554,
-        oneHundred: 6.11,
-        originalPGA: 4.404
+        amatuer: 4.998,
     }, {
         lie: 't',
         distance: 500,
         pgaTour: 4.41,
-        eighty: 5.004,
-        ninety: 5.56,
-        oneHundred: 6.116,
-        originalPGA: 4.41
+        amatuer: 5.004,
     }, {
         lie: 't',
         distance: 501,
         pgaTour: 4.417,
-        eighty: 5.011,
-        ninety: 5.567,
-        oneHundred: 6.123,
-        originalPGA: 4.417
+        amatuer: 5.011,
     }, {
         lie: 't',
         distance: 502,
         pgaTour: 4.423,
-        eighty: 5.017,
-        ninety: 5.573,
-        oneHundred: 6.129,
-        originalPGA: 4.423
+        amatuer: 5.017,
     }, {
         lie: 't',
         distance: 503,
         pgaTour: 4.43,
-        eighty: 5.024,
-        ninety: 5.58,
-        oneHundred: 6.136,
-        originalPGA: 4.43
+        amatuer: 5.024,
     }, {
         lie: 't',
         distance: 504,
         pgaTour: 4.436,
-        eighty: 5.03,
-        ninety: 5.586,
-        oneHundred: 6.142,
-        originalPGA: 4.436
+        amatuer: 5.03,
     }, {
         lie: 't',
         distance: 505,
         pgaTour: 4.443,
-        eighty: 5.037,
-        ninety: 5.593,
-        oneHundred: 6.149,
-        originalPGA: 4.443
+        amatuer: 5.037,
     }, {
         lie: 't',
         distance: 506,
         pgaTour: 4.449,
-        eighty: 5.043,
-        ninety: 5.599,
-        oneHundred: 6.155,
-        originalPGA: 4.449
+        amatuer: 5.043,
     }, {
         lie: 't',
         distance: 507,
         pgaTour: 4.456,
-        eighty: 5.05,
-        ninety: 5.606,
-        oneHundred: 6.162,
-        originalPGA: 4.456
+        amatuer: 5.05,
     }, {
         lie: 't',
         distance: 508,
         pgaTour: 4.462,
-        eighty: 5.056,
-        ninety: 5.612,
-        oneHundred: 6.168,
-        originalPGA: 4.462
+        amatuer: 5.056,
     }, {
         lie: 't',
         distance: 509,
         pgaTour: 4.469,
-        eighty: 5.063,
-        ninety: 5.619,
-        oneHundred: 6.175,
-        originalPGA: 4.469
+        amatuer: 5.063,
     }, {
         lie: 't',
         distance: 510,
         pgaTour: 4.475,
-        eighty: 5.069,
-        ninety: 5.625,
-        oneHundred: 6.181,
-        originalPGA: 4.475
+        amatuer: 5.069,
     }, {
         lie: 't',
         distance: 511,
         pgaTour: 4.482,
-        eighty: 5.076,
-        ninety: 5.632,
-        oneHundred: 6.188,
-        originalPGA: 4.482
+        amatuer: 5.076,
     }, {
         lie: 't',
         distance: 512,
         pgaTour: 4.488,
-        eighty: 5.082,
-        ninety: 5.638,
-        oneHundred: 6.194,
-        originalPGA: 4.488
+        amatuer: 5.082,
     }, {
         lie: 't',
         distance: 513,
         pgaTour: 4.495,
-        eighty: 5.089,
-        ninety: 5.645,
-        oneHundred: 6.201,
-        originalPGA: 4.495
+        amatuer: 5.089,
     }, {
         lie: 't',
         distance: 514,
         pgaTour: 4.501,
-        eighty: 5.095,
-        ninety: 5.651,
-        oneHundred: 6.207,
-        originalPGA: 4.501
+        amatuer: 5.095,
     }, {
         lie: 't',
         distance: 515,
         pgaTour: 4.508,
-        eighty: 5.102,
-        ninety: 5.658,
-        oneHundred: 6.214,
-        originalPGA: 4.508
+        amatuer: 5.102,
     }, {
         lie: 't',
         distance: 516,
         pgaTour: 4.514,
-        eighty: 5.108,
-        ninety: 5.664,
-        oneHundred: 6.22,
-        originalPGA: 4.514
+        amatuer: 5.108,
     }, {
         lie: 't',
         distance: 517,
         pgaTour: 4.521,
-        eighty: 5.115,
-        ninety: 5.671,
-        oneHundred: 6.227,
-        originalPGA: 4.521
+        amatuer: 5.115,
     }, {
         lie: 't',
         distance: 518,
         pgaTour: 4.527,
-        eighty: 5.121,
-        ninety: 5.677,
-        oneHundred: 6.233,
-        originalPGA: 4.527
+        amatuer: 5.121,
     }, {
         lie: 't',
         distance: 519,
         pgaTour: 4.534,
-        eighty: 5.128,
-        ninety: 5.684,
-        oneHundred: 6.24,
-        originalPGA: 4.534
+        amatuer: 5.128,
     }, {
         lie: 't',
         distance: 520,
         pgaTour: 4.54,
-        eighty: 5.134,
-        ninety: 5.69,
-        oneHundred: 6.246,
-        originalPGA: 4.54
+        amatuer: 5.134,
     }, {
         lie: 't',
         distance: 521,
         pgaTour: 4.546,
-        eighty: 5.14,
-        ninety: 5.696,
-        oneHundred: 6.252,
-        originalPGA: 4.546
+        amatuer: 5.14,
     }, {
         lie: 't',
         distance: 522,
         pgaTour: 4.551,
-        eighty: 5.145,
-        ninety: 5.701,
-        oneHundred: 6.257,
-        originalPGA: 4.551
+        amatuer: 5.145,
     }, {
         lie: 't',
         distance: 523,
         pgaTour: 4.557,
-        eighty: 5.151,
-        ninety: 5.707,
-        oneHundred: 6.263,
-        originalPGA: 4.557
+        amatuer: 5.151,
     }, {
         lie: 't',
         distance: 524,
         pgaTour: 4.562,
-        eighty: 5.156,
-        ninety: 5.712,
-        oneHundred: 6.268,
-        originalPGA: 4.562
+        amatuer: 5.156,
     }, {
         lie: 't',
         distance: 525,
         pgaTour: 4.568,
-        eighty: 5.162,
-        ninety: 5.718,
-        oneHundred: 6.274,
-        originalPGA: 4.568
+        amatuer: 5.162,
     }, {
         lie: 't',
         distance: 526,
         pgaTour: 4.573,
-        eighty: 5.167,
-        ninety: 5.723,
-        oneHundred: 6.279,
-        originalPGA: 4.573
+        amatuer: 5.167,
     }, {
         lie: 't',
         distance: 527,
         pgaTour: 4.579,
-        eighty: 5.173,
-        ninety: 5.729,
-        oneHundred: 6.285,
-        originalPGA: 4.579
+        amatuer: 5.173,
     }, {
         lie: 't',
         distance: 528,
         pgaTour: 4.584,
-        eighty: 5.178,
-        ninety: 5.734,
-        oneHundred: 6.29,
-        originalPGA: 4.584
+        amatuer: 5.178,
     }, {
         lie: 't',
         distance: 529,
         pgaTour: 4.59,
-        eighty: 5.184,
-        ninety: 5.74,
-        oneHundred: 6.296,
-        originalPGA: 4.59
+        amatuer: 5.184,
     }, {
         lie: 't',
         distance: 530,
         pgaTour: 4.595,
-        eighty: 5.189,
-        ninety: 5.745,
-        oneHundred: 6.301,
-        originalPGA: 4.595
+        amatuer: 5.189,
     }, {
         lie: 't',
         distance: 531,
         pgaTour: 4.601,
-        eighty: 5.195,
-        ninety: 5.751,
-        oneHundred: 6.307,
-        originalPGA: 4.601
+        amatuer: 5.195,
     }, {
         lie: 't',
         distance: 532,
         pgaTour: 4.606,
-        eighty: 5.2,
-        ninety: 5.756,
-        oneHundred: 6.312,
-        originalPGA: 4.606
+        amatuer: 5.2,
     }, {
         lie: 't',
         distance: 533,
         pgaTour: 4.612,
-        eighty: 5.206,
-        ninety: 5.762,
-        oneHundred: 6.318,
-        originalPGA: 4.612
+        amatuer: 5.206,
     }, {
         lie: 't',
         distance: 534,
         pgaTour: 4.617,
-        eighty: 5.211,
-        ninety: 5.767,
-        oneHundred: 6.323,
-        originalPGA: 4.617
+        amatuer: 5.211,
     }, {
         lie: 't',
         distance: 535,
         pgaTour: 4.623,
-        eighty: 5.217,
-        ninety: 5.773,
-        oneHundred: 6.329,
-        originalPGA: 4.623
+        amatuer: 5.217,
     }, {
         lie: 't',
         distance: 536,
         pgaTour: 4.628,
-        eighty: 5.222,
-        ninety: 5.778,
-        oneHundred: 6.334,
-        originalPGA: 4.628
+        amatuer: 5.222,
     }, {
         lie: 't',
         distance: 537,
         pgaTour: 4.634,
-        eighty: 5.228,
-        ninety: 5.784,
-        oneHundred: 6.34,
-        originalPGA: 4.634
+        amatuer: 5.228,
     }, {
         lie: 't',
         distance: 538,
         pgaTour: 4.639,
-        eighty: 5.233,
-        ninety: 5.789,
-        oneHundred: 6.345,
-        originalPGA: 4.639
+        amatuer: 5.233,
     }, {
         lie: 't',
         distance: 539,
         pgaTour: 4.645,
-        eighty: 5.239,
-        ninety: 5.795,
-        oneHundred: 6.351,
-        originalPGA: 4.645
+        amatuer: 5.239,
     }, {
         lie: 't',
         distance: 540,
         pgaTour: 4.65,
-        eighty: 5.244,
-        ninety: 5.8,
-        oneHundred: 6.356,
-        originalPGA: 4.65
+        amatuer: 5.244,
     }, {
         lie: 't',
         distance: 541,
         pgaTour: 4.655,
-        eighty: 5.249,
-        ninety: 5.805,
-        oneHundred: 6.361,
-        originalPGA: 4.655
+        amatuer: 5.249,
     }, {
         lie: 't',
         distance: 542,
         pgaTour: 4.659,
-        eighty: 5.253,
-        ninety: 5.809,
-        oneHundred: 6.365,
-        originalPGA: 4.659
+        amatuer: 5.253,
     }, {
         lie: 't',
         distance: 543,
         pgaTour: 4.664,
-        eighty: 5.258,
-        ninety: 5.814,
-        oneHundred: 6.37,
-        originalPGA: 4.664
+        amatuer: 5.258,
     }, {
         lie: 't',
         distance: 544,
         pgaTour: 4.668,
-        eighty: 5.262,
-        ninety: 5.818,
-        oneHundred: 6.374,
-        originalPGA: 4.668
+        amatuer: 5.262,
     }, {
         lie: 't',
         distance: 545,
         pgaTour: 4.673,
-        eighty: 5.267,
-        ninety: 5.823,
-        oneHundred: 6.379,
-        originalPGA: 4.673
+        amatuer: 5.267,
     }, {
         lie: 't',
         distance: 546,
         pgaTour: 4.677,
-        eighty: 5.271,
-        ninety: 5.827,
-        oneHundred: 6.383,
-        originalPGA: 4.677
+        amatuer: 5.271,
     }, {
         lie: 't',
         distance: 547,
         pgaTour: 4.682,
-        eighty: 5.276,
-        ninety: 5.832,
-        oneHundred: 6.388,
-        originalPGA: 4.682
+        amatuer: 5.276,
     }, {
         lie: 't',
         distance: 548,
         pgaTour: 4.686,
-        eighty: 5.28,
-        ninety: 5.836,
-        oneHundred: 6.392,
-        originalPGA: 4.686
+        amatuer: 5.28,
     }, {
         lie: 't',
         distance: 549,
         pgaTour: 4.691,
-        eighty: 5.285,
-        ninety: 5.841,
-        oneHundred: 6.397,
-        originalPGA: 4.691
+        amatuer: 5.285,
     }, {
         lie: 't',
         distance: 550,
         pgaTour: 4.695,
-        eighty: 5.289,
-        ninety: 5.845,
-        oneHundred: 6.401,
-        originalPGA: 4.695
+        amatuer: 5.289,
     }, {
         lie: 't',
         distance: 551,
         pgaTour: 4.7,
-        eighty: 5.294,
-        ninety: 5.85,
-        oneHundred: 6.406,
-        originalPGA: 4.7
+        amatuer: 5.294,
     }, {
         lie: 't',
         distance: 552,
         pgaTour: 4.704,
-        eighty: 5.298,
-        ninety: 5.854,
-        oneHundred: 6.41,
-        originalPGA: 4.704
+        amatuer: 5.298,
     }, {
         lie: 't',
         distance: 553,
         pgaTour: 4.709,
-        eighty: 5.303,
-        ninety: 5.859,
-        oneHundred: 6.415,
-        originalPGA: 4.709
+        amatuer: 5.303,
     }, {
         lie: 't',
         distance: 554,
         pgaTour: 4.713,
-        eighty: 5.307,
-        ninety: 5.863,
-        oneHundred: 6.419,
-        originalPGA: 4.713
+        amatuer: 5.307,
     }, {
         lie: 't',
         distance: 555,
         pgaTour: 4.718,
-        eighty: 5.312,
-        ninety: 5.868,
-        oneHundred: 6.424,
-        originalPGA: 4.718
+        amatuer: 5.312,
     }, {
         lie: 't',
         distance: 556,
         pgaTour: 4.722,
-        eighty: 5.316,
-        ninety: 5.872,
-        oneHundred: 6.428,
-        originalPGA: 4.722
+        amatuer: 5.316,
     }, {
         lie: 't',
         distance: 557,
         pgaTour: 4.727,
-        eighty: 5.321,
-        ninety: 5.877,
-        oneHundred: 6.433,
-        originalPGA: 4.727
+        amatuer: 5.321,
     }, {
         lie: 't',
         distance: 558,
         pgaTour: 4.731,
-        eighty: 5.325,
-        ninety: 5.881,
-        oneHundred: 6.437,
-        originalPGA: 4.731
+        amatuer: 5.325,
     }, {
         lie: 't',
         distance: 559,
         pgaTour: 4.736,
-        eighty: 5.33,
-        ninety: 5.886,
-        oneHundred: 6.442,
-        originalPGA: 4.736
+        amatuer: 5.33,
     }, {
         lie: 't',
         distance: 560,
         pgaTour: 4.74,
-        eighty: 5.334,
-        ninety: 5.89,
-        oneHundred: 6.446,
-        originalPGA: 4.74
+        amatuer: 5.334,
     }, {
         lie: 't',
         distance: 561,
         pgaTour: 4.743,
-        eighty: 5.337,
-        ninety: 5.893,
-        oneHundred: 6.449,
-        originalPGA: 4.743
+        amatuer: 5.337,
     }, {
         lie: 't',
         distance: 562,
         pgaTour: 4.745,
-        eighty: 5.339,
-        ninety: 5.895,
-        oneHundred: 6.451,
-        originalPGA: 4.745
+        amatuer: 5.339,
     }, {
         lie: 't',
         distance: 563,
         pgaTour: 4.748,
-        eighty: 5.342,
-        ninety: 5.898,
-        oneHundred: 6.454,
-        originalPGA: 4.748
+        amatuer: 5.342,
     }, {
         lie: 't',
         distance: 564,
         pgaTour: 4.75,
-        eighty: 5.344,
-        ninety: 5.9,
-        oneHundred: 6.456,
-        originalPGA: 4.75
+        amatuer: 5.344,
     }, {
         lie: 't',
         distance: 565,
         pgaTour: 4.753,
-        eighty: 5.347,
-        ninety: 5.903,
-        oneHundred: 6.459,
-        originalPGA: 4.753
+        amatuer: 5.347,
     }, {
         lie: 't',
         distance: 566,
         pgaTour: 4.755,
-        eighty: 5.349,
-        ninety: 5.905,
-        oneHundred: 6.461,
-        originalPGA: 4.755
+        amatuer: 5.349,
     }, {
         lie: 't',
         distance: 567,
         pgaTour: 4.758,
-        eighty: 5.352,
-        ninety: 5.908,
-        oneHundred: 6.464,
-        originalPGA: 4.758
+        amatuer: 5.352,
     }, {
         lie: 't',
         distance: 568,
         pgaTour: 4.76,
-        eighty: 5.354,
-        ninety: 5.91,
-        oneHundred: 6.466,
-        originalPGA: 4.76
+        amatuer: 5.354,
     }, {
         lie: 't',
         distance: 569,
         pgaTour: 4.763,
-        eighty: 5.357,
-        ninety: 5.913,
-        oneHundred: 6.469,
-        originalPGA: 4.763
+        amatuer: 5.357,
     }, {
         lie: 't',
         distance: 570,
         pgaTour: 4.765,
-        eighty: 5.359,
-        ninety: 5.915,
-        oneHundred: 6.471,
-        originalPGA: 4.765
+        amatuer: 5.359,
     }, {
         lie: 't',
         distance: 571,
         pgaTour: 4.768,
-        eighty: 5.362,
-        ninety: 5.918,
-        oneHundred: 6.474,
-        originalPGA: 4.768
+        amatuer: 5.362,
     }, {
         lie: 't',
         distance: 572,
         pgaTour: 4.77,
-        eighty: 5.364,
-        ninety: 5.92,
-        oneHundred: 6.476,
-        originalPGA: 4.77
+        amatuer: 5.364,
     }, {
         lie: 't',
         distance: 573,
         pgaTour: 4.773,
-        eighty: 5.367,
-        ninety: 5.923,
-        oneHundred: 6.479,
-        originalPGA: 4.773
+        amatuer: 5.367,
     }, {
         lie: 't',
         distance: 574,
         pgaTour: 4.775,
-        eighty: 5.369,
-        ninety: 5.925,
-        oneHundred: 6.481,
-        originalPGA: 4.775
+        amatuer: 5.369,
     }, {
         lie: 't',
         distance: 575,
         pgaTour: 4.778,
-        eighty: 5.372,
-        ninety: 5.928,
-        oneHundred: 6.484,
-        originalPGA: 4.778
+        amatuer: 5.372,
     }, {
         lie: 't',
         distance: 576,
         pgaTour: 4.78,
-        eighty: 5.374,
-        ninety: 5.93,
-        oneHundred: 6.486,
-        originalPGA: 4.78
+        amatuer: 5.374,
     }, {
         lie: 't',
         distance: 577,
         pgaTour: 4.783,
-        eighty: 5.377,
-        ninety: 5.933,
-        oneHundred: 6.489,
-        originalPGA: 4.783
+        amatuer: 5.377,
     }, {
         lie: 't',
         distance: 578,
         pgaTour: 4.785,
-        eighty: 5.379,
-        ninety: 5.935,
-        oneHundred: 6.491,
-        originalPGA: 4.785
+        amatuer: 5.379,
     }, {
         lie: 't',
         distance: 579,
         pgaTour: 4.788,
-        eighty: 5.382,
-        ninety: 5.938,
-        oneHundred: 6.494,
-        originalPGA: 4.788
+        amatuer: 5.382,
     }, {
         lie: 't',
         distance: 580,
         pgaTour: 4.79,
-        eighty: 5.384,
-        ninety: 5.94,
-        oneHundred: 6.496,
-        originalPGA: 4.79
+        amatuer: 5.384,
     }, {
         lie: 't',
         distance: 581,
         pgaTour: 4.792,
-        eighty: 5.386,
-        ninety: 5.942,
-        oneHundred: 6.498,
-        originalPGA: 4.792
+        amatuer: 5.386,
     }, {
         lie: 't',
         distance: 582,
         pgaTour: 4.793,
-        eighty: 5.387,
-        ninety: 5.943,
-        oneHundred: 6.499,
-        originalPGA: 4.793
+        amatuer: 5.387,
     }, {
         lie: 't',
         distance: 583,
         pgaTour: 4.795,
-        eighty: 5.389,
-        ninety: 5.945,
-        oneHundred: 6.501,
-        originalPGA: 4.795
+        amatuer: 5.389,
     }, {
         lie: 't',
         distance: 584,
         pgaTour: 4.796,
-        eighty: 5.39,
-        ninety: 5.946,
-        oneHundred: 6.502,
-        originalPGA: 4.796
+        amatuer: 5.39,
     }, {
         lie: 't',
         distance: 585,
         pgaTour: 4.798,
-        eighty: 5.392,
-        ninety: 5.948,
-        oneHundred: 6.504,
-        originalPGA: 4.798
+        amatuer: 5.392,
     }, {
         lie: 't',
         distance: 586,
         pgaTour: 4.799,
-        eighty: 5.393,
-        ninety: 5.949,
-        oneHundred: 6.505,
-        originalPGA: 4.799
+        amatuer: 5.393,
     }, {
         lie: 't',
         distance: 587,
         pgaTour: 4.801,
-        eighty: 5.395,
-        ninety: 5.951,
-        oneHundred: 6.507,
-        originalPGA: 4.801
+        amatuer: 5.395,
     }, {
         lie: 't',
         distance: 588,
         pgaTour: 4.802,
-        eighty: 5.396,
-        ninety: 5.952,
-        oneHundred: 6.508,
-        originalPGA: 4.802
+        amatuer: 5.396,
     }, {
         lie: 't',
         distance: 589,
         pgaTour: 4.804,
-        eighty: 5.398,
-        ninety: 5.954,
-        oneHundred: 6.51,
-        originalPGA: 4.804
+        amatuer: 5.398,
     }, {
         lie: 't',
         distance: 590,
         pgaTour: 4.805,
-        eighty: 5.399,
-        ninety: 5.955,
-        oneHundred: 6.511,
-        originalPGA: 4.805
+        amatuer: 5.399,
     }, {
         lie: 't',
         distance: 591,
         pgaTour: 4.807,
-        eighty: 5.401,
-        ninety: 5.957,
-        oneHundred: 6.513,
-        originalPGA: 4.807
+        amatuer: 5.401,
     }, {
         lie: 't',
         distance: 592,
         pgaTour: 4.808,
-        eighty: 5.402,
-        ninety: 5.958,
-        oneHundred: 6.514,
-        originalPGA: 4.808
+        amatuer: 5.402,
     }, {
         lie: 't',
         distance: 593,
         pgaTour: 4.81,
-        eighty: 5.404,
-        ninety: 5.96,
-        oneHundred: 6.516,
-        originalPGA: 4.81
+        amatuer: 5.404,
     }, {
         lie: 't',
         distance: 594,
         pgaTour: 4.811,
-        eighty: 5.405,
-        ninety: 5.961,
-        oneHundred: 6.517,
-        originalPGA: 4.811
+        amatuer: 5.405,
     }, {
         lie: 't',
         distance: 595,
         pgaTour: 4.813,
-        eighty: 5.407,
-        ninety: 5.963,
-        oneHundred: 6.519,
-        originalPGA: 4.813
+        amatuer: 5.407,
     }, {
         lie: 't',
         distance: 596,
         pgaTour: 4.814,
-        eighty: 5.408,
-        ninety: 5.964,
-        oneHundred: 6.52,
-        originalPGA: 4.814
+        amatuer: 5.408,
     }, {
         lie: 't',
         distance: 597,
         pgaTour: 4.816,
-        eighty: 5.41,
-        ninety: 5.966,
-        oneHundred: 6.522,
-        originalPGA: 4.816
+        amatuer: 5.41,
     }, {
         lie: 't',
         distance: 598,
         pgaTour: 4.817,
-        eighty: 5.411,
-        ninety: 5.967,
-        oneHundred: 6.523,
-        originalPGA: 4.817
+        amatuer: 5.411,
     }, {
         lie: 't',
         distance: 599,
         pgaTour: 4.819,
-        eighty: 5.413,
-        ninety: 5.969,
-        oneHundred: 6.525,
-        originalPGA: 4.819
+        amatuer: 5.413,
     }, {
         lie: 't',
         distance: 600,
         pgaTour: 4.82,
-        eighty: 5.414,
-        ninety: 5.97,
-        oneHundred: 6.526,
-        originalPGA: 4.82
+        amatuer: 5.414,
     }, {
         lie: 't',
         distance: 601,
         pgaTour: 4.821,
-        eighty: 5.415,
-        ninety: 5.971,
-        oneHundred: 6.527,
-        originalPGA: 4.821
+        amatuer: 5.415,
     }, {
         lie: 't',
         distance: 602,
         pgaTour: 4.823,
-        eighty: 5.417,
-        ninety: 5.973,
-        oneHundred: 6.529,
-        originalPGA: 4.823
+        amatuer: 5.417,
     }, {
         lie: 't',
         distance: 603,
         pgaTour: 4.824,
-        eighty: 5.418,
-        ninety: 5.974,
-        oneHundred: 6.53,
-        originalPGA: 4.824
+        amatuer: 5.418,
     }, {
         lie: 't',
         distance: 604,
         pgaTour: 4.825,
-        eighty: 5.419,
-        ninety: 5.975,
-        oneHundred: 6.531,
-        originalPGA: 4.825
+        amatuer: 5.419,
     }, {
         lie: 't',
         distance: 605,
         pgaTour: 4.826,
-        eighty: 5.42,
-        ninety: 5.976,
-        oneHundred: 6.532,
-        originalPGA: 4.826
+        amatuer: 5.42,
     }, {
         lie: 't',
         distance: 606,
         pgaTour: 4.828,
-        eighty: 5.422,
-        ninety: 5.978,
-        oneHundred: 6.534,
-        originalPGA: 4.828
+        amatuer: 5.422,
     }, {
         lie: 't',
         distance: 607,
         pgaTour: 4.829,
-        eighty: 5.423,
-        ninety: 5.979,
-        oneHundred: 6.535,
-        originalPGA: 4.829
+        amatuer: 5.423,
     }, {
         lie: 't',
         distance: 608,
         pgaTour: 4.83,
-        eighty: 5.424,
-        ninety: 5.98,
-        oneHundred: 6.536,
-        originalPGA: 4.83
+        amatuer: 5.424,
     }, {
         lie: 't',
         distance: 609,
         pgaTour: 4.831,
-        eighty: 5.425,
-        ninety: 5.981,
-        oneHundred: 6.537,
-        originalPGA: 4.831
+        amatuer: 5.425,
     }, {
         lie: 't',
         distance: 610,
         pgaTour: 4.833,
-        eighty: 5.427,
-        ninety: 5.983,
-        oneHundred: 6.539,
-        originalPGA: 4.833
+        amatuer: 5.427,
     }, {
         lie: 't',
         distance: 611,
         pgaTour: 4.834,
-        eighty: 5.428,
-        ninety: 5.984,
-        oneHundred: 6.54,
-        originalPGA: 4.834
+        amatuer: 5.428,
     }, {
         lie: 't',
         distance: 612,
         pgaTour: 4.835,
-        eighty: 5.429,
-        ninety: 5.985,
-        oneHundred: 6.541,
-        originalPGA: 4.835
+        amatuer: 5.429,
     }, {
         lie: 't',
         distance: 613,
         pgaTour: 4.836,
-        eighty: 5.43,
-        ninety: 5.986,
-        oneHundred: 6.542,
-        originalPGA: 4.836
+        amatuer: 5.43,
     }, {
         lie: 't',
         distance: 614,
         pgaTour: 4.838,
-        eighty: 5.432,
-        ninety: 5.988,
-        oneHundred: 6.544,
-        originalPGA: 4.838
+        amatuer: 5.432,
     }, {
         lie: 't',
         distance: 615,
         pgaTour: 4.839,
-        eighty: 5.433,
-        ninety: 5.989,
-        oneHundred: 6.545,
-        originalPGA: 4.839
+        amatuer: 5.433,
     }, {
         lie: 't',
         distance: 616,
         pgaTour: 4.84,
-        eighty: 5.434,
-        ninety: 5.99,
-        oneHundred: 6.546,
-        originalPGA: 4.84
+        amatuer: 5.434,
     }, {
         lie: 't',
         distance: 617,
         pgaTour: 4.841,
-        eighty: 5.435,
-        ninety: 5.991,
-        oneHundred: 6.547,
-        originalPGA: 4.841
+        amatuer: 5.435,
     }, {
         lie: 't',
         distance: 618,
         pgaTour: 4.843,
-        eighty: 5.437,
-        ninety: 5.993,
-        oneHundred: 6.549,
-        originalPGA: 4.843
+        amatuer: 5.437,
     }, {
         lie: 't',
         distance: 619,
         pgaTour: 4.844,
-        eighty: 5.438,
-        ninety: 5.994,
-        oneHundred: 6.55,
-        originalPGA: 4.844
+        amatuer: 5.438,
     }, {
         lie: 't',
         distance: 620,
         pgaTour: 4.845,
-        eighty: 5.439,
-        ninety: 5.995,
-        oneHundred: 6.551,
-        originalPGA: 4.845
+        amatuer: 5.439,
     }, {
         lie: 't',
         distance: 621,
         pgaTour: 4.846,
-        eighty: 5.44,
-        ninety: 5.996,
-        oneHundred: 6.552,
-        originalPGA: 4.846
+        amatuer: 5.44,
     }, {
         lie: 't',
         distance: 622,
         pgaTour: 4.847,
-        eighty: 5.441,
-        ninety: 5.997,
-        oneHundred: 6.553,
-        originalPGA: 4.847
+        amatuer: 5.441,
     }, {
         lie: 't',
         distance: 623,
         pgaTour: 4.848,
-        eighty: 5.442,
-        ninety: 5.998,
-        oneHundred: 6.554,
-        originalPGA: 4.848
+        amatuer: 5.442,
     }, {
         lie: 't',
         distance: 624,
         pgaTour: 4.849,
-        eighty: 5.443,
-        ninety: 5.999,
-        oneHundred: 6.555,
-        originalPGA: 4.849
+        amatuer: 5.443,
     }, {
         lie: 't',
         distance: 625,
         pgaTour: 4.85,
-        eighty: 5.444,
-        ninety: 6,
-        oneHundred: 6.556,
-        originalPGA: 4.85
+        amatuer: 5.444,
     }, {
         lie: 't',
         distance: 626,
         pgaTour: 4.851,
-        eighty: 5.445,
-        ninety: 6.001,
-        oneHundred: 6.557,
-        originalPGA: 4.851
+        amatuer: 5.445,
     }, {
         lie: 't',
         distance: 627,
         pgaTour: 4.852,
-        eighty: 5.446,
-        ninety: 6.002,
-        oneHundred: 6.558,
-        originalPGA: 4.852
+        amatuer: 5.446,
     }, {
         lie: 't',
         distance: 628,
         pgaTour: 4.853,
-        eighty: 5.447,
-        ninety: 6.003,
-        oneHundred: 6.559,
-        originalPGA: 4.853
+        amatuer: 5.447,
     }, {
         lie: 't',
         distance: 629,
         pgaTour: 4.854,
-        eighty: 5.448,
-        ninety: 6.004,
-        oneHundred: 6.56,
-        originalPGA: 4.854
+        amatuer: 5.448,
     }, {
         lie: 't',
         distance: 630,
         pgaTour: 4.855,
-        eighty: 5.449,
-        ninety: 6.005,
-        oneHundred: 6.561,
-        originalPGA: 4.855
+        amatuer: 5.449,
     }, {
         lie: 't',
         distance: 631,
         pgaTour: 4.856,
-        eighty: 5.45,
-        ninety: 6.006,
-        oneHundred: 6.562,
-        originalPGA: 4.856
+        amatuer: 5.45,
     }, {
         lie: 't',
         distance: 632,
         pgaTour: 4.857,
-        eighty: 5.451,
-        ninety: 6.007,
-        oneHundred: 6.563,
-        originalPGA: 4.857
+        amatuer: 5.451,
     }, {
         lie: 't',
         distance: 633,
         pgaTour: 4.858,
-        eighty: 5.452,
-        ninety: 6.008,
-        oneHundred: 6.564,
-        originalPGA: 4.858
+        amatuer: 5.452,
     }, {
         lie: 't',
         distance: 634,
         pgaTour: 4.859,
-        eighty: 5.453,
-        ninety: 6.009,
-        oneHundred: 6.565,
-        originalPGA: 4.859
+        amatuer: 5.453,
     }, {
         lie: 't',
         distance: 635,
         pgaTour: 4.86,
-        eighty: 5.454,
-        ninety: 6.01,
-        oneHundred: 6.566,
-        originalPGA: 4.86
+        amatuer: 5.454,
     }, {
         lie: 't',
         distance: 636,
         pgaTour: 4.861,
-        eighty: 5.455,
-        ninety: 6.011,
-        oneHundred: 6.567,
-        originalPGA: 4.861
+        amatuer: 5.455,
     }, {
         lie: 't',
         distance: 637,
         pgaTour: 4.862,
-        eighty: 5.456,
-        ninety: 6.012,
-        oneHundred: 6.568,
-        originalPGA: 4.862
+        amatuer: 5.456,
     }, {
         lie: 't',
         distance: 638,
         pgaTour: 4.863,
-        eighty: 5.457,
-        ninety: 6.013,
-        oneHundred: 6.569,
-        originalPGA: 4.863
+        amatuer: 5.457,
     }, {
         lie: 't',
         distance: 639,
         pgaTour: 4.864,
-        eighty: 5.458,
-        ninety: 6.014,
-        oneHundred: 6.57,
-        originalPGA: 4.864
+        amatuer: 5.458,
     }, {
         lie: 't',
         distance: 640,
         pgaTour: 4.865,
-        eighty: 5.459,
-        ninety: 6.015,
-        oneHundred: 6.571,
-        originalPGA: 4.865
+        amatuer: 5.459,
     }, {
         lie: 't',
         distance: 641,
         pgaTour: 4.922,
-        eighty: 5.516,
-        ninety: 6.072,
-        oneHundred: 6.628,
-        originalPGA: 4.922
+        amatuer: 5.516,
     }, {
         lie: 't',
         distance: 642,
         pgaTour: 4.979,
-        eighty: 5.573,
-        ninety: 6.129,
-        oneHundred: 6.685,
-        originalPGA: 4.979
+        amatuer: 5.573,
     }, {
         lie: 't',
         distance: 643,
         pgaTour: 5.035,
-        eighty: 5.629,
-        ninety: 6.185,
-        oneHundred: 6.741,
-        originalPGA: 5.035
+        amatuer: 5.629,
     }, {
         lie: 't',
         distance: 644,
         pgaTour: 5.092,
-        eighty: 5.686,
-        ninety: 6.242,
-        oneHundred: 6.798,
-        originalPGA: 5.092
+        amatuer: 5.686,
     }, {
         lie: 't',
         distance: 645,
         pgaTour: 5.149,
-        eighty: 5.743,
-        ninety: 6.299,
-        oneHundred: 6.855,
-        originalPGA: 5.149
+        amatuer: 5.743,
     }, {
         lie: 't',
         distance: 646,
         pgaTour: 5.206,
-        eighty: 5.8,
-        ninety: 6.356,
-        oneHundred: 6.912,
-        originalPGA: 5.206
+        amatuer: 5.8,
     }, {
         lie: 't',
         distance: 647,
         pgaTour: 5.262,
-        eighty: 5.856,
-        ninety: 6.412,
-        oneHundred: 6.968,
-        originalPGA: 5.262
+        amatuer: 5.856,
     }, {
         lie: 't',
         distance: 648,
         pgaTour: 5.319,
-        eighty: 5.913,
-        ninety: 6.469,
-        oneHundred: 7.025,
-        originalPGA: 5.319
+        amatuer: 5.913,
     }, {
         lie: 't',
         distance: 649,
         pgaTour: 5.376,
-        eighty: 5.97,
-        ninety: 6.526,
-        oneHundred: 7.082,
-        originalPGA: 5.376
+        amatuer: 5.97,
     }, {
         lie: 't',
         distance: 650,
         pgaTour: 5.433,
-        eighty: 6.027,
-        ninety: 6.583,
-        oneHundred: 7.139,
-        originalPGA: 5.433
+        amatuer: 6.027,
     }, {
         lie: 't',
         distance: 651,
         pgaTour: 5.489,
-        eighty: 6.083,
-        ninety: 6.639,
-        oneHundred: 7.195,
-        originalPGA: 5.489
+        amatuer: 6.083,
     }, {
         lie: 't',
         distance: 652,
         pgaTour: 5.546,
-        eighty: 6.14,
-        ninety: 6.696,
-        oneHundred: 7.252,
-        originalPGA: 5.546
+        amatuer: 6.14,
     }, {
         lie: 't',
         distance: 653,
         pgaTour: 5.603,
-        eighty: 6.197,
-        ninety: 6.753,
-        oneHundred: 7.309,
-        originalPGA: 5.603
+        amatuer: 6.197,
     }, {
         lie: 't',
         distance: 654,
         pgaTour: 5.66,
-        eighty: 6.254,
-        ninety: 6.81,
-        oneHundred: 7.366,
-        originalPGA: 5.66
+        amatuer: 6.254,
     }, {
         lie: 't',
         distance: 655,
         pgaTour: 5.716,
-        eighty: 6.31,
-        ninety: 6.866,
-        oneHundred: 7.422,
-        originalPGA: 5.716
+        amatuer: 6.31,
     }, {
         lie: 't',
         distance: 656,
         pgaTour: 5.773,
-        eighty: 6.367,
-        ninety: 6.923,
-        oneHundred: 7.479,
-        originalPGA: 5.773
+        amatuer: 6.367,
     }, {
         lie: 't',
         distance: 657,
         pgaTour: 5.83,
-        eighty: 6.424,
-        ninety: 6.98,
-        oneHundred: 7.536,
-        originalPGA: 5.83
+        amatuer: 6.424,
     }, {
         lie: 't',
         distance: 658,
         pgaTour: 5.887,
-        eighty: 6.481,
-        ninety: 7.037,
-        oneHundred: 7.593,
-        originalPGA: 5.887
+        amatuer: 6.481,
     }, {
         lie: 't',
         distance: 659,
         pgaTour: 5.943,
-        eighty: 6.537,
-        ninety: 7.093,
-        oneHundred: 7.649,
-        originalPGA: 5.943
+        amatuer: 6.537,
     }, {
         lie: 't',
         distance: 660,
         pgaTour: 6,
-        eighty: 6.594,
-        ninety: 7.15,
-        oneHundred: 7.706,
-        originalPGA: 6
+        amatuer: 6.594,
     },
     // FAIRWAY
     {
         lie: 'f',
         distance: 1,
         pgaTour: 1.263,
-        eighty: 2.194,
-        ninety: 2.75,
-        oneHundred: 3.306,
-        originalPGA: 1.6
+        amatuer: 2.194,
     }, {
         lie: 'f',
         distance: 2,
         pgaTour: 1.554,
-        eighty: 2.394,
-        ninety: 2.95,
-        oneHundred: 3.506,
-        originalPGA: 1.8
+        amatuer: 2.394,
     }, {
         lie: 'f',
         distance: 3,
         pgaTour: 1.767,
-        eighty: 2.594,
-        ninety: 3.15,
-        oneHundred: 3.706,
-        originalPGA: 2
+        amatuer: 2.594,
     }, {
         lie: 'f',
         distance: 4,
         pgaTour: 1.911,
-        eighty: 2.661,
-        ninety: 3.217,
-        oneHundred: 3.773,
-        originalPGA: 2.067
+        amatuer: 2.661,
     }, {
         lie: 'f',
         distance: 5,
         pgaTour: 1.991,
-        eighty: 2.663,
-        ninety: 3.219,
-        oneHundred: 3.775,
-        originalPGA: 2.069
+        amatuer: 2.663,
     }, {
         lie: 'f',
         distance: 6,
         pgaTour: 2.05,
-        eighty: 2.665,
-        ninety: 3.221,
-        oneHundred: 3.777,
-        originalPGA: 2.071
+        amatuer: 2.665,
     }, {
         lie: 'f',
         distance: 7,
         pgaTour: 2.09,
-        eighty: 2.667,
-        ninety: 3.223,
-        oneHundred: 3.779,
-        originalPGA: 2.073
+        amatuer: 2.667,
     }, {
         lie: 'f',
         distance: 8,
         pgaTour: 2.128,
-        eighty: 2.669,
-        ninety: 3.225,
-        oneHundred: 3.781,
-        originalPGA: 2.075
+        amatuer: 2.669,
     }, {
         lie: 'f',
         distance: 9,
         pgaTour: 2.162,
-        eighty: 2.671,
-        ninety: 3.227,
-        oneHundred: 3.783,
-        originalPGA: 2.077
+        amatuer: 2.671,
     }, {
         lie: 'f',
         distance: 10,
         pgaTour: 2.18,
-        eighty: 2.673,
-        ninety: 3.229,
-        oneHundred: 3.785,
-        originalPGA: 2.079
+        amatuer: 2.673,
     }, {
         lie: 'f',
         distance: 11,
         pgaTour: 2.216,
-        eighty: 2.675,
-        ninety: 3.231,
-        oneHundred: 3.787,
-        originalPGA: 2.081
+        amatuer: 2.675,
     }, {
         lie: 'f',
         distance: 12,
         pgaTour: 2.242,
-        eighty: 2.677,
-        ninety: 3.233,
-        oneHundred: 3.789,
-        originalPGA: 2.083
+        amatuer: 2.677,
     }, {
         lie: 'f',
         distance: 13,
         pgaTour: 2.262,
-        eighty: 2.679,
-        ninety: 3.235,
-        oneHundred: 3.791,
-        originalPGA: 2.085
+        amatuer: 2.679,
     }, {
         lie: 'f',
         distance: 14,
         pgaTour: 2.287,
-        eighty: 2.681,
-        ninety: 3.237,
-        oneHundred: 3.793,
-        originalPGA: 2.087
+        amatuer: 2.681,
     }, {
         lie: 'f',
         distance: 15,
         pgaTour: 2.31,
-        eighty: 2.683,
-        ninety: 3.239,
-        oneHundred: 3.795,
-        originalPGA: 2.089
+        amatuer: 2.683,
     }, {
         lie: 'f',
         distance: 16,
         pgaTour: 2.33,
-        eighty: 2.685,
-        ninety: 3.241,
-        oneHundred: 3.797,
-        originalPGA: 2.091
+        amatuer: 2.685,
     }, {
         lie: 'f',
         distance: 17,
         pgaTour: 2.351,
-        eighty: 2.687,
-        ninety: 3.243,
-        oneHundred: 3.799,
-        originalPGA: 2.093
+        amatuer: 2.687,
     }, {
         lie: 'f',
         distance: 18,
         pgaTour: 2.358,
-        eighty: 2.689,
-        ninety: 3.245,
-        oneHundred: 3.801,
-        originalPGA: 2.095
+        amatuer: 2.689,
     }, {
         lie: 'f',
         distance: 19,
         pgaTour: 2.373,
-        eighty: 2.691,
-        ninety: 3.247,
-        oneHundred: 3.803,
-        originalPGA: 2.097
+        amatuer: 2.691,
     }, {
         lie: 'f',
         distance: 20,
         pgaTour: 2.4,
-        eighty: 2.694,
-        ninety: 3.25,
-        oneHundred: 3.806,
-        originalPGA: 2.1
+        amatuer: 2.694,
     }, {
         lie: 'f',
         distance: 21,
         pgaTour: 2.416,
-        eighty: 2.719,
-        ninety: 3.275,
-        oneHundred: 3.831,
-        originalPGA: 2.125
+        amatuer: 2.719,
     }, {
         lie: 'f',
         distance: 22,
         pgaTour: 2.427,
-        eighty: 2.744,
-        ninety: 3.3,
-        oneHundred: 3.856,
-        originalPGA: 2.15
+        amatuer: 2.744,
     }, {
         lie: 'f',
         distance: 23,
         pgaTour: 2.439,
-        eighty: 2.769,
-        ninety: 3.325,
-        oneHundred: 3.881,
-        originalPGA: 2.175
+        amatuer: 2.769,
     }, {
         lie: 'f',
         distance: 24,
         pgaTour: 2.45,
-        eighty: 2.794,
-        ninety: 3.35,
-        oneHundred: 3.906,
-        originalPGA: 2.2
+        amatuer: 2.794,
     }, {
         lie: 'f',
         distance: 25,
         pgaTour: 2.46,
-        eighty: 2.819,
-        ninety: 3.375,
-        oneHundred: 3.931,
-        originalPGA: 2.225
+        amatuer: 2.819,
     }, {
         lie: 'f',
         distance: 26,
         pgaTour: 2.471,
-        eighty: 2.844,
-        ninety: 3.4,
-        oneHundred: 3.956,
-        originalPGA: 2.25
+        amatuer: 2.844,
     }, {
         lie: 'f',
         distance: 27,
         pgaTour: 2.483,
-        eighty: 2.869,
-        ninety: 3.425,
-        oneHundred: 3.981,
-        originalPGA: 2.275
+        amatuer: 2.869,
     }, {
         lie: 'f',
         distance: 28,
         pgaTour: 2.494,
-        eighty: 2.894,
-        ninety: 3.45,
-        oneHundred: 4.006,
-        originalPGA: 2.3
+        amatuer: 2.894,
     }, {
         lie: 'f',
         distance: 29,
         pgaTour: 2.507,
-        eighty: 2.919,
-        ninety: 3.475,
-        oneHundred: 4.031,
-        originalPGA: 2.325
+        amatuer: 2.919,
     }, {
         lie: 'f',
         distance: 30,
         pgaTour: 2.52,
-        eighty: 2.944,
-        ninety: 3.5,
-        oneHundred: 4.056,
-        originalPGA: 2.35
+        amatuer: 2.944,
     }, {
         lie: 'f',
         distance: 31,
         pgaTour: 2.526,
-        eighty: 2.969,
-        ninety: 3.525,
-        oneHundred: 4.081,
-        originalPGA: 2.375
+        amatuer: 2.969,
     }, {
         lie: 'f',
         distance: 32,
         pgaTour: 2.531,
-        eighty: 2.994,
-        ninety: 3.55,
-        oneHundred: 4.106,
-        originalPGA: 2.4
+        amatuer: 2.994,
     }, {
         lie: 'f',
         distance: 33,
         pgaTour: 2.537,
-        eighty: 3.019,
-        ninety: 3.575,
-        oneHundred: 4.131,
-        originalPGA: 2.425
+        amatuer: 3.019,
     }, {
         lie: 'f',
         distance: 34,
         pgaTour: 2.543,
-        eighty: 3.044,
-        ninety: 3.6,
-        oneHundred: 4.156,
-        originalPGA: 2.45
+        amatuer: 3.044,
     }, {
         lie: 'f',
         distance: 35,
         pgaTour: 2.549,
-        eighty: 3.069,
-        ninety: 3.625,
-        oneHundred: 4.181,
-        originalPGA: 2.475
+        amatuer: 3.069,
     }, {
         lie: 'f',
         distance: 36,
         pgaTour: 2.554,
-        eighty: 3.094,
-        ninety: 3.65,
-        oneHundred: 4.206,
-        originalPGA: 2.5
+        amatuer: 3.094,
     }, {
         lie: 'f',
         distance: 37,
         pgaTour: 2.56,
-        eighty: 3.119,
-        ninety: 3.675,
-        oneHundred: 4.231,
-        originalPGA: 2.525
+        amatuer: 3.119,
     }, {
         lie: 'f',
         distance: 38,
         pgaTour: 2.566,
-        eighty: 3.144,
-        ninety: 3.7,
-        oneHundred: 4.256,
-        originalPGA: 2.55
+        amatuer: 3.144,
     }, {
         lie: 'f',
         distance: 39,
         pgaTour: 2.571,
-        eighty: 3.169,
-        ninety: 3.725,
-        oneHundred: 4.281,
-        originalPGA: 2.575
+        amatuer: 3.169,
     }, {
         lie: 'f',
         distance: 40,
         pgaTour: 2.577,
-        eighty: 3.194,
-        ninety: 3.75,
-        oneHundred: 4.306,
-        originalPGA: 2.6
+        amatuer: 3.194,
     }, {
         lie: 'f',
         distance: 41,
         pgaTour: 2.583,
-        eighty: 3.199,
-        ninety: 3.755,
-        oneHundred: 4.311,
-        originalPGA: 2.605
+        amatuer: 3.199,
     }, {
         lie: 'f',
         distance: 42,
         pgaTour: 2.589,
-        eighty: 3.204,
-        ninety: 3.76,
-        oneHundred: 4.316,
-        originalPGA: 2.61
+        amatuer: 3.204,
     }, {
         lie: 'f',
         distance: 43,
         pgaTour: 2.594,
-        eighty: 3.209,
-        ninety: 3.765,
-        oneHundred: 4.321,
-        originalPGA: 2.615
+        amatuer: 3.209,
     }, {
         lie: 'f',
         distance: 44,
         pgaTour: 2.6,
-        eighty: 3.214,
-        ninety: 3.77,
-        oneHundred: 4.326,
-        originalPGA: 2.62
+        amatuer: 3.214,
     }, {
         lie: 'f',
         distance: 45,
         pgaTour: 2.606,
-        eighty: 3.219,
-        ninety: 3.775,
-        oneHundred: 4.331,
-        originalPGA: 2.625
+        amatuer: 3.219,
     }, {
         lie: 'f',
         distance: 46,
         pgaTour: 2.611,
-        eighty: 3.224,
-        ninety: 3.78,
-        oneHundred: 4.336,
-        originalPGA: 2.63
+        amatuer: 3.224,
     }, {
         lie: 'f',
         distance: 47,
         pgaTour: 2.617,
-        eighty: 3.229,
-        ninety: 3.785,
-        oneHundred: 4.341,
-        originalPGA: 2.635
+        amatuer: 3.229,
     }, {
         lie: 'f',
         distance: 48,
         pgaTour: 2.623,
-        eighty: 3.234,
-        ninety: 3.79,
-        oneHundred: 4.346,
-        originalPGA: 2.64
+        amatuer: 3.234,
     }, {
         lie: 'f',
         distance: 49,
         pgaTour: 2.629,
-        eighty: 3.239,
-        ninety: 3.795,
-        oneHundred: 4.351,
-        originalPGA: 2.645
+        amatuer: 3.239,
     }, {
         lie: 'f',
         distance: 50,
         pgaTour: 2.634,
-        eighty: 3.244,
-        ninety: 3.8,
-        oneHundred: 4.356,
-        originalPGA: 2.65
+        amatuer: 3.244,
     }, {
         lie: 'f',
         distance: 51,
         pgaTour: 2.64,
-        eighty: 3.249,
-        ninety: 3.805,
-        oneHundred: 4.361,
-        originalPGA: 2.655
+        amatuer: 3.249,
     }, {
         lie: 'f',
         distance: 52,
         pgaTour: 2.646,
-        eighty: 3.254,
-        ninety: 3.81,
-        oneHundred: 4.366,
-        originalPGA: 2.66
+        amatuer: 3.254,
     }, {
         lie: 'f',
         distance: 53,
         pgaTour: 2.651,
-        eighty: 3.259,
-        ninety: 3.815,
-        oneHundred: 4.371,
-        originalPGA: 2.665
+        amatuer: 3.259,
     }, {
         lie: 'f',
         distance: 54,
         pgaTour: 2.657,
-        eighty: 3.264,
-        ninety: 3.82,
-        oneHundred: 4.376,
-        originalPGA: 2.67
+        amatuer: 3.264,
     }, {
         lie: 'f',
         distance: 55,
         pgaTour: 2.663,
-        eighty: 3.269,
-        ninety: 3.825,
-        oneHundred: 4.381,
-        originalPGA: 2.675
+        amatuer: 3.269,
     }, {
         lie: 'f',
         distance: 56,
         pgaTour: 2.669,
-        eighty: 3.274,
-        ninety: 3.83,
-        oneHundred: 4.386,
-        originalPGA: 2.68
+        amatuer: 3.274,
     }, {
         lie: 'f',
         distance: 57,
         pgaTour: 2.674,
-        eighty: 3.279,
-        ninety: 3.835,
-        oneHundred: 4.391,
-        originalPGA: 2.685
+        amatuer: 3.279,
     }, {
         lie: 'f',
         distance: 58,
         pgaTour: 2.68,
-        eighty: 3.284,
-        ninety: 3.84,
-        oneHundred: 4.396,
-        originalPGA: 2.69
+        amatuer: 3.284,
     }, {
         lie: 'f',
         distance: 59,
         pgaTour: 2.686,
-        eighty: 3.289,
-        ninety: 3.845,
-        oneHundred: 4.401,
-        originalPGA: 2.695
+        amatuer: 3.289,
     }, {
         lie: 'f',
         distance: 60,
         pgaTour: 2.691,
-        eighty: 3.294,
-        ninety: 3.85,
-        oneHundred: 4.406,
-        originalPGA: 2.7
+        amatuer: 3.294,
     }, {
         lie: 'f',
         distance: 61,
         pgaTour: 2.696,
-        eighty: 3.297,
-        ninety: 3.853,
-        oneHundred: 4.409,
-        originalPGA: 2.703
+        amatuer: 3.297,
     }, {
         lie: 'f',
         distance: 62,
         pgaTour: 2.701,
-        eighty: 3.299,
-        ninety: 3.855,
-        oneHundred: 4.411,
-        originalPGA: 2.705
+        amatuer: 3.299,
     }, {
         lie: 'f',
         distance: 63,
         pgaTour: 2.704,
-        eighty: 3.302,
-        ninety: 3.858,
-        oneHundred: 4.414,
-        originalPGA: 2.708
+        amatuer: 3.302,
     }, {
         lie: 'f',
         distance: 64,
         pgaTour: 2.707,
-        eighty: 3.304,
-        ninety: 3.86,
-        oneHundred: 4.416,
-        originalPGA: 2.71
+        amatuer: 3.304,
     }, {
         lie: 'f',
         distance: 65,
         pgaTour: 2.71,
-        eighty: 3.307,
-        ninety: 3.863,
-        oneHundred: 4.419,
-        originalPGA: 2.713
+        amatuer: 3.307,
     }, {
         lie: 'f',
         distance: 66,
         pgaTour: 2.713,
-        eighty: 3.309,
-        ninety: 3.865,
-        oneHundred: 4.421,
-        originalPGA: 2.715
+        amatuer: 3.309,
     }, {
         lie: 'f',
         distance: 67,
         pgaTour: 2.716,
-        eighty: 3.312,
-        ninety: 3.868,
-        oneHundred: 4.424,
-        originalPGA: 2.718
+        amatuer: 3.312,
     }, {
         lie: 'f',
         distance: 68,
         pgaTour: 2.719,
-        eighty: 3.314,
-        ninety: 3.87,
-        oneHundred: 4.426,
-        originalPGA: 2.72
+        amatuer: 3.314,
     }, {
         lie: 'f',
         distance: 69,
         pgaTour: 2.722,
-        eighty: 3.317,
-        ninety: 3.873,
-        oneHundred: 4.429,
-        originalPGA: 2.723
+        amatuer: 3.317,
     }, {
         lie: 'f',
         distance: 70,
         pgaTour: 2.725,
-        eighty: 3.319,
-        ninety: 3.875,
-        oneHundred: 4.431,
-        originalPGA: 2.725
+        amatuer: 3.319,
     }, {
         lie: 'f',
         distance: 71,
         pgaTour: 2.728,
-        eighty: 3.322,
-        ninety: 3.878,
-        oneHundred: 4.434,
-        originalPGA: 2.728
+        amatuer: 3.322,
     }, {
         lie: 'f',
         distance: 72,
         pgaTour: 2.731,
-        eighty: 3.324,
-        ninety: 3.88,
-        oneHundred: 4.436,
-        originalPGA: 2.73
+        amatuer: 3.324,
     }, {
         lie: 'f',
         distance: 73,
         pgaTour: 2.734,
-        eighty: 3.327,
-        ninety: 3.883,
-        oneHundred: 4.439,
-        originalPGA: 2.733
+        amatuer: 3.327,
     }, {
         lie: 'f',
         distance: 74,
         pgaTour: 2.737,
-        eighty: 3.329,
-        ninety: 3.885,
-        oneHundred: 4.441,
-        originalPGA: 2.735
+        amatuer: 3.329,
     }, {
         lie: 'f',
         distance: 75,
         pgaTour: 2.74,
-        eighty: 3.332,
-        ninety: 3.888,
-        oneHundred: 4.444,
-        originalPGA: 2.738
+        amatuer: 3.332,
     }, {
         lie: 'f',
         distance: 76,
         pgaTour: 2.743,
-        eighty: 3.334,
-        ninety: 3.89,
-        oneHundred: 4.446,
-        originalPGA: 2.74
+        amatuer: 3.334,
     }, {
         lie: 'f',
         distance: 77,
         pgaTour: 2.746,
-        eighty: 3.337,
-        ninety: 3.893,
-        oneHundred: 4.449,
-        originalPGA: 2.743
+        amatuer: 3.337,
     }, {
         lie: 'f',
         distance: 78,
         pgaTour: 2.749,
-        eighty: 3.339,
-        ninety: 3.895,
-        oneHundred: 4.451,
-        originalPGA: 2.745
+        amatuer: 3.339,
     }, {
         lie: 'f',
         distance: 79,
         pgaTour: 2.752,
-        eighty: 3.342,
-        ninety: 3.898,
-        oneHundred: 4.454,
-        originalPGA: 2.748
+        amatuer: 3.342,
     }, {
         lie: 'f',
         distance: 80,
         pgaTour: 2.755,
-        eighty: 3.344,
-        ninety: 3.9,
-        oneHundred: 4.456,
-        originalPGA: 2.75
+        amatuer: 3.344,
     }, {
         lie: 'f',
         distance: 81,
         pgaTour: 2.758,
-        eighty: 3.347,
-        ninety: 3.903,
-        oneHundred: 4.459,
-        originalPGA: 2.753
+        amatuer: 3.347,
     }, {
         lie: 'f',
         distance: 82,
         pgaTour: 2.761,
-        eighty: 3.349,
-        ninety: 3.905,
-        oneHundred: 4.461,
-        originalPGA: 2.755
+        amatuer: 3.349,
     }, {
         lie: 'f',
         distance: 83,
         pgaTour: 2.764,
-        eighty: 3.352,
-        ninety: 3.908,
-        oneHundred: 4.464,
-        originalPGA: 2.758
+        amatuer: 3.352,
     }, {
         lie: 'f',
         distance: 84,
         pgaTour: 2.767,
-        eighty: 3.354,
-        ninety: 3.91,
-        oneHundred: 4.466,
-        originalPGA: 2.76
+        amatuer: 3.354,
     }, {
         lie: 'f',
         distance: 85,
         pgaTour: 2.77,
-        eighty: 3.357,
-        ninety: 3.913,
-        oneHundred: 4.469,
-        originalPGA: 2.763
+        amatuer: 3.357,
     }, {
         lie: 'f',
         distance: 86,
         pgaTour: 2.773,
-        eighty: 3.359,
-        ninety: 3.915,
-        oneHundred: 4.471,
-        originalPGA: 2.765
+        amatuer: 3.359,
     }, {
         lie: 'f',
         distance: 87,
         pgaTour: 2.776,
-        eighty: 3.362,
-        ninety: 3.918,
-        oneHundred: 4.474,
-        originalPGA: 2.768
+        amatuer: 3.362,
     }, {
         lie: 'f',
         distance: 88,
         pgaTour: 2.779,
-        eighty: 3.364,
-        ninety: 3.92,
-        oneHundred: 4.476,
-        originalPGA: 2.77
+        amatuer: 3.364,
     }, {
         lie: 'f',
         distance: 89,
         pgaTour: 2.782,
-        eighty: 3.367,
-        ninety: 3.923,
-        oneHundred: 4.479,
-        originalPGA: 2.773
+        amatuer: 3.367,
     }, {
         lie: 'f',
         distance: 90,
         pgaTour: 2.785,
-        eighty: 3.369,
-        ninety: 3.925,
-        oneHundred: 4.481,
-        originalPGA: 2.775
+        amatuer: 3.369,
     }, {
         lie: 'f',
         distance: 91,
         pgaTour: 2.788,
-        eighty: 3.372,
-        ninety: 3.928,
-        oneHundred: 4.484,
-        originalPGA: 2.778
+        amatuer: 3.372,
     }, {
         lie: 'f',
         distance: 92,
         pgaTour: 2.791,
-        eighty: 3.374,
-        ninety: 3.93,
-        oneHundred: 4.486,
-        originalPGA: 2.78
+        amatuer: 3.374,
     }, {
         lie: 'f',
         distance: 93,
         pgaTour: 2.794,
-        eighty: 3.377,
-        ninety: 3.933,
-        oneHundred: 4.489,
-        originalPGA: 2.783
+        amatuer: 3.377,
     }, {
         lie: 'f',
         distance: 94,       
         pgaTour: 2.797,
-        eighty: 3.379,
-        ninety: 3.935,
-        oneHundred: 4.491,
-        originalPGA: 2.785
+        amatuer: 3.379,
     }, {
         lie: 'f',
         distance: 95,       
         pgaTour: 2.8,
-        eighty: 3.382,
-        ninety: 3.938,
-        oneHundred: 4.494,
-        originalPGA: 2.788
+        amatuer: 3.382,
     }, {
         lie: 'f',
         distance: 96,      
         pgaTour: 2.803,
-        eighty: 3.384,
-        ninety: 3.94,
-        oneHundred: 4.496,
-        originalPGA: 2.79
+        amatuer: 3.384,
     }, {
         lie: 'f',
         distance: 97,      
         pgaTour: 2.806,
-        eighty: 3.387,
-        ninety: 3.943,
-        oneHundred: 4.499,
-        originalPGA: 2.793
+        amatuer: 3.387,
     }, {
         lie: 'f',
         distance: 98,        
         pgaTour: 2.809,
-        eighty: 3.389,
-        ninety: 3.945,
-        oneHundred: 4.501,
-        originalPGA: 2.795
+        amatuer: 3.389,
     }, {
         lie: 'f',
         distance: 99,
         pgaTour: 2.812,
-        eighty: 3.392,
-        ninety: 3.948,
-        oneHundred: 4.504,
-        originalPGA: 2.798
+        amatuer: 3.392,
     }, {
         lie: 'f',
         distance: 100,
         pgaTour: 2.815,
-        eighty: 3.394,
-        ninety: 3.95,
-        oneHundred: 4.506,
-        originalPGA: 2.8
+        amatuer: 3.394,
     }, {
         lie: 'f',
         distance: 101,
         pgaTour: 2.803,
-        eighty: 3.397,
-        ninety: 3.953,
-        oneHundred: 4.509,
-        originalPGA: 2.803
+        amatuer: 3.397,
     }, {
         lie: 'f',
         distance: 102,
         pgaTour: 2.805,
-        eighty: 3.399,
-        ninety: 3.955,
-        oneHundred: 4.511,
-        originalPGA: 2.805
+        amatuer: 3.399,
     }, {
         lie: 'f',
         distance: 103,       
         pgaTour: 2.808,
-        eighty: 3.402,
-        ninety: 3.958,
-        oneHundred: 4.514,
-        originalPGA: 2.808
+        amatuer: 3.402,
     }, {
         lie: 'f',
         distance: 104,       
         pgaTour: 2.81,
-        eighty: 3.404,
-        ninety: 3.96,
-        oneHundred: 4.516,
-        originalPGA: 2.81
+        amatuer: 3.404,
     }, {
         lie: 'f',
         distance: 105,      
         pgaTour: 2.813,
-        eighty: 3.407,
-        ninety: 3.963,
-        oneHundred: 4.519,
-        originalPGA: 2.813
+        amatuer: 3.407,
     }, {
         lie: 'f',
         distance: 106,       
         pgaTour: 2.815,
-        eighty: 3.409,
-        ninety: 3.965,
-        oneHundred: 4.521,
-        originalPGA: 2.815
+        amatuer: 3.409,
     }, {
         lie: 'f',
         distance: 107,       
         pgaTour: 2.818,
-        eighty: 3.412,
-        ninety: 3.968,
-        oneHundred: 4.524,
-        originalPGA: 2.818
+        amatuer: 3.412,
     }, {
         lie: 'f',
         distance: 108,      
         pgaTour: 2.82,
-        eighty: 3.414,
-        ninety: 3.97,
-        oneHundred: 4.526,
-        originalPGA: 2.82
+        amatuer: 3.414,
     }, {
         lie: 'f',
         distance: 109,     
         pgaTour: 2.823,
-        eighty: 3.417,
-        ninety: 3.973,
-        oneHundred: 4.529,
-        originalPGA: 2.823
+        amatuer: 3.417,
     }, {
         lie: 'f',
         distance: 110, 
         pgaTour: 2.825,
-        eighty: 3.419,
-        ninety: 3.975,
-        oneHundred: 4.531,
-        originalPGA: 2.825
+        amatuer: 3.419,
     }, {
         lie: 'f',
         distance: 111, 
         pgaTour: 2.828,
-        eighty: 3.422,
-        ninety: 3.978,
-        oneHundred: 4.534,
-        originalPGA: 2.828
+        amatuer: 3.422,
     }, {
         lie: 'f',
         distance: 112, 
         pgaTour: 2.83,
-        eighty: 3.424,
-        ninety: 3.98,
-        oneHundred: 4.536,
-        originalPGA: 2.83
+        amatuer: 3.424,
     }, {
         lie: 'f',
         distance: 113,
         pgaTour: 2.833,
-        eighty: 3.427,
-        ninety: 3.983,
-        oneHundred: 4.539,
-        originalPGA: 2.833
+        amatuer: 3.427,
     }, {
         lie: 'f',
         distance: 114,
         pgaTour: 2.835,
-        eighty: 3.429,
-        ninety: 3.985,
-        oneHundred: 4.541,
-        originalPGA: 2.835
+        amatuer: 3.429,
     }, {
         lie: 'f',
         distance: 115,
         pgaTour: 2.838,
-        eighty: 3.432,
-        ninety: 3.988,
-        oneHundred: 4.544,
-        originalPGA: 2.838
+        amatuer: 3.432,
     }, {
         lie: 'f',
         distance: 116,
         pgaTour: 2.84,
-        eighty: 3.434,
-        ninety: 3.99,
-        oneHundred: 4.546,
-        originalPGA: 2.84
+        amatuer: 3.434,
     }, {
         lie: 'f',
         distance: 117,
         pgaTour: 2.843,
-        eighty: 3.437,
-        ninety: 3.993,
-        oneHundred: 4.549,
-        originalPGA: 2.843
+        amatuer: 3.437,
     }, {
         lie: 'f',
         distance: 118,
 
         pgaTour: 2.845,
-        eighty: 3.439,
-        ninety: 3.995,
-        oneHundred: 4.551,
-        originalPGA: 2.845
+        amatuer: 3.439,
     }, {
         lie: 'f',
         distance: 119,
         pgaTour: 2.848,
-        eighty: 3.442,
-        ninety: 3.998,
-        oneHundred: 4.554,
-        originalPGA: 2.848
+        amatuer: 3.442,
     }, {
         lie: 'f',
         distance: 120,
         pgaTour: 2.85,
-        eighty: 3.444,
-        ninety: 4,
-        oneHundred: 4.556,
-        originalPGA: 2.85
+        amatuer: 3.444,
     }, {
         lie: 'f',
         distance: 121,
         pgaTour: 2.853,
-        eighty: 3.447,
-        ninety: 4.003,
-        oneHundred: 4.559,
-        originalPGA: 2.853
+        amatuer: 3.447,
     }, {
         lie: 'f',
         distance: 122,
         pgaTour: 2.856,
-        eighty: 3.45,
-        ninety: 4.006,
-        oneHundred: 4.562,
-        originalPGA: 2.856
+        amatuer: 3.45,
     }, {
         lie: 'f',
         distance: 123,
         pgaTour: 2.859,
-        eighty: 3.453,
-        ninety: 4.009,
-        oneHundred: 4.565,
-        originalPGA: 2.859
+        amatuer: 3.453,
     }, {
         lie: 'f',
         distance: 124,
         pgaTour: 2.862,
-        eighty: 3.456,
-        ninety: 4.012,
-        oneHundred: 4.568,
-        originalPGA: 2.862
+        amatuer: 3.456,
     }, {
         lie: 'f',
         distance: 125,
         pgaTour: 2.865,
-        eighty: 3.459,
-        ninety: 4.015,
-        oneHundred: 4.571,
-        originalPGA: 2.865
+        amatuer: 3.459,
     }, {
         lie: 'f',
         distance: 126,
         pgaTour: 2.868,
-        eighty: 3.462,
-        ninety: 4.018,
-        oneHundred: 4.574,
-        originalPGA: 2.868
+        amatuer: 3.462,
     }, {
         lie: 'f',
         distance: 127,
         pgaTour: 2.871,
-        eighty: 3.465,
-        ninety: 4.021,
-        oneHundred: 4.577,
-        originalPGA: 2.871
+        amatuer: 3.465,
     }, {
         lie: 'f',
         distance: 128,
         pgaTour: 2.874,
-        eighty: 3.468,
-        ninety: 4.024,
-        oneHundred: 4.58,
-        originalPGA: 2.874
+        amatuer: 3.468,
     }, {
         lie: 'f',
         distance: 129,
         pgaTour: 2.877,
-        eighty: 3.471,
-        ninety: 4.027,
-        oneHundred: 4.583,
-        originalPGA: 2.877
+        amatuer: 3.471,
     }, {
         lie: 'f',
         distance: 130,
         pgaTour: 2.88,
-        eighty: 3.474,
-        ninety: 4.03,
-        oneHundred: 4.586,
-        originalPGA: 2.88
+        amatuer: 3.474,
     }, {
         lie: 'f',
         distance: 131,
         pgaTour: 2.883,
-        eighty: 3.477,
-        ninety: 4.033,
-        oneHundred: 4.589,
-        originalPGA: 2.883
+        amatuer: 3.477,
     }, {
         lie: 'f',
         distance: 132,
         pgaTour: 2.886,
-        eighty: 3.48,
-        ninety: 4.036,
-        oneHundred: 4.592,
-        originalPGA: 2.886
+        amatuer: 3.48,
     }, {
         lie: 'f',
         distance: 133,
         pgaTour: 2.889,
-        eighty: 3.483,
-        ninety: 4.039,
-        oneHundred: 4.595,
-        originalPGA: 2.889
+        amatuer: 3.483,
     }, {
         lie: 'f',
         distance: 134,
         pgaTour: 2.892,
-        eighty: 3.486,
-        ninety: 4.042,
-        oneHundred: 4.598,
-        originalPGA: 2.892
+        amatuer: 3.486,
     }, {
         lie: 'f',
         distance: 135,
         pgaTour: 2.895,
-        eighty: 3.489,
-        ninety: 4.045,
-        oneHundred: 4.601,
-        originalPGA: 2.895
+        amatuer: 3.489,
     }, {
         lie: 'f',
         distance: 136,
         pgaTour: 2.898,
-        eighty: 3.492,
-        ninety: 4.048,
-        oneHundred: 4.604,
-        originalPGA: 2.898
+        amatuer: 3.492,
     }, {
         lie: 'f',
         distance: 137,
         pgaTour: 2.901,
-        eighty: 3.495,
-        ninety: 4.051,
-        oneHundred: 4.607,
-        originalPGA: 2.901
+        amatuer: 3.495,
     }, {
         lie: 'f',
         distance: 138,
         pgaTour: 2.904,
-        eighty: 3.498,
-        ninety: 4.054,
-        oneHundred: 4.61,
-        originalPGA: 2.904
+        amatuer: 3.498,
     }, {
         lie: 'f',
         distance: 139,
         pgaTour: 2.907,
-        eighty: 3.501,
-        ninety: 4.057,
-        oneHundred: 4.613,
-        originalPGA: 2.907
+        amatuer: 3.501,
     }, {
         lie: 'f',
         distance: 140,
         pgaTour: 2.91,
-        eighty: 3.504,
-        ninety: 4.06,
-        oneHundred: 4.616,
-        originalPGA: 2.91
+        amatuer: 3.504,
     }, {
         lie: 'f',
         distance: 141,
         pgaTour: 2.914,
-        eighty: 3.508,
-        ninety: 4.064,
-        oneHundred: 4.62,
-        originalPGA: 2.914
+        amatuer: 3.508,
     }, {
         lie: 'f',
         distance: 142,
         pgaTour: 2.917,
-        eighty: 3.511,
-        ninety: 4.067,
-        oneHundred: 4.623,
-        originalPGA: 2.917
+        amatuer: 3.511,
     }, {
         lie: 'f',
         distance: 143,
         pgaTour: 2.921,
-        eighty: 3.515,
-        ninety: 4.071,
-        oneHundred: 4.627,
-        originalPGA: 2.921
+        amatuer: 3.515,
     }, {
         lie: 'f',
         distance: 144,
         pgaTour: 2.924,
-        eighty: 3.518,
-        ninety: 4.074,
-        oneHundred: 4.63,
-        originalPGA: 2.924
+        amatuer: 3.518,
     }, {
         lie: 'f',
         distance: 145,
         pgaTour: 2.928,
-        eighty: 3.522,
-        ninety: 4.078,
-        oneHundred: 4.634,
-        originalPGA: 2.928
+        amatuer: 3.522,
     }, {
         lie: 'f',
         distance: 146,
         pgaTour: 2.931,
-        eighty: 3.525,
-        ninety: 4.081,
-        oneHundred: 4.637,
-        originalPGA: 2.931
+        amatuer: 3.525,
     }, {
         lie: 'f',
         distance: 147,
         pgaTour: 2.935,
-        eighty: 3.529,
-        ninety: 4.085,
-        oneHundred: 4.641,
-        originalPGA: 2.935
+        amatuer: 3.529,
     }, {
         lie: 'f',
         distance: 148,
         pgaTour: 2.938,
-        eighty: 3.532,
-        ninety: 4.088,
-        oneHundred: 4.644,
-        originalPGA: 2.938
+        amatuer: 3.532,
     }, {
         lie: 'f',
         distance: 149,
         pgaTour: 2.942,
-        eighty: 3.536,
-        ninety: 4.092,
-        oneHundred: 4.648,
-        originalPGA: 2.942
+        amatuer: 3.536,
     }, {
         lie: 'f',
         distance: 150,
         pgaTour: 2.945,
-        eighty: 3.539,
-        ninety: 4.095,
-        oneHundred: 4.651,
-        originalPGA: 2.945
+        amatuer: 3.539,
     }, {
         lie: 'f',
         distance: 151,
         pgaTour: 2.949,
-        eighty: 3.543,
-        ninety: 4.099,
-        oneHundred: 4.655,
-        originalPGA: 2.949
+        amatuer: 3.543,
     }, {
         lie: 'f',
         distance: 152,
         pgaTour: 2.952,
-        eighty: 3.546,
-        ninety: 4.102,
-        oneHundred: 4.658,
-        originalPGA: 2.952
+        amatuer: 3.546,
     }, {
         lie: 'f',
         distance: 153,
         pgaTour: 2.956,
-        eighty: 3.55,
-        ninety: 4.106,
-        oneHundred: 4.662,
-        originalPGA: 2.956
+        amatuer: 3.55,
     }, {
         lie: 'f',
         distance: 154,
         pgaTour: 2.959,
-        eighty: 3.553,
-        ninety: 4.109,
-        oneHundred: 4.665,
-        originalPGA: 2.959
+        amatuer: 3.553,
     }, {
         lie: 'f',
         distance: 155,
         pgaTour: 2.963,
-        eighty: 3.557,
-        ninety: 4.113,
-        oneHundred: 4.669,
-        originalPGA: 2.963
+        amatuer: 3.557,
     }, {
         lie: 'f',
         distance: 156,
         pgaTour: 2.966,
-        eighty: 3.56,
-        ninety: 4.116,
-        oneHundred: 4.672,
-        originalPGA: 2.966
+        amatuer: 3.56,
     }, {
         lie: 'f',
         distance: 157,
         pgaTour: 2.97,
-        eighty: 3.564,
-        ninety: 4.12,
-        oneHundred: 4.676,
-        originalPGA: 2.97
+        amatuer: 3.564,
     }, {
         lie: 'f',
         distance: 158,
         pgaTour: 2.973,
-        eighty: 3.567,
-        ninety: 4.123,
-        oneHundred: 4.679,
-        originalPGA: 2.973
+        amatuer: 3.567,
     }, {
         lie: 'f',
         distance: 159,
         pgaTour: 2.977,
-        eighty: 3.571,
-        ninety: 4.127,
-        oneHundred: 4.683,
-        originalPGA: 2.977
+        amatuer: 3.571,
     }, {
         lie: 'f',
         distance: 160,
         pgaTour: 2.98,
-        eighty: 3.574,
-        ninety: 4.13,
-        oneHundred: 4.686,
-        originalPGA: 2.98
+        amatuer: 3.574,
     }, {
         lie: 'f',
         distance: 161,
         pgaTour: 2.985,
-        eighty: 3.579,
-        ninety: 4.135,
-        oneHundred: 4.691,
-        originalPGA: 2.985
+        amatuer: 3.579,
     }, {
         lie: 'f',
         distance: 162,
         pgaTour: 2.99,
-        eighty: 3.584,
-        ninety: 4.14,
-        oneHundred: 4.696,
-        originalPGA: 2.99
+        amatuer: 3.584,
     }, {
         lie: 'f',
         distance: 163,
         pgaTour: 2.995,
-        eighty: 3.589,
-        ninety: 4.145,
-        oneHundred: 4.701,
-        originalPGA: 2.995
+        amatuer: 3.589,
     }, {
         lie: 'f',
         distance: 164,
         pgaTour: 3,
-        eighty: 3.594,
-        ninety: 4.15,
-        oneHundred: 4.706,
-        originalPGA: 3
+        amatuer: 3.594,
     }, {
         lie: 'f',
         distance: 165,
         pgaTour: 3.005,
-        eighty: 3.599,
-        ninety: 4.155,
-        oneHundred: 4.711,
-        originalPGA: 3.005
+        amatuer: 3.599,
     }, {
         lie: 'f',
         distance: 166,
         pgaTour: 3.01,
-        eighty: 3.604,
-        ninety: 4.16,
-        oneHundred: 4.716,
-        originalPGA: 3.01
+        amatuer: 3.604,
     }, {
         lie: 'f',
         distance: 167,
         pgaTour: 3.015,
-        eighty: 3.609,
-        ninety: 4.165,
-        oneHundred: 4.721,
-        originalPGA: 3.015
+        amatuer: 3.609,
     }, {
         lie: 'f',
         distance: 168,
         pgaTour: 3.02,
-        eighty: 3.614,
-        ninety: 4.17,
-        oneHundred: 4.726,
-        originalPGA: 3.02
+        amatuer: 3.614,
     }, {
         lie: 'f',
         distance: 169,
         pgaTour: 3.025,
-        eighty: 3.619,
-        ninety: 4.175,
-        oneHundred: 4.731,
-        originalPGA: 3.025
+        amatuer: 3.619,
     }, {
         lie: 'f',
         distance: 170,
         pgaTour: 3.03,
-        eighty: 3.624,
-        ninety: 4.18,
-        oneHundred: 4.736,
-        originalPGA: 3.03
+        amatuer: 3.624,
     }, {
         lie: 'f',
         distance: 171,
         pgaTour: 3.035,
-        eighty: 3.629,
-        ninety: 4.185,
-        oneHundred: 4.741,
-        originalPGA: 3.035
+        amatuer: 3.629,
     }, {
         lie: 'f',
         distance: 172,
         pgaTour: 3.04,
-        eighty: 3.634,
-        ninety: 4.19,
-        oneHundred: 4.746,
-        originalPGA: 3.04
+        amatuer: 3.634,
     }, {
         lie: 'f',
         distance: 173,
         pgaTour: 3.045,
-        eighty: 3.639,
-        ninety: 4.195,
-        oneHundred: 4.751,
-        originalPGA: 3.045
+        amatuer: 3.639,
     }, {
         lie: 'f',
         distance: 174,
         pgaTour: 3.05,
-        eighty: 3.644,
-        ninety: 4.2,
-        oneHundred: 4.756,
-        originalPGA: 3.05
+        amatuer: 3.644,
     }, {
         lie: 'f',
         distance: 175,
         pgaTour: 3.055,
-        eighty: 3.649,
-        ninety: 4.205,
-        oneHundred: 4.761,
-        originalPGA: 3.055
+        amatuer: 3.649,
     }, {
         lie: 'f',
         distance: 176,
         pgaTour: 3.06,
-        eighty: 3.654,
-        ninety: 4.21,
-        oneHundred: 4.766,
-        originalPGA: 3.06
+        amatuer: 3.654,
     }, {
         lie: 'f',
         distance: 177,
         pgaTour: 3.065,
-        eighty: 3.659,
-        ninety: 4.215,
-        oneHundred: 4.771,
-        originalPGA: 3.065
+        amatuer: 3.659,
     }, {
         lie: 'f',
         distance: 178,
         pgaTour: 3.07,
-        eighty: 3.664,
-        ninety: 4.22,
-        oneHundred: 4.776,
-        originalPGA: 3.07
+        amatuer: 3.664,
     }, {
         lie: 'f',
         distance: 179,
         pgaTour: 3.075,
-        eighty: 3.669,
-        ninety: 4.225,
-        oneHundred: 4.781,
-        originalPGA: 3.075
+        amatuer: 3.669,
     }, {
         lie: 'f',
         distance: 180,
         pgaTour: 3.08,
-        eighty: 3.674,
-        ninety: 4.23,
-        oneHundred: 4.786,
-        originalPGA: 3.08
+        amatuer: 3.674,
     }, {
         lie: 'f',
         distance: 181,
         pgaTour: 3.086,
-        eighty: 3.68,
-        ninety: 4.236,
-        oneHundred: 4.792,
-        originalPGA: 3.086
+        amatuer: 3.68,
     }, {
         lie: 'f',
         distance: 182,
         pgaTour: 3.091,
-        eighty: 3.685,
-        ninety: 4.241,
-        oneHundred: 4.797,
-        originalPGA: 3.091
+        amatuer: 3.685,
     }, {
         lie: 'f',
         distance: 183,
         pgaTour: 3.097,
-        eighty: 3.691,
-        ninety: 4.247,
-        oneHundred: 4.803,
-        originalPGA: 3.097
+        amatuer: 3.691,
     }, {
         lie: 'f',
         distance: 184,
         pgaTour: 3.102,
-        eighty: 3.696,
-        ninety: 4.252,
-        oneHundred: 4.808,
-        originalPGA: 3.102
+        amatuer: 3.696,
     }, {
         lie: 'f',
         distance: 185,
         pgaTour: 3.108,
-        eighty: 3.702,
-        ninety: 4.258,
-        oneHundred: 4.814,
-        originalPGA: 3.108
+        amatuer: 3.702,
     }, {
         lie: 'f',
         distance: 186,
         pgaTour: 3.113,
-        eighty: 3.707,
-        ninety: 4.263,
-        oneHundred: 4.819,
-        originalPGA: 3.113
+        amatuer: 3.707,
     }, {
         lie: 'f',
         distance: 187,
         pgaTour: 3.119,
-        eighty: 3.713,
-        ninety: 4.269,
-        oneHundred: 4.825,
-        originalPGA: 3.119
+        amatuer: 3.713,
     }, {
         lie: 'f',
         distance: 188,
         pgaTour: 3.124,
-        eighty: 3.718,
-        ninety: 4.274,
-        oneHundred: 4.83,
-        originalPGA: 3.124
+        amatuer: 3.718,
     }, {
         lie: 'f',
         distance: 189,
         pgaTour: 3.13,
-        eighty: 3.724,
-        ninety: 4.28,
-        oneHundred: 4.836,
-        originalPGA: 3.13
+        amatuer: 3.724,
     }, {
         lie: 'f',
         distance: 190,
         pgaTour: 3.135,
-        eighty: 3.729,
-        ninety: 4.285,
-        oneHundred: 4.841,
-        originalPGA: 3.135
+        amatuer: 3.729,
     }, {
         lie: 'f',
         distance: 191,
         pgaTour: 3.141,
-        eighty: 3.735,
-        ninety: 4.291,
-        oneHundred: 4.847,
-        originalPGA: 3.141
+        amatuer: 3.735,
     }, {
         lie: 'f',
         distance: 192,
         pgaTour: 3.146,
-        eighty: 3.74,
-        ninety: 4.296,
-        oneHundred: 4.852,
-        originalPGA: 3.146
+        amatuer: 3.74,
     }, {
         lie: 'f',
         distance: 193,
         pgaTour: 3.152,
-        eighty: 3.746,
-        ninety: 4.302,
-        oneHundred: 4.858,
-        originalPGA: 3.152
+        amatuer: 3.746,
     }, {
         lie: 'f',
         distance: 194,
         pgaTour: 3.157,
-        eighty: 3.751,
-        ninety: 4.307,
-        oneHundred: 4.863,
-        originalPGA: 3.157
+        amatuer: 3.751,
     }, {
         lie: 'f',
         distance: 195,
         pgaTour: 3.163,
-        eighty: 3.757,
-        ninety: 4.313,
-        oneHundred: 4.869,
-        originalPGA: 3.163
+        amatuer: 3.757,
     }, {
         lie: 'f',
         distance: 196,  
         pgaTour: 3.168,
-        eighty: 3.762,
-        ninety: 4.318,
-        oneHundred: 4.874,
-        originalPGA: 3.168
+        amatuer: 3.762,
     }, {
         lie: 'f',
         distance: 197,
         pgaTour: 3.174,
-        eighty: 3.768,
-        ninety: 4.324,
-        oneHundred: 4.88,
-        originalPGA: 3.174
+        amatuer: 3.768,
     }, {
         lie: 'f',
         distance: 198,
         pgaTour: 3.179,
-        eighty: 3.773,
-        ninety: 4.329,
-        oneHundred: 4.885,
-        originalPGA: 3.179
+        amatuer: 3.773,
     }, {
         lie: 'f',
         distance: 199,
         pgaTour: 3.185,
-        eighty: 3.779,
-        ninety: 4.335,
-        oneHundred: 4.891,
-        originalPGA: 3.185
+        amatuer: 3.779,
     }, {
         lie: 'f',
         distance: 200,
         pgaTour: 3.19,
-        eighty: 3.784,
-        ninety: 4.34,
-        oneHundred: 4.896,
-        originalPGA: 3.19
+        amatuer: 3.784,
     }, {
         lie: 'f',
         distance: 201,
         pgaTour: 3.197,
-        eighty: 3.791,
-        ninety: 4.347,
-        oneHundred: 4.903,
-        originalPGA: 3.197
+        amatuer: 3.791,
     }, {
         lie: 'f',
         distance: 202,
         pgaTour: 3.203,
-        eighty: 3.797,
-        ninety: 4.353,
-        oneHundred: 4.909,
-        originalPGA: 3.203
+        amatuer: 3.797,
     }, {
         lie: 'f',
         distance: 203,
         pgaTour: 3.21,
-        eighty: 3.804,
-        ninety: 4.36,
-        oneHundred: 4.916,
-        originalPGA: 3.21
+        amatuer: 3.804,
     }, {
         lie: 'f',
         distance: 204,
         pgaTour: 3.216,
-        eighty: 3.81,
-        ninety: 4.366,
-        oneHundred: 4.922,
-        originalPGA: 3.216
+        amatuer: 3.81,
     }, {
         lie: 'f',
         distance: 205,
         pgaTour: 3.223,
-        eighty: 3.817,
-        ninety: 4.373,
-        oneHundred: 4.929,
-        originalPGA: 3.223
+        amatuer: 3.817,
     }, {
         lie: 'f',
         distance: 206,
         pgaTour: 3.229,
-        eighty: 3.823,
-        ninety: 4.379,
-        oneHundred: 4.935,
-        originalPGA: 3.229
+        amatuer: 3.823,
     }, {
         lie: 'f',
         distance: 207,
         pgaTour: 3.236,
-        eighty: 3.83,
-        ninety: 4.386,
-        oneHundred: 4.942,
-        originalPGA: 3.236
+        amatuer: 3.83,
     }, {
         lie: 'f',
         distance: 208,
         pgaTour: 3.242,
-        eighty: 3.836,
-        ninety: 4.392,
-        oneHundred: 4.948,
-        originalPGA: 3.242
+        amatuer: 3.836,
     }, {
         lie: 'f',
         distance: 209,
         pgaTour: 3.249,
-        eighty: 3.843,
-        ninety: 4.399,
-        oneHundred: 4.955,
-        originalPGA: 3.249
+        amatuer: 3.843,
     }, {
         lie: 'f',
         distance: 210,
         pgaTour: 3.255,
-        eighty: 3.849,
-        ninety: 4.405,
-        oneHundred: 4.961,
-        originalPGA: 3.255
+        amatuer: 3.849,
     }, {
         lie: 'f',
         distance: 211,
         pgaTour: 3.262,
-        eighty: 3.856,
-        ninety: 4.412,
-        oneHundred: 4.968,
-        originalPGA: 3.262
+        amatuer: 3.856,
     }, {
         lie: 'f',
         distance: 212,
         pgaTour: 3.268,
-        eighty: 3.862,
-        ninety: 4.418,
-        oneHundred: 4.974,
-        originalPGA: 3.268
+        amatuer: 3.862,
     }, {
         lie: 'f',
         distance: 213,
         pgaTour: 3.275,
-        eighty: 3.869,
-        ninety: 4.425,
-        oneHundred: 4.981,
-        originalPGA: 3.275
+        amatuer: 3.869,
     }, {
         lie: 'f',
         distance: 214,
         pgaTour: 3.281,
-        eighty: 3.875,
-        ninety: 4.431,
-        oneHundred: 4.987,
-        originalPGA: 3.281
+        amatuer: 3.875,
     }, {
         lie: 'f',
         distance: 215,
         pgaTour: 3.288,
-        eighty: 3.882,
-        ninety: 4.438,
-        oneHundred: 4.994,
-        originalPGA: 3.288
+        amatuer: 3.882,
     }, {
         lie: 'f',
         distance: 216,
         pgaTour: 3.294,
-        eighty: 3.888,
-        ninety: 4.444,
-        oneHundred: 5,
-        originalPGA: 3.294
+        amatuer: 3.888,
     }, {
         lie: 'f',
         distance: 217,
         pgaTour: 3.301,
-        eighty: 3.895,
-        ninety: 4.451,
-        oneHundred: 5.007,
-        originalPGA: 3.301
+        amatuer: 3.895,
     }, {
         lie: 'f',
         distance: 218,
         pgaTour: 3.307,
-        eighty: 3.901,
-        ninety: 4.457,
-        oneHundred: 5.013,
-        originalPGA: 3.307
+        amatuer: 3.901,
     }, {
         lie: 'f',
         distance: 219,
         pgaTour: 3.314,
-        eighty: 3.908,
-        ninety: 4.464,
-        oneHundred: 5.02,
-        originalPGA: 3.314
+        amatuer: 3.908,
     }, {
         lie: 'f',
         distance: 220,
         pgaTour: 3.32,
-        eighty: 3.914,
-        ninety: 4.47,
-        oneHundred: 5.026,
-        originalPGA: 3.32
+        amatuer: 3.914,
     }, {
         lie: 'f',
         distance: 221,
         pgaTour: 3.327,
-        eighty: 3.921,
-        ninety: 4.477,
-        oneHundred: 5.033,
-        originalPGA: 3.327
+        amatuer: 3.921,
     }, {
         lie: 'f',
         distance: 222,
         pgaTour: 3.333,
-        eighty: 3.927,
-        ninety: 4.483,
-        oneHundred: 5.039,
-        originalPGA: 3.333
+        amatuer: 3.927,
     }, {
         lie: 'f',
         distance: 223,
         pgaTour: 3.34,
-        eighty: 3.934,
-        ninety: 4.49,
-        oneHundred: 5.046,
-        originalPGA: 3.34
+        amatuer: 3.934,
     }, {
         lie: 'f',
         distance: 224,
         pgaTour: 3.346,
-        eighty: 3.94,
-        ninety: 4.496,
-        oneHundred: 5.052,
-        originalPGA: 3.346
+        amatuer: 3.94,
     }, {
         lie: 'f',
         distance: 225,
         pgaTour: 3.353,
-        eighty: 3.947,
-        ninety: 4.503,
-        oneHundred: 5.059,
-        originalPGA: 3.353
+        amatuer: 3.947,
     }, {
         lie: 'f',
         distance: 226,
         pgaTour: 3.359,
-        eighty: 3.953,
-        ninety: 4.509,
-        oneHundred: 5.065,
-        originalPGA: 3.359
+        amatuer: 3.953,
     }, {
         lie: 'f',
         distance: 227,
         pgaTour: 3.366,
-        eighty: 3.96,
-        ninety: 4.516,
-        oneHundred: 5.072,
-        originalPGA: 3.366
+        amatuer: 3.96,
     }, {
         lie: 'f',
         distance: 228,
         pgaTour: 3.372,
-        eighty: 3.966,
-        ninety: 4.522,
-        oneHundred: 5.078,
-        originalPGA: 3.372
+        amatuer: 3.966,
     }, {
         lie: 'f',
         distance: 229,
         pgaTour: 3.379,
-        eighty: 3.973,
-        ninety: 4.529,
-        oneHundred: 5.085,
-        originalPGA: 3.379
+        amatuer: 3.973,
     }, {
         lie: 'f',
         distance: 230,
         pgaTour: 3.385,
-        eighty: 3.979,
-        ninety: 4.535,
-        oneHundred: 5.091,
-        originalPGA: 3.385
+        amatuer: 3.979,
     }, {
         lie: 'f',
         distance: 231,
         pgaTour: 3.392,
-        eighty: 3.986,
-        ninety: 4.542,
-        oneHundred: 5.098,
-        originalPGA: 3.392
+        amatuer: 3.986,
     }, {
         lie: 'f',
         distance: 232,
         pgaTour: 3.398,
-        eighty: 3.992,
-        ninety: 4.548,
-        oneHundred: 5.104,
-        originalPGA: 3.398
+        amatuer: 3.992,
     }, {
         lie: 'f',
         distance: 233,
         pgaTour: 3.405,
-        eighty: 3.999,
-        ninety: 4.555,
-        oneHundred: 5.111,
-        originalPGA: 3.405
+        amatuer: 3.999,
     }, {
         lie: 'f',
         distance: 234,
         pgaTour: 3.411,
-        eighty: 4.005,
-        ninety: 4.561,
-        oneHundred: 5.117,
-        originalPGA: 3.411
+        amatuer: 4.005,
     }, {
         lie: 'f',
         distance: 235,
         pgaTour: 3.418,
-        eighty: 4.012,
-        ninety: 4.568,
-        oneHundred: 5.124,
-        originalPGA: 3.418
+        amatuer: 4.012,
     }, {
         lie: 'f',
         distance: 236,
         pgaTour: 3.424,
-        eighty: 4.018,
-        ninety: 4.574,
-        oneHundred: 5.13,
-        originalPGA: 3.424
+        amatuer: 4.018,
     }, {
         lie: 'f',
         distance: 237,
         pgaTour: 3.431,
-        eighty: 4.025,
-        ninety: 4.581,
-        oneHundred: 5.137,
-        originalPGA: 3.431
+        amatuer: 4.025,
     }, {
         lie: 'f',
         distance: 238,
         pgaTour: 3.437,
-        eighty: 4.031,
-        ninety: 4.587,
-        oneHundred: 5.143,
-        originalPGA: 3.437
+        amatuer: 4.031,
     }, {
         lie: 'f',
         distance: 239,
         pgaTour: 3.444,
-        eighty: 4.038,
-        ninety: 4.594,
-        oneHundred: 5.15,
-        originalPGA: 3.444
+        amatuer: 4.038,
     }, {
         lie: 'f',
         distance: 240,
         pgaTour: 3.45,
-        eighty: 4.044,
-        ninety: 4.6,
-        oneHundred: 5.156,
-        originalPGA: 3.45
+        amatuer: 4.044,
     }, {
         lie: 'f',
         distance: 241,
         pgaTour: 3.457,
-        eighty: 4.051,
-        ninety: 4.607,
-        oneHundred: 5.163,
-        originalPGA: 3.457
+        amatuer: 4.051,
     }, {
         lie: 'f',
         distance: 242,
         pgaTour: 3.463,
-        eighty: 4.057,
-        ninety: 4.613,
-        oneHundred: 5.169,
-        originalPGA: 3.463
+        amatuer: 4.057,
     }, {
         lie: 'f',
         distance: 243,
         pgaTour: 3.47,
-        eighty: 4.064,
-        ninety: 4.62,
-        oneHundred: 5.176,
-        originalPGA: 3.47
+        amatuer: 4.064,
     }, {
         lie: 'f',
         distance: 244,
         pgaTour: 3.476,
-        eighty: 4.07,
-        ninety: 4.626,
-        oneHundred: 5.182,
-        originalPGA: 3.476
+        amatuer: 4.07,
     }, {
         lie: 'f',
         distance: 245,
         pgaTour: 3.483,
-        eighty: 4.077,
-        ninety: 4.633,
-        oneHundred: 5.189,
-        originalPGA: 3.483
+        amatuer: 4.077,
     }, {
         lie: 'f',
         distance: 246,
         pgaTour: 3.489,
-        eighty: 4.083,
-        ninety: 4.639,
-        oneHundred: 5.195,
-        originalPGA: 3.489
+        amatuer: 4.083,
     }, {
         lie: 'f',
         distance: 247,
         pgaTour: 3.496,
-        eighty: 4.09,
-        ninety: 4.646,
-        oneHundred: 5.202,
-        originalPGA: 3.496
+        amatuer: 4.09,
     }, {
         lie: 'f',
         distance: 248,
         pgaTour: 3.502,
-        eighty: 4.096,
-        ninety: 4.652,
-        oneHundred: 5.208,
-        originalPGA: 3.502
+        amatuer: 4.096,
     }, {
         lie: 'f',
         distance: 249,
         pgaTour: 3.509,
-        eighty: 4.103,
-        ninety: 4.659,
-        oneHundred: 5.215,
-        originalPGA: 3.509
+        amatuer: 4.103,
     }, {
         lie: 'f',
         distance: 250,
         pgaTour: 3.515,
-        eighty: 4.109,
-        ninety: 4.665,
-        oneHundred: 5.221,
-        originalPGA: 3.515
+        amatuer: 4.109,
     }, {
         lie: 'f',
         distance: 251,
         pgaTour: 3.522,
-        eighty: 4.116,
-        ninety: 4.672,
-        oneHundred: 5.228,
-        originalPGA: 3.522
+        amatuer: 4.116,
     }, {
         lie: 'f',
         distance: 252,
         pgaTour: 3.528,
-        eighty: 4.122,
-        ninety: 4.678,
-        oneHundred: 5.234,
-        originalPGA: 3.528
+        amatuer: 4.122,
     }, {
         lie: 'f',
         distance: 253,
         pgaTour: 3.535,
-        eighty: 4.129,
-        ninety: 4.685,
-        oneHundred: 5.241,
-        originalPGA: 3.535
+        amatuer: 4.129,
     }, {
         lie: 'f',
         distance: 254,
         pgaTour: 3.541,
-        eighty: 4.135,
-        ninety: 4.691,
-        oneHundred: 5.247,
-        originalPGA: 3.541
+        amatuer: 4.135,
     }, {
         lie: 'f',
         distance: 255,
         pgaTour: 3.548,
-        eighty: 4.142,
-        ninety: 4.698,
-        oneHundred: 5.254,
-        originalPGA: 3.548
+        amatuer: 4.142,
     }, {
         lie: 'f',
         distance: 256,
         pgaTour: 3.554,
-        eighty: 4.148,
-        ninety: 4.704,
-        oneHundred: 5.26,
-        originalPGA: 3.554
+        amatuer: 4.148,
     }, {
         lie: 'f',
         distance: 257,
         pgaTour: 3.561,
-        eighty: 4.155,
-        ninety: 4.711,
-        oneHundred: 5.267,
-        originalPGA: 3.561
+        amatuer: 4.155,
     }, {
         lie: 'f',
         distance: 258,
         pgaTour: 3.567,
-        eighty: 4.161,
-        ninety: 4.717,
-        oneHundred: 5.273,
-        originalPGA: 3.567
+        amatuer: 4.161,
     }, {
         lie: 'f',
         distance: 259,
         pgaTour: 3.574,
-        eighty: 4.168,
-        ninety: 4.724,
-        oneHundred: 5.28,
-        originalPGA: 3.574
+        amatuer: 4.168,
     }, {
         lie: 'f',
         distance: 260,
         pgaTour: 3.58,
-        eighty: 4.174,
-        ninety: 4.73,
-        oneHundred: 5.286,
-        originalPGA: 3.58
+        amatuer: 4.174,
     }, {
         lie: 'f',
         distance: 261,
         pgaTour: 3.586,
-        eighty: 4.18,
-        ninety: 4.736,
-        oneHundred: 5.292,
-        originalPGA: 3.586
+        amatuer: 4.18,
     }, {
         lie: 'f',
         distance: 262,
         pgaTour: 3.591,
-        eighty: 4.185,
-        ninety: 4.741,
-        oneHundred: 5.297,
-        originalPGA: 3.591
+        amatuer: 4.185,
     }, {
         lie: 'f',
         distance: 263,
         pgaTour: 3.597,
-        eighty: 4.191,
-        ninety: 4.747,
-        oneHundred: 5.303,
-        originalPGA: 3.597
+        amatuer: 4.191,
     }, {
         lie: 'f',
         distance: 264,
         pgaTour: 3.602,
-        eighty: 4.196,
-        ninety: 4.752,
-        oneHundred: 5.308,
-        originalPGA: 3.602
-    }, {
+        amatuer: 4.196,    }, {
         lie: 'f',
         distance: 265,
         pgaTour: 3.608,
-        eighty: 4.202,
-        ninety: 4.758,
-        oneHundred: 5.314,
-        originalPGA: 3.608
+        amatuer: 4.202,
     }, {
         lie: 'f',
         distance: 266,
         pgaTour: 3.613,
-        eighty: 4.207,
-        ninety: 4.763,
-        oneHundred: 5.319,
-        originalPGA: 3.613
+        amatuer: 4.207,
     }, {
         lie: 'f',
         distance: 267,
         pgaTour: 3.619,
-        eighty: 4.213,
-        ninety: 4.769,
-        oneHundred: 5.325,
-        originalPGA: 3.619
+        amatuer: 4.213,
     }, {
         lie: 'f',
         distance: 268,
         pgaTour: 3.624,
-        eighty: 4.218,
-        ninety: 4.774,
-        oneHundred: 5.33,
-        originalPGA: 3.624
+        amatuer: 4.218,
     }, {
         lie: 'f',
         distance: 269,
         pgaTour: 3.63,
-        eighty: 4.224,
-        ninety: 4.78,
-        oneHundred: 5.336,
-        originalPGA: 3.63
+        amatuer: 4.224,
     }, {
         lie: 'f',
         distance: 270,
         pgaTour: 3.635,
-        eighty: 4.229,
-        ninety: 4.785,
-        oneHundred: 5.341,
-        originalPGA: 3.635
+        amatuer: 4.229,
     }, {
         lie: 'f',
         distance: 271,
         pgaTour: 3.641,
-        eighty: 4.235,
-        ninety: 4.791,
-        oneHundred: 5.347,
-        originalPGA: 3.641
+        amatuer: 4.235,
     }, {
         lie: 'f',
         distance: 272,
         pgaTour: 3.646,
-        eighty: 4.24,
-        ninety: 4.796,
-        oneHundred: 5.352,
-        originalPGA: 3.646
+        amatuer: 4.24,
     }, {
         lie: 'f',
         distance: 273,
         pgaTour: 3.652,
-        eighty: 4.246,
-        ninety: 4.802,
-        oneHundred: 5.358,
-        originalPGA: 3.652
+        amatuer: 4.246,
     }, {
         lie: 'f',
         distance: 274,
         pgaTour: 3.657,
-        eighty: 4.251,
-        ninety: 4.807,
-        oneHundred: 5.363,
-        originalPGA: 3.657
+        amatuer: 4.251,
     }, {
         lie: 'f',
         distance: 275,
         pgaTour: 3.663,
-        eighty: 4.257,
-        ninety: 4.813,
-        oneHundred: 5.369,
-        originalPGA: 3.663
+        amatuer: 4.257,
     }, {
         lie: 'f',
         distance: 276,
         pgaTour: 3.668,
-        eighty: 4.262,
-        ninety: 4.818,
-        oneHundred: 5.374,
-        originalPGA: 3.668
+        amatuer: 4.262,
     }, {
         lie: 'f',
         distance: 277,
         pgaTour: 3.674,
-        eighty: 4.268,
-        ninety: 4.824,
-        oneHundred: 5.38,
-        originalPGA: 3.674
+        amatuer: 4.268,
     }, {
         lie: 'f',
         distance: 278,
         pgaTour: 3.679,
-        eighty: 4.273,
-        ninety: 4.829,
-        oneHundred: 5.385,
-        originalPGA: 3.679
+        amatuer: 4.273,
     }, {
         lie: 'f',
         distance: 279,
         pgaTour: 3.685,
-        eighty: 4.279,
-        ninety: 4.835,
-        oneHundred: 5.391,
-        originalPGA: 3.685
+        amatuer: 4.279,
     }, {
         lie: 'f',
         distance: 280,
         pgaTour: 3.69,
-        eighty: 4.284,
-        ninety: 4.84,
-        oneHundred: 5.396,
-        originalPGA: 3.69
+        amatuer: 4.284,
     }, {
         lie: 'f',
         distance: 281,
         pgaTour: 3.695,
-        eighty: 4.289,
-        ninety: 4.845,
-        oneHundred: 5.401,
-        originalPGA: 3.695
+        amatuer: 4.289,
     }, {
         lie: 'f',
         distance: 282,
         pgaTour: 3.699,
-        eighty: 4.293,
-        ninety: 4.849,
-        oneHundred: 5.405,
-        originalPGA: 3.699
+        amatuer: 4.293,
     }, {
         lie: 'f',
         distance: 283,
         pgaTour: 3.704,
-        eighty: 4.298,
-        ninety: 4.854,
-        oneHundred: 5.41,
-        originalPGA: 3.704
+        amatuer: 4.298,
     }, {
         lie: 'f',
         distance: 284,
         pgaTour: 3.708,
-        eighty: 4.302,
-        ninety: 4.858,
-        oneHundred: 5.414,
-        originalPGA: 3.708
+        amatuer: 4.302,
     }, {
         lie: 'f',
         distance: 285,
         pgaTour: 3.713,
-        eighty: 4.307,
-        ninety: 4.863,
-        oneHundred: 5.419,
-        originalPGA: 3.713
+        amatuer: 4.307,
     }, {
         lie: 'f',
         distance: 286,
         pgaTour: 3.717,
-        eighty: 4.311,
-        ninety: 4.867,
-        oneHundred: 5.423,
-        originalPGA: 3.717
+        amatuer: 4.311,
     }, {
         lie: 'f',
         distance: 287,
         pgaTour: 3.722,
-        eighty: 4.316,
-        ninety: 4.872,
-        oneHundred: 5.428,
-        originalPGA: 3.722
+        amatuer: 4.316,
     }, {
         lie: 'f',
         distance: 288,
         pgaTour: 3.726,
-        eighty: 4.32,
-        ninety: 4.876,
-        oneHundred: 5.432,
-        originalPGA: 3.726
+        amatuer: 4.32,
     }, {
         lie: 'f',
         distance: 289,
         pgaTour: 3.731,
-        eighty: 4.325,
-        ninety: 4.881,
-        oneHundred: 5.437,
-        originalPGA: 3.731
+        amatuer: 4.325,
     }, {
         lie: 'f',
         distance: 290,
         pgaTour: 3.735,
-        eighty: 4.329,
-        ninety: 4.885,
-        oneHundred: 5.441,
-        originalPGA: 3.735
+        amatuer: 4.329,
     }, {
         lie: 'f',
         distance: 291,
         pgaTour: 3.74,
-        eighty: 4.334,
-        ninety: 4.89,
-        oneHundred: 5.446,
-        originalPGA: 3.74
+        amatuer: 4.334,
     }, {
         lie: 'f',
         distance: 292,
         pgaTour: 3.744,
-        eighty: 4.338,
-        ninety: 4.894,
-        oneHundred: 5.45,
-        originalPGA: 3.744
+        amatuer: 4.338,
     }, {
         lie: 'f',
         distance: 293,
         pgaTour: 3.749,
-        eighty: 4.343,
-        ninety: 4.899,
-        oneHundred: 5.455,
-        originalPGA: 3.749
+        amatuer: 4.343,
     }, {
         lie: 'f',
         distance: 294,
         pgaTour: 3.753,
-        eighty: 4.347,
-        ninety: 4.903,
-        oneHundred: 5.459,
-        originalPGA: 3.753
+        amatuer: 4.347,
     }, {
         lie: 'f',
         distance: 295,
         pgaTour: 3.758,
-        eighty: 4.352,
-        ninety: 4.908,
-        oneHundred: 5.464,
-        originalPGA: 3.758
+        amatuer: 4.352,
     }, {
         lie: 'f',
         distance: 296,
         pgaTour: 3.762,
-        eighty: 4.356,
-        ninety: 4.912,
-        oneHundred: 5.468,
-        originalPGA: 3.762
+        amatuer: 4.356,
     }, {
         lie: 'f',
         distance: 297,
         pgaTour: 3.767,
-        eighty: 4.361,
-        ninety: 4.917,
-        oneHundred: 5.473,
-        originalPGA: 3.767
+        amatuer: 4.361,
     }, {
         lie: 'f',
         distance: 298,
         pgaTour: 3.771,
-        eighty: 4.365,
-        ninety: 4.921,
-        oneHundred: 5.477,
-        originalPGA: 3.771
+        amatuer: 4.365,
     }, {
         lie: 'f',
         distance: 299,
         pgaTour: 3.776,
-        eighty: 4.37,
-        ninety: 4.926,
-        oneHundred: 5.482,
-        originalPGA: 3.776
+        amatuer: 4.37,
     }, {
         lie: 'f',
         distance: 300,
         pgaTour: 3.78,
-        eighty: 4.374,
-        ninety: 4.93,
-        oneHundred: 5.486,
-        originalPGA: 3.78
+        amatuer: 4.374,
     }, {
         lie: 'f',
         distance: 301,
         pgaTour: 3.783,
-        eighty: 4.377,
-        ninety: 4.933,
-        oneHundred: 5.489,
-        originalPGA: 3.783
+        amatuer: 4.377,
     }, {
         lie: 'f',
         distance: 302,
         pgaTour: 3.786,
-        eighty: 4.38,
-        ninety: 4.936,
-        oneHundred: 5.492,
-        originalPGA: 3.786
+        amatuer: 4.38,
     }, {
         lie: 'f',
         distance: 303,  
         pgaTour: 3.789,
-        eighty: 4.383,
-        ninety: 4.939,
-        oneHundred: 5.495,
-        originalPGA: 3.789
+        amatuer: 4.383,
     }, {
         lie: 'f',
         distance: 304,
         pgaTour: 3.792,
-        eighty: 4.386,
-        ninety: 4.942,
-        oneHundred: 5.498,
-        originalPGA: 3.792
+        amatuer: 4.386,
     }, {
         lie: 'f',
         distance: 305,
         pgaTour: 3.795,
-        eighty: 4.389,
-        ninety: 4.945,
-        oneHundred: 5.501,
-        originalPGA: 3.795
+        amatuer: 4.389,
     }, {
         lie: 'f',
         distance: 306,
         pgaTour: 3.798,
-        eighty: 4.392,
-        ninety: 4.948,
-        oneHundred: 5.504,
-        originalPGA: 3.798
+        amatuer: 4.392,
     }, {
         lie: 'f',
         distance: 307,
         pgaTour: 3.801,
-        eighty: 4.395,
-        ninety: 4.951,
-        oneHundred: 5.507,
-        originalPGA: 3.801
+        amatuer: 4.395,
     }, {
         lie: 'f',
         distance: 308,
         pgaTour: 3.804,
-        eighty: 4.398,
-        ninety: 4.954,
-        oneHundred: 5.51,
-        originalPGA: 3.804
+        amatuer: 4.398,
     }, {
         lie: 'f',
         distance: 309,
         pgaTour: 3.807,
-        eighty: 4.401,
-        ninety: 4.957,
-        oneHundred: 5.513,
-        originalPGA: 3.807
+        amatuer: 4.401,
     }, {
         lie: 'f',
         distance: 310,
         pgaTour: 3.81,
-        eighty: 4.404,
-        ninety: 4.96,
-        oneHundred: 5.516,
-        originalPGA: 3.81
+        amatuer: 4.404,
     }, {
         lie: 'f',
         distance: 311,
         pgaTour: 3.813,
-        eighty: 4.407,
-        ninety: 4.963,
-        oneHundred: 5.519,
-        originalPGA: 3.813
+        amatuer: 4.407,
     }, {
         lie: 'f',
         distance: 312,
         pgaTour: 3.816,
-        eighty: 4.41,
-        ninety: 4.966,
-        oneHundred: 5.522,
-        originalPGA: 3.816
+        amatuer: 4.41,
     }, {
         lie: 'f',
         distance: 313,
         pgaTour: 3.819,
-        eighty: 4.413,
-        ninety: 4.969,
-        oneHundred: 5.525,
-        originalPGA: 3.819
+        amatuer: 4.413,
     }, {
         lie: 'f',
         distance: 314,
         pgaTour: 3.822,
-        eighty: 4.416,
-        ninety: 4.972,
-        oneHundred: 5.528,
-        originalPGA: 3.822
+        amatuer: 4.416,
     }, {
         lie: 'f',
         distance: 315,
         pgaTour: 3.825,
-        eighty: 4.419,
-        ninety: 4.975,
-        oneHundred: 5.531,
-        originalPGA: 3.825
+        amatuer: 4.419,
     }, {
         lie: 'f',
         distance: 316,
         pgaTour: 3.828,
-        eighty: 4.422,
-        ninety: 4.978,
-        oneHundred: 5.534,
-        originalPGA: 3.828
+        amatuer: 4.422,
     }, {
         lie: 'f',
         distance: 317,
         pgaTour: 3.831,
-        eighty: 4.425,
-        ninety: 4.981,
-        oneHundred: 5.537,
-        originalPGA: 3.831
+        amatuer: 4.425,
     }, {
         lie: 'f',
         distance: 318,
         pgaTour: 3.834,
-        eighty: 4.428,
-        ninety: 4.984,
-        oneHundred: 5.54,
-        originalPGA: 3.834
+        amatuer: 4.428,
     }, {
         lie: 'f',
         distance: 319,
         pgaTour: 3.837,
-        eighty: 4.431,
-        ninety: 4.987,
-        oneHundred: 5.543,
-        originalPGA: 3.837
+        amatuer: 4.431,
     }, {
         lie: 'f',
         distance: 320,
         pgaTour: 3.84,
-        eighty: 4.434,
-        ninety: 4.99,
-        oneHundred: 5.546,
-        originalPGA: 3.84
+        amatuer: 4.434,
     }, {
         lie: 'f',
         distance: 321,
         pgaTour: 3.842,
-        eighty: 4.436,
-        ninety: 4.992,
-        oneHundred: 5.548,
-        originalPGA: 3.842
+        amatuer: 4.436,
     }, {
         lie: 'f',
         distance: 322,
         pgaTour: 3.844,
-        eighty: 4.438,
-        ninety: 4.994,
-        oneHundred: 5.55,
-        originalPGA: 3.844
+        amatuer: 4.438,
     }, {
         lie: 'f',
         distance: 323,
         pgaTour: 3.846,
-        eighty: 4.44,
-        ninety: 4.996,
-        oneHundred: 5.552,
-        originalPGA: 3.846
+        amatuer: 4.44,
     }, {
         lie: 'f',
         distance: 324,
         pgaTour: 3.848,
-        eighty: 4.442,
-        ninety: 4.998,
-        oneHundred: 5.554,
-        originalPGA: 3.848
+        amatuer: 4.442,
     }, {
         lie: 'f',
         distance: 325,
         pgaTour: 3.85,
-        eighty: 4.444,
-        ninety: 5,
-        oneHundred: 5.556,
-        originalPGA: 3.85
+        amatuer: 4.444,
     }, {
         lie: 'f',
         distance: 326,
         pgaTour: 3.852,
-        eighty: 4.446,
-        ninety: 5.002,
-        oneHundred: 5.558,
-        originalPGA: 3.852
+        amatuer: 4.446,
     }, {
         lie: 'f',
         distance: 327,
         pgaTour: 3.854,
-        eighty: 4.448,
-        ninety: 5.004,
-        oneHundred: 5.56,
-        originalPGA: 3.854
+        amatuer: 4.448,
     }, {
         lie: 'f',
         distance: 328,
         pgaTour: 3.856,
-        eighty: 4.45,
-        ninety: 5.006,
-        oneHundred: 5.562,
-        originalPGA: 3.856
+        amatuer: 4.45,
     }, {
         lie: 'f',
         distance: 329,
         pgaTour: 3.858,
-        eighty: 4.452,
-        ninety: 5.008,
-        oneHundred: 5.564,
-        originalPGA: 3.858
+        amatuer: 4.452,
     }, {
         lie: 'f',
         distance: 330,
         pgaTour: 3.86,
-        eighty: 4.454,
-        ninety: 5.01,
-        oneHundred: 5.566,
-        originalPGA: 3.86
+        amatuer: 4.454,
     }, {
         lie: 'f',
         distance: 331,
         pgaTour: 3.862,
-        eighty: 4.456,
-        ninety: 5.012,
-        oneHundred: 5.568,
-        originalPGA: 3.862
+        amatuer: 4.456,
     }, {
         lie: 'f',
         distance: 332,
         pgaTour: 3.864,
-        eighty: 4.458,
-        ninety: 5.014,
-        oneHundred: 5.57,
-        originalPGA: 3.864
+        amatuer: 4.458,
     }, {
         lie: 'f',
         distance: 333,
         pgaTour: 3.866,
-        eighty: 4.46,
-        ninety: 5.016,
-        oneHundred: 5.572,
-        originalPGA: 3.866
+        amatuer: 4.46,
     }, {
         lie: 'f',
         distance: 334,
         pgaTour: 3.868,
-        eighty: 4.462,
-        ninety: 5.018,
-        oneHundred: 5.574,
-        originalPGA: 3.868
+        amatuer: 4.462,
     }, {
         lie: 'f',
         distance: 335,
         pgaTour: 3.87,
-        eighty: 4.464,
-        ninety: 5.02,
-        oneHundred: 5.576,
-        originalPGA: 3.87
+        amatuer: 4.464,
     }, {
         lie: 'f',
         distance: 336,
         pgaTour: 3.872,
-        eighty: 4.466,
-        ninety: 5.022,
-        oneHundred: 5.578,
-        originalPGA: 3.872
+        amatuer: 4.466,
     }, {
         lie: 'f',
         distance: 337,
         pgaTour: 3.874,
-        eighty: 4.468,
-        ninety: 5.024,
-        oneHundred: 5.58,
-        originalPGA: 3.874
+        amatuer: 4.468,
     }, {
         lie: 'f',
         distance: 338,
         pgaTour: 3.876,
-        eighty: 4.47,
-        ninety: 5.026,
-        oneHundred: 5.582,
-        originalPGA: 3.876
+        amatuer: 4.47,
     }, {
         lie: 'f',
         distance: 339,
         pgaTour: 3.878,
-        eighty: 4.472,
-        ninety: 5.028,
-        oneHundred: 5.584,
-        originalPGA: 3.878
+        amatuer: 4.472,
     }, {
         lie: 'f',
         distance: 340,
         pgaTour: 3.88,
-        eighty: 4.474,
-        ninety: 5.03,
-        oneHundred: 5.586,
-        originalPGA: 3.88
+        amatuer: 4.474,
     }, {
         lie: 'f',
         distance: 341,
         pgaTour: 3.884,
-        eighty: 4.478,
-        ninety: 5.034,
-        oneHundred: 5.59,
-        originalPGA: 3.884
+        amatuer: 4.478,
     }, {
         lie: 'f',
         distance: 342,
         pgaTour: 3.887,
-        eighty: 4.481,
-        ninety: 5.037,
-        oneHundred: 5.593,
-        originalPGA: 3.887
+        amatuer: 4.481,
     }, {
         lie: 'f',
         distance: 343,
         pgaTour: 3.891,
-        eighty: 4.485,
-        ninety: 5.041,
-        oneHundred: 5.597,
-        originalPGA: 3.891
+        amatuer: 4.485,
     }, {
         lie: 'f',
         distance: 344,
         pgaTour: 3.894,
-        eighty: 4.488,
-        ninety: 5.044,
-        oneHundred: 5.6,
-        originalPGA: 3.894
+        amatuer: 4.488,
     }, {
         lie: 'f',
         distance: 345,
         pgaTour: 3.898,
-        eighty: 4.492,
-        ninety: 5.048,
-        oneHundred: 5.604,
-        originalPGA: 3.898
+        amatuer: 4.492,
     }, {
         lie: 'f',
         distance: 346,
         pgaTour: 3.901,
-        eighty: 4.495,
-        ninety: 5.051,
-        oneHundred: 5.607,
-        originalPGA: 3.901
+        amatuer: 4.495,
     }, {
         lie: 'f',
         distance: 347,
         pgaTour: 3.905,
-        eighty: 4.499,
-        ninety: 5.055,
-        oneHundred: 5.611,
-        originalPGA: 3.905
+        amatuer: 4.499,
     }, {
         lie: 'f',
         distance: 348,
         pgaTour: 3.908,
-        eighty: 4.502,
-        ninety: 5.058,
-        oneHundred: 5.614,
-        originalPGA: 3.908
+        amatuer: 4.502,
     }, {
         lie: 'f',
         distance: 349,
         pgaTour: 3.912,
-        eighty: 4.506,
-        ninety: 5.062,
-        oneHundred: 5.618,
-        originalPGA: 3.912
+        amatuer: 4.506,
     }, {
         lie: 'f',
         distance: 350,
         pgaTour: 3.915,
-        eighty: 4.509,
-        ninety: 5.065,
-        oneHundred: 5.621,
-        originalPGA: 3.915
+        amatuer: 4.509,
     }, {
         lie: 'f',
         distance: 351,
         pgaTour: 3.919,
-        eighty: 4.513,
-        ninety: 5.069,
-        oneHundred: 5.625,
-        originalPGA: 3.919
+        amatuer: 4.513,
     }, {
         lie: 'f',
         distance: 352,
         pgaTour: 3.922,
-        eighty: 4.516,
-        ninety: 5.072,
-        oneHundred: 5.628,
-        originalPGA: 3.922
+        amatuer: 4.516,
     }, {
         lie: 'f',
         distance: 353,
         pgaTour: 3.926,
-        eighty: 4.52,
-        ninety: 5.076,
-        oneHundred: 5.632,
-        originalPGA: 3.926
+        amatuer: 4.52,
     }, {
         lie: 'f',
         distance: 354,
         pgaTour: 3.929,
-        eighty: 4.523,
-        ninety: 5.079,
-        oneHundred: 5.635,
-        originalPGA: 3.929
+        amatuer: 4.523,
     }, {
         lie: 'f',
         distance: 355,
         pgaTour: 3.933,
-        eighty: 4.527,
-        ninety: 5.083,
-        oneHundred: 5.639,
-        originalPGA: 3.933
-    }, {
+        amatuer: 4.527,
+        }, {
         lie: 'f',
         distance: 356,
         pgaTour: 3.936,
-        eighty: 4.53,
-        ninety: 5.086,
-        oneHundred: 5.642,
-        originalPGA: 3.936
+        amatuer: 4.53,
     }, {
         lie: 'f',
         distance: 357,
         pgaTour: 3.94,
-        eighty: 4.534,
-        ninety: 5.09,
-        oneHundred: 5.646,
-        originalPGA: 3.94
+        amatuer: 4.534,
     }, {
         lie: 'f',
         distance: 358,
         pgaTour: 3.943,
-        eighty: 4.537,
-        ninety: 5.093,
-        oneHundred: 5.649,
-        originalPGA: 3.943
+        amatuer: 4.537,
     }, {
         lie: 'f',
         distance: 359,
         pgaTour: 3.947,
-        eighty: 4.541,
-        ninety: 5.097,
-        oneHundred: 5.653,
-        originalPGA: 3.947
+        amatuer: 4.541,
     }, {
         lie: 'f',
         distance: 360,
         pgaTour: 3.95,
-        eighty: 4.544,
-        ninety: 5.1,
-        oneHundred: 5.656,
-        originalPGA: 3.95
+        amatuer: 4.544,
     }, {
         lie: 'f',
         distance: 361,
         pgaTour: 3.954,
-        eighty: 4.548,
-        ninety: 5.104,
-        oneHundred: 5.66,
-        originalPGA: 3.954
+        amatuer: 4.548,
     }, {
         lie: 'f',
         distance: 362,
         pgaTour: 3.958,
-        eighty: 4.552,
-        ninety: 5.108,
-        oneHundred: 5.664,
-        originalPGA: 3.958
+        amatuer: 4.552,
     }, {
         lie: 'f',
         distance: 363,
         pgaTour: 3.962,
-        eighty: 4.556,
-        ninety: 5.112,
-        oneHundred: 5.668,
-        originalPGA: 3.962
+        amatuer: 4.556,
     }, {
         lie: 'f',
         distance: 364,
         pgaTour: 3.966,
-        eighty: 4.56,
-        ninety: 5.116,
-        oneHundred: 5.672,
-        originalPGA: 3.966
+        amatuer: 4.56,
     }, {
         lie: 'f',
         distance: 365,
         pgaTour: 3.97,
-        eighty: 4.564,
-        ninety: 5.12,
-        oneHundred: 5.676,
-        originalPGA: 3.97
+        amatuer: 4.564,
     }, {
         lie: 'f',
         distance: 366,
         pgaTour: 3.974,
-        eighty: 4.568,
-        ninety: 5.124,
-        oneHundred: 5.68,
-        originalPGA: 3.974
+        amatuer: 4.568,
     }, {
         lie: 'f',
         distance: 367,
         pgaTour: 3.978,
-        eighty: 4.572,
-        ninety: 5.128,
-        oneHundred: 5.684,
-        originalPGA: 3.978
+        amatuer: 4.572,
     }, {
         lie: 'f',
         distance: 368,
         pgaTour: 3.982,
-        eighty: 4.576,
-        ninety: 5.132,
-        oneHundred: 5.688,
-        originalPGA: 3.982
+        amatuer: 4.576,
     }, {
         lie: 'f',
         distance: 369,
         pgaTour: 3.986,
-        eighty: 4.58,
-        ninety: 5.136,
-        oneHundred: 5.692,
-        originalPGA: 3.986
+        amatuer: 4.58,
     }, {
         lie: 'f',
         distance: 370,
         pgaTour: 3.99,
-        eighty: 4.584,
-        ninety: 5.14,
-        oneHundred: 5.696,
-        originalPGA: 3.99
+        amatuer: 4.584,
     }, {
         lie: 'f',
         distance: 371,
         pgaTour: 3.994,
-        eighty: 4.588,
-        ninety: 5.144,
-        oneHundred: 5.7,
-        originalPGA: 3.994
+        amatuer: 4.588,
     }, {
         lie: 'f',
         distance: 372,
         pgaTour: 3.998,
-        eighty: 4.592,
-        ninety: 5.148,
-        oneHundred: 5.704,
-        originalPGA: 3.998
+        amatuer: 4.592,
     }, {
         lie: 'f',
         distance: 373,
         pgaTour: 4.002,
-        eighty: 4.596,
-        ninety: 5.152,
-        oneHundred: 5.708,
-        originalPGA: 4.002
+        amatuer: 4.596,
     }, {
         lie: 'f',
         distance: 374,
         pgaTour: 4.006,
-        eighty: 4.6,
-        ninety: 5.156,
-        oneHundred: 5.712,
-        originalPGA: 4.006
+        amatuer: 4.6,
     }, {
         lie: 'f',
         distance: 375,
         pgaTour: 4.01,
-        eighty: 4.604,
-        ninety: 5.16,
-        oneHundred: 5.716,
-        originalPGA: 4.01
+        amatuer: 4.604,
     }, {
         lie: 'f',
         distance: 376,
         pgaTour: 4.014,
-        eighty: 4.608,
-        ninety: 5.164,
-        oneHundred: 5.72,
-        originalPGA: 4.014
+        amatuer: 4.608,
     }, {
         lie: 'f',
         distance: 377,
         pgaTour: 4.018,
-        eighty: 4.612,
-        ninety: 5.168,
-        oneHundred: 5.724,
-        originalPGA: 4.018
+        amatuer: 4.612,
     }, {
         lie: 'f',
         distance: 378,
         pgaTour: 4.022,
-        eighty: 4.616,
-        ninety: 5.172,
-        oneHundred: 5.728,
-        originalPGA: 4.022
+        amatuer: 4.616,
     }, {
         lie: 'f',
         distance: 379,
         pgaTour: 4.026,
-        eighty: 4.62,
-        ninety: 5.176,
-        oneHundred: 5.732,
-        originalPGA: 4.026
+        amatuer: 4.62,
     }, {
         lie: 'f',
         distance: 380,
         pgaTour: 4.03,
-        eighty: 4.624,
-        ninety: 5.18,
-        oneHundred: 5.736,
-        originalPGA: 4.03
+        amatuer: 4.624,
     }, {
         lie: 'f',
         distance: 381,
         pgaTour: 4.034,
-        eighty: 4.628,
-        ninety: 5.184,
-        oneHundred: 5.74,
-        originalPGA: 4.034
+        amatuer: 4.628,
     }, {
         lie: 'f',
         distance: 382,
         pgaTour: 4.038,
-        eighty: 4.632,
-        ninety: 5.188,
-        oneHundred: 5.744,
-        originalPGA: 4.038
+        amatuer: 4.632,
     }, {
         lie: 'f',
         pgaTour: 4.042,
-        eighty: 4.636,
-        ninety: 5.192,
-        oneHundred: 5.748,
-        originalPGA: 4.042
+        amatuer: 4.636,
     }, {
         lie: 'f',
         distance: 384,
         pgaTour: 4.046,
-        eighty: 4.64,
-        ninety: 5.196,
-        oneHundred: 5.752,
-        originalPGA: 4.046
+        amatuer: 4.64,
     }, {
         lie: 'f',
         distance: 385,
         pgaTour: 4.05,
-        eighty: 4.644,
-        ninety: 5.2,
-        oneHundred: 5.756,
-        originalPGA: 4.05
+        amatuer: 4.644,
     }, {
         lie: 'f',
         distance: 386,
         pgaTour: 4.054,
-        eighty: 4.648,
-        ninety: 5.204,
-        oneHundred: 5.76,
-        originalPGA: 4.054
+        amatuer: 4.648,
     }, {
         lie: 'f',
         distance: 387,
         pgaTour: 4.058,
-        eighty: 4.652,
-        ninety: 5.208,
-        oneHundred: 5.764,
-        originalPGA: 4.058
+        amatuer: 4.652,
     }, {
         lie: 'f',
         distance: 388,
         pgaTour: 4.062,
-        eighty: 4.656,
-        ninety: 5.212,
-        oneHundred: 5.768,
-        originalPGA: 4.062
+        amatuer: 4.656,
     }, {
         lie: 'f',
         distance: 389,
         pgaTour: 4.066,
-        eighty: 4.66,
-        ninety: 5.216,
-        oneHundred: 5.772,
-        originalPGA: 4.066
+        amatuer: 4.66,
     }, {
         lie: 'f',
         distance: 390,
         pgaTour: 4.07,
-        eighty: 4.664,
-        ninety: 5.22,
-        oneHundred: 5.776,
-        originalPGA: 4.07
+        amatuer: 4.664,
     }, {
         lie: 'f',
         distance: 391,
         pgaTour: 4.074,
-        eighty: 4.668,
-        ninety: 5.224,
-        oneHundred: 5.78,
-        originalPGA: 4.074
+        amatuer: 4.668,
     }, {
         lie: 'f',
         distance: 392,
         pgaTour: 4.078,
-        eighty: 4.672,
-        ninety: 5.228,
-        oneHundred: 5.784,
-        originalPGA: 4.078
+        amatuer: 4.672,
     }, {
         lie: 'f',
         distance: 393,
         pgaTour: 4.082,
-        eighty: 4.676,
-        ninety: 5.232,
-        oneHundred: 5.788,
-        originalPGA: 4.082
+        amatuer: 4.676,
     }, {
         lie: 'f',
         distance: 394,
         pgaTour: 4.086,
-        eighty: 4.68,
-        ninety: 5.236,
-        oneHundred: 5.792,
-        originalPGA: 4.086
+        amatuer: 4.68,
     }, {
         lie: 'f',
         distance: 395,
         pgaTour: 4.09,
-        eighty: 4.684,
-        ninety: 5.24,
-        oneHundred: 5.796,
-        originalPGA: 4.09
+        amatuer: 4.684,
     }, {
         lie: 'f',
         distance: 396,
         pgaTour: 4.094,
-        eighty: 4.688,
-        ninety: 5.244,
-        oneHundred: 5.8,
-        originalPGA: 4.094
+        amatuer: 4.688,
     }, {
         lie: 'f',
         distance: 397,
         pgaTour: 4.098,
-        eighty: 4.692,
-        ninety: 5.248,
-        oneHundred: 5.804,
-        originalPGA: 4.098
+        amatuer: 4.692,
     }, {
         lie: 'f',
         distance: 398,
         pgaTour: 4.102,
-        eighty: 4.696,
-        ninety: 5.252,
-        oneHundred: 5.808,
-        originalPGA: 4.102
+        amatuer: 4.696,
     }, {
         lie: 'f',
         distance: 399,
         pgaTour: 4.106,
-        eighty: 4.7,
-        ninety: 5.256,
-        oneHundred: 5.812,
-        originalPGA: 4.106
+        amatuer: 4.7,
     }, {
         lie: 'f',
         distance: 400,
         pgaTour: 4.11,
-        eighty: 4.704,
-        ninety: 5.26,
-        oneHundred: 5.816,
-        originalPGA: 4.11
+        amatuer: 4.704,
     }, {
         lie: 'f',
         distance: 401,
         pgaTour: 4.112,
-        eighty: 4.706,
-        ninety: 5.262,
-        oneHundred: 5.818,
-        originalPGA: 4.112
+        amatuer: 4.706,
     }, {
         lie: 'f',
         distance: 402,
         pgaTour: 4.114,
-        eighty: 4.708,
-        ninety: 5.264,
-        oneHundred: 5.82,
-        originalPGA: 4.114
+        amatuer: 4.708,
     }, {
         lie: 'f',
         distance: 403,
         pgaTour: 4.116,
-        eighty: 4.71,
-        ninety: 5.266,
-        oneHundred: 5.822,
-        originalPGA: 4.116
+        amatuer: 4.71,
     }, {
         lie: 'f',
         distance: 404,
         pgaTour: 4.118,
-        eighty: 4.712,
-        ninety: 5.268,
-        oneHundred: 5.824,
-        originalPGA: 4.118
+        amatuer: 4.712,
     }, {
         lie: 'f',
         distance: 405,
         pgaTour: 4.12,
-        eighty: 4.714,
-        ninety: 5.27,
-        oneHundred: 5.826,
-        originalPGA: 4.12
+        amatuer: 4.714,
     }, {
         lie: 'f',
         distance: 406,
         pgaTour: 4.122,
-        eighty: 4.716,
-        ninety: 5.272,
-        oneHundred: 5.828,
-        originalPGA: 4.122
+        amatuer: 4.716,
     }, {
         lie: 'f',
         distance: 407,
         pgaTour: 4.124,
-        eighty: 4.718,
-        ninety: 5.274,
-        oneHundred: 5.83,
-        originalPGA: 4.124
+        amatuer: 4.718,
     }, {
         lie: 'f',
         distance: 408,
         pgaTour: 4.126,
-        eighty: 4.72,
-        ninety: 5.276,
-        oneHundred: 5.832,
-        originalPGA: 4.126
+        amatuer: 4.72,
     }, {
         lie: 'f',
         distance: 409,
         pgaTour: 4.128,
-        eighty: 4.722,
-        ninety: 5.278,
-        oneHundred: 5.834,
-        originalPGA: 4.128
+        amatuer: 4.722,
     }, {
         lie: 'f',
         distance: 410,
         pgaTour: 4.13,
-        eighty: 4.724,
-        ninety: 5.28,
-        oneHundred: 5.836,
-        originalPGA: 4.13
+        amatuer: 4.724,
     }, {
         lie: 'f',
         distance: 411,
         pgaTour: 4.132,
-        eighty: 4.726,
-        ninety: 5.282,
-        oneHundred: 5.838,
-        originalPGA: 4.132
+        amatuer: 4.726,
     }, {
         lie: 'f',
         distance: 412,
         pgaTour: 4.134,
-        eighty: 4.728,
-        ninety: 5.284,
-        oneHundred: 5.84,
-        originalPGA: 4.134
+        amatuer: 4.728,
     }, {
         lie: 'f',
         distance: 413,
         pgaTour: 4.136,
-        eighty: 4.73,
-        ninety: 5.286,
-        oneHundred: 5.842,
-        originalPGA: 4.136
+        amatuer: 4.73,
     }, {
         lie: 'f',
         distance: 414,
         pgaTour: 4.138,
-        eighty: 4.732,
-        ninety: 5.288,
-        oneHundred: 5.844,
-        originalPGA: 4.138
+        amatuer: 4.732,
     }, {
         lie: 'f',
         distance: 415,
         pgaTour: 4.14,
-        eighty: 4.734,
-        ninety: 5.29,
-        oneHundred: 5.846,
-        originalPGA: 4.14
+        amatuer: 4.734,
     }, {
         lie: 'f',
         distance: 416,
         pgaTour: 4.142,
-        eighty: 4.736,
-        ninety: 5.292,
-        oneHundred: 5.848,
-        originalPGA: 4.142
+        amatuer: 4.736,
     }, {
         lie: 'f',
         distance: 417,
         pgaTour: 4.144,
-        eighty: 4.738,
-        ninety: 5.294,
-        oneHundred: 5.85,
-        originalPGA: 4.144
+        amatuer: 4.738,
     }, {
         lie: 'f',
         distance: 418,
         pgaTour: 4.146,
-        eighty: 4.74,
-        ninety: 5.296,
-        oneHundred: 5.852,
-        originalPGA: 4.146
+        amatuer: 4.74,
     }, {
         lie: 'f',
         distance: 419,
         pgaTour: 4.148,
-        eighty: 4.742,
-        ninety: 5.298,
-        oneHundred: 5.854,
-        originalPGA: 4.148
+        amatuer: 4.742,
     }, {
         lie: 'f',
         distance: 420,
         pgaTour: 4.15,
-        eighty: 4.744,
-        ninety: 5.3,
-        oneHundred: 5.856,
-        originalPGA: 4.15
+        amatuer: 4.744,
     }, {
         lie: 'f',
         distance: 421,
         pgaTour: 4.153,
-        eighty: 4.747,
-        ninety: 5.303,
-        oneHundred: 5.859,
-        originalPGA: 4.153
+        amatuer: 4.747,
     }, {
         lie: 'f',
         distance: 422,
         pgaTour: 4.155,
-        eighty: 4.749,
-        ninety: 5.305,
-        oneHundred: 5.861,
-        originalPGA: 4.155
+        amatuer: 4.749,
     }, {
         lie: 'f',
         distance: 423,
         pgaTour: 4.158,
-        eighty: 4.752,
-        ninety: 5.308,
-        oneHundred: 5.864,
-        originalPGA: 4.158
+        amatuer: 4.752,
     }, {
         lie: 'f',
         distance: 424,
         pgaTour: 4.16,
-        eighty: 4.754,
-        ninety: 5.31,
-        oneHundred: 5.866,
-        originalPGA: 4.16
+        amatuer: 4.754,
     }, {
         lie: 'f',
         distance: 425,
         pgaTour: 4.163,
-        eighty: 4.757,
-        ninety: 5.313,
-        oneHundred: 5.869,
-        originalPGA: 4.163
+        amatuer: 4.757,
     }, {
         lie: 'f',
         distance: 426,
         pgaTour: 4.165,
-        eighty: 4.759,
-        ninety: 5.315,
-        oneHundred: 5.871,
-        originalPGA: 4.165
+        amatuer: 4.759,
     }, {
         lie: 'f',
         distance: 427,
         pgaTour: 4.168,
-        eighty: 4.762,
-        ninety: 5.318,
-        oneHundred: 5.874,
-        originalPGA: 4.168
+        amatuer: 4.762,
     }, {
         lie: 'f',
         distance: 428,
         pgaTour: 4.17,
-        eighty: 4.764,
-        ninety: 5.32,
-        oneHundred: 5.876,
-        originalPGA: 4.17
+        amatuer: 4.764,
     }, {
         lie: 'f',
         distance: 429,
         pgaTour: 4.173,
-        eighty: 4.767,
-        ninety: 5.323,
-        oneHundred: 5.879,
-        originalPGA: 4.173
+        amatuer: 4.767,
     }, {
         lie: 'f',
         distance: 430,
         pgaTour: 4.175,
-        eighty: 4.769,
-        ninety: 5.325,
-        oneHundred: 5.881,
-        originalPGA: 4.175
+        amatuer: 4.769,
     }, {
         lie: 'f',
         distance: 431,
         pgaTour: 4.178,
-        eighty: 4.772,
-        ninety: 5.328,
-        oneHundred: 5.884,
-        originalPGA: 4.178
+        amatuer: 4.772,
     }, {
         lie: 'f',
         distance: 432,
         pgaTour: 4.18,
-        eighty: 4.774,
-        ninety: 5.33,
-        oneHundred: 5.886,
-        originalPGA: 4.18
+        amatuer: 4.774,
     }, {
         lie: 'f',
         distance: 433,
         pgaTour: 4.183,
-        eighty: 4.777,
-        ninety: 5.333,
-        oneHundred: 5.889,
-        originalPGA: 4.183
+        amatuer: 4.777,
     }, {
         lie: 'f',
         distance: 434,
         pgaTour: 4.185,
-        eighty: 4.779,
-        ninety: 5.335,
-        oneHundred: 5.891,
-        originalPGA: 4.185
+        amatuer: 4.779,
     }, {
         lie: 'f',
         distance: 435,
         pgaTour: 4.188,
-        eighty: 4.782,
-        ninety: 5.338,
-        oneHundred: 5.894,
-        originalPGA: 4.188
+        amatuer: 4.782,
     }, {
         lie: 'f',
         distance: 436,
         pgaTour: 4.19,
-        eighty: 4.784,
-        ninety: 5.34,
-        oneHundred: 5.896,
-        originalPGA: 4.19
+        amatuer: 4.784,
     }, {
         lie: 'f',
         distance: 437,
         pgaTour: 4.193,
-        eighty: 4.787,
-        ninety: 5.343,
-        oneHundred: 5.899,
-        originalPGA: 4.193
+        amatuer: 4.787,
     }, {
         lie: 'f',
         distance: 438,
         pgaTour: 4.195,
-        eighty: 4.789,
-        ninety: 5.345,
-        oneHundred: 5.901,
-        originalPGA: 4.195
+        amatuer: 4.789,
     }, {
         lie: 'f',
         distance: 439,
         pgaTour: 4.198,
-        eighty: 4.792,
-        ninety: 5.348,
-        oneHundred: 5.904,
-        originalPGA: 4.198
+        amatuer: 4.792,
     }, {
         lie: 'f',
         distance: 440,
         pgaTour: 4.2,
-        eighty: 4.794,
-        ninety: 5.35,
-        oneHundred: 5.906,
-        originalPGA: 4.2
+        amatuer: 4.794,
     }, {
         lie: 'f',
         distance: 441,
         pgaTour: 4.205,
-        eighty: 4.799,
-        ninety: 5.355,
-        oneHundred: 5.911,
-        originalPGA: 4.205
+        amatuer: 4.799,
     }, {
         lie: 'f',
         distance: 442,
         pgaTour: 4.209,
-        eighty: 4.803,
-        ninety: 5.359,
-        oneHundred: 5.915,
-        originalPGA: 4.209
+        amatuer: 4.803,
     }, {
         lie: 'f',
         distance: 443,
         pgaTour: 4.214,
-        eighty: 4.808,
-        ninety: 5.364,
-        oneHundred: 5.92,
-        originalPGA: 4.214
+        amatuer: 4.808,
     }, {
         lie: 'f',
         distance: 444,
         pgaTour: 4.218,
-        eighty: 4.812,
-        ninety: 5.368,
-        oneHundred: 5.924,
-        originalPGA: 4.218
+        amatuer: 4.812,
     }, {
         lie: 'f',
         distance: 445,
         pgaTour: 4.223,
-        eighty: 4.817,
-        ninety: 5.373,
-        oneHundred: 5.929,
-        originalPGA: 4.223
+        amatuer: 4.817,
     }, {
         lie: 'f',
         distance: 446,
         pgaTour: 4.227,
-        eighty: 4.821,
-        ninety: 5.377,
-        oneHundred: 5.933,
-        originalPGA: 4.227
+        amatuer: 4.821,
     }, {
         lie: 'f',
         distance: 447,
         pgaTour: 4.232,
-        eighty: 4.826,
-        ninety: 5.382,
-        oneHundred: 5.938,
-        originalPGA: 4.232
+        amatuer: 4.826,
     }, {
         lie: 'f',
         distance: 448,
         pgaTour: 4.236,
-        eighty: 4.83,
-        ninety: 5.386,
-        oneHundred: 5.942,
-        originalPGA: 4.236
+        amatuer: 4.83,
     }, {
         lie: 'f',
         distance: 449,
         pgaTour: 4.241,
-        eighty: 4.835,
-        ninety: 5.391,
-        oneHundred: 5.947,
-        originalPGA: 4.241
+        amatuer: 4.835,
     }, {
         lie: 'f',
         distance: 450,
         pgaTour: 4.245,
-        eighty: 4.839,
-        ninety: 5.395,
-        oneHundred: 5.951,
-        originalPGA: 4.245
+        amatuer: 4.839,
     }, {
         lie: 'f',
         distance: 451,
         pgaTour: 4.25,
-        eighty: 4.844,
-        ninety: 5.4,
-        oneHundred: 5.956,
-        originalPGA: 4.25
+        amatuer: 4.844,
     }, {
         lie: 'f',
         distance: 452,
         pgaTour: 4.254,
-        eighty: 4.848,
-        ninety: 5.404,
-        oneHundred: 5.96,
-        originalPGA: 4.254
+        amatuer: 4.848,
     }, {
         lie: 'f',
         distance: 453,
         pgaTour: 4.259,
-        eighty: 4.853,
-        ninety: 5.409,
-        oneHundred: 5.965,
-        originalPGA: 4.259
+        amatuer: 4.853,
     }, {
         lie: 'f',
         distance: 454,
         pgaTour: 4.263,
-        eighty: 4.857,
-        ninety: 5.413,
-        oneHundred: 5.969,
-        originalPGA: 4.263
+        amatuer: 4.857,
     }, {
         lie: 'f',
         distance: 455,
         pgaTour: 4.268,
-        eighty: 4.862,
-        ninety: 5.418,
-        oneHundred: 5.974,
-        originalPGA: 4.268
+        amatuer: 4.862,
     }, {
         lie: 'f',
         distance: 456,
         pgaTour: 4.272,
-        eighty: 4.866,
-        ninety: 5.422,
-        oneHundred: 5.978,
-        originalPGA: 4.272
+        amatuer: 4.866,
     }, {
         lie: 'f',
         distance: 457,
         pgaTour: 4.277,
-        eighty: 4.871,
-        ninety: 5.427,
-        oneHundred: 5.983,
-        originalPGA: 4.277
+        amatuer: 4.871,
     }, {
         lie: 'f',
         distance: 458,
         pgaTour: 4.281,
-        eighty: 4.875,
-        ninety: 5.431,
-        oneHundred: 5.987,
-        originalPGA: 4.281
+        amatuer: 4.875,
     }, {
         lie: 'f',
         distance: 459,
         pgaTour: 4.286,
-        eighty: 4.88,
-        ninety: 5.436,
-        oneHundred: 5.992,
-        originalPGA: 4.286
+        amatuer: 4.88,
     }, {
         lie: 'f',
         distance: 460,
         pgaTour: 4.29,
-        eighty: 4.884,
-        ninety: 5.44,
-        oneHundred: 5.996,
-        originalPGA: 4.29
+        amatuer: 4.884,
     }, {
         lie: 'f',
         distance: 461,
         pgaTour: 4.296,
-        eighty: 4.89,
-        ninety: 5.446,
-        oneHundred: 6.002,
-        originalPGA: 4.296
+        amatuer: 4.89,
     }, {
         lie: 'f',
         distance: 462,
         pgaTour: 4.301,
-        eighty: 4.895,
-        ninety: 5.451,
-        oneHundred: 6.007,
-        originalPGA: 4.301
+        amatuer: 4.895,
     }, {
         lie: 'f',
         distance: 463,
         pgaTour: 4.307,
-        eighty: 4.901,
-        ninety: 5.457,
-        oneHundred: 6.013,
-        originalPGA: 4.307
+        amatuer: 4.901,
     }, {
         lie: 'f',
         distance: 464,
         pgaTour: 4.312,
-        eighty: 4.906,
-        ninety: 5.462,
-        oneHundred: 6.018,
-        originalPGA: 4.312
+        amatuer: 4.906,
     }, {
         lie: 'f',
         distance: 465,
         pgaTour: 4.318,
-        eighty: 4.912,
-        ninety: 5.468,
-        oneHundred: 6.024,
-        originalPGA: 4.318
+        amatuer: 4.912,
     }, {
         lie: 'f',
         distance: 466,
         pgaTour: 4.323,
-        eighty: 4.917,
-        ninety: 5.473,
-        oneHundred: 6.029,
-        originalPGA: 4.323
+        amatuer: 4.917,
     }, {
         lie: 'f',
         distance: 467,
         pgaTour: 4.329,
-        eighty: 4.923,
-        ninety: 5.479,
-        oneHundred: 6.035,
-        originalPGA: 4.329
+        amatuer: 4.923,
     }, {
         lie: 'f',
         distance: 468,
         pgaTour: 4.334,
-        eighty: 4.928,
-        ninety: 5.484,
-        oneHundred: 6.04,
-        originalPGA: 4.334
+        amatuer: 4.928,
     }, {
         lie: 'f',
         distance: 469,
         pgaTour: 4.34,
-        eighty: 4.934,
-        ninety: 5.49,
-        oneHundred: 6.046,
-        originalPGA: 4.34
+        amatuer: 4.934,
     }, {
         lie: 'f',
         distance: 470,
         pgaTour: 4.345,
-        eighty: 4.939,
-        ninety: 5.495,
-        oneHundred: 6.051,
-        originalPGA: 4.345
+        amatuer: 4.939,
     }, {
         lie: 'f',
         distance: 471,
         pgaTour: 4.351,
-        eighty: 4.945,
-        ninety: 5.501,
-        oneHundred: 6.057,
-        originalPGA: 4.351
+        amatuer: 4.945,
     }, {
         lie: 'f',
         distance: 472,
         pgaTour: 4.356,
-        eighty: 4.95,
-        ninety: 5.506,
-        oneHundred: 6.062,
-        originalPGA: 4.356
+        amatuer: 4.95,
     }, {
         lie: 'f',
         distance: 473,
         pgaTour: 4.362,
-        eighty: 4.956,
-        ninety: 5.512,
-        oneHundred: 6.068,
-        originalPGA: 4.362
+        amatuer: 4.956,
     }, {
         lie: 'f',
         distance: 474,
         pgaTour: 4.367,
-        eighty: 4.961,
-        ninety: 5.517,
-        oneHundred: 6.073,
-        originalPGA: 4.367
+        amatuer: 4.961,
     }, {
         lie: 'f',
         distance: 475,
         pgaTour: 4.373,
-        eighty: 4.967,
-        ninety: 5.523,
-        oneHundred: 6.079,
-        originalPGA: 4.373
+        amatuer: 4.967,
     }, {
         lie: 'f',
         distance: 476,
         pgaTour: 4.378,
-        eighty: 4.972,
-        ninety: 5.528,
-        oneHundred: 6.084,
-        originalPGA: 4.378
+        amatuer: 4.972,
     }, {
         lie: 'f',
         distance: 477,
         pgaTour: 4.384,
-        eighty: 4.978,
-        ninety: 5.534,
-        oneHundred: 6.09,
-        originalPGA: 4.384
+        amatuer: 4.978,
     }, {
         lie: 'f',
         distance: 478,
         pgaTour: 4.389,
-        eighty: 4.983,
-        ninety: 5.539,
-        oneHundred: 6.095,
-        originalPGA: 4.389
+        amatuer: 4.983,
     }, {
         lie: 'f',
         distance: 479,
         pgaTour: 4.395,
-        eighty: 4.989,
-        ninety: 5.545,
-        oneHundred: 6.101,
-        originalPGA: 4.395
+        amatuer: 4.989,
     }, {
         lie: 'f',
         distance: 480,
         pgaTour: 4.4,
-        eighty: 4.994,
-        ninety: 5.55,
-        oneHundred: 6.106,
-        originalPGA: 4.4
+        amatuer: 4.994,
     }, {
         lie: 'f',
         distance: 481,
         pgaTour: 4.407,
-        eighty: 5.001,
-        ninety: 5.557,
-        oneHundred: 6.113,
-        originalPGA: 4.407
+        amatuer: 5.001,
     }, {
         lie: 'f',
         distance: 482,
         pgaTour: 4.413,
-        eighty: 5.007,
-        ninety: 5.563,
-        oneHundred: 6.119,
-        originalPGA: 4.413
+        amatuer: 5.007,
     }, {
         lie: 'f',
         distance: 483,
         pgaTour: 4.42,
-        eighty: 5.014,
-        ninety: 5.57,
-        oneHundred: 6.126,
-        originalPGA: 4.42
+        amatuer: 5.014,
     }, {
         lie: 'f',
         distance: 484,
         pgaTour: 4.426,
-        eighty: 5.02,
-        ninety: 5.576,
-        oneHundred: 6.132,
-        originalPGA: 4.426
+        amatuer: 5.02,
     }, {
         lie: 'f',
         distance: 485,
         pgaTour: 4.433,
-        eighty: 5.027,
-        ninety: 5.583,
-        oneHundred: 6.139,
-        originalPGA: 4.433
+        amatuer: 5.027,
     }, {
         lie: 'f',
         distance: 486,
         pgaTour: 4.439,
-        eighty: 5.033,
-        ninety: 5.589,
-        oneHundred: 6.145,
-        originalPGA: 4.439
+        amatuer: 5.033,
     }, {
         lie: 'f',
         distance: 487,
         pgaTour: 4.446,
-        eighty: 5.04,
-        ninety: 5.596,
-        oneHundred: 6.152,
-        originalPGA: 4.446
+        amatuer: 5.04,
     }, {
         lie: 'f',
         distance: 488,
         pgaTour: 4.452,
-        eighty: 5.046,
-        ninety: 5.602,
-        oneHundred: 6.158,
-        originalPGA: 4.452
+        amatuer: 5.046,
     }, {
         lie: 'f',
         distance: 489,
         pgaTour: 4.459,
-        eighty: 5.053,
-        ninety: 5.609,
-        oneHundred: 6.165,
-        originalPGA: 4.459
+        amatuer: 5.053,
     }, {
         lie: 'f',
         distance: 490,
         pgaTour: 4.465,
-        eighty: 5.059,
-        ninety: 5.615,
-        oneHundred: 6.171,
-        originalPGA: 4.465
+        amatuer: 5.059,
     }, {
         lie: 'f',
         distance: 491,
         pgaTour: 4.472,
-        eighty: 5.066,
-        ninety: 5.622,
-        oneHundred: 6.178,
-        originalPGA: 4.472
+        amatuer: 5.066,
     }, {
         lie: 'f',
         distance: 492,
         pgaTour: 4.478,
-        eighty: 5.072,
-        ninety: 5.628,
-        oneHundred: 6.184,
-        originalPGA: 4.478
+        amatuer: 5.072,
     }, {
         lie: 'f',
         distance: 493,
         pgaTour: 4.485,
-        eighty: 5.079,
-        ninety: 5.635,
-        oneHundred: 6.191,
-        originalPGA: 4.485
+        amatuer: 5.079,
     }, {
         lie: 'f',
         distance: 494,
         pgaTour: 4.491,
-        eighty: 5.085,
-        ninety: 5.641,
-        oneHundred: 6.197,
-        originalPGA: 4.491
+        amatuer: 5.085,
     }, {
         lie: 'f',
         distance: 495,
         pgaTour: 4.498,
-        eighty: 5.092,
-        ninety: 5.648,
-        oneHundred: 6.204,
-        originalPGA: 4.498
+        amatuer: 5.092,
     }, {
         lie: 'f',
         distance: 496,
         pgaTour: 4.504,
-        eighty: 5.098,
-        ninety: 5.654,
-        oneHundred: 6.21,
-        originalPGA: 4.504
+        amatuer: 5.098,
     }, {
         lie: 'f',
         distance: 497,
         pgaTour: 4.511,
-        eighty: 5.105,
-        ninety: 5.661,
-        oneHundred: 6.217,
-        originalPGA: 4.511
+        amatuer: 5.105,
     }, {
         lie: 'f',
         distance: 498, 
         pgaTour: 4.517,
-        eighty: 5.111,
-        ninety: 5.667,
-        oneHundred: 6.223,
-        originalPGA: 4.517
+        amatuer: 5.111,
     }, {
         lie: 'f',
         distance: 499,
         pgaTour: 4.524,
-        eighty: 5.118,
-        ninety: 5.674,
-        oneHundred: 6.23,
-        originalPGA: 4.524
+        amatuer: 5.118,
     }, {
         lie: 'f',
         distance: 500,
         pgaTour: 4.53,
-        eighty: 5.124,
-        ninety: 5.68,
-        oneHundred: 6.236,
-        originalPGA: 4.53
+        amatuer: 5.124,
     }, {
         lie: 'f',
         distance: 501,
         pgaTour: 4.537,
-        eighty: 5.131,
-        ninety: 5.687,
-        oneHundred: 6.243,
-        originalPGA: 4.537
+        amatuer: 5.131,
     }, {
         lie: 'f',
         distance: 502,
         pgaTour: 4.543,
-        eighty: 5.137,
-        ninety: 5.693,
-        oneHundred: 6.249,
-        originalPGA: 4.543
+        amatuer: 5.137,
     }, {
         lie: 'f',
         distance: 503,
         pgaTour: 4.55,
-        eighty: 5.144,
-        ninety: 5.7,
-        oneHundred: 6.256,
-        originalPGA: 4.55
+        amatuer: 5.144,
     }, {
         lie: 'f',
         distance: 504,
         pgaTour: 4.556,
-        eighty: 5.15,
-        ninety: 5.706,
-        oneHundred: 6.262,
-        originalPGA: 4.556
+        amatuer: 5.15,
     }, {
         lie: 'f',
         distance: 505,
         pgaTour: 4.563,
-        eighty: 5.157,
-        ninety: 5.713,
-        oneHundred: 6.269,
-        originalPGA: 4.563
+        amatuer: 5.157,
     }, {
         lie: 'f',
         distance: 506,
         pgaTour: 4.569,
-        eighty: 5.163,
-        ninety: 5.719,
-        oneHundred: 6.275,
-        originalPGA: 4.569
+        amatuer: 5.163,
     }, {
         lie: 'f',
         distance: 507,
         pgaTour: 4.576,
-        eighty: 5.17,
-        ninety: 5.726,
-        oneHundred: 6.282,
-        originalPGA: 4.576
+        amatuer: 5.17,
     }, {
         lie: 'f',
         distance: 508,
         pgaTour: 4.582,
-        eighty: 5.176,
-        ninety: 5.732,
-        oneHundred: 6.288,
-        originalPGA: 4.582
+        amatuer: 5.176,
     }, {
         lie: 'f',
         distance: 509,
         pgaTour: 4.589,
-        eighty: 5.183,
-        ninety: 5.739,
-        oneHundred: 6.295,
-        originalPGA: 4.589
+        amatuer: 5.183,
     }, {
         lie: 'f',
         distance: 510,
         pgaTour: 4.595,
-        eighty: 5.189,
-        ninety: 5.745,
-        oneHundred: 6.301,
-        originalPGA: 4.595
+        amatuer: 5.189,
     }, {
         lie: 'f',
         distance: 511,
         pgaTour: 4.602,
-        eighty: 5.196,
-        ninety: 5.752,
-        oneHundred: 6.308,
-        originalPGA: 4.602
+        amatuer: 5.196,
     }, {
         lie: 'f',
         distance: 512,
         pgaTour: 4.608,
-        eighty: 5.202,
-        ninety: 5.758,
-        oneHundred: 6.314,
-        originalPGA: 4.608
+        amatuer: 5.202,
     }, {
         lie: 'f',
         distance: 513,
         pgaTour: 4.615,
-        eighty: 5.209,
-        ninety: 5.765,
-        oneHundred: 6.321,
-        originalPGA: 4.615
+        amatuer: 5.209,
     }, {
         lie: 'f',
         distance: 514,
         pgaTour: 4.621,
-        eighty: 5.215,
-        ninety: 5.771,
-        oneHundred: 6.327,
-        originalPGA: 4.621
+        amatuer: 5.215,
     }, {
         lie: 'f',
         distance: 515,
         pgaTour: 4.628,
-        eighty: 5.222,
-        ninety: 5.778,
-        oneHundred: 6.334,
-        originalPGA: 4.628
+        amatuer: 5.222,
     }, {
         lie: 'f',
         distance: 516,
         pgaTour: 4.634,
-        eighty: 5.228,
-        ninety: 5.784,
-        oneHundred: 6.34,
-        originalPGA: 4.634
+        amatuer: 5.228,
     }, {
         lie: 'f',
         distance: 517,
         pgaTour: 4.641,
-        eighty: 5.235,
-        ninety: 5.791,
-        oneHundred: 6.347,
-        originalPGA: 4.641
+        amatuer: 5.235,
     }, {
         lie: 'f',
         distance: 518,
         pgaTour: 4.647,
-        eighty: 5.241,
-        ninety: 5.797,
-        oneHundred: 6.353,
-        originalPGA: 4.647
+        amatuer: 5.241,
     }, {
         lie: 'f',
         distance: 519,
         pgaTour: 4.654,
-        eighty: 5.248,
-        ninety: 5.804,
-        oneHundred: 6.36,
-        originalPGA: 4.654
+        amatuer: 5.248,
     }, {
         lie: 'f',
         distance: 520,
         pgaTour: 4.66,
-        eighty: 5.254,
-        ninety: 5.81,
-        oneHundred: 6.366,
-        originalPGA: 4.66
+        amatuer: 5.254,
     }, {
         lie: 'f',
         distance: 521,
         pgaTour: 4.666,
-        eighty: 5.26,
-        ninety: 5.816,
-        oneHundred: 6.372,
-        originalPGA: 4.666
+        amatuer: 5.26,
     }, {
         lie: 'f',
         distance: 522,
         pgaTour: 4.672,
-        eighty: 5.266,
-        ninety: 5.822,
-        oneHundred: 6.378,
-        originalPGA: 4.672
+        amatuer: 5.266,
     }, {
         lie: 'f',
         distance: 523,
         pgaTour: 4.678,
-        eighty: 5.272,
-        ninety: 5.828,
-        oneHundred: 6.384,
-        originalPGA: 4.678
+        amatuer: 5.272,
     }, {
         lie: 'f',
         distance: 524,
         pgaTour: 4.684,
-        eighty: 5.278,
-        ninety: 5.834,
-        oneHundred: 6.39,
-        originalPGA: 4.684
+        amatuer: 5.278,
     }, {
         lie: 'f',
         distance: 525,
         pgaTour: 4.69,
-        eighty: 5.284,
-        ninety: 5.84,
-        oneHundred: 6.396,
-        originalPGA: 4.69
+        amatuer: 5.284,
     }, {
         lie: 'f',
         distance: 526,
         pgaTour: 4.696,
-        eighty: 5.29,
-        ninety: 5.846,
-        oneHundred: 6.402,
-        originalPGA: 4.696
+        amatuer: 5.29,
     }, {
         lie: 'f',
         distance: 527,
         pgaTour: 4.702,
-        eighty: 5.296,
-        ninety: 5.852,
-        oneHundred: 6.408,
-        originalPGA: 4.702
+        amatuer: 5.296,
     }, {
         lie: 'f',
         distance: 528,
         pgaTour: 4.708,
-        eighty: 5.302,
-        ninety: 5.858,
-        oneHundred: 6.414,
-        originalPGA: 4.708
+        amatuer: 5.302,
     }, {
         lie: 'f',
         distance: 529,
         pgaTour: 4.714,
-        eighty: 5.308,
-        ninety: 5.864,
-        oneHundred: 6.42,
-        originalPGA: 4.714
+        amatuer: 5.308,
     }, {
         lie: 'f',
         distance: 530,
         pgaTour: 4.72,
-        eighty: 5.314,
-        ninety: 5.87,
-        oneHundred: 6.426,
-        originalPGA: 4.72
+        amatuer: 5.314,
     }, {
         lie: 'f',
         distance: 531,
         pgaTour: 4.726,
-        eighty: 5.32,
-        ninety: 5.876,
-        oneHundred: 6.432,
-        originalPGA: 4.726
+        amatuer: 5.32,
     }, {
         lie: 'f',
         distance: 532,
         pgaTour: 4.732,
-        eighty: 5.326,
-        ninety: 5.882,
-        oneHundred: 6.438,
-        originalPGA: 4.732
+        amatuer: 5.326,
     }, {
         lie: 'f',
         distance: 533,
         pgaTour: 4.738,
-        eighty: 5.332,
-        ninety: 5.888,
-        oneHundred: 6.444,
-        originalPGA: 4.738
+        amatuer: 5.332,
     }, {
         lie: 'f',
         distance: 534,
         pgaTour: 4.744,
-        eighty: 5.338,
-        ninety: 5.894,
-        oneHundred: 6.45,
-        originalPGA: 4.744
+        amatuer: 5.338,
     }, {
         lie: 'f',
         distance: 535,
         pgaTour: 4.75,
-        eighty: 5.344,
-        ninety: 5.9,
-        oneHundred: 6.456,
-        originalPGA: 4.75
+        amatuer: 5.344,
     }, {
         lie: 'f',
         distance: 536,
         pgaTour: 4.756,
-        eighty: 5.35,
-        ninety: 5.906,
-        oneHundred: 6.462,
-        originalPGA: 4.756
+        amatuer: 5.35,
     }, {
         lie: 'f',
         distance: 537,
         pgaTour: 4.762,
-        eighty: 5.356,
-        ninety: 5.912,
-        oneHundred: 6.468,
-        originalPGA: 4.762
+        amatuer: 5.356,
     }, {
         lie: 'f',
         distance: 538,
         pgaTour: 4.768,
-        eighty: 5.362,
-        ninety: 5.918,
-        oneHundred: 6.474,
-        originalPGA: 4.768
+        amatuer: 5.362,
     }, {
         lie: 'f',
         distance: 539,
         pgaTour: 4.774,
-        eighty: 5.368,
-        ninety: 5.924,
-        oneHundred: 6.48,
-        originalPGA: 4.774
+        amatuer: 5.368,
     }, {
         lie: 'f',
         distance: 540,
         pgaTour: 4.78,
-        eighty: 5.374,
-        ninety: 5.93,
-        oneHundred: 6.486,
-        originalPGA: 4.78
+        amatuer: 5.374,
     }, {
         lie: 'f',
         distance: 541,
         pgaTour: 4.784,
-        eighty: 5.378,
-        ninety: 5.934,
-        oneHundred: 6.49,
-        originalPGA: 4.784
+        amatuer: 5.378,
     }, {
         lie: 'f',
         distance: 542,
         pgaTour: 4.788,
-        eighty: 5.382,
-        ninety: 5.938,
-        oneHundred: 6.494,
-        originalPGA: 4.788
+        amatuer: 5.382,
     }, {
         lie: 'f',
         distance: 543,
         pgaTour: 4.792,
-        eighty: 5.386,
-        ninety: 5.942,
-        oneHundred: 6.498,
-        originalPGA: 4.792
+        amatuer: 5.386,
     }, {
         lie: 'f',
         distance: 544,
         pgaTour: 4.796,
-        eighty: 5.39,
-        ninety: 5.946,
-        oneHundred: 6.502,
-        originalPGA: 4.796
+        amatuer: 5.39,
     }, {
         lie: 'f',
         distance: 545,
         pgaTour: 4.8,
-        eighty: 5.394,
-        ninety: 5.95,
-        oneHundred: 6.506,
-        originalPGA: 4.8
+        amatuer: 5.394,
     }, {
         lie: 'f',
         distance: 546,
         pgaTour: 4.804,
-        eighty: 5.398,
-        ninety: 5.954,
-        oneHundred: 6.51,
-        originalPGA: 4.804
+        amatuer: 5.398,
     }, {
         lie: 'f',
         distance: 547,
         pgaTour: 4.808,
-        eighty: 5.402,
-        ninety: 5.958,
-        oneHundred: 6.514,
-        originalPGA: 4.808
+        amatuer: 5.402,
     }, {
         lie: 'f',
         distance: 548,        
         pgaTour: 4.812,
-        eighty: 5.406,
-        ninety: 5.962,
-        oneHundred: 6.518,
-        originalPGA: 4.812
+        amatuer: 5.406,
     }, {
         lie: 'f',
         distance: 549,
         pgaTour: 4.816,
-        eighty: 5.41,
-        ninety: 5.966,
-        oneHundred: 6.522,
-        originalPGA: 4.816
+        amatuer: 5.41,
     }, {
         lie: 'f',
         distance: 550,
         pgaTour: 4.82,
-        eighty: 5.414,
-        ninety: 5.97,
-        oneHundred: 6.526,
-        originalPGA: 4.82
+        amatuer: 5.414,
     }, {
         lie: 'f',
         distance: 551,
         pgaTour: 4.824,
-        eighty: 5.418,
-        ninety: 5.974,
-        oneHundred: 6.53,
-        originalPGA: 4.824
+        amatuer: 5.418,
     }, {
         lie: 'f',
         distance: 552,
         pgaTour: 4.828,
-        eighty: 5.422,
-        ninety: 5.978,
-        oneHundred: 6.534,
-        originalPGA: 4.828
+        amatuer: 5.422,
     }, {
         lie: 'f',
         distance: 553,
         pgaTour: 4.832,
-        eighty: 5.426,
-        ninety: 5.982,
-        oneHundred: 6.538,
-        originalPGA: 4.832
+        amatuer: 5.426,
     }, {
         lie: 'f',
         distance: 554,
         pgaTour: 4.836,
-        eighty: 5.43,
-        ninety: 5.986,
-        oneHundred: 6.542,
-        originalPGA: 4.836
+        amatuer: 5.43,
     }, {
         lie: 'f',
         distance: 555,
         pgaTour: 4.84,
-        eighty: 5.434,
-        ninety: 5.99,
-        oneHundred: 6.546,
-        originalPGA: 4.84
+        amatuer: 5.434,
     }, {
         lie: 'f',
         distance: 556,
         pgaTour: 4.844,
-        eighty: 5.438,
-        ninety: 5.994,
-        oneHundred: 6.55,
-        originalPGA: 4.844
+        amatuer: 5.438,
     }, {
         lie: 'f',
         distance: 557,
         pgaTour: 4.848,
-        eighty: 5.442,
-        ninety: 5.998,
-        oneHundred: 6.554,
-        originalPGA: 4.848
+        amatuer: 5.442,
     }, {
         lie: 'f',
         distance: 558,
         pgaTour: 4.852,
-        eighty: 5.446,
-        ninety: 6.002,
-        oneHundred: 6.558,
-        originalPGA: 4.852
+        amatuer: 5.446,
     }, {
         lie: 'f',
         distance: 559,
         pgaTour: 4.856,
-        eighty: 5.45,
-        ninety: 6.006,
-        oneHundred: 6.562,
-        originalPGA: 4.856
+        amatuer: 5.45,
     }, {
         lie: 'f',
         distance: 560,
         pgaTour: 4.86,
-        eighty: 5.454,
-        ninety: 6.01,
-        oneHundred: 6.566,
-        originalPGA: 4.86
+        amatuer: 5.454,
     }, {
         lie: 'f',
         distance: 561,
         pgaTour: 4.863,
-        eighty: 5.457,
-        ninety: 6.013,
-        oneHundred: 6.569,
-        originalPGA: 4.863
+        amatuer: 5.457,
     }, {
         lie: 'f',
         distance: 562,
         pgaTour: 4.865,
-        eighty: 5.459,
-        ninety: 6.015,
-        oneHundred: 6.571,
-        originalPGA: 4.865
+        amatuer: 5.459,
     }, {
         lie: 'f',
         distance: 563,
         pgaTour: 4.868,
-        eighty: 5.462,
-        ninety: 6.018,
-        oneHundred: 6.574,
-        originalPGA: 4.868
+        amatuer: 5.462,
     }, {
         lie: 'f',
         distance: 564,
         pgaTour: 4.87,
-        eighty: 5.464,
-        ninety: 6.02,
-        oneHundred: 6.576,
-        originalPGA: 4.87
+        amatuer: 5.464,
     }, {
         lie: 'f',
         distance: 565,
         pgaTour: 4.873,
-        eighty: 5.467,
-        ninety: 6.023,
-        oneHundred: 6.579,
-        originalPGA: 4.873
+        amatuer: 5.467,
     }, {
         lie: 'f',
         distance: 566,
         pgaTour: 4.875,
-        eighty: 5.469,
-        ninety: 6.025,
-        oneHundred: 6.581,
-        originalPGA: 4.875
+        amatuer: 5.469,
     }, {
         lie: 'f',
         distance: 567,
         pgaTour: 4.878,
-        eighty: 5.472,
-        ninety: 6.028,
-        oneHundred: 6.584,
-        originalPGA: 4.878
+        amatuer: 5.472,
     }, {
         lie: 'f',
         distance: 568,
         pgaTour: 4.88,
-        eighty: 5.474,
-        ninety: 6.03,
-        oneHundred: 6.586,
-        originalPGA: 4.88
+        amatuer: 5.474,
     }, {
         lie: 'f',
         distance: 569,
         pgaTour: 4.883,
-        eighty: 5.477,
-        ninety: 6.033,
-        oneHundred: 6.589,
-        originalPGA: 4.883
+        amatuer: 5.477,
     }, {
         lie: 'f',
         distance: 570,
         pgaTour: 4.885,
-        eighty: 5.479,
-        ninety: 6.035,
-        oneHundred: 6.591,
-        originalPGA: 4.885
+        amatuer: 5.479,
     }, {
         lie: 'f',
         distance: 571,
         pgaTour: 4.888,
-        eighty: 5.482,
-        ninety: 6.038,
-        oneHundred: 6.594,
-        originalPGA: 4.888
+        amatuer: 5.482,
     }, {
         lie: 'f',
         distance: 572,
         pgaTour: 4.89,
-        eighty: 5.484,
-        ninety: 6.04,
-        oneHundred: 6.596,
-        originalPGA: 4.89
+        amatuer: 5.484,
     }, {
         lie: 'f',
         distance: 573,
         pgaTour: 4.893,
-        eighty: 5.487,
-        ninety: 6.043,
-        oneHundred: 6.599,
-        originalPGA: 4.893
+        amatuer: 5.487,
     }, {
         lie: 'f',
         distance: 574,
         pgaTour: 4.895,
-        eighty: 5.489,
-        ninety: 6.045,
-        oneHundred: 6.601,
-        originalPGA: 4.895
+        amatuer: 5.489,
     }, {
         lie: 'f',
         distance: 575,
         pgaTour: 4.898,
-        eighty: 5.492,
-        ninety: 6.048,
-        oneHundred: 6.604,
-        originalPGA: 4.898
+        amatuer: 5.492,
     }, {
         lie: 'f',
         distance: 576,
         pgaTour: 4.9,
-        eighty: 5.494,
-        ninety: 6.05,
-        oneHundred: 6.606,
-        originalPGA: 4.9
+        amatuer: 5.494,
     }, {
         lie: 'f',
         distance: 577,
         pgaTour: 4.903,
-        eighty: 5.497,
-        ninety: 6.053,
-        oneHundred: 6.609,
-        originalPGA: 4.903
+        amatuer: 5.497,
     }, {
         lie: 'f',
         distance: 578,
         pgaTour: 4.905,
-        eighty: 5.499,
-        ninety: 6.055,
-        oneHundred: 6.611,
-        originalPGA: 4.905
+        amatuer: 5.499,
     }, {
         lie: 'f',
         distance: 579,
         pgaTour: 4.908,
-        eighty: 5.502,
-        ninety: 6.058,
-        oneHundred: 6.614,
-        originalPGA: 4.908
+        amatuer: 5.502,
     }, {
         lie: 'f',
         distance: 580,
         pgaTour: 4.91,
-        eighty: 5.504,
-        ninety: 6.06,
-        oneHundred: 6.616,
-        originalPGA: 4.91
+        amatuer: 5.504,
     }, {
         lie: 'f',
         distance: 581,
         pgaTour: 4.912,
-        eighty: 5.506,
-        ninety: 6.062,
-        oneHundred: 6.618,
-        originalPGA: 4.912
+        amatuer: 5.506,
     }, {
         lie: 'f',
         distance: 582,
         pgaTour: 4.913,
-        eighty: 5.507,
-        ninety: 6.063,
-        oneHundred: 6.619,
-        originalPGA: 4.913
+        amatuer: 5.507,
     }, {
         lie: 'f',
         distance: 583,
         pgaTour: 4.915,
-        eighty: 5.509,
-        ninety: 6.065,
-        oneHundred: 6.621,
-        originalPGA: 4.915
+        amatuer: 5.509,
     }, {
         lie: 'f',
         distance: 584,
         pgaTour: 4.916,
-        eighty: 5.51,
-        ninety: 6.066,
-        oneHundred: 6.622,
-        originalPGA: 4.916
+        amatuer: 5.51,
     }, {
         lie: 'f',
         distance: 585,
         pgaTour: 4.918,
-        eighty: 5.512,
-        ninety: 6.068,
-        oneHundred: 6.624,
-        originalPGA: 4.918
+        amatuer: 5.512,
     }, {
         lie: 'f',
         distance: 586,
         pgaTour: 4.919,
-        eighty: 5.513,
-        ninety: 6.069,
-        oneHundred: 6.625,
-        originalPGA: 4.919
+        amatuer: 5.513,
     }, {
         lie: 'f',
         distance: 587,
         pgaTour: 4.921,
-        eighty: 5.515,
-        ninety: 6.071,
-        oneHundred: 6.627,
-        originalPGA: 4.921
+        amatuer: 5.515,
     }, {
         lie: 'f',
         distance: 588,
         pgaTour: 4.922,
-        eighty: 5.516,
-        ninety: 6.072,
-        oneHundred: 6.628,
-        originalPGA: 4.922
+        amatuer: 5.516,
     }, {
         lie: 'f',
         distance: 589,
         pgaTour: 4.924,
-        eighty: 5.518,
-        ninety: 6.074,
-        oneHundred: 6.63,
-        originalPGA: 4.924
+        amatuer: 5.518,
     }, {
         lie: 'f',
         distance: 590,
         pgaTour: 4.925,
-        eighty: 5.519,
-        ninety: 6.075,
-        oneHundred: 6.631,
-        originalPGA: 4.925
+        amatuer: 5.519,
     }, {
         lie: 'f',
         distance: 591,
         pgaTour: 4.927,
-        eighty: 5.521,
-        ninety: 6.077,
-        oneHundred: 6.633,
-        originalPGA: 4.927
+        amatuer: 5.521,
     }, {
         lie: 'f',
         distance: 592,
         pgaTour: 4.928,
-        eighty: 5.522,
-        ninety: 6.078,
-        oneHundred: 6.634,
-        originalPGA: 4.928
+        amatuer: 5.522,
     }, {
         lie: 'f',
         distance: 593,
         pgaTour: 4.93,
-        eighty: 5.524,
-        ninety: 6.08,
-        oneHundred: 6.636,
-        originalPGA: 4.93
+        amatuer: 5.524,
     }, {
         lie: 'f',
         distance: 594,
         pgaTour: 4.931,
-        eighty: 5.525,
-        ninety: 6.081,
-        oneHundred: 6.637,
-        originalPGA: 4.931
+        amatuer: 5.525,
     }, {
         lie: 'f',
         distance: 595,
         pgaTour: 4.933,
-        eighty: 5.527,
-        ninety: 6.083,
-        oneHundred: 6.639,
-        originalPGA: 4.933
+        amatuer: 5.527,
     }, {
         lie: 'f',
         distance: 596,
         pgaTour: 4.934,
-        eighty: 5.528,
-        ninety: 6.084,
-        oneHundred: 6.64,
-        originalPGA: 4.934
+        amatuer: 5.528,
     }, {
         lie: 'f',
         distance: 597,
         pgaTour: 4.936,
-        eighty: 5.53,
-        ninety: 6.086,
-        oneHundred: 6.642,
-        originalPGA: 4.936
+        amatuer: 5.53,
     }, {
         lie: 'f',
         distance: 598,
         pgaTour: 4.937,
-        eighty: 5.531,
-        ninety: 6.087,
-        oneHundred: 6.643,
-        originalPGA: 4.937
+        amatuer: 5.531,
     }, {
         lie: 'f',
         distance: 599,
         pgaTour: 4.939,
-        eighty: 5.533,
-        ninety: 6.089,
-        oneHundred: 6.645,
-        originalPGA: 4.939
+        amatuer: 5.533,
     }, {
         lie: 'f',
         distance: 600,
         pgaTour: 4.94,
-        eighty: 5.534,
-        ninety: 6.09,
-        oneHundred: 6.646,
-        originalPGA: 4.94
+        amatuer: 5.534,
     },
     // ROUGH
     {
         lie: 'r',
         distance: 1,
         pgaTour: 1.421,
-        eighty: 2.694,
-        ninety: 3.25,
-        oneHundred: 3.806,
-        originalPGA: 2.1
+        amatuer: 2.694,
     }, {
         lie: 'r',
         distance: 2,
         pgaTour: 1.709,
-        eighty: 2.804,
-        ninety: 3.36,
-        oneHundred: 3.916,
-        originalPGA: 2.21
+        amatuer: 2.804,
     }, {
         lie: 'r',
         distance: 3,
         pgaTour: 1.92,
-        eighty: 2.824,
-        ninety: 3.38,
-        oneHundred: 3.936,
-        originalPGA: 2.23
+        amatuer: 2.824,
     }, {
         lie: 'r',
         distance: 4,
         pgaTour: 2.063,
-        eighty: 2.844,
-        ninety: 3.4,
-        oneHundred: 3.956,
-        originalPGA: 2.25
+        amatuer: 2.844,
     }, {
         lie: 'r',
         distance: 5,
         pgaTour: 2.15,
-        eighty: 2.864,
-        ninety: 3.42,
-        oneHundred: 3.976,
-        originalPGA: 2.27
+        amatuer: 2.864,
     }, {
         lie: 'r',
         distance: 6,
         pgaTour: 2.205,
-        eighty: 2.884,
-        ninety: 3.44,
-        oneHundred: 3.996,
-        originalPGA: 2.29
+        amatuer: 2.884,
     }, {
         lie: 'r',
         distance: 7,
         pgaTour: 2.24,
-        eighty: 2.904,
-        ninety: 3.46,
-        oneHundred: 4.016,
-        originalPGA: 2.31
+        amatuer: 2.904,
     }, {
         lie: 'r',
         distance: 8,
         pgaTour: 2.288,
-        eighty: 2.924,
-        ninety: 3.48,
-        oneHundred: 4.036,
-        originalPGA: 2.33
+        amatuer: 2.924,
     }, {
         lie: 'r',
         distance: 9,
         pgaTour: 2.325,
-        eighty: 2.944,
-        ninety: 3.5,
-        oneHundred: 4.056,
-        originalPGA: 2.35
+        amatuer: 2.944,
     }, {
         lie: 'r',
         distance: 10,
         pgaTour: 2.344,
-        eighty: 2.964,
-        ninety: 3.52,
-        oneHundred: 4.076,
-        originalPGA: 2.37
+        amatuer: 2.964,
     }, {
         lie: 'r',
         distance: 11,
         pgaTour: 2.386,
-        eighty: 2.984,
-        ninety: 3.54,
-        oneHundred: 4.096,
-        originalPGA: 2.39
+        amatuer: 2.984,
     }, {
         lie: 'r',
         distance: 12,
         pgaTour: 2.415,
-        eighty: 3.004,
-        ninety: 3.56,
-        oneHundred: 4.116,
-        originalPGA: 2.41
+        amatuer: 3.004,
     }, {
         lie: 'r',
         distance: 13,
         pgaTour: 2.438,
-        eighty: 3.024,
-        ninety: 3.58,
-        oneHundred: 4.136,
-        originalPGA: 2.43
+        amatuer: 3.024,
     }, {
         lie: 'r',
         distance: 14,
         pgaTour: 2.467,
-        eighty: 3.044,
-        ninety: 3.6,
-        oneHundred: 4.156,
-        originalPGA: 2.45
+        amatuer: 3.044,
     }, {
         lie: 'r',
         distance: 15,
         pgaTour: 2.495,
-        eighty: 3.064,
-        ninety: 3.62,
-        oneHundred: 4.176,
-        originalPGA: 2.47
+        amatuer: 3.064,
     }, {
         lie: 'r',
         distance: 16,
         pgaTour: 2.514,
-        eighty: 3.084,
-        ninety: 3.64,
-        oneHundred: 4.196,
-        originalPGA: 2.49
+        amatuer: 3.084,
     }, {
         lie: 'r',
         distance: 17,
         pgaTour: 2.537,
-        eighty: 3.104,
-        ninety: 3.66,
-        oneHundred: 4.216,
-        originalPGA: 2.51
+        amatuer: 3.104,
     }, {
         lie: 'r',
         distance: 18,
         pgaTour: 2.546,
-        eighty: 3.124,
-        ninety: 3.68,
-        oneHundred: 4.236,
-        originalPGA: 2.53
+        amatuer: 3.124,
     }, {
         lie: 'r',
         distance: 19,
         pgaTour: 2.562,
-        eighty: 3.144,
-        ninety: 3.7,
-        oneHundred: 4.256,
-        originalPGA: 2.55
+        amatuer: 3.144,
     }, {
         lie: 'r',
         distance: 20,
         pgaTour: 2.59,
-        eighty: 3.184,
-        ninety: 3.74,
-        oneHundred: 4.296,
-        originalPGA: 2.59
+        amatuer: 3.184,
     }, {
         lie: 'r',
         distance: 21,
         pgaTour: 2.606,
-        eighty: 3.194,
-        ninety: 3.75,
-        oneHundred: 4.306,
-        originalPGA: 2.6
+        amatuer: 3.194,
     }, {
         lie: 'r',
         distance: 22,
         pgaTour: 2.617,
-        eighty: 3.203,
-        ninety: 3.759,
-        oneHundred: 4.315,
-        originalPGA: 2.609
+        amatuer: 3.203,
     }, {
         lie: 'r',
         distance: 23,
         pgaTour: 2.628,
-        eighty: 3.213,
-        ninety: 3.769,
-        oneHundred: 4.325,
-        originalPGA: 2.619
+        amatuer: 3.213,
     }, {
         lie: 'r',
         distance: 24,
         pgaTour: 2.638,
-        eighty: 3.222,
-        ninety: 3.778,
-        oneHundred: 4.334,
-        originalPGA: 2.628
+        amatuer: 3.222,
     }, {
         lie: 'r',
         distance: 25,
         pgaTour: 2.645,
-        eighty: 3.232,
-        ninety: 3.788,
-        oneHundred: 4.344,
-        originalPGA: 2.638
+        amatuer: 3.232,
     }, {
         lie: 'r',
         distance: 26,
         pgaTour: 2.657,
-        eighty: 3.241,
-        ninety: 3.797,
-        oneHundred: 4.353,
-        originalPGA: 2.647
+        amatuer: 3.241,
     }, {
         lie: 'r',
         distance: 27,
         pgaTour: 2.666,
-        eighty: 3.251,
-        ninety: 3.807,
-        oneHundred: 4.363,
-        originalPGA: 2.657
+        amatuer: 3.251,
     }, {
         lie: 'r',
         distance: 28,
         pgaTour: 2.676,
-        eighty: 3.26,
-        ninety: 3.816,
-        oneHundred: 4.372,
-        originalPGA: 2.666
+        amatuer: 3.26,
     }, {
         lie: 'r',
         distance: 29,
         pgaTour: 2.687,
-        eighty: 3.27,
-        ninety: 3.826,
-        oneHundred: 4.382,
-        originalPGA: 2.676
+        amatuer: 3.27,
     }, {
         lie: 'r',
         distance: 30,
         pgaTour: 2.7,
-        eighty: 3.279,
-        ninety: 3.835,
-        oneHundred: 4.391,
-        originalPGA: 2.685
+        amatuer: 3.279,
     }, {
         lie: 'r',
         distance: 31,
         pgaTour: 2.702,
-        eighty: 3.289,
-        ninety: 3.845,
-        oneHundred: 4.401,
-        originalPGA: 2.695
+        amatuer: 3.289,
     }, {
         lie: 'r',
         distance: 32,
         pgaTour: 2.704,
-        eighty: 3.298,
-        ninety: 3.854,
-        oneHundred: 4.41,
-        originalPGA: 2.704
+        amatuer: 3.298,
     }, {
         lie: 'r',
         distance: 33,
         pgaTour: 2.714,
-        eighty: 3.308,
-        ninety: 3.864,
-        oneHundred: 4.42,
-        originalPGA: 2.714
+        amatuer: 3.308,
     }, {
         lie: 'r',
         distance: 34,
         pgaTour: 2.723,
-        eighty: 3.317,
-        ninety: 3.873,
-        oneHundred: 4.429,
-        originalPGA: 2.723
+        amatuer: 3.317,
     }, {
         lie: 'r',
         distance: 35,
         pgaTour: 2.733,
-        eighty: 3.327,
-        ninety: 3.883,
-        oneHundred: 4.439,
-        originalPGA: 2.733
+        amatuer: 3.327,
     }, {
         lie: 'r',
         distance: 36,
         pgaTour: 2.742,
-        eighty: 3.336,
-        ninety: 3.892,
-        oneHundred: 4.448,
-        originalPGA: 2.742
+        amatuer: 3.336,
     }, {
         lie: 'r',
         distance: 37,
         pgaTour: 2.752,
-        eighty: 3.346,
-        ninety: 3.902,
-        oneHundred: 4.458,
-        originalPGA: 2.752
+        amatuer: 3.346,
     }, {
         lie: 'r',
         distance: 38,
         pgaTour: 2.761,
-        eighty: 3.355,
-        ninety: 3.911,
-        oneHundred: 4.467,
-        originalPGA: 2.761
+        amatuer: 3.355,
     }, {
         lie: 'r',
         distance: 39,
         pgaTour: 2.771,
-        eighty: 3.365,
-        ninety: 3.921,
-        oneHundred: 4.477,
-        originalPGA: 2.771
+        amatuer: 3.365,
     }, {
         lie: 'r',
         distance: 40,
         pgaTour: 2.78,
-        eighty: 3.374,
-        ninety: 3.93,
-        oneHundred: 4.486,
-        originalPGA: 2.78
+        amatuer: 3.374,
     }, {
         lie: 'r',
         distance: 41,
         pgaTour: 2.787,
-        eighty: 3.381,
-        ninety: 3.937,
-        oneHundred: 4.493,
-        originalPGA: 2.787
+        amatuer: 3.381,
     }, {
         lie: 'r',
         distance: 42,
         pgaTour: 2.793,
-        eighty: 3.387,
-        ninety: 3.943,
-        oneHundred: 4.499,
-        originalPGA: 2.793
+        amatuer: 3.387,
     }, {
         lie: 'r',
         distance: 43,
         pgaTour: 2.8,
-        eighty: 3.394,
-        ninety: 3.95,
-        oneHundred: 4.506,
-        originalPGA: 2.8
+        amatuer: 3.394,
     }, {
         lie: 'r',
         distance: 44,
         pgaTour: 2.806,
-        eighty: 3.4,
-        ninety: 3.956,
-        oneHundred: 4.512,
-        originalPGA: 2.806
+        amatuer: 3.4,
     }, {
         lie: 'r',
         distance: 45,
         pgaTour: 2.813,
-        eighty: 3.407,
-        ninety: 3.963,
-        oneHundred: 4.519,
-        originalPGA: 2.813
+        amatuer: 3.407,
     }, {
         lie: 'r',
         distance: 46,
         pgaTour: 2.819,
-        eighty: 3.413,
-        ninety: 3.969,
-        oneHundred: 4.525,
-        originalPGA: 2.819
+        amatuer: 3.413,
     }, {
         lie: 'r',
         distance: 47,
         pgaTour: 2.826,
-        eighty: 3.42,
-        ninety: 3.976,
-        oneHundred: 4.532,
-        originalPGA: 2.826
+        amatuer: 3.42,
     }, {
         lie: 'r',
         distance: 48,
         pgaTour: 2.832,
-        eighty: 3.426,
-        ninety: 3.982,
-        oneHundred: 4.538,
-        originalPGA: 2.832
+        amatuer: 3.426,
     }, {
         lie: 'r',
         distance: 49,
         pgaTour: 2.839,
-        eighty: 3.433,
-        ninety: 3.989,
-        oneHundred: 4.545,
-        originalPGA: 2.839
+        amatuer: 3.433,
     }, {
         lie: 'r',
         distance: 50,
         pgaTour: 2.845,
-        eighty: 3.439,
-        ninety: 3.995,
-        oneHundred: 4.551,
-        originalPGA: 2.845
+        amatuer: 3.439,
     }, {
         lie: 'r',
         distance: 51,
         pgaTour: 2.852,
-        eighty: 3.446,
-        ninety: 4.002,
-        oneHundred: 4.558,
-        originalPGA: 2.852
+        amatuer: 3.446,
     }, {
         lie: 'r',
         distance: 52,
         pgaTour: 2.858,
-        eighty: 3.452,
-        ninety: 4.008,
-        oneHundred: 4.564,
-        originalPGA: 2.858
+        amatuer: 3.452,
     }, {
         lie: 'r',
         distance: 53,
         pgaTour: 2.865,
-        eighty: 3.459,
-        ninety: 4.015,
-        oneHundred: 4.571,
-        originalPGA: 2.865
+        amatuer: 3.459,
     }, {
         lie: 'r',
         distance: 54,
         pgaTour: 2.871,
-        eighty: 3.465,
-        ninety: 4.021,
-        oneHundred: 4.577,
-        originalPGA: 2.871
+        amatuer: 3.465,
     }, {
         lie: 'r',
         distance: 55,
         pgaTour: 2.878,
-        eighty: 3.472,
-        ninety: 4.028,
-        oneHundred: 4.584,
-        originalPGA: 2.878
+        amatuer: 3.472,
     }, {
         lie: 'r',
         distance: 56,
         pgaTour: 2.884,
-        eighty: 3.478,
-        ninety: 4.034,
-        oneHundred: 4.59,
-        originalPGA: 2.884
+        amatuer: 3.478,
     }, {
         lie: 'r',
         distance: 57,
         pgaTour: 2.891,
-        eighty: 3.485,
-        ninety: 4.041,
-        oneHundred: 4.597,
-        originalPGA: 2.891
+        amatuer: 3.485,
     }, {
         lie: 'r',
         distance: 58,
         pgaTour: 2.897,
-        eighty: 3.491,
-        ninety: 4.047,
-        oneHundred: 4.603,
-        originalPGA: 2.897
+        amatuer: 3.491,
     }, {
         lie: 'r',
         distance: 59,
         pgaTour: 2.904,
-        eighty: 3.498,
-        ninety: 4.054,
-        oneHundred: 4.61,
-        originalPGA: 2.904
+        amatuer: 3.498,
     }, {
         lie: 'r',
         distance: 60,
         pgaTour: 2.91,
-        eighty: 3.504,
-        ninety: 4.06,
-        oneHundred: 4.616,
-        originalPGA: 2.91
+        amatuer: 3.504,
     }, {
         lie: 'r',
         distance: 61,
         pgaTour: 2.913,
-        eighty: 3.507,
-        ninety: 4.063,
-        oneHundred: 4.619,
-        originalPGA: 2.913
+        amatuer: 3.507,
     }, {
         lie: 'r',
         distance: 62,
         pgaTour: 2.915,
-        eighty: 3.509,
-        ninety: 4.065,
-        oneHundred: 4.621,
-        originalPGA: 2.915
+        amatuer: 3.509,
     }, {
         lie: 'r',
         distance: 63,
         pgaTour: 2.918,
-        eighty: 3.512,
-        ninety: 4.068,
-        oneHundred: 4.624,
-        originalPGA: 2.918
+        amatuer: 3.512,
     }, {
         lie: 'r',
         distance: 64,
         pgaTour: 2.92,
-        eighty: 3.514,
-        ninety: 4.07,
-        oneHundred: 4.626,
-        originalPGA: 2.92
+        amatuer: 3.514,
     }, {
         lie: 'r',
         distance: 65,
         pgaTour: 2.923,
-        eighty: 3.517,
-        ninety: 4.073,
-        oneHundred: 4.629,
-        originalPGA: 2.923
+        amatuer: 3.517,
     }, {
         lie: 'r',
         distance: 66,
         pgaTour: 2.925,
-        eighty: 3.519,
-        ninety: 4.075,
-        oneHundred: 4.631,
-        originalPGA: 2.925
+        amatuer: 3.519,
     }, {
         lie: 'r',
         distance: 67,
         pgaTour: 2.928,
-        eighty: 3.522,
-        ninety: 4.078,
-        oneHundred: 4.634,
-        originalPGA: 2.928
+        amatuer: 3.522,
     }, {
         lie: 'r',
         distance: 68,
         pgaTour: 2.93,
-        eighty: 3.524,
-        ninety: 4.08,
-        oneHundred: 4.636,
-        originalPGA: 2.93
+        amatuer: 3.524,
     }, {
         lie: 'r',
         distance: 69,
         pgaTour: 2.933,
-        eighty: 3.527,
-        ninety: 4.083,
-        oneHundred: 4.639,
-        originalPGA: 2.933
+        amatuer: 3.527,
     }, {
         lie: 'r',
         distance: 70,
         pgaTour: 2.935,
-        eighty: 3.529,
-        ninety: 4.085,
-        oneHundred: 4.641,
-        originalPGA: 2.935
+        amatuer: 3.529,
     }, {
         lie: 'r',
         distance: 71,
         pgaTour: 2.938,
-        eighty: 3.532,
-        ninety: 4.088,
-        oneHundred: 4.644,
-        originalPGA: 2.938
+        amatuer: 3.532,
     }, {
         lie: 'r',
         distance: 72,
         pgaTour: 2.94,
-        eighty: 3.534,
-        ninety: 4.09,
-        oneHundred: 4.646,
-        originalPGA: 2.94
+        amatuer: 3.534,
     }, {
         lie: 'r',
         distance: 73,
         pgaTour: 2.943,
-        eighty: 3.537,
-        ninety: 4.093,
-        oneHundred: 4.649,
-        originalPGA: 2.943
+        amatuer: 3.537,
     }, {
         lie: 'r',
         distance: 74,
         pgaTour: 2.945,
-        eighty: 3.539,
-        ninety: 4.095,
-        oneHundred: 4.651,
-        originalPGA: 2.945
+        amatuer: 3.539,
     }, {
         lie: 'r',
         distance: 75,
         pgaTour: 2.948,
-        eighty: 3.542,
-        ninety: 4.098,
-        oneHundred: 4.654,
-        originalPGA: 2.948
+        amatuer: 3.542,
     }, {
         lie: 'r',
         distance: 76,
         pgaTour: 2.95,
-        eighty: 3.544,
-        ninety: 4.1,
-        oneHundred: 4.656,
-        originalPGA: 2.95
+        amatuer: 3.544,
     }, {
         lie: 'r',
         distance: 77,
         pgaTour: 2.953,
-        eighty: 3.547,
-        ninety: 4.103,
-        oneHundred: 4.659,
-        originalPGA: 2.953
+        amatuer: 3.547,
     }, {
         lie: 'r',
         distance: 78,        
         pgaTour: 2.955,
-        eighty: 3.549,
-        ninety: 4.105,
-        oneHundred: 4.661,
-        originalPGA: 2.955
+        amatuer: 3.549,
     }, {
         lie: 'r',
         distance: 79,
         pgaTour: 2.958,
-        eighty: 3.552,
-        ninety: 4.108,
-        oneHundred: 4.664,
-        originalPGA: 2.958
+        amatuer: 3.552,
     }, {
         lie: 'r',
         distance: 80,
         pgaTour: 2.96,
-        eighty: 3.554,
-        ninety: 4.11,
-        oneHundred: 4.666,
-        originalPGA: 2.96
+        amatuer: 3.554,
     }, {
         lie: 'r',
         distance: 81,
         pgaTour: 2.963,
-        eighty: 3.557,
-        ninety: 4.113,
-        oneHundred: 4.669,
-        originalPGA: 2.963
+        amatuer: 3.557,
     }, {
         lie: 'r',
         distance: 82,
         pgaTour: 2.966,
-        eighty: 3.56,
-        ninety: 4.116,
-        oneHundred: 4.672,
-        originalPGA: 2.966
+        amatuer: 3.56,
     }, {
         lie: 'r',
         distance: 83,
         pgaTour: 2.969,
-        eighty: 3.563,
-        ninety: 4.119,
-        oneHundred: 4.675,
-        originalPGA: 2.969
+        amatuer: 3.563,
     }, {
         lie: 'r',
         distance: 84,
         pgaTour: 2.972,
-        eighty: 3.566,
-        ninety: 4.122,
-        oneHundred: 4.678,
-        originalPGA: 2.972
+        amatuer: 3.566,
     }, {
         lie: 'r',
         distance: 85,
         pgaTour: 2.975,
-        eighty: 3.569,
-        ninety: 4.125,
-        oneHundred: 4.681,
-        originalPGA: 2.975
+        amatuer: 3.569,
     }, {
         lie: 'r',
         distance: 86,
         pgaTour: 2.978,
-        eighty: 3.572,
-        ninety: 4.128,
-        oneHundred: 4.684,
-        originalPGA: 2.978
+        amatuer: 3.572,
     }, {
         lie: 'r',
         distance: 87,
         pgaTour: 2.981,
-        eighty: 3.575,
-        ninety: 4.131,
-        oneHundred: 4.687,
-        originalPGA: 2.981
+        amatuer: 3.575,
     }, {
         lie: 'r',
         distance: 88,
         pgaTour: 2.984,
-        eighty: 3.578,
-        ninety: 4.134,
-        oneHundred: 4.69,
-        originalPGA: 2.984
+        amatuer: 3.578,
     }, {
         lie: 'r',
         distance: 89,
         pgaTour: 2.987,
-        eighty: 3.581,
-        ninety: 4.137,
-        oneHundred: 4.693,
-        originalPGA: 2.987
+        amatuer: 3.581,
     }, {
         lie: 'r',
         distance: 90,
         pgaTour: 2.99,
-        eighty: 3.584,
-        ninety: 4.14,
-        oneHundred: 4.696,
-        originalPGA: 2.99
+        amatuer: 3.584,
     }, {
         lie: 'r',
         distance: 91,
         pgaTour: 2.993,
-        eighty: 3.587,
-        ninety: 4.143,
-        oneHundred: 4.699,
-        originalPGA: 2.993
+        amatuer: 3.587,
     }, {
         lie: 'r',
         distance: 92,
         pgaTour: 2.996,
-        eighty: 3.59,
-        ninety: 4.146,
-        oneHundred: 4.702,
-        originalPGA: 2.996
+        amatuer: 3.59,
     }, {
         lie: 'r',
         distance: 93,
         pgaTour: 2.999,
-        eighty: 3.593,
-        ninety: 4.149,
-        oneHundred: 4.705,
-        originalPGA: 2.999
+        amatuer: 3.593,
     }, {
         lie: 'r',
         distance: 94,
         pgaTour: 3.002,
-        eighty: 3.596,
-        ninety: 4.152,
-        oneHundred: 4.708,
-        originalPGA: 3.002
+        amatuer: 3.596,
     }, {
         lie: 'r',
         distance: 95,
         pgaTour: 3.005,
-        eighty: 3.599,
-        ninety: 4.155,
-        oneHundred: 4.711,
-        originalPGA: 3.005
+        amatuer: 3.599,
     }, {
         lie: 'r',
         distance: 96,
         pgaTour: 3.008,
-        eighty: 3.602,
-        ninety: 4.158,
-        oneHundred: 4.714,
-        originalPGA: 3.008
+        amatuer: 3.602,
     }, {
         lie: 'r',
         distance: 97,
         pgaTour: 3.011,
-        eighty: 3.605,
-        ninety: 4.161,
-        oneHundred: 4.717,
-        originalPGA: 3.011
+        amatuer: 3.605,
     }, {
         lie: 'r',
         distance: 98,
         pgaTour: 3.014,
-        eighty: 3.608,
-        ninety: 4.164,
-        oneHundred: 4.72,
-        originalPGA: 3.014
+        amatuer: 3.608,
     }, {
         lie: 'r',
         distance: 99,
         pgaTour: 3.017,
-        eighty: 3.611,
-        ninety: 4.167,
-        oneHundred: 4.723,
-        originalPGA: 3.017
+        amatuer: 3.611,
     }, {
         lie: 'r',
         distance: 100,
         pgaTour: 3.02,
-        eighty: 3.614,
-        ninety: 4.17,
-        oneHundred: 4.726,
-        originalPGA: 3.02
+        amatuer: 3.614,
     }, {
         lie: 'r',
         distance: 101,
         pgaTour: 3.023,
-        eighty: 3.617,
-        ninety: 4.173,
-        oneHundred: 4.729,
-        originalPGA: 3.023
+        amatuer: 3.617,
     }, {
         lie: 'r',
         distance: 102,
         pgaTour: 3.026,
-        eighty: 3.62,
-        ninety: 4.176,
-        oneHundred: 4.732,
-        originalPGA: 3.026
+        amatuer: 3.62,
     }, {
         lie: 'r',
         distance: 103,
         pgaTour: 3.029,
-        eighty: 3.623,
-        ninety: 4.179,
-        oneHundred: 4.735,
-        originalPGA: 3.029
+        amatuer: 3.623,
     }, {
         lie: 'r',
         distance: 104,
         pgaTour: 3.032,
-        eighty: 3.626,
-        ninety: 4.182,
-        oneHundred: 4.738,
-        originalPGA: 3.032
+        amatuer: 3.626,
     }, {
         lie: 'r',
         distance: 105,
         pgaTour: 3.035,
-        eighty: 3.629,
-        ninety: 4.185,
-        oneHundred: 4.741,
-        originalPGA: 3.035
+        amatuer: 3.629,
     }, {
         lie: 'r',
         distance: 106,
         pgaTour: 3.038,
-        eighty: 3.632,
-        ninety: 4.188,
-        oneHundred: 4.744,
-        originalPGA: 3.038
+        amatuer: 3.632,
     }, {
         lie: 'r',
         distance: 107,
         pgaTour: 3.041,
-        eighty: 3.635,
-        ninety: 4.191,
-        oneHundred: 4.747,
-        originalPGA: 3.041
+        amatuer: 3.635,
     }, {
         lie: 'r',
         distance: 108,
         pgaTour: 3.044,
-        eighty: 3.638,
-        ninety: 4.194,
-        oneHundred: 4.75,
-        originalPGA: 3.044
+        amatuer: 3.638,
     }, {
         lie: 'r',
         distance: 109,
         pgaTour: 3.047,
-        eighty: 3.641,
-        ninety: 4.197,
-        oneHundred: 4.753,
-        originalPGA: 3.047
+        amatuer: 3.641,
     }, {
         lie: 'r',
         distance: 110,
         pgaTour: 3.05,
-        eighty: 3.644,
-        ninety: 4.2,
-        oneHundred: 4.756,
-        originalPGA: 3.05
+        amatuer: 3.644,
     }, {
         lie: 'r',
         distance: 111,        
         pgaTour: 3.053,
-        eighty: 3.647,
-        ninety: 4.203,
-        oneHundred: 4.759,
-        originalPGA: 3.053
+        amatuer: 3.647,
     }, {
         lie: 'r',
         distance: 112,        
         pgaTour: 3.056,
-        eighty: 3.65,
-        ninety: 4.206,
-        oneHundred: 4.762,
-        originalPGA: 3.056
+        amatuer: 3.65,
     }, {
         lie: 'r',
         distance: 113,
         pgaTour: 3.059,
-        eighty: 3.653,
-        ninety: 4.209,
-        oneHundred: 4.765,
-        originalPGA: 3.059
+        amatuer: 3.653,
     }, {
         lie: 'r',
         distance: 114,
-        
-
-        
         pgaTour: 3.062,
-        eighty: 3.656,
-        ninety: 4.212,
-        oneHundred: 4.768,
-        originalPGA: 3.062
+        amatuer: 3.656,
     }, {
         lie: 'r',
         distance: 115,
         pgaTour: 3.065,
-        eighty: 3.659,
-        ninety: 4.215,
-        oneHundred: 4.771,
-        originalPGA: 3.065
+        amatuer: 3.659,
     }, {
         lie: 'r',
         distance: 116,
         pgaTour: 3.068,
-        eighty: 3.662,
-        ninety: 4.218,
-        oneHundred: 4.774,
-        originalPGA: 3.068
+        amatuer: 3.662,
     }, {
         lie: 'r',
         distance: 117,
         pgaTour: 3.071,
-        eighty: 3.665,
-        ninety: 4.221,
-        oneHundred: 4.777,
-        originalPGA: 3.071
+        amatuer: 3.665,
     }, {
         lie: 'r',
         distance: 118,
         pgaTour: 3.074,
-        eighty: 3.668,
-        ninety: 4.224,
-        oneHundred: 4.78,
-        originalPGA: 3.074
+        amatuer: 3.668,
     }, {
         lie: 'r',
         distance: 119,
         pgaTour: 3.077,
-        eighty: 3.671,
-        ninety: 4.227,
-        oneHundred: 4.783,
-        originalPGA: 3.077
+        amatuer: 3.671,
     }, {
         lie: 'r',
         distance: 120,
         pgaTour: 3.08,
-        eighty: 3.674,
-        ninety: 4.23,
-        oneHundred: 4.786,
-        originalPGA: 3.08
+        amatuer: 3.674,
     }, {
         lie: 'r',
         distance: 121,
         pgaTour: 3.084,
-        eighty: 3.678,
-        ninety: 4.234,
-        oneHundred: 4.79,
-        originalPGA: 3.084
+        amatuer: 3.678,
     }, {
         lie: 'r',
         distance: 122,
         pgaTour: 3.087,
-        eighty: 3.681,
-        ninety: 4.237,
-        oneHundred: 4.793,
-        originalPGA: 3.087
+        amatuer: 3.681,
     }, {
         lie: 'r',
         distance: 123,
         pgaTour: 3.091,
-        eighty: 3.685,
-        ninety: 4.241,
-        oneHundred: 4.797,
-        originalPGA: 3.091
+        amatuer: 3.685,
     }, {
         lie: 'r',
         distance: 124,
         pgaTour: 3.094,
-        eighty: 3.688,
-        ninety: 4.244,
-        oneHundred: 4.8,
-        originalPGA: 3.094
+        amatuer: 3.688,
     }, {
         lie: 'r',
         distance: 125,
         pgaTour: 3.098,
-        eighty: 3.692,
-        ninety: 4.248,
-        oneHundred: 4.804,
-        originalPGA: 3.098
+        amatuer: 3.692,
     }, {
         lie: 'r',
         distance: 126,
         pgaTour: 3.101,
-        eighty: 3.695,
-        ninety: 4.251,
-        oneHundred: 4.807,
-        originalPGA: 3.101
+        amatuer: 3.695,
     }, {
         lie: 'r',
         distance: 127,
         pgaTour: 3.105,
-        eighty: 3.699,
-        ninety: 4.255,
-        oneHundred: 4.811,
-        originalPGA: 3.105
+        amatuer: 3.699,
     }, {
         lie: 'r',
         distance: 128,
         pgaTour: 3.108,
-        eighty: 3.702,
-        ninety: 4.258,
-        oneHundred: 4.814,
-        originalPGA: 3.108
+        amatuer: 3.702,
     }, {
         lie: 'r',
         distance: 129,
         pgaTour: 3.112,
-        eighty: 3.706,
-        ninety: 4.262,
-        oneHundred: 4.818,
-        originalPGA: 3.112
+        amatuer: 3.706,
     }, {
         lie: 'r',
         distance: 130,
         pgaTour: 3.115,
-        eighty: 3.709,
-        ninety: 4.265,
-        oneHundred: 4.821,
-        originalPGA: 3.115
+        amatuer: 3.709,
     }, {
         lie: 'r',
         distance: 131,
         pgaTour: 3.119,
-        eighty: 3.713,
-        ninety: 4.269,
-        oneHundred: 4.825,
-        originalPGA: 3.119
+        amatuer: 3.713,
     }, {
         lie: 'r',
         distance: 132,
         pgaTour: 3.122,
-        eighty: 3.716,
-        ninety: 4.272,
-        oneHundred: 4.828,
-        originalPGA: 3.122
+        amatuer: 3.716,
     }, {
         lie: 'r',
         distance: 133,
         pgaTour: 3.126,
-        eighty: 3.72,
-        ninety: 4.276,
-        oneHundred: 4.832,
-        originalPGA: 3.126
+        amatuer: 3.72,
     }, {
         lie: 'r',
         distance: 134,
         pgaTour: 3.129,
-        eighty: 3.723,
-        ninety: 4.279,
-        oneHundred: 4.835,
-        originalPGA: 3.129
+        amatuer: 3.723,
     }, {
         lie: 'r',
         distance: 135,
         pgaTour: 3.133,
-        eighty: 3.727,
-        ninety: 4.283,
-        oneHundred: 4.839,
-        originalPGA: 3.133
+        amatuer: 3.727,
     }, {
         lie: 'r',
         distance: 136,
         pgaTour: 3.136,
-        eighty: 3.73,
-        ninety: 4.286,
-        oneHundred: 4.842,
-        originalPGA: 3.136
+        amatuer: 3.73,
     }, {
         lie: 'r',
         distance: 137,
         pgaTour: 3.14,
-        eighty: 3.734,
-        ninety: 4.29,
-        oneHundred: 4.846,
-        originalPGA: 3.14
+        amatuer: 3.734,
     }, {
         lie: 'r',
         distance: 138,
         pgaTour: 3.143,
-        eighty: 3.737,
-        ninety: 4.293,
-        oneHundred: 4.849,
-        originalPGA: 3.143
+        amatuer: 3.737,
     }, {
         lie: 'r',
         distance: 139,
         pgaTour: 3.147,
-        eighty: 3.741,
-        ninety: 4.297,
-        oneHundred: 4.853,
-        originalPGA: 3.147
+        amatuer: 3.741,
     }, {
         lie: 'r',
         distance: 140,
         pgaTour: 3.15,
-        eighty: 3.744,
-        ninety: 4.3,
-        oneHundred: 4.856,
-        originalPGA: 3.15
+        amatuer: 3.744,
     }, {
         lie: 'r',
         distance: 141,
         pgaTour: 3.154,
-        eighty: 3.748,
-        ninety: 4.304,
-        oneHundred: 4.86,
-        originalPGA: 3.154
+        amatuer: 3.748,
     }, {
         lie: 'r',
         distance: 142,
         pgaTour: 3.158,
-        eighty: 3.752,
-        ninety: 4.308,
-        oneHundred: 4.864,
-        originalPGA: 3.158
+        amatuer: 3.752,
     }, {
         lie: 'r',
         distance: 143,
         pgaTour: 3.162,
-        eighty: 3.756,
-        ninety: 4.312,
-        oneHundred: 4.868,
-        originalPGA: 3.162
+        amatuer: 3.756,
     }, {
         lie: 'r',
         distance: 144,
         pgaTour: 3.166,
-        eighty: 3.76,
-        ninety: 4.316,
-        oneHundred: 4.872,
-        originalPGA: 3.166
+        amatuer: 3.76,
     }, {
         lie: 'r',
         distance: 145,
         pgaTour: 3.17,
-        eighty: 3.764,
-        ninety: 4.32,
-        oneHundred: 4.876,
-        originalPGA: 3.17
+        amatuer: 3.764,
     }, {
         lie: 'r',
         distance: 146,
         pgaTour: 3.174,
-        eighty: 3.768,
-        ninety: 4.324,
-        oneHundred: 4.88,
-        originalPGA: 3.174
+        amatuer: 3.768,
     }, {
         lie: 'r',
         distance: 147,
         pgaTour: 3.178,
-        eighty: 3.772,
-        ninety: 4.328,
-        oneHundred: 4.884,
-        originalPGA: 3.178
+        amatuer: 3.772,
     }, {
         lie: 'r',
         distance: 148,
         pgaTour: 3.182,
-        eighty: 3.776,
-        ninety: 4.332,
-        oneHundred: 4.888,
-        originalPGA: 3.182
+        amatuer: 3.776,
     }, {
         lie: 'r',
         distance: 149,
         pgaTour: 3.186,
-        eighty: 3.78,
-        ninety: 4.336,
-        oneHundred: 4.892,
-        originalPGA: 3.186
+        amatuer: 3.78,
     }, {
         lie: 'r',
         distance: 150,
         pgaTour: 3.19,
-        eighty: 3.784,
-        ninety: 4.34,
-        oneHundred: 4.896,
-        originalPGA: 3.19
+        amatuer: 3.784,
     }, {
         lie: 'r',
         distance: 151,
         pgaTour: 3.194,
-        eighty: 3.788,
-        ninety: 4.344,
-        oneHundred: 4.9,
-        originalPGA: 3.194
+        amatuer: 3.788,
     }, {
         lie: 'r',
         distance: 152,
         pgaTour: 3.198,
-        eighty: 3.792,
-        ninety: 4.348,
-        oneHundred: 4.904,
-        originalPGA: 3.198
+        amatuer: 3.792,
     }, {
         lie: 'r',
         distance: 153,
         pgaTour: 3.202,
-        eighty: 3.796,
-        ninety: 4.352,
-        oneHundred: 4.908,
-        originalPGA: 3.202
+        amatuer: 3.796,
     }, {
         lie: 'r',
         distance: 154,
         pgaTour: 3.206,
-        eighty: 3.8,
-        ninety: 4.356,
-        oneHundred: 4.912,
-        originalPGA: 3.206
+        amatuer: 3.8,
     }, {
         lie: 'r',
         distance: 155,
         pgaTour: 3.21,
-        eighty: 3.804,
-        ninety: 4.36,
-        oneHundred: 4.916,
-        originalPGA: 3.21
+        amatuer: 3.804,
     }, {
         lie: 'r',
         distance: 156,
         pgaTour: 3.214,
-        eighty: 3.808,
-        ninety: 4.364,
-        oneHundred: 4.92,
-        originalPGA: 3.214
+        amatuer: 3.808,
     }, {
         lie: 'r',
         distance: 157,
         pgaTour: 3.218,
-        eighty: 3.812,
-        ninety: 4.368,
-        oneHundred: 4.924,
-        originalPGA: 3.218
+        amatuer: 3.812,
     }, {
         lie: 'r',
         distance: 158,
         pgaTour: 3.222,
-        eighty: 3.816,
-        ninety: 4.372,
-        oneHundred: 4.928,
-        originalPGA: 3.222
+        amatuer: 3.816,
     }, {
         lie: 'r',
         distance: 159,
         pgaTour: 3.226,
-        eighty: 3.82,
-        ninety: 4.376,
-        oneHundred: 4.932,
-        originalPGA: 3.226
+        amatuer: 3.82,
     }, {
         lie: 'r',
         distance: 160,
         pgaTour: 3.23,
-        eighty: 3.824,
-        ninety: 4.38,
-        oneHundred: 4.936,
-        originalPGA: 3.23
+        amatuer: 3.824,
     }, {
         lie: 'r',
         distance: 161,
         pgaTour: 3.234,
-        eighty: 3.828,
-        ninety: 4.384,
-        oneHundred: 4.94,
-        originalPGA: 3.234
+        amatuer: 3.828,
     }, {
         lie: 'r',
         distance: 162,
         pgaTour: 3.238,
-        eighty: 3.832,
-        ninety: 4.388,
-        oneHundred: 4.944,
-        originalPGA: 3.238
+        amatuer: 3.832,
     }, {
         lie: 'r',
         distance: 163,
         pgaTour: 3.242,
-        eighty: 3.836,
-        ninety: 4.392,
-        oneHundred: 4.948,
-        originalPGA: 3.242
+        amatuer: 3.836,
     }, {
         lie: 'r',
         distance: 164,
         pgaTour: 3.246,
-        eighty: 3.84,
-        ninety: 4.396,
-        oneHundred: 4.952,
-        originalPGA: 3.246
+        amatuer: 3.84,
     }, {
         lie: 'r',
         distance: 165,
         pgaTour: 3.25,
-        eighty: 3.844,
-        ninety: 4.4,
-        oneHundred: 4.956,
-        originalPGA: 3.25
+        amatuer: 3.844,
     }, {
         lie: 'r',
         distance: 166,
         pgaTour: 3.254,
-        eighty: 3.848,
-        ninety: 4.404,
-        oneHundred: 4.96,
-        originalPGA: 3.254
+        amatuer: 3.848,
     }, {
         lie: 'r',
         distance: 167,
         pgaTour: 3.258,
-        eighty: 3.852,
-        ninety: 4.408,
-        oneHundred: 4.964,
-        originalPGA: 3.258
+        amatuer: 3.852,
     }, {
         lie: 'r',
         distance: 168,
         pgaTour: 3.262,
-        eighty: 3.856,
-        ninety: 4.412,
-        oneHundred: 4.968,
-        originalPGA: 3.262
+        amatuer: 3.856,
     }, {
         lie: 'r',
         distance: 169,
         pgaTour: 3.266,
-        eighty: 3.86,
-        ninety: 4.416,
-        oneHundred: 4.972,
-        originalPGA: 3.266
+        amatuer: 3.86,
     }, {
         lie: 'r',
         distance: 170,
         pgaTour: 3.27,
-        eighty: 3.864,
-        ninety: 4.42,
-        oneHundred: 4.976,
-        originalPGA: 3.27
+        amatuer: 3.864,
     }, {
         lie: 'r',
         distance: 171,
         pgaTour: 3.274,
-        eighty: 3.868,
-        ninety: 4.424,
-        oneHundred: 4.98,
-        originalPGA: 3.274
+        amatuer: 3.868,
     }, {
         lie: 'r',
         distance: 172,
         pgaTour: 3.278,
-        eighty: 3.872,
-        ninety: 4.428,
-        oneHundred: 4.984,
-        originalPGA: 3.278
+        amatuer: 3.872,
     }, {
         lie: 'r',
         distance: 173,
         pgaTour: 3.282,
-        eighty: 3.876,
-        ninety: 4.432,
-        oneHundred: 4.988,
-        originalPGA: 3.282
+        amatuer: 3.876,
     }, {
         lie: 'r',
         distance: 174,
         pgaTour: 3.286,
-        eighty: 3.88,
-        ninety: 4.436,
-        oneHundred: 4.992,
-        originalPGA: 3.286
+        amatuer: 3.88,
     }, {
         lie: 'r',
         distance: 175,
         pgaTour: 3.29,
-        eighty: 3.884,
-        ninety: 4.44,
-        oneHundred: 4.996,
-        originalPGA: 3.29
+        amatuer: 3.884,
     }, {
         lie: 'r',
         distance: 176,
         pgaTour: 3.294,
-        eighty: 3.888,
-        ninety: 4.444,
-        oneHundred: 5,
-        originalPGA: 3.294
+        amatuer: 3.888,
     }, {
         lie: 'r',
         distance: 177,
         pgaTour: 3.298,
-        eighty: 3.892,
-        ninety: 4.448,
-        oneHundred: 5.004,
-        originalPGA: 3.298
+        amatuer: 3.892,
     }, {
         lie: 'r',
         distance: 178,
         pgaTour: 3.302,
-        eighty: 3.896,
-        ninety: 4.452,
-        oneHundred: 5.008,
-        originalPGA: 3.302
+        amatuer: 3.896,
     }, {
         lie: 'r',
         distance: 179,
         pgaTour: 3.306,
-        eighty: 3.9,
-        ninety: 4.456,
-        oneHundred: 5.012,
-        originalPGA: 3.306
+        amatuer: 3.9,
     }, {
         lie: 'r',
         distance: 180,
         pgaTour: 3.31,
-        eighty: 3.904,
-        ninety: 4.46,
-        oneHundred: 5.016,
-        originalPGA: 3.31
+        amatuer: 3.904,
     }, {
         lie: 'r',
         distance: 181,
@@ -11594,13925 +7252,8706 @@ let stokesGainedData = [
 
         
         pgaTour: 3.316,
-        eighty: 3.91,
-        ninety: 4.466,
-        oneHundred: 5.022,
-        originalPGA: 3.316
+        amatuer: 3.91,
     }, {
         lie: 'r',
         distance: 182,
         pgaTour: 3.321,
-        eighty: 3.915,
-        ninety: 4.471,
-        oneHundred: 5.027,
-        originalPGA: 3.321
+        amatuer: 3.915,
     }, {
         lie: 'r',
         distance: 183,
         pgaTour: 3.327,
-        eighty: 3.921,
-        ninety: 4.477,
-        oneHundred: 5.033,
-        originalPGA: 3.327
+        amatuer: 3.921,
     }, {
         lie: 'r',
         distance: 184,
         pgaTour: 3.332,
-        eighty: 3.926,
-        ninety: 4.482,
-        oneHundred: 5.038,
-        originalPGA: 3.332
+        amatuer: 3.926,
     }, {
         lie: 'r',
         distance: 185,
         pgaTour: 3.338,
-        eighty: 3.932,
-        ninety: 4.488,
-        oneHundred: 5.044,
-        originalPGA: 3.338
+        amatuer: 3.932,
     }, {
         lie: 'r',
         distance: 186,
         pgaTour: 3.343,
-        eighty: 3.937,
-        ninety: 4.493,
-        oneHundred: 5.049,
-        originalPGA: 3.343
+        amatuer: 3.937,
     }, {
         lie: 'r',
         distance: 187,
         pgaTour: 3.349,
-        eighty: 3.943,
-        ninety: 4.499,
-        oneHundred: 5.055,
-        originalPGA: 3.349
+        amatuer: 3.943,
     }, {
         lie: 'r',
         distance: 188,
         pgaTour: 3.354,
-        eighty: 3.948,
-        ninety: 4.504,
-        oneHundred: 5.06,
-        originalPGA: 3.354
+        amatuer: 3.948,
     }, {
         lie: 'r',
         distance: 189,
         pgaTour: 3.36,
-        eighty: 3.954,
-        ninety: 4.51,
-        oneHundred: 5.066,
-        originalPGA: 3.36
+        amatuer: 3.954,
     }, {
         lie: 'r',
         distance: 190,
         pgaTour: 3.365,
-        eighty: 3.959,
-        ninety: 4.515,
-        oneHundred: 5.071,
-        originalPGA: 3.365
+        amatuer: 3.959,
     }, {
         lie: 'r',
         distance: 191,
         pgaTour: 3.371,
-        eighty: 3.965,
-        ninety: 4.521,
-        oneHundred: 5.077,
-        originalPGA: 3.371
+        amatuer: 3.965,
     }, {
         lie: 'r',
         distance: 192,
         pgaTour: 3.376,
-        eighty: 3.97,
-        ninety: 4.526,
-        oneHundred: 5.082,
-        originalPGA: 3.376
+        amatuer: 3.97,
     }, {
         lie: 'r',
         distance: 193,
         pgaTour: 3.382,
-        eighty: 3.976,
-        ninety: 4.532,
-        oneHundred: 5.088,
-        originalPGA: 3.382
+        amatuer: 3.976,
     }, {
         lie: 'r',
         distance: 194,
         pgaTour: 3.387,
-        eighty: 3.981,
-        ninety: 4.537,
-        oneHundred: 5.093,
-        originalPGA: 3.387
+        amatuer: 3.981,
     }, {
         lie: 'r',
         distance: 195,
         pgaTour: 3.393,
-        eighty: 3.987,
-        ninety: 4.543,
-        oneHundred: 5.099,
-        originalPGA: 3.393
+        amatuer: 3.987,
     }, {
         lie: 'r',
         distance: 196,
         pgaTour: 3.398,
-        eighty: 3.992,
-        ninety: 4.548,
-        oneHundred: 5.104,
-        originalPGA: 3.398
+        amatuer: 3.992,
     }, {
         lie: 'r',
         distance: 197,
         pgaTour: 3.404,
-        eighty: 3.998,
-        ninety: 4.554,
-        oneHundred: 5.11,
-        originalPGA: 3.404
+        amatuer: 3.998,
     }, {
         lie: 'r',
         distance: 198,
         pgaTour: 3.409,
-        eighty: 4.003,
-        ninety: 4.559,
-        oneHundred: 5.115,
-        originalPGA: 3.409
+        amatuer: 4.003,
     }, {
         lie: 'r',
         distance: 199,
         pgaTour: 3.415,
-        eighty: 4.009,
-        ninety: 4.565,
-        oneHundred: 5.121,
-        originalPGA: 3.415
+        amatuer: 4.009,
     }, {
         lie: 'r',
         distance: 200,
         pgaTour: 3.42,
-        eighty: 4.014,
-        ninety: 4.57,
-        oneHundred: 5.126,
-        originalPGA: 3.42
+        amatuer: 4.014,
     }, {
         lie: 'r',
         distance: 201,
         pgaTour: 3.426,
-        eighty: 4.02,
-        ninety: 4.576,
-        oneHundred: 5.132,
-        originalPGA: 3.426
+        amatuer: 4.02,
     }, {
         lie: 'r',
         distance: 202,
         pgaTour: 3.431,
-        eighty: 4.025,
-        ninety: 4.581,
-        oneHundred: 5.137,
-        originalPGA: 3.431
+        amatuer: 4.025,
     }, {
         lie: 'r',
         distance: 203,
         pgaTour: 3.437,
-        eighty: 4.031,
-        ninety: 4.587,
-        oneHundred: 5.143,
-        originalPGA: 3.437
+        amatuer: 4.031,
     }, {
         lie: 'r',
         distance: 204,
         pgaTour: 3.442,
-        eighty: 4.036,
-        ninety: 4.592,
-        oneHundred: 5.148,
-        originalPGA: 3.442
+        amatuer: 4.036,
     }, {
         lie: 'r',
         distance: 205,
         pgaTour: 3.448,
-        eighty: 4.042,
-        ninety: 4.598,
-        oneHundred: 5.154,
-        originalPGA: 3.448
+        amatuer: 4.042,
     }, {
         lie: 'r',
         distance: 206,
         pgaTour: 3.453,
-        eighty: 4.047,
-        ninety: 4.603,
-        oneHundred: 5.159,
-        originalPGA: 3.453
+        amatuer: 4.047,
     }, {
         lie: 'r',
         distance: 207,
         pgaTour: 3.459,
-        eighty: 4.053,
-        ninety: 4.609,
-        oneHundred: 5.165,
-        originalPGA: 3.459
+        amatuer: 4.053,
     }, {
         lie: 'r',
         distance: 208,
         pgaTour: 3.464,
-        eighty: 4.058,
-        ninety: 4.614,
-        oneHundred: 5.17,
-        originalPGA: 3.464
+        amatuer: 4.058,
     }, {
         lie: 'r',
         distance: 209,
         pgaTour: 3.47,
-        eighty: 4.064,
-        ninety: 4.62,
-        oneHundred: 5.176,
-        originalPGA: 3.47
+        amatuer: 4.064,
     }, {
         lie: 'r',
         distance: 210,
         pgaTour: 3.475,
-        eighty: 4.069,
-        ninety: 4.625,
-        oneHundred: 5.181,
-        originalPGA: 3.475
+        amatuer: 4.069,
     }, {
         lie: 'r',
         distance: 211,
         pgaTour: 3.481,
-        eighty: 4.075,
-        ninety: 4.631,
-        oneHundred: 5.187,
-        originalPGA: 3.481
+        amatuer: 4.075,
     }, {
         lie: 'r',
         distance: 212,
         pgaTour: 3.486,
-        eighty: 4.08,
-        ninety: 4.636,
-        oneHundred: 5.192,
-        originalPGA: 3.486
+        amatuer: 4.08,
     }, {
         lie: 'r',
         distance: 213,
-        
         pgaTour: 3.492,
-        eighty: 4.086,
-        ninety: 4.642,
-        oneHundred: 5.198,
-        originalPGA: 3.492
+        amatuer: 4.086,
     }, {
         lie: 'r',
         distance: 214,
         pgaTour: 3.497,
-        eighty: 4.091,
-        ninety: 4.647,
-        oneHundred: 5.203,
-        originalPGA: 3.497
+        amatuer: 4.091,
     }, {
         lie: 'r',
         distance: 215,
         pgaTour: 3.503,
-        eighty: 4.097,
-        ninety: 4.653,
-        oneHundred: 5.209,
-        originalPGA: 3.503
+        amatuer: 4.097,
     }, {
         lie: 'r',
         distance: 216,
         pgaTour: 3.508,
-        eighty: 4.102,
-        ninety: 4.658,
-        oneHundred: 5.214,
-        originalPGA: 3.508
+        amatuer: 4.102,
     }, {
         lie: 'r',
         distance: 217,
         pgaTour: 3.514,
-        eighty: 4.108,
-        ninety: 4.664,
-        oneHundred: 5.22,
-        originalPGA: 3.514
+        amatuer: 4.108,
     }, {
         lie: 'r',
         distance: 218,
         pgaTour: 3.519,
-        eighty: 4.113,
-        ninety: 4.669,
-        oneHundred: 5.225,
-        originalPGA: 3.519
+        amatuer: 4.113,
     }, {
         lie: 'r',
         distance: 219,
         pgaTour: 3.525,
-        eighty: 4.119,
-        ninety: 4.675,
-        oneHundred: 5.231,
-        originalPGA: 3.525
+        amatuer: 4.119,
     }, {
         lie: 'r',
         distance: 220,        
         pgaTour: 3.53,
-        eighty: 4.124,
-        ninety: 4.68,
-        oneHundred: 5.236,
-        originalPGA: 3.53
+        amatuer: 4.124,
     }, {
         lie: 'r',
         distance: 221,
         pgaTour: 3.536,
-        eighty: 4.13,
-        ninety: 4.686,
-        oneHundred: 5.242,
-        originalPGA: 3.536
+        amatuer: 4.13,
     }, {
         lie: 'r',
         distance: 222,
         pgaTour: 3.541,
-        eighty: 4.135,
-        ninety: 4.691,
-        oneHundred: 5.247,
-        originalPGA: 3.541
+        amatuer: 4.135,
     }, {
         lie: 'r',
         distance: 223,
         pgaTour: 3.547,
-        eighty: 4.141,
-        ninety: 4.697,
-        oneHundred: 5.253,
-        originalPGA: 3.547
+        amatuer: 4.141,
     }, {
         lie: 'r',
         distance: 224,
         pgaTour: 3.552,
-        eighty: 4.146,
-        ninety: 4.702,
-        oneHundred: 5.258,
-        originalPGA: 3.552
+        amatuer: 4.146,
     }, {
         lie: 'r',
         distance: 225,
         pgaTour: 3.558,
-        eighty: 4.152,
-        ninety: 4.708,
-        oneHundred: 5.264,
-        originalPGA: 3.558
+        amatuer: 4.152,
     }, {
         lie: 'r',
         distance: 226,
         pgaTour: 3.563,
-        eighty: 4.157,
-        ninety: 4.713,
-        oneHundred: 5.269,
-        originalPGA: 3.563
+        amatuer: 4.157,
     }, {
         lie: 'r',
         distance: 227,
         pgaTour: 3.569,
-        eighty: 4.163,
-        ninety: 4.719,
-        oneHundred: 5.275,
-        originalPGA: 3.569
+        amatuer: 4.163,
     }, {
         lie: 'r',
         distance: 228,
         pgaTour: 3.574,
-        eighty: 4.168,
-        ninety: 4.724,
-        oneHundred: 5.28,
-        originalPGA: 3.574
+        amatuer: 4.168,
     }, {
         lie: 'r',
         distance: 229,
         pgaTour: 3.58,
-        eighty: 4.174,
-        ninety: 4.73,
-        oneHundred: 5.286,
-        originalPGA: 3.58
+        amatuer: 4.174,
     }, {
         lie: 'r',
         distance: 230,
         pgaTour: 3.585,
-        eighty: 4.179,
-        ninety: 4.735,
-        oneHundred: 5.291,
-        originalPGA: 3.585
+        amatuer: 4.179,
     }, {
         lie: 'r',
         distance: 231,
         pgaTour: 3.591,
-        eighty: 4.185,
-        ninety: 4.741,
-        oneHundred: 5.297,
-        originalPGA: 3.591
+        amatuer: 4.185,
     }, {
         lie: 'r',
         distance: 232,
         pgaTour: 3.596,
-        eighty: 4.19,
-        ninety: 4.746,
-        oneHundred: 5.302,
-        originalPGA: 3.596
+        amatuer: 4.19,
     }, {
         lie: 'r',
         distance: 233,
         pgaTour: 3.602,
-        eighty: 4.196,
-        ninety: 4.752,
-        oneHundred: 5.308,
-        originalPGA: 3.602
+        amatuer: 4.196,
     }, {
         lie: 'r',
         distance: 234,
         pgaTour: 3.607,
-        eighty: 4.201,
-        ninety: 4.757,
-        oneHundred: 5.313,
-        originalPGA: 3.607
+        amatuer: 4.201,
     }, {
         lie: 'r',
         distance: 235,
         pgaTour: 3.613,
-        eighty: 4.207,
-        ninety: 4.763,
-        oneHundred: 5.319,
-        originalPGA: 3.613
+        amatuer: 4.207,
     }, {
         lie: 'r',
         distance: 236,
         pgaTour: 3.618,
-        eighty: 4.212,
-        ninety: 4.768,
-        oneHundred: 5.324,
-        originalPGA: 3.618
+        amatuer: 4.212,
     }, {
         lie: 'r',
         distance: 237,
         pgaTour: 3.624,
-        eighty: 4.218,
-        ninety: 4.774,
-        oneHundred: 5.33,
-        originalPGA: 3.624
+        amatuer: 4.218,
     }, {
         lie: 'r',
         distance: 238,
         pgaTour: 3.629,
-        eighty: 4.223,
-        ninety: 4.779,
-        oneHundred: 5.335,
-        originalPGA: 3.629
+        amatuer: 4.223,
     }, {
         lie: 'r',
         distance: 239,
         pgaTour: 3.635,
-        eighty: 4.229,
-        ninety: 4.785,
-        oneHundred: 5.341,
-        originalPGA: 3.635
+        amatuer: 4.229,
     }, {
         lie: 'r',
         distance: 240,
         pgaTour: 3.64,
-        eighty: 4.234,
-        ninety: 4.79,
-        oneHundred: 5.346,
-        originalPGA: 3.64
+        amatuer: 4.234,
     }, {
         lie: 'r',
         distance: 241,
         pgaTour: 3.645,
-        eighty: 4.239,
-        ninety: 4.795,
-        oneHundred: 5.351,
-        originalPGA: 3.645
+        amatuer: 4.239,
     }, {
         lie: 'r',
         distance: 242,
         pgaTour: 3.65,
-        eighty: 4.244,
-        ninety: 4.8,
-        oneHundred: 5.356,
-        originalPGA: 3.65
+        amatuer: 4.244,
     }, {
         lie: 'r',
         distance: 243,
         pgaTour: 3.655,
-        eighty: 4.249,
-        ninety: 4.805,
-        oneHundred: 5.361,
-        originalPGA: 3.655
+        amatuer: 4.249,
     }, {
         lie: 'r',
         distance: 244,
        pgaTour: 3.66,
-        eighty: 4.254,
-        ninety: 4.81,
-        oneHundred: 5.366,
-        originalPGA: 3.66
+        amatuer: 4.254,
     }, {
         lie: 'r',
         distance: 245,
         pgaTour: 3.665,
-        eighty: 4.259,
-        ninety: 4.815,
-        oneHundred: 5.371,
-        originalPGA: 3.665
+        amatuer: 4.259,
     }, {
         lie: 'r',
         distance: 246,
         pgaTour: 3.67,
-        eighty: 4.264,
-        ninety: 4.82,
-        oneHundred: 5.376,
-        originalPGA: 3.67
+        amatuer: 4.264,
     }, {
         lie: 'r',
         distance: 247,
         pgaTour: 3.675,
-        eighty: 4.269,
-        ninety: 4.825,
-        oneHundred: 5.381,
-        originalPGA: 3.675
+        amatuer: 4.269,
     }, {
         lie: 'r',
         distance: 248,
         pgaTour: 3.68,
-        eighty: 4.274,
-        ninety: 4.83,
-        oneHundred: 5.386,
-        originalPGA: 3.68
+        amatuer: 4.274,
     }, {
         lie: 'r',
         distance: 249,
         pgaTour: 3.685,
-        eighty: 4.279,
-        ninety: 4.835,
-        oneHundred: 5.391,
-        originalPGA: 3.685
+        amatuer: 4.279,
     }, {
         lie: 'r',
         distance: 250,
         pgaTour: 3.69,
-        eighty: 4.284,
-        ninety: 4.84,
-        oneHundred: 5.396,
-        originalPGA: 3.69
+        amatuer: 4.284,
     }, {
         lie: 'r',
         distance: 251,
         pgaTour: 3.695,
-        eighty: 4.289,
-        ninety: 4.845,
-        oneHundred: 5.401,
-        originalPGA: 3.695
+        amatuer: 4.289,
     }, {
         lie: 'r',
         distance: 252,
         pgaTour: 3.7,
-        eighty: 4.294,
-        ninety: 4.85,
-        oneHundred: 5.406,
-        originalPGA: 3.7
+        amatuer: 4.294,
     }, {
         lie: 'r',
         distance: 253,
         pgaTour: 3.705,
-        eighty: 4.299,
-        ninety: 4.855,
-        oneHundred: 5.411,
-        originalPGA: 3.705
+        amatuer: 4.299,
     }, {
         lie: 'r',
         distance: 254,
         pgaTour: 3.71,
-        eighty: 4.304,
-        ninety: 4.86,
-        oneHundred: 5.416,
-        originalPGA: 3.71
+        amatuer: 4.304,
     }, {
         lie: 'r',
         distance: 255,
         pgaTour: 3.715,
-        eighty: 4.309,
-        ninety: 4.865,
-        oneHundred: 5.421,
-        originalPGA: 3.715
+        amatuer: 4.309,
     }, {
         lie: 'r',
         distance: 256,
         pgaTour: 3.72,
-        eighty: 4.314,
-        ninety: 4.87,
-        oneHundred: 5.426,
-        originalPGA: 3.72
+        amatuer: 4.314,
     }, {
         lie: 'r',
         distance: 257,
         pgaTour: 3.725,
-        eighty: 4.319,
-        ninety: 4.875,
-        oneHundred: 5.431,
-        originalPGA: 3.725
+        amatuer: 4.319,
     }, {
         lie: 'r',
         distance: 258,
         pgaTour: 3.73,
-        eighty: 4.324,
-        ninety: 4.88,
-        oneHundred: 5.436,
-        originalPGA: 3.73
+        amatuer: 4.324,
     }, {
         lie: 'r',
         distance: 259,
         pgaTour: 3.735,
-        eighty: 4.329,
-        ninety: 4.885,
-        oneHundred: 5.441,
-        originalPGA: 3.735
+        amatuer: 4.329,
     }, {
         lie: 'r',
         distance: 260,        
         pgaTour: 3.74,
-        eighty: 4.334,
-        ninety: 4.89,
-        oneHundred: 5.446,
-        originalPGA: 3.74
+        amatuer: 4.334,
     }, {
         lie: 'r',
         distance: 261,        
         pgaTour: 3.745,
-        eighty: 4.339,
-        ninety: 4.895,
-        oneHundred: 5.451,
-        originalPGA: 3.745
+        amatuer: 4.339,
     }, {
         lie: 'r',
         distance: 262,
         pgaTour: 3.749,
-        eighty: 4.343,
-        ninety: 4.899,
-        oneHundred: 5.455,
-        originalPGA: 3.749
+        amatuer: 4.343,
     }, {
         lie: 'r',
         distance: 263,
         pgaTour: 3.754,
-        eighty: 4.348,
-        ninety: 4.904,
-        oneHundred: 5.46,
-        originalPGA: 3.754
+        amatuer: 4.348,
     }, {
         lie: 'r',
         distance: 264,
         pgaTour: 3.758,
-        eighty: 4.352,
-        ninety: 4.908,
-        oneHundred: 5.464,
-        originalPGA: 3.758
+        amatuer: 4.352,
     }, {
         lie: 'r',
         distance: 265,
         pgaTour: 3.763,
-        eighty: 4.357,
-        ninety: 4.913,
-        oneHundred: 5.469,
-        originalPGA: 3.763
+        amatuer: 4.357,
     }, {
         lie: 'r',
         distance: 266,
         pgaTour: 3.767,
-        eighty: 4.361,
-        ninety: 4.917,
-        oneHundred: 5.473,
-        originalPGA: 3.767
+        amatuer: 4.361,
     }, {
         lie: 'r',
         distance: 267,
         pgaTour: 3.772,
-        eighty: 4.366,
-        ninety: 4.922,
-        oneHundred: 5.478,
-        originalPGA: 3.772
+        amatuer: 4.366,
     }, {
         lie: 'r',
         distance: 268,
         pgaTour: 3.776,
-        eighty: 4.37,
-        ninety: 4.926,
-        oneHundred: 5.482,
-        originalPGA: 3.776
+        amatuer: 4.37,
     }, {
         lie: 'r',
         distance: 269,
         pgaTour: 3.781,
-        eighty: 4.375,
-        ninety: 4.931,
-        oneHundred: 5.487,
-        originalPGA: 3.781
+        amatuer: 4.375,
     }, {
         lie: 'r',
         distance: 270,
         pgaTour: 3.785,
-        eighty: 4.379,
-        ninety: 4.935,
-        oneHundred: 5.491,
-        originalPGA: 3.785
+        amatuer: 4.379,
     }, {
         lie: 'r',
         distance: 271,        
         pgaTour: 3.79,
-        eighty: 4.384,
-        ninety: 4.94,
-        oneHundred: 5.496,
-        originalPGA: 3.79
+        amatuer: 4.384,
     }, {
         lie: 'r',
         distance: 272,
         pgaTour: 3.794,
-        eighty: 4.388,
-        ninety: 4.944,
-        oneHundred: 5.5,
-        originalPGA: 3.794
+        amatuer: 4.388,
     }, {
         lie: 'r',
         distance: 273,
         pgaTour: 3.799,
-        eighty: 4.393,
-        ninety: 4.949,
-        oneHundred: 5.505,
-        originalPGA: 3.799
+        amatuer: 4.393,
     }, {
         lie: 'r',
         distance: 274,        
         pgaTour: 3.803,
-        eighty: 4.397,
-        ninety: 4.953,
-        oneHundred: 5.509,
-        originalPGA: 3.803
+        amatuer: 4.397,
     }, {
         lie: 'r',
         distance: 275,
         pgaTour: 3.808,
-        eighty: 4.402,
-        ninety: 4.958,
-        oneHundred: 5.514,
-        originalPGA: 3.808
+        amatuer: 4.402,
     }, {
         lie: 'r',
         distance: 276,
         pgaTour: 3.812,
-        eighty: 4.406,
-        ninety: 4.962,
-        oneHundred: 5.518,
-        originalPGA: 3.812
+        amatuer: 4.406,
     }, {
         lie: 'r',
         distance: 277,
         pgaTour: 3.817,
-        eighty: 4.411,
-        ninety: 4.967,
-        oneHundred: 5.523,
-        originalPGA: 3.817
+        amatuer: 4.411,
     }, {
         lie: 'r',
         distance: 278,
         pgaTour: 3.821,
-        eighty: 4.415,
-        ninety: 4.971,
-        oneHundred: 5.527,
-        originalPGA: 3.821
+        amatuer: 4.415,
     }, {
         lie: 'r',
         distance: 279,
         pgaTour: 3.826,
-        eighty: 4.42,
-        ninety: 4.976,
-        oneHundred: 5.532,
-        originalPGA: 3.826
+        amatuer: 4.42,
     }, {
         lie: 'r',
         distance: 280,   
         pgaTour: 3.83,
-        eighty: 4.424,
-        ninety: 4.98,
-        oneHundred: 5.536,
-        originalPGA: 3.83
+        amatuer: 4.424,
     }, {
         lie: 'r',
         distance: 281,
         pgaTour: 3.834,
-        eighty: 4.428,
-        ninety: 4.984,
-        oneHundred: 5.54,
-        originalPGA: 3.834
+        amatuer: 4.428,
     }, {
         lie: 'r',
         distance: 282,
         pgaTour: 3.837,
-        eighty: 4.431,
-        ninety: 4.987,
-        oneHundred: 5.543,
-        originalPGA: 3.837
+        amatuer: 4.431,
     }, {
         lie: 'r',
         distance: 283,
         pgaTour: 3.841,
-        eighty: 4.435,
-        ninety: 4.991,
-        oneHundred: 5.547,
-        originalPGA: 3.841
+        amatuer: 4.435,
     }, {
         lie: 'r',
         distance: 284,        
         pgaTour: 3.844,
-        eighty: 4.438,
-        ninety: 4.994,
-        oneHundred: 5.55,
-        originalPGA: 3.844
+        amatuer: 4.438,
     }, {
         lie: 'r',
         distance: 285,        
         pgaTour: 3.848,
-        eighty: 4.442,
-        ninety: 4.998,
-        oneHundred: 5.554,
-        originalPGA: 3.848
+        amatuer: 4.442,
     }, {
         lie: 'r',
         distance: 286,        
         pgaTour: 3.851,
-        eighty: 4.445,
-        ninety: 5.001,
-        oneHundred: 5.557,
-        originalPGA: 3.851
+        amatuer: 4.445,
     }, {
         lie: 'r',
         distance: 287,        
         pgaTour: 3.855,
-        eighty: 4.449,
-        ninety: 5.005,
-        oneHundred: 5.561,
-        originalPGA: 3.855
+        amatuer: 4.449,
     }, {
         lie: 'r',
         distance: 288,        
         pgaTour: 3.858,
-        eighty: 4.452,
-        ninety: 5.008,
-        oneHundred: 5.564,
-        originalPGA: 3.858
+        amatuer: 4.452,
     }, {
         lie: 'r',
         distance: 289,        
         pgaTour: 3.862,
-        eighty: 4.456,
-        ninety: 5.012,
-        oneHundred: 5.568,
-        originalPGA: 3.862
+        amatuer: 4.456,
     }, {
         lie: 'r',
         distance: 290,        
         pgaTour: 3.865,
-        eighty: 4.459,
-        ninety: 5.015,
-        oneHundred: 5.571,
-        originalPGA: 3.865
+        amatuer: 4.459,
     }, {
         lie: 'r',
         distance: 291,        
         pgaTour: 3.869,
-        eighty: 4.463,
-        ninety: 5.019,
-        oneHundred: 5.575,
-        originalPGA: 3.869
+        amatuer: 4.463,
     }, {
         lie: 'r',
         distance: 292,        
         pgaTour: 3.872,
-        eighty: 4.466,
-        ninety: 5.022,
-        oneHundred: 5.578,
-        originalPGA: 3.872
+        amatuer: 4.466,
     }, {
         lie: 'r',
         distance: 293,        
         pgaTour: 3.876,
-        eighty: 4.47,
-        ninety: 5.026,
-        oneHundred: 5.582,
-        originalPGA: 3.876
+        amatuer: 4.47,
     }, {
         lie: 'r',
         distance: 294,        
         pgaTour: 3.879,
-        eighty: 4.473,
-        ninety: 5.029,
-        oneHundred: 5.585,
-        originalPGA: 3.879
+        amatuer: 4.473,
     }, {
         lie: 'r',
         distance: 295,        
         pgaTour: 3.883,
-        eighty: 4.477,
-        ninety: 5.033,
-        oneHundred: 5.589,
-        originalPGA: 3.883
+        amatuer: 4.477,
     }, {
         lie: 'r',
         distance: 296,        
         pgaTour: 3.886,
-        eighty: 4.48,
-        ninety: 5.036,
-        oneHundred: 5.592,
-        originalPGA: 3.886
+        amatuer: 4.48,
     }, {
         lie: 'r',
         distance: 297,        
         pgaTour: 3.89,
-        eighty: 4.484,
-        ninety: 5.04,
-        oneHundred: 5.596,
-        originalPGA: 3.89
+        amatuer: 4.484,
     }, {
         lie: 'r',
         distance: 298,        
         pgaTour: 3.893,
-        eighty: 4.487,
-        ninety: 5.043,
-        oneHundred: 5.599,
-        originalPGA: 3.893
+        amatuer: 4.487,
     }, {
         lie: 'r',
         distance: 299,        
         pgaTour: 3.897,
-        eighty: 4.491,
-        ninety: 5.047,
-        oneHundred: 5.603,
-        originalPGA: 3.897
+        amatuer: 4.491,
     }, {
         lie: 'r',
         distance: 300,        
         pgaTour: 3.9,
-        eighty: 4.494,
-        ninety: 5.05,
-        oneHundred: 5.606,
-        originalPGA: 3.9
+        amatuer: 4.494,
     }, {
         lie: 'r',
         distance: 301,
         pgaTour: 3.903,
-        eighty: 4.497,
-        ninety: 5.053,
-        oneHundred: 5.609,
-        originalPGA: 3.903
+        amatuer: 4.497,
     }, {
         lie: 'r',
         distance: 302,        
         pgaTour: 3.905,
-        eighty: 4.499,
-        ninety: 5.055,
-        oneHundred: 5.611,
-        originalPGA: 3.905
+        amatuer: 4.499,
     }, {
         lie: 'r',
         distance: 303,        
         pgaTour: 3.908,
-        eighty: 4.502,
-        ninety: 5.058,
-        oneHundred: 5.614,
-        originalPGA: 3.908
+        amatuer: 4.502,
     }, {
         lie: 'r',
         distance: 304,
         pgaTour: 3.91,
-        eighty: 4.504,
-        ninety: 5.06,
-        oneHundred: 5.616,
-        originalPGA: 3.91
+        amatuer: 4.504,
     }, {
         lie: 'r',
         distance: 305,
         
         pgaTour: 3.913,
-        eighty: 4.507,
-        ninety: 5.063,
-        oneHundred: 5.619,
-        originalPGA: 3.913
+        amatuer: 4.507,
     }, {
         lie: 'r',
         distance: 306,
 
         pgaTour: 3.915,
-        eighty: 4.509,
-        ninety: 5.065,
-        oneHundred: 5.621,
-        originalPGA: 3.915
+        amatuer: 4.509,
     }, {
         lie: 'r',
         distance: 307,
         pgaTour: 3.918,
-        eighty: 4.512,
-        ninety: 5.068,
-        oneHundred: 5.624,
-        originalPGA: 3.918
+        amatuer: 4.512,
     }, {
         lie: 'r',
         distance: 308,
         pgaTour: 3.92,
-        eighty: 4.514,
-        ninety: 5.07,
-        oneHundred: 5.626,
-        originalPGA: 3.92
+        amatuer: 4.514,
     }, {
         lie: 'r',
         distance: 309,
         pgaTour: 3.923,
-        eighty: 4.517,
-        ninety: 5.073,
-        oneHundred: 5.629,
-        originalPGA: 3.923
+        amatuer: 4.517,
     }, {
         lie: 'r',
         distance: 310,
         pgaTour: 3.925,
-        eighty: 4.519,
-        ninety: 5.075,
-        oneHundred: 5.631,
-        originalPGA: 3.925
+        amatuer: 4.519,
     }, {
         lie: 'r',
         distance: 311,
         pgaTour: 3.928,
-        eighty: 4.522,
-        ninety: 5.078,
-        oneHundred: 5.634,
-        originalPGA: 3.928
+        amatuer: 4.522,
     }, {
         lie: 'r',
         distance: 312,
         pgaTour: 3.93,
-        eighty: 4.524,
-        ninety: 5.08,
-        oneHundred: 5.636,
-        originalPGA: 3.93
+        amatuer: 4.524,
     }, {
         lie: 'r',
         distance: 313,
         pgaTour: 3.933,
-        eighty: 4.527,
-        ninety: 5.083,
-        oneHundred: 5.639,
-        originalPGA: 3.933
+        amatuer: 4.527,
     }, {
         lie: 'r',
         distance: 314,
         pgaTour: 3.935,
-        eighty: 4.529,
-        ninety: 5.085,
-        oneHundred: 5.641,
-        originalPGA: 3.935
+        amatuer: 4.529,
     }, {
         lie: 'r',
         distance: 315,
         pgaTour: 3.938,
-        eighty: 4.532,
-        ninety: 5.088,
-        oneHundred: 5.644,
-        originalPGA: 3.938
+        amatuer: 4.532,
     }, {
         lie: 'r',
         distance: 316,
         pgaTour: 3.94,
-        eighty: 4.534,
-        ninety: 5.09,
-        oneHundred: 5.646,
-        originalPGA: 3.94
+        amatuer: 4.534,
     }, {
         lie: 'r',
         distance: 317,
         pgaTour: 3.943,
-        eighty: 4.537,
-        ninety: 5.093,
-        oneHundred: 5.649,
-        originalPGA: 3.943
+        amatuer: 4.537,
     }, {
         lie: 'r',
         distance: 318,
         pgaTour: 3.945,
-        eighty: 4.539,
-        ninety: 5.095,
-        oneHundred: 5.651,
-        originalPGA: 3.945
+        amatuer: 4.539,
     }, {
         lie: 'r',
         distance: 319,        
         pgaTour: 3.948,
-        eighty: 4.542,
-        ninety: 5.098,
-        oneHundred: 5.654,
-        originalPGA: 3.948
+        amatuer: 4.542,
     }, {
         lie: 'r',
         distance: 320,        
         pgaTour: 3.95,
-        eighty: 4.544,
-        ninety: 5.1,
-        oneHundred: 5.656,
-        originalPGA: 3.95
+        amatuer: 4.544,
     }, {
         lie: 'r',
         distance: 321,
         pgaTour: 3.954,
-        eighty: 4.548,
-        ninety: 5.104,
-        oneHundred: 5.66,
-        originalPGA: 3.954
+        amatuer: 4.548,
     }, {
         lie: 'r',
         distance: 322,
         pgaTour: 3.957,
-        eighty: 4.551,
-        ninety: 5.107,
-        oneHundred: 5.663,
-        originalPGA: 3.957
+        amatuer: 4.551,
     }, {
         lie: 'r',
         distance: 323,        
         pgaTour: 3.961,
-        eighty: 4.555,
-        ninety: 5.111,
-        oneHundred: 5.667,
-        originalPGA: 3.961
+        amatuer: 4.555,
     }, {
         lie: 'r',
         distance: 324,        
         pgaTour: 3.964,
-        eighty: 4.558,
-        ninety: 5.114,
-        oneHundred: 5.67,
-        originalPGA: 3.964
+        amatuer: 4.558,
     }, {
         lie: 'r',
         distance: 325,        
         pgaTour: 3.968,
-        eighty: 4.562,
-        ninety: 5.118,
-        oneHundred: 5.674,
-        originalPGA: 3.968
+        amatuer: 4.562,
     }, {
         lie: 'r',
         distance: 326,        
         pgaTour: 3.971,
-        eighty: 4.565,
-        ninety: 5.121,
-        oneHundred: 5.677,
-        originalPGA: 3.971
+        amatuer: 4.565,
     }, {
         lie: 'r',
         distance: 327,
         pgaTour: 3.975,
-        eighty: 4.569,
-        ninety: 5.125,
-        oneHundred: 5.681,
-        originalPGA: 3.975
+        amatuer: 4.569,
     }, {
         lie: 'r',
         distance: 328,
         pgaTour: 3.978,
-        eighty: 4.572,
-        ninety: 5.128,
-        oneHundred: 5.684,
-        originalPGA: 3.978
+        amatuer: 4.572,
     }, {
         lie: 'r',
         distance: 329,
         pgaTour: 3.982,
-        eighty: 4.576,
-        ninety: 5.132,
-        oneHundred: 5.688,
-        originalPGA: 3.982
+        amatuer: 4.576,
     }, {
         lie: 'r',
         distance: 330,
         pgaTour: 3.985,
-        eighty: 4.579,
-        ninety: 5.135,
-        oneHundred: 5.691,
-        originalPGA: 3.985
+        amatuer: 4.579,
     }, {
         lie: 'r',
         distance: 331,
         pgaTour: 3.989,
-        eighty: 4.583,
-        ninety: 5.139,
-        oneHundred: 5.695,
-        originalPGA: 3.989
+        amatuer: 4.583,
     }, {
         lie: 'r',
         distance: 332,        
         pgaTour: 3.992,
-        eighty: 4.586,
-        ninety: 5.142,
-        oneHundred: 5.698,
-        originalPGA: 3.992
+        amatuer: 4.586,
     }, {
         lie: 'r',
         distance: 333,
         pgaTour: 3.996,
-        eighty: 4.59,
-        ninety: 5.146,
-        oneHundred: 5.702,
-        originalPGA: 3.996
+        amatuer: 4.59,
     }, {
         lie: 'r',
         distance: 334,
         pgaTour: 3.999,
-        eighty: 4.593,
-        ninety: 5.149,
-        oneHundred: 5.705,
-        originalPGA: 3.999
+        amatuer: 4.593,
     }, {
         lie: 'r',
         distance: 335,        
         pgaTour: 4.003,
-        eighty: 4.597,
-        ninety: 5.153,
-        oneHundred: 5.709,
-        originalPGA: 4.003
+        amatuer: 4.597,
     }, {
         lie: 'r',
         distance: 336,        
         pgaTour: 4.006,
-        eighty: 4.6,
-        ninety: 5.156,
-        oneHundred: 5.712,
-        originalPGA: 4.006
+        amatuer: 4.6,
     }, {
         lie: 'r',
         distance: 337,        
         pgaTour: 4.01,
-        eighty: 4.604,
-        ninety: 5.16,
-        oneHundred: 5.716,
-        originalPGA: 4.01
+        amatuer: 4.604,
     }, {
         lie: 'r',
         distance: 338,        
         pgaTour: 4.013,
-        eighty: 4.607,
-        ninety: 5.163,
-        oneHundred: 5.719,
-        originalPGA: 4.013
+        amatuer: 4.607,
     }, {
         lie: 'r',
         distance: 339,        
         pgaTour: 4.017,
-        eighty: 4.611,
-        ninety: 5.167,
-        oneHundred: 5.723,
-        originalPGA: 4.017
+        amatuer: 4.611,
     }, {
         lie: 'r',
         distance: 340,        
         pgaTour: 4.02,
-        eighty: 4.614,
-        ninety: 5.17,
-        oneHundred: 5.726,
-        originalPGA: 4.02
+        amatuer: 4.614,
     }, {
         lie: 'r',
         distance: 341,        
         pgaTour: 4.025,
-        eighty: 4.619,
-        ninety: 5.175,
-        oneHundred: 5.731,
-        originalPGA: 4.025
+        amatuer: 4.619,
     }, {
         lie: 'r',
         distance: 342,        
         pgaTour: 4.029,
-        eighty: 4.623,
-        ninety: 5.179,
-        oneHundred: 5.735,
-        originalPGA: 4.029
+        amatuer: 4.623,
     }, {
         lie: 'r',
         distance: 343,
         pgaTour: 4.034,
-        eighty: 4.628,
-        ninety: 5.184,
-        oneHundred: 5.74,
-        originalPGA: 4.034
+        amatuer: 4.628,
     }, {
         lie: 'r',
         distance: 344,
         pgaTour: 4.038,
-        eighty: 4.632,
-        ninety: 5.188,
-        oneHundred: 5.744,
-        originalPGA: 4.038
+        amatuer: 4.632,
     }, {
         lie: 'r',
         distance: 345,        
         pgaTour: 4.043,
-        eighty: 4.637,
-        ninety: 5.193,
-        oneHundred: 5.749,
-        originalPGA: 4.043
+        amatuer: 4.637,
     }, {
         lie: 'r',
         distance: 346,        
         pgaTour: 4.047,
-        eighty: 4.641,
-        ninety: 5.197,
-        oneHundred: 5.753,
-        originalPGA: 4.047
+        amatuer: 4.641,
     }, {
         lie: 'r',
         distance: 347,
         pgaTour: 4.052,
-        eighty: 4.646,
-        ninety: 5.202,
-        oneHundred: 5.758,
-        originalPGA: 4.052
+        amatuer: 4.646,
     }, {
         lie: 'r',
         distance: 348,
         pgaTour: 4.056,
-        eighty: 4.65,
-        ninety: 5.206,
-        oneHundred: 5.762,
-        originalPGA: 4.056
+        amatuer: 4.65,
     }, {
         lie: 'r',
         distance: 349,        
         pgaTour: 4.061,
-        eighty: 4.655,
-        ninety: 5.211,
-        oneHundred: 5.767,
-        originalPGA: 4.061
+        amatuer: 4.655,
     }, {
         lie: 'r',
         distance: 350,        
         pgaTour: 4.065,
-        eighty: 4.659,
-        ninety: 5.215,
-        oneHundred: 5.771,
-        originalPGA: 4.065
+        amatuer: 4.659,
     }, {
         lie: 'r',
         distance: 351,        
         pgaTour: 4.07,
-        eighty: 4.664,
-        ninety: 5.22,
-        oneHundred: 5.776,
-        originalPGA: 4.07
+        amatuer: 4.664,
     }, {
         lie: 'r',
         distance: 352,        
         pgaTour: 4.074,
-        eighty: 4.668,
-        ninety: 5.224,
-        oneHundred: 5.78,
-        originalPGA: 4.074
+        amatuer: 4.668,
     }, {
         lie: 'r',
         distance: 353,
         pgaTour: 4.079,
-        eighty: 4.673,
-        ninety: 5.229,
-        oneHundred: 5.785,
-        originalPGA: 4.079
+        amatuer: 4.673,
     }, {
         lie: 'r',
         distance: 354,
         pgaTour: 4.083,
-        eighty: 4.677,
-        ninety: 5.233,
-        oneHundred: 5.789,
-        originalPGA: 4.083
+        amatuer: 4.677,
     }, {
         lie: 'r',
         distance: 355,
         pgaTour: 4.088,
-        eighty: 4.682,
-        ninety: 5.238,
-        oneHundred: 5.794,
-        originalPGA: 4.088
+        amatuer: 4.682,
     }, {
         lie: 'r',
         distance: 356,
         pgaTour: 4.092,
-        eighty: 4.686,
-        ninety: 5.242,
-        oneHundred: 5.798,
-        originalPGA: 4.092
+        amatuer: 4.686,
     }, {
         lie: 'r',
         distance: 357,        
         pgaTour: 4.097,
-        eighty: 4.691,
-        ninety: 5.247,
-        oneHundred: 5.803,
-        originalPGA: 4.097
+        amatuer: 4.691,
     }, {
         lie: 'r',
         distance: 358,
         pgaTour: 4.101,
-        eighty: 4.695,
-        ninety: 5.251,
-        oneHundred: 5.807,
-        originalPGA: 4.101
+        amatuer: 4.695,
     }, {
         lie: 'r',
         distance: 359,
         pgaTour: 4.106,
-        eighty: 4.7,
-        ninety: 5.256,
-        oneHundred: 5.812,
-        originalPGA: 4.106
+        amatuer: 4.7,
     }, {
         lie: 'r',
         distance: 360,
         pgaTour: 4.11,
-        eighty: 4.704,
-        ninety: 5.26,
-        oneHundred: 5.816,
-        originalPGA: 4.11
+        amatuer: 4.704,
     }, {
         lie: 'r',
         distance: 361,      
         pgaTour: 4.115,
-        eighty: 4.709,
-        ninety: 5.265,
-        oneHundred: 5.821,
-        originalPGA: 4.115
+        amatuer: 4.709,
     }, {
         lie: 'r',
         distance: 362,
         pgaTour: 4.12,
-        eighty: 4.714,
-        ninety: 5.27,
-        oneHundred: 5.826,
-        originalPGA: 4.12
+        amatuer: 4.714,
     }, {
         lie: 'r',
         distance: 363,
         pgaTour: 4.125,
-        eighty: 4.719,
-        ninety: 5.275,
-        oneHundred: 5.831,
-        originalPGA: 4.125
+        amatuer: 4.719,
     }, {
         lie: 'r',
         distance: 364,        
         pgaTour: 4.13,
-        eighty: 4.724,
-        ninety: 5.28,
-        oneHundred: 5.836,
-        originalPGA: 4.13
+        amatuer: 4.724,
     }, {
         lie: 'r',
         distance: 365,        
         pgaTour: 4.135,
-        eighty: 4.729,
-        ninety: 5.285,
-        oneHundred: 5.841,
-        originalPGA: 4.135
+        amatuer: 4.729,
     }, {
         lie: 'r',
         distance: 366,        
         pgaTour: 4.14,
-        eighty: 4.734,
-        ninety: 5.29,
-        oneHundred: 5.846,
-        originalPGA: 4.14
+        amatuer: 4.734,
     }, {
         lie: 'r',
         distance: 367,
         pgaTour: 4.145,
-        eighty: 4.739,
-        ninety: 5.295,
-        oneHundred: 5.851,
-        originalPGA: 4.145
+        amatuer: 4.739,
     }, {
         lie: 'r',
         distance: 368,        
         pgaTour: 4.15,
-        eighty: 4.744,
-        ninety: 5.3,
-        oneHundred: 5.856,
-        originalPGA: 4.15
+        amatuer: 4.744,
     }, {
         lie: 'r',
         distance: 369,        
         pgaTour: 4.155,
-        eighty: 4.749,
-        ninety: 5.305,
-        oneHundred: 5.861,
-        originalPGA: 4.155
+        amatuer: 4.749,
     }, {
         lie: 'r',
         distance: 370,        
         pgaTour: 4.16,
-        eighty: 4.754,
-        ninety: 5.31,
-        oneHundred: 5.866,
-        originalPGA: 4.16
+        amatuer: 4.754,
     }, {
         lie: 'r',
         distance: 371,        
         pgaTour: 4.165,
-        eighty: 4.759,
-        ninety: 5.315,
-        oneHundred: 5.871,
-        originalPGA: 4.165
+        amatuer: 4.759,
     }, {
         lie: 'r',
         distance: 372,        
         pgaTour: 4.17,
-        eighty: 4.764,
-        ninety: 5.32,
-        oneHundred: 5.876,
-        originalPGA: 4.17
+        amatuer: 4.764,
     }, {
         lie: 'r',
         distance: 373,
         pgaTour: 4.175,
-        eighty: 4.769,
-        ninety: 5.325,
-        oneHundred: 5.881,
-        originalPGA: 4.175
+        amatuer: 4.769,
     }, {
         lie: 'r',
         distance: 374,
         pgaTour: 4.18,
-        eighty: 4.774,
-        ninety: 5.33,
-        oneHundred: 5.886,
-        originalPGA: 4.18
+        amatuer: 4.774,
     }, {
         lie: 'r',
         distance: 375,        
         pgaTour: 4.185,
-        eighty: 4.779,
-        ninety: 5.335,
-        oneHundred: 5.891,
-        originalPGA: 4.185
+        amatuer: 4.779,
     }, {
         lie: 'r',
         distance: 376,        
         pgaTour: 4.19,
-        eighty: 4.784,
-        ninety: 5.34,
-        oneHundred: 5.896,
-        originalPGA: 4.19
+        amatuer: 4.784,
     }, {
         lie: 'r',
         distance: 377,        
         pgaTour: 4.195,
-        eighty: 4.789,
-        ninety: 5.345,
-        oneHundred: 5.901,
-        originalPGA: 4.195
+        amatuer: 4.789,
     }, {
         lie: 'r',
         distance: 378,        
         pgaTour: 4.2,
-        eighty: 4.794,
-        ninety: 5.35,
-        oneHundred: 5.906,
-        originalPGA: 4.2
+        amatuer: 4.794,
     }, {
         lie: 'r',
         distance: 379,
         pgaTour: 4.205,
-        eighty: 4.799,
-        ninety: 5.355,
-        oneHundred: 5.911,
-        originalPGA: 4.205
+        amatuer: 4.799,
     }, {
         lie: 'r',
         distance: 380,        
         pgaTour: 4.21,
-        eighty: 4.804,
-        ninety: 5.36,
-        oneHundred: 5.916,
-        originalPGA: 4.21
+        amatuer: 4.804,
     }, {
         lie: 'r',
         distance: 381,        
         pgaTour: 4.215,
-        eighty: 4.809,
-        ninety: 5.365,
-        oneHundred: 5.921,
-        originalPGA: 4.215
+        amatuer: 4.809,
     }, {
         lie: 'r',
         distance: 382,        
         pgaTour: 4.219,
-        eighty: 4.813,
-        ninety: 5.369,
-        oneHundred: 5.925,
-        originalPGA: 4.219
+        amatuer: 4.813,
     }, {
         lie: 'r',
         distance: 383,        
         pgaTour: 4.224,
-        eighty: 4.818,
-        ninety: 5.374,
-        oneHundred: 5.93,
-        originalPGA: 4.224
+        amatuer: 4.818,
     }, {
         lie: 'r',
         distance: 384,        
         pgaTour: 4.228,
-        eighty: 4.822,
-        ninety: 5.378,
-        oneHundred: 5.934,
-        originalPGA: 4.228
+        amatuer: 4.822,
     }, {
         lie: 'r',
         distance: 385,        
         pgaTour: 4.233,
-        eighty: 4.827,
-        ninety: 5.383,
-        oneHundred: 5.939,
-        originalPGA: 4.233
+        amatuer: 4.827,
     }, {
         lie: 'r',
         distance: 386,        
         pgaTour: 4.237,
-        eighty: 4.831,
-        ninety: 5.387,
-        oneHundred: 5.943,
-        originalPGA: 4.237
+        amatuer: 4.831,
     }, {
         lie: 'r',
         distance: 387,        
         pgaTour: 4.242,
-        eighty: 4.836,
-        ninety: 5.392,
-        oneHundred: 5.948,
-        originalPGA: 4.242
+        amatuer: 4.836,
     }, {
         lie: 'r',
         distance: 388,
         pgaTour: 4.246,
-        eighty: 4.84,
-        ninety: 5.396,
-        oneHundred: 5.952,
-        originalPGA: 4.246
+        amatuer: 4.84,
     }, {
         lie: 'r',
         distance: 389,        
         pgaTour: 4.251,
-        eighty: 4.845,
-        ninety: 5.401,
-        oneHundred: 5.957,
-        originalPGA: 4.251
+        amatuer: 4.845,
     }, {
         lie: 'r',
         distance: 390,        
         pgaTour: 4.255,
-        eighty: 4.849,
-        ninety: 5.405,
-        oneHundred: 5.961,
-        originalPGA: 4.255
+        amatuer: 4.849,
     }, {
         lie: 'r',
         distance: 391,        
         pgaTour: 4.26,
-        eighty: 4.854,
-        ninety: 5.41,
-        oneHundred: 5.966,
-        originalPGA: 4.26
+        amatuer: 4.854,
     }, {
         lie: 'r',
         distance: 392,        
         pgaTour: 4.264,
-        eighty: 4.858,
-        ninety: 5.414,
-        oneHundred: 5.97,
-        originalPGA: 4.264
+        amatuer: 4.858,
     }, {
         lie: 'r',
         distance: 393,        
         pgaTour: 4.269,
-        eighty: 4.863,
-        ninety: 5.419,
-        oneHundred: 5.975,
-        originalPGA: 4.269
+        amatuer: 4.863,
     }, {
         lie: 'r',
         distance: 394,        
         pgaTour: 4.273,
-        eighty: 4.867,
-        ninety: 5.423,
-        oneHundred: 5.979,
-        originalPGA: 4.273
+        amatuer: 4.867,
     }, {
         lie: 'r',
         distance: 395,
         pgaTour: 4.278,
-        eighty: 4.872,
-        ninety: 5.428,
-        oneHundred: 5.984,
-        originalPGA: 4.278
+        amatuer: 4.872,
     }, {
         lie: 'r',
         distance: 396,        
         pgaTour: 4.282,
-        eighty: 4.876,
-        ninety: 5.432,
-        oneHundred: 5.988,
-        originalPGA: 4.282
+        amatuer: 4.876,
     }, {
         lie: 'r',
         distance: 397,
         pgaTour: 4.287,
-        eighty: 4.881,
-        ninety: 5.437,
-        oneHundred: 5.993,
-        originalPGA: 4.287
+        amatuer: 4.881,
     }, {
         lie: 'r',
         distance: 398,
         pgaTour: 4.291,
-        eighty: 4.885,
-        ninety: 5.441,
-        oneHundred: 5.997,
-        originalPGA: 4.291
+        amatuer: 4.885,
     }, {
         lie: 'r',
         distance: 399,        
         pgaTour: 4.296,
-        eighty: 4.89,
-        ninety: 5.446,
-        oneHundred: 6.002,
-        originalPGA: 4.296
+        amatuer: 4.89,
     }, {
         lie: 'r',
         distance: 400,        
         pgaTour: 4.3,
-        eighty: 4.894,
-        ninety: 5.45,
-        oneHundred: 6.006,
-        originalPGA: 4.3
+        amatuer: 4.894,
     }, {
         lie: 'r',
         distance: 401,
         pgaTour: 4.302,
-        eighty: 4.896,
-        ninety: 5.452,
-        oneHundred: 6.008,
-        originalPGA: 4.302
+        amatuer: 4.896,
     }, {
         lie: 'r',
         distance: 402,
         pgaTour: 4.304,
-        eighty: 4.898,
-        ninety: 5.454,
-        oneHundred: 6.01,
-        originalPGA: 4.304
+        amatuer: 4.898,
     }, {
         lie: 'r',
         distance: 403,        
         pgaTour: 4.306,
-        eighty: 4.9,
-        ninety: 5.456,
-        oneHundred: 6.012,
-        originalPGA: 4.306
+        amatuer: 4.9,
     }, {
         lie: 'r',
         distance: 404,        
         pgaTour: 4.308,
-        eighty: 4.902,
-        ninety: 5.458,
-        oneHundred: 6.014,
-        originalPGA: 4.308
+        amatuer: 4.902,
     }, {
         lie: 'r',
         distance: 405,        
         pgaTour: 4.31,
-        eighty: 4.904,
-        ninety: 5.46,
-        oneHundred: 6.016,
-        originalPGA: 4.31
+        amatuer: 4.904,
     }, {
         lie: 'r',
         distance: 406,        
         pgaTour: 4.312,
-        eighty: 4.906,
-        ninety: 5.462,
-        oneHundred: 6.018,
-        originalPGA: 4.312
+        amatuer: 4.906,
     }, {
         lie: 'r',
         distance: 407,        
         pgaTour: 4.314,
-        eighty: 4.908,
-        ninety: 5.464,
-        oneHundred: 6.02,
-        originalPGA: 4.314
+        amatuer: 4.908,
     }, {
         lie: 'r',
         distance: 408,
-        
-
-        
         pgaTour: 4.316,
-        eighty: 4.91,
-        ninety: 5.466,
-        oneHundred: 6.022,
-        originalPGA: 4.316
+        amatuer: 4.91,
     }, {
         lie: 'r',
         distance: 409,        
         pgaTour: 4.318,
-        eighty: 4.912,
-        ninety: 5.468,
-        oneHundred: 6.024,
-        originalPGA: 4.318
+        amatuer: 4.912,
     }, {
         lie: 'r',
         distance: 410,        
         pgaTour: 4.32,
-        eighty: 4.914,
-        ninety: 5.47,
-        oneHundred: 6.026,
-        originalPGA: 4.32
+        amatuer: 4.914,
     }, {
         lie: 'r',
         distance: 411,        
         pgaTour: 4.322,
-        eighty: 4.916,
-        ninety: 5.472,
-        oneHundred: 6.028,
-        originalPGA: 4.322
+        amatuer: 4.916,
     }, {
         lie: 'r',
         distance: 412,        
         pgaTour: 4.324,
-        eighty: 4.918,
-        ninety: 5.474,
-        oneHundred: 6.03,
-        originalPGA: 4.324
+        amatuer: 4.918,
     }, {
         lie: 'r',
         distance: 413,        
         pgaTour: 4.326,
-        eighty: 4.92,
-        ninety: 5.476,
-        oneHundred: 6.032,
-        originalPGA: 4.326
+        amatuer: 4.92,
     }, {
         lie: 'r',
         distance: 414,        
         pgaTour: 4.328,
-        eighty: 4.922,
-        ninety: 5.478,
-        oneHundred: 6.034,
-        originalPGA: 4.328
+        amatuer: 4.922,
     }, {
         lie: 'r',
         distance: 415,        
         pgaTour: 4.33,
-        eighty: 4.924,
-        ninety: 5.48,
-        oneHundred: 6.036,
-        originalPGA: 4.33
+        amatuer: 4.924,
     }, {
         lie: 'r',
         distance: 416,        
         pgaTour: 4.332,
-        eighty: 4.926,
-        ninety: 5.482,
-        oneHundred: 6.038,
-        originalPGA: 4.332
+        amatuer: 4.926,
     }, {
         lie: 'r',
         distance: 417,        
         pgaTour: 4.334,
-        eighty: 4.928,
-        ninety: 5.484,
-        oneHundred: 6.04,
-        originalPGA: 4.334
+        amatuer: 4.928,
     }, {
         lie: 'r',
         distance: 418,        
         pgaTour: 4.336,
-        eighty: 4.93,
-        ninety: 5.486,
-        oneHundred: 6.042,
-        originalPGA: 4.336
+        amatuer: 4.93,
     }, {
         lie: 'r',
         distance: 419,
         pgaTour: 4.338,
-        eighty: 4.932,
-        ninety: 5.488,
-        oneHundred: 6.044,
-        originalPGA: 4.338
+        amatuer: 4.932,
     }, {
         lie: 'r',
         distance: 420,        
         pgaTour: 4.34,
-        eighty: 4.934,
-        ninety: 5.49,
-        oneHundred: 6.046,
-        originalPGA: 4.34
+        amatuer: 4.934,
     }, {
         lie: 'r',
         distance: 421,        
         pgaTour: 4.343,
-        eighty: 4.937,
-        ninety: 5.493,
-        oneHundred: 6.049,
-        originalPGA: 4.343
+        amatuer: 4.937,
     }, {
         lie: 'r',
         distance: 422,        
         pgaTour: 4.345,
-        eighty: 4.939,
-        ninety: 5.495,
-        oneHundred: 6.051,
-        originalPGA: 4.345
+        amatuer: 4.939,
     }, {
         lie: 'r',
         distance: 423,        
         pgaTour: 4.348,
-        eighty: 4.942,
-        ninety: 5.498,
-        oneHundred: 6.054,
-        originalPGA: 4.348
+        amatuer: 4.942,
     }, {
         lie: 'r',
         distance: 424,        
         pgaTour: 4.35,
-        eighty: 4.944,
-        ninety: 5.5,
-        oneHundred: 6.056,
-        originalPGA: 4.35
+        amatuer: 4.944,
     }, {
         lie: 'r',
         distance: 425,        
         pgaTour: 4.353,
-        eighty: 4.947,
-        ninety: 5.503,
-        oneHundred: 6.059,
-        originalPGA: 4.353
+        amatuer: 4.947,
     }, {
         lie: 'r',
         distance: 426,        
         pgaTour: 4.355,
-        eighty: 4.949,
-        ninety: 5.505,
-        oneHundred: 6.061,
-        originalPGA: 4.355
+        amatuer: 4.949,
     }, {
         lie: 'r',
         distance: 427,
         
         pgaTour: 4.358,
-        eighty: 4.952,
-        ninety: 5.508,
-        oneHundred: 6.064,
-        originalPGA: 4.358
+        amatuer: 4.952,
     }, {
         lie: 'r',
         distance: 428,        
         pgaTour: 4.36,
-        eighty: 4.954,
-        ninety: 5.51,
-        oneHundred: 6.066,
-        originalPGA: 4.36
+        amatuer: 4.954,
     }, {
         lie: 'r',
         distance: 429,        
         pgaTour: 4.363,
-        eighty: 4.957,
-        ninety: 5.513,
-        oneHundred: 6.069,
-        originalPGA: 4.363
+        amatuer: 4.957,
     }, {
         lie: 'r',
         distance: 430,        
         pgaTour: 4.365,
-        eighty: 4.959,
-        ninety: 5.515,
-        oneHundred: 6.071,
-        originalPGA: 4.365
+        amatuer: 4.959,
     }, {
         lie: 'r',
         distance: 431,
         pgaTour: 4.368,
-        eighty: 4.962,
-        ninety: 5.518,
-        oneHundred: 6.074,
-        originalPGA: 4.368
+        amatuer: 4.962,
     }, {
         lie: 'r',
         distance: 432,        
         pgaTour: 4.37,
-        eighty: 4.964,
-        ninety: 5.52,
-        oneHundred: 6.076,
-        originalPGA: 4.37
+        amatuer: 4.964,
     }, {
         lie: 'r',
         distance: 433,
         pgaTour: 4.373,
-        eighty: 4.967,
-        ninety: 5.523,
-        oneHundred: 6.079,
-        originalPGA: 4.373
+        amatuer: 4.967,
     }, {
         lie: 'r',
         distance: 434,
         pgaTour: 4.375,
-        eighty: 4.969,
-        ninety: 5.525,
-        oneHundred: 6.081,
-        originalPGA: 4.375
+        amatuer: 4.969,
     }, {
         lie: 'r',
         distance: 435,
         pgaTour: 4.378,
-        eighty: 4.972,
-        ninety: 5.528,
-        oneHundred: 6.084,
-        originalPGA: 4.378
+        amatuer: 4.972,
     }, {
         lie: 'r',
         distance: 436,        
         pgaTour: 4.38,
-        eighty: 4.974,
-        ninety: 5.53,
-        oneHundred: 6.086,
-        originalPGA: 4.38
+        amatuer: 4.974,
     }, {
         lie: 'r',
         distance: 437,        
         pgaTour: 4.383,
-        eighty: 4.977,
-        ninety: 5.533,
-        oneHundred: 6.089,
-        originalPGA: 4.383
+        amatuer: 4.977,
     }, {
         lie: 'r',
         distance: 438,        
         pgaTour: 4.385,
-        eighty: 4.979,
-        ninety: 5.535,
-        oneHundred: 6.091,
-        originalPGA: 4.385
+        amatuer: 4.979,
     }, {
         lie: 'r',
         distance: 439,        
         pgaTour: 4.388,
-        eighty: 4.982,
-        ninety: 5.538,
-        oneHundred: 6.094,
-        originalPGA: 4.388
+        amatuer: 4.982,
     }, {
         lie: 'r',
         distance: 440,    
         pgaTour: 4.39,
-        eighty: 4.984,
-        ninety: 5.54,
-        oneHundred: 6.096,
-        originalPGA: 4.39
+        amatuer: 4.984,
     }, {
         lie: 'r',
         distance: 441,    
         pgaTour: 4.395,
-        eighty: 4.989,
-        ninety: 5.545,
-        oneHundred: 6.101,
-        originalPGA: 4.395
+        amatuer: 4.989,
     }, {
         lie: 'r',
         distance: 442,
-
         pgaTour: 4.399,
-        eighty: 4.993,
-        ninety: 5.549,
-        oneHundred: 6.105,
-        originalPGA: 4.399
+        amatuer: 4.993,
     }, {
         lie: 'r',
         distance: 443,  
         pgaTour: 4.404,
-        eighty: 4.998,
-        ninety: 5.554,
-        oneHundred: 6.11,
-        originalPGA: 4.404
+        amatuer: 4.998,
     }, {
         lie: 'r',
         distance: 444,
         pgaTour: 4.408,
-        eighty: 5.002,
-        ninety: 5.558,
-        oneHundred: 6.114,
-        originalPGA: 4.408
+        amatuer: 5.002,
     }, {
         lie: 'r',
         distance: 445,        
         pgaTour: 4.413,
-        eighty: 5.007,
-        ninety: 5.563,
-        oneHundred: 6.119,
-        originalPGA: 4.413
+        amatuer: 5.007,
     }, {
         lie: 'r',
         distance: 446,        
         pgaTour: 4.417,
-        eighty: 5.011,
-        ninety: 5.567,
-        oneHundred: 6.123,
-        originalPGA: 4.417
+        amatuer: 5.011,
     }, {
         lie: 'r',
         distance: 447,        
         pgaTour: 4.422,
-        eighty: 5.016,
-        ninety: 5.572,
-        oneHundred: 6.128,
-        originalPGA: 4.422
+        amatuer: 5.016,
     }, {
         lie: 'r',
         distance: 448,
         pgaTour: 4.426,
-        eighty: 5.02,
-        ninety: 5.576,
-        oneHundred: 6.132,
-        originalPGA: 4.426
+        amatuer: 5.02,
     }, {
         lie: 'r',
         distance: 449,        
         pgaTour: 4.431,
-        eighty: 5.025,
-        ninety: 5.581,
-        oneHundred: 6.137,
-        originalPGA: 4.431
+        amatuer: 5.025,
     }, {
         lie: 'r',
         distance: 450,        
         pgaTour: 4.435,
-        eighty: 5.029,
-        ninety: 5.585,
-        oneHundred: 6.141,
-        originalPGA: 4.435
+        amatuer: 5.029,
     }, {
         lie: 'r',
         distance: 451,        
         pgaTour: 4.44,
-        eighty: 5.034,
-        ninety: 5.59,
-        oneHundred: 6.146,
-        originalPGA: 4.44
+        amatuer: 5.034,
     }, {
         lie: 'r',
         distance: 452,        
         pgaTour: 4.444,
-        eighty: 5.038,
-        ninety: 5.594,
-        oneHundred: 6.15,
-        originalPGA: 4.444
+        amatuer: 5.038,
     }, {
         lie: 'r',
         distance: 453,        
         pgaTour: 4.449,
-        eighty: 5.043,
-        ninety: 5.599,
-        oneHundred: 6.155,
-        originalPGA: 4.449
+        amatuer: 5.043,
     }, {
         lie: 'r',
         distance: 454,
         pgaTour: 4.453,
-        eighty: 5.047,
-        ninety: 5.603,
-        oneHundred: 6.159,
-        originalPGA: 4.453
+        amatuer: 5.047,
     }, {
         lie: 'r',
         distance: 455,
         pgaTour: 4.458,
-        eighty: 5.052,
-        ninety: 5.608,
-        oneHundred: 6.164,
-        originalPGA: 4.458
+        amatuer: 5.052,
     }, {
         lie: 'r',
         distance: 456,
         pgaTour: 4.462,
-        eighty: 5.056,
-        ninety: 5.612,
-        oneHundred: 6.168,
-        originalPGA: 4.462
+        amatuer: 5.056,
     }, {
         lie: 'r',
         distance: 457,        
         pgaTour: 4.467,
-        eighty: 5.061,
-        ninety: 5.617,
-        oneHundred: 6.173,
-        originalPGA: 4.467
+        amatuer: 5.061,
     }, {
         lie: 'r',
         distance: 458,        
         pgaTour: 4.471,
-        eighty: 5.065,
-        ninety: 5.621,
-        oneHundred: 6.177,
-        originalPGA: 4.471
+        amatuer: 5.065,
     }, {
         lie: 'r',
         distance: 459,
         pgaTour: 4.476,
-        eighty: 5.07,
-        ninety: 5.626,
-        oneHundred: 6.182,
-        originalPGA: 4.476
+        amatuer: 5.07,
     }, {
         lie: 'r',
         distance: 460,
         pgaTour: 4.48,
-        eighty: 5.074,
-        ninety: 5.63,
-        oneHundred: 6.186,
-        originalPGA: 4.48
+        amatuer: 5.074,
     }, {
         lie: 'r',
         distance: 461,        
         pgaTour: 4.486,
-        eighty: 5.08,
-        ninety: 5.636,
-        oneHundred: 6.192,
-        originalPGA: 4.486
+        amatuer: 5.08,
     }, {
         lie: 'r',
         distance: 462,        
         pgaTour: 4.491,
-        eighty: 5.085,
-        ninety: 5.641,
-        oneHundred: 6.197,
-        originalPGA: 4.491
+        amatuer: 5.085,
     }, {
         lie: 'r',
         distance: 463,        
         pgaTour: 4.497,
-        eighty: 5.091,
-        ninety: 5.647,
-        oneHundred: 6.203,
-        originalPGA: 4.497
+        amatuer: 5.091,
     }, {
         lie: 'r',
         distance: 464,        
         pgaTour: 4.502,
-        eighty: 5.096,
-        ninety: 5.652,
-        oneHundred: 6.208,
-        originalPGA: 4.502
+        amatuer: 5.096,
     }, {
         lie: 'r',
         distance: 465,
         pgaTour: 4.508,
-        eighty: 5.102,
-        ninety: 5.658,
-        oneHundred: 6.214,
-        originalPGA: 4.508
+        amatuer: 5.102,
     }, {
         lie: 'r',
         distance: 466,
         pgaTour: 4.513,
-        eighty: 5.107,
-        ninety: 5.663,
-        oneHundred: 6.219,
-        originalPGA: 4.513
+        amatuer: 5.107,
     }, {
         lie: 'r',
         distance: 467,        
         pgaTour: 4.519,
-        eighty: 5.113,
-        ninety: 5.669,
-        oneHundred: 6.225,
-        originalPGA: 4.519
+        amatuer: 5.113,
     }, {
         lie: 'r',
         distance: 468,
         pgaTour: 4.524,
-        eighty: 5.118,
-        ninety: 5.674,
-        oneHundred: 6.23,
-        originalPGA: 4.524
+        amatuer: 5.118,
     }, {
         lie: 'r',
         distance: 469,        
         pgaTour: 4.53,
-        eighty: 5.124,
-        ninety: 5.68,
-        oneHundred: 6.236,
-        originalPGA: 4.53
+        amatuer: 5.124,
     }, {
         lie: 'r',
         distance: 470,        
         pgaTour: 4.535,
-        eighty: 5.129,
-        ninety: 5.685,
-        oneHundred: 6.241,
-        originalPGA: 4.535
+        amatuer: 5.129,
     }, {
         lie: 'r',
         distance: 471,        
         pgaTour: 4.541,
-        eighty: 5.135,
-        ninety: 5.691,
-        oneHundred: 6.247,
-        originalPGA: 4.541
+        amatuer: 5.135,
     }, {
         lie: 'r',
         distance: 472,        
         pgaTour: 4.546,
-        eighty: 5.14,
-        ninety: 5.696,
-        oneHundred: 6.252,
-        originalPGA: 4.546
+        amatuer: 5.14,
     }, {
         lie: 'r',
         distance: 473,        
         pgaTour: 4.552,
-        eighty: 5.146,
-        ninety: 5.702,
-        oneHundred: 6.258,
-        originalPGA: 4.552
+        amatuer: 5.146,
     }, {
         lie: 'r',
         distance: 474,
         pgaTour: 4.557,
-        eighty: 5.151,
-        ninety: 5.707,
-        oneHundred: 6.263,
-        originalPGA: 4.557
+        amatuer: 5.151,
     }, {
         lie: 'r',
         distance: 475,        
         pgaTour: 4.563,
-        eighty: 5.157,
-        ninety: 5.713,
-        oneHundred: 6.269,
-        originalPGA: 4.563
+        amatuer: 5.157,
     }, {
         lie: 'r',
         distance: 476,        
         pgaTour: 4.568,
-        eighty: 5.162,
-        ninety: 5.718,
-        oneHundred: 6.274,
-        originalPGA: 4.568
+        amatuer: 5.162,
     }, {
         lie: 'r',
         distance: 477,
         pgaTour: 4.574,
-        eighty: 5.168,
-        ninety: 5.724,
-        oneHundred: 6.28,
-        originalPGA: 4.574
+        amatuer: 5.168,
     }, {
         lie: 'r',
         distance: 478,
         pgaTour: 4.579,
-        eighty: 5.173,
-        ninety: 5.729,
-        oneHundred: 6.285,
-        originalPGA: 4.579
+        amatuer: 5.173,
     }, {
         lie: 'r',
         distance: 479,
         pgaTour: 4.585,
-        eighty: 5.179,
-        ninety: 5.735,
-        oneHundred: 6.291,
-        originalPGA: 4.585
+        amatuer: 5.179,
     }, {
         lie: 'r',
         distance: 480,
         pgaTour: 4.59,
-        eighty: 5.184,
-        ninety: 5.74,
-        oneHundred: 6.296,
-        originalPGA: 4.59
+        amatuer: 5.184,
     }, {
         lie: 'r',
         distance: 481,
         pgaTour: 4.597,
-        eighty: 5.191,
-        ninety: 5.747,
-        oneHundred: 6.303,
-        originalPGA: 4.597
+        amatuer: 5.191,
     }, {
         lie: 'r',
         distance: 482,
         pgaTour: 4.603,
-        eighty: 5.197,
-        ninety: 5.753,
-        oneHundred: 6.309,
-        originalPGA: 4.603
+        amatuer: 5.197,
     }, {
         lie: 'r',
         distance: 483,
         pgaTour: 4.61,
-        eighty: 5.204,
-        ninety: 5.76,
-        oneHundred: 6.316,
-        originalPGA: 4.61
+        amatuer: 5.204,
     }, {
         lie: 'r',
         distance: 484,
         pgaTour: 4.616,
-        eighty: 5.21,
-        ninety: 5.766,
-        oneHundred: 6.322,
-        originalPGA: 4.616
+        amatuer: 5.21,
     }, {
         lie: 'r',
         distance: 485,
         pgaTour: 4.623,
-        eighty: 5.217,
-        ninety: 5.773,
-        oneHundred: 6.329,
-        originalPGA: 4.623
+        amatuer: 5.217,
     }, {
         lie: 'r',
         distance: 486,
         pgaTour: 4.629,
-        eighty: 5.223,
-        ninety: 5.779,
-        oneHundred: 6.335,
-        originalPGA: 4.629
+        amatuer: 5.223,
     }, {
         lie: 'r',
         distance: 487,
         pgaTour: 4.636,
-        eighty: 5.23,
-        ninety: 5.786,
-        oneHundred: 6.342,
-        originalPGA: 4.636
+        amatuer: 5.23,
     }, {
         lie: 'r',
         distance: 488,
         pgaTour: 4.642,
-        eighty: 5.236,
-        ninety: 5.792,
-        oneHundred: 6.348,
-        originalPGA: 4.642
+        amatuer: 5.236,
     }, {
         lie: 'r',
         distance: 489,        
         pgaTour: 4.649,
-        eighty: 5.243,
-        ninety: 5.799,
-        oneHundred: 6.355,
-        originalPGA: 4.649
+        amatuer: 5.243,
     }, {
         lie: 'r',
         distance: 490,
         pgaTour: 4.655,
-        eighty: 5.249,
-        ninety: 5.805,
-        oneHundred: 6.361,
-        originalPGA: 4.655
+        amatuer: 5.249,
     }, {
         lie: 'r',
         distance: 491,        
         pgaTour: 4.662,
-        eighty: 5.256,
-        ninety: 5.812,
-        oneHundred: 6.368,
-        originalPGA: 4.662
+        amatuer: 5.256,
     }, {
         lie: 'r',
         distance: 492,        
         pgaTour: 4.668,
-        eighty: 5.262,
-        ninety: 5.818,
-        oneHundred: 6.374,
-        originalPGA: 4.668
+        amatuer: 5.262,
     }, {
         lie: 'r',
         distance: 493,
         pgaTour: 4.675,
-        eighty: 5.269,
-        ninety: 5.825,
-        oneHundred: 6.381,
-        originalPGA: 4.675
+        amatuer: 5.269,
     }, {
         lie: 'r',
         distance: 494,
         pgaTour: 4.681,
-        eighty: 5.275,
-        ninety: 5.831,
-        oneHundred: 6.387,
-        originalPGA: 4.681
+        amatuer: 5.275,
     }, {
         lie: 'r',
         distance: 495,
         pgaTour: 4.688,
-        eighty: 5.282,
-        ninety: 5.838,
-        oneHundred: 6.394,
-        originalPGA: 4.688
+        amatuer: 5.282,
     }, {
         lie: 'r',
         distance: 496,
         pgaTour: 4.694,
-        eighty: 5.288,
-        ninety: 5.844,
-        oneHundred: 6.4,
-        originalPGA: 4.694
+        amatuer: 5.288,
     }, {
         lie: 'r',
         distance: 497,
         pgaTour: 4.701,
-        eighty: 5.295,
-        ninety: 5.851,
-        oneHundred: 6.407,
-        originalPGA: 4.701
+        amatuer: 5.295,
     }, {
         lie: 'r',
         distance: 498,
         pgaTour: 4.707,
-        eighty: 5.301,
-        ninety: 5.857,
-        oneHundred: 6.413,
-        originalPGA: 4.707
+        amatuer: 5.301,
     }, {
         lie: 'r',
         distance: 499,        
         pgaTour: 4.714,
-        eighty: 5.308,
-        ninety: 5.864,
-        oneHundred: 6.42,
-        originalPGA: 4.714
+        amatuer: 5.308,
     }, {
         lie: 'r',
         distance: 500,
         pgaTour: 4.72,
-        eighty: 5.314,
-        ninety: 5.87,
-        oneHundred: 6.426,
-        originalPGA: 4.72
+        amatuer: 5.314,
     }, {
         lie: 'r',
         distance: 501,        
         pgaTour: 4.727,
-        eighty: 5.321,
-        ninety: 5.877,
-        oneHundred: 6.433,
-        originalPGA: 4.727
+        amatuer: 5.321,
     }, {
         lie: 'r',
         distance: 502,        
         pgaTour: 4.733,
-        eighty: 5.327,
-        ninety: 5.883,
-        oneHundred: 6.439,
-        originalPGA: 4.733
+        amatuer: 5.327,
     }, {
         lie: 'r',
         distance: 503,        
         pgaTour: 4.74,
-        eighty: 5.334,
-        ninety: 5.89,
-        oneHundred: 6.446,
-        originalPGA: 4.74
+        amatuer: 5.334,
     }, {
         lie: 'r',
         distance: 504,        
         pgaTour: 4.746,
-        eighty: 5.34,
-        ninety: 5.896,
-        oneHundred: 6.452,
-        originalPGA: 4.746
+        amatuer: 5.34,
     }, {
         lie: 'r',
         distance: 505,        
         pgaTour: 4.753,
-        eighty: 5.347,
-        ninety: 5.903,
-        oneHundred: 6.459,
-        originalPGA: 4.753
+        amatuer: 5.347,
     }, {
         lie: 'r',
         distance: 506,        
         pgaTour: 4.759,
-        eighty: 5.353,
-        ninety: 5.909,
-        oneHundred: 6.465,
-        originalPGA: 4.759
+        amatuer: 5.353,
     }, {
         lie: 'r',
         distance: 507,        
         pgaTour: 4.766,
-        eighty: 5.36,
-        ninety: 5.916,
-        oneHundred: 6.472,
-        originalPGA: 4.766
+        amatuer: 5.36,
     }, {
         lie: 'r',
         distance: 508,
         pgaTour: 4.772,
-        eighty: 5.366,
-        ninety: 5.922,
-        oneHundred: 6.478,
-        originalPGA: 4.772
+        amatuer: 5.366,
     }, {
         lie: 'r',
         distance: 509,
         pgaTour: 4.779,
-        eighty: 5.373,
-        ninety: 5.929,
-        oneHundred: 6.485,
-        originalPGA: 4.779
+        amatuer: 5.373,
     }, {
         lie: 'r',
         distance: 510,        
         pgaTour: 4.785,
-        eighty: 5.379,
-        ninety: 5.935,
-        oneHundred: 6.491,
-        originalPGA: 4.785
+        amatuer: 5.379,
     }, {
         lie: 'r',
         distance: 511,        
         pgaTour: 4.792,
-        eighty: 5.386,
-        ninety: 5.942,
-        oneHundred: 6.498,
-        originalPGA: 4.792
+        amatuer: 5.386,
     }, {
         lie: 'r',
         distance: 512,
         pgaTour: 4.798,
-        eighty: 5.392,
-        ninety: 5.948,
-        oneHundred: 6.504,
-        originalPGA: 4.798
+        amatuer: 5.392,
     }, {
         lie: 'r',
         distance: 513,        
         pgaTour: 4.805,
-        eighty: 5.399,
-        ninety: 5.955,
-        oneHundred: 6.511,
-        originalPGA: 4.805
+        amatuer: 5.399,
     }, {
         lie: 'r',
         distance: 514,        
         pgaTour: 4.811,
-        eighty: 5.405,
-        ninety: 5.961,
-        oneHundred: 6.517,
-        originalPGA: 4.811
+        amatuer: 5.405,
     }, {
         lie: 'r',
         distance: 515,        
         pgaTour: 4.818,
-        eighty: 5.412,
-        ninety: 5.968,
-        oneHundred: 6.524,
-        originalPGA: 4.818
+        amatuer: 5.412,
     }, {
         lie: 'r',
         distance: 516,
         pgaTour: 4.824,
-        eighty: 5.418,
-        ninety: 5.974,
-        oneHundred: 6.53,
-        originalPGA: 4.824
+        amatuer: 5.418,
     }, {
         lie: 'r',
         distance: 517,        
         pgaTour: 4.831,
-        eighty: 5.425,
-        ninety: 5.981,
-        oneHundred: 6.537,
-        originalPGA: 4.831
+        amatuer: 5.425,
     }, {
         lie: 'r',
         distance: 518,        
         pgaTour: 4.837,
-        eighty: 5.431,
-        ninety: 5.987,
-        oneHundred: 6.543,
-        originalPGA: 4.837
+        amatuer: 5.431,
     }, {
         lie: 'r',
         distance: 519,        
         pgaTour: 4.844,
-        eighty: 5.438,
-        ninety: 5.994,
-        oneHundred: 6.55,
-        originalPGA: 4.844
+        amatuer: 5.438,
     }, {
         lie: 'r',
         distance: 520,
         pgaTour: 4.85,
-        eighty: 5.444,
-        ninety: 6,
-        oneHundred: 6.556,
-        originalPGA: 4.85
+        amatuer: 5.444,
     }, {
         lie: 'r',
         distance: 521,        
         pgaTour: 4.856,
-        eighty: 5.45,
-        ninety: 6.006,
-        oneHundred: 6.562,
-        originalPGA: 4.856
+        amatuer: 5.45,
     }, {
         lie: 'r',
         distance: 522,        
         pgaTour: 4.862,
-        eighty: 5.456,
-        ninety: 6.012,
-        oneHundred: 6.568,
-        originalPGA: 4.862
+        amatuer: 5.456,
     }, {
         lie: 'r',
         distance: 523,        
         pgaTour: 4.868,
-        eighty: 5.462,
-        ninety: 6.018,
-        oneHundred: 6.574,
-        originalPGA: 4.868
+        amatuer: 5.462,
     }, {
         lie: 'r',
         distance: 524,        
         pgaTour: 4.874,
-        eighty: 5.468,
-        ninety: 6.024,
-        oneHundred: 6.58,
-        originalPGA: 4.874
+        amatuer: 5.468,
     }, {
         lie: 'r',
         distance: 525,        
         pgaTour: 4.88,
-        eighty: 5.474,
-        ninety: 6.03,
-        oneHundred: 6.586,
-        originalPGA: 4.88
+        amatuer: 5.474,
     }, {
         lie: 'r',
         distance: 526,        
         pgaTour: 4.886,
-        eighty: 5.48,
-        ninety: 6.036,
-        oneHundred: 6.592,
-        originalPGA: 4.886
+        amatuer: 5.48,
     }, {
         lie: 'r',
         distance: 527,        
         pgaTour: 4.892,
-        eighty: 5.486,
-        ninety: 6.042,
-        oneHundred: 6.598,
-        originalPGA: 4.892
+        amatuer: 5.486,
     }, {
         lie: 'r',
         distance: 528,        
         pgaTour: 4.898,
-        eighty: 5.492,
-        ninety: 6.048,
-        oneHundred: 6.604,
-        originalPGA: 4.898
+        amatuer: 5.492,
     }, {
         lie: 'r',
         distance: 529,
         pgaTour: 4.904,
-        eighty: 5.498,
-        ninety: 6.054,
-        oneHundred: 6.61,
-        originalPGA: 4.904
+        amatuer: 5.498,
     }, {
         lie: 'r',
         distance: 530,
         pgaTour: 4.91,
-        eighty: 5.504,
-        ninety: 6.06,
-        oneHundred: 6.616,
-        originalPGA: 4.91
+        amatuer: 5.504,
     }, {
         lie: 'r',
         distance: 531,
         pgaTour: 4.916,
-        eighty: 5.51,
-        ninety: 6.066,
-        oneHundred: 6.622,
-        originalPGA: 4.916
+        amatuer: 5.51,
     }, {
         lie: 'r',
         distance: 532,        
         pgaTour: 4.922,
-        eighty: 5.516,
-        ninety: 6.072,
-        oneHundred: 6.628,
-        originalPGA: 4.922
+        amatuer: 5.516,
     }, {
         lie: 'r',
         distance: 533,
         pgaTour: 4.928,
-        eighty: 5.522,
-        ninety: 6.078,
-        oneHundred: 6.634,
-        originalPGA: 4.928
+        amatuer: 5.522,
     }, {
         lie: 'r',
         distance: 534,        
         pgaTour: 4.934,
-        eighty: 5.528,
-        ninety: 6.084,
-        oneHundred: 6.64,
-        originalPGA: 4.934
+        amatuer: 5.528,
     }, {
         lie: 'r',
         distance: 535,        
         pgaTour: 4.94,
-        eighty: 5.534,
-        ninety: 6.09,
-        oneHundred: 6.646,
-        originalPGA: 4.94
+        amatuer: 5.534,
     }, {
         lie: 'r',
         distance: 536,
         pgaTour: 4.946,
-        eighty: 5.54,
-        ninety: 6.096,
-        oneHundred: 6.652,
-        originalPGA: 4.946
+        amatuer: 5.54,
     }, {
         lie: 'r',
         distance: 537,
         pgaTour: 4.952,
-        eighty: 5.546,
-        ninety: 6.102,
-        oneHundred: 6.658,
-        originalPGA: 4.952
+        amatuer: 5.546,
     }, {
         lie: 'r',
         distance: 538,        
         pgaTour: 4.958,
-        eighty: 5.552,
-        ninety: 6.108,
-        oneHundred: 6.664,
-        originalPGA: 4.958
+        amatuer: 5.552,
     }, {
         lie: 'r',
         distance: 539,        
         pgaTour: 4.964,
-        eighty: 5.558,
-        ninety: 6.114,
-        oneHundred: 6.67,
-        originalPGA: 4.964
+        amatuer: 5.558,
     }, {
         lie: 'r',
         distance: 540,
         pgaTour: 4.97,
-        eighty: 5.564,
-        ninety: 6.12,
-        oneHundred: 6.676,
-        originalPGA: 4.97
+        amatuer: 5.564,
     }, {
         lie: 'r',
         distance: 541,
         pgaTour: 4.974,
-        eighty: 5.568,
-        ninety: 6.124,
-        oneHundred: 6.68,
-        originalPGA: 4.974
+        amatuer: 5.568,
     }, {
         lie: 'r',
         distance: 542,        
         pgaTour: 4.978,
-        eighty: 5.572,
-        ninety: 6.128,
-        oneHundred: 6.684,
-        originalPGA: 4.978
+        amatuer: 5.572,
     }, {
         lie: 'r',
         distance: 543,        
         pgaTour: 4.982,
-        eighty: 5.576,
-        ninety: 6.132,
-        oneHundred: 6.688,
-        originalPGA: 4.982
+        amatuer: 5.576,
     }, {
         lie: 'r',
         distance: 544,        
         pgaTour: 4.986,
-        eighty: 5.58,
-        ninety: 6.136,
-        oneHundred: 6.692,
-        originalPGA: 4.986
+        amatuer: 5.58,
     }, {
         lie: 'r',
         distance: 545,
         pgaTour: 4.99,
-        eighty: 5.584,
-        ninety: 6.14,
-        oneHundred: 6.696,
-        originalPGA: 4.99
+        amatuer: 5.584,
     }, {
         lie: 'r',
         distance: 546,        
         pgaTour: 4.994,
-        eighty: 5.588,
-        ninety: 6.144,
-        oneHundred: 6.7,
-        originalPGA: 4.994
+        amatuer: 5.588,
     }, {
         lie: 'r',
         distance: 547,
         pgaTour: 4.998,
-        eighty: 5.592,
-        ninety: 6.148,
-        oneHundred: 6.704,
-        originalPGA: 4.998
+        amatuer: 5.592,
     }, {
         lie: 'r',
         distance: 548,        
         pgaTour: 5.002,
-        eighty: 5.596,
-        ninety: 6.152,
-        oneHundred: 6.708,
-        originalPGA: 5.002
+        amatuer: 5.596,
     }, {
         lie: 'r',
         distance: 549,        
         pgaTour: 5.006,
-        eighty: 5.6,
-        ninety: 6.156,
-        oneHundred: 6.712,
-        originalPGA: 5.006
+        amatuer: 5.6,
     }, {
         lie: 'r',
         distance: 550,
         pgaTour: 5.01,
-        eighty: 5.604,
-        ninety: 6.16,
-        oneHundred: 6.716,
-        originalPGA: 5.01
+        amatuer: 5.604,
     }, {
         lie: 'r',
         distance: 551,        
         pgaTour: 5.014,
-        eighty: 5.608,
-        ninety: 6.164,
-        oneHundred: 6.72,
-        originalPGA: 5.014
+        amatuer: 5.608,
     }, {
         lie: 'r',
         distance: 552,
         pgaTour: 5.018,
-        eighty: 5.612,
-        ninety: 6.168,
-        oneHundred: 6.724,
-        originalPGA: 5.018
+        amatuer: 5.612,
     }, {
         lie: 'r',
         distance: 553,        
         pgaTour: 5.022,
-        eighty: 5.616,
-        ninety: 6.172,
-        oneHundred: 6.728,
-        originalPGA: 5.022
+        amatuer: 5.616,
     }, {
         lie: 'r',
         distance: 554,        
         pgaTour: 5.026,
-        eighty: 5.62,
-        ninety: 6.176,
-        oneHundred: 6.732,
-        originalPGA: 5.026
+        amatuer: 5.62,
     }, {
         lie: 'r',
         distance: 555,
         pgaTour: 5.03,
-        eighty: 5.624,
-        ninety: 6.18,
-        oneHundred: 6.736,
-        originalPGA: 5.03
+        amatuer: 5.624,
     }, {
         lie: 'r',
         distance: 556,        
         pgaTour: 5.034,
-        eighty: 5.628,
-        ninety: 6.184,
-        oneHundred: 6.74,
-        originalPGA: 5.034
+        amatuer: 5.628,
     }, {
         lie: 'r',
         distance: 557,        
         pgaTour: 5.038,
-        eighty: 5.632,
-        ninety: 6.188,
-        oneHundred: 6.744,
-        originalPGA: 5.038
+        amatuer: 5.632,
     }, {
         lie: 'r',
         distance: 558,        
         pgaTour: 5.042,
-        eighty: 5.636,
-        ninety: 6.192,
-        oneHundred: 6.748,
-        originalPGA: 5.042
+        amatuer: 5.636,
     }, {
         lie: 'r',
         distance: 559,
         pgaTour: 5.046,
-        eighty: 5.64,
-        ninety: 6.196,
-        oneHundred: 6.752,
-        originalPGA: 5.046
+        amatuer: 5.64,
     }, {
         lie: 'r',
         distance: 560,
         pgaTour: 5.05,
-        eighty: 5.644,
-        ninety: 6.2,
-        oneHundred: 6.756,
-        originalPGA: 5.05
+        amatuer: 5.644,
     }, {
         lie: 'r',
         distance: 561,
         pgaTour: 5.053,
-        eighty: 5.647,
-        ninety: 6.203,
-        oneHundred: 6.759,
-        originalPGA: 5.053
+        amatuer: 5.647,
     }, {
         lie: 'r',
         distance: 562,
         pgaTour: 5.055,
-        eighty: 5.649,
-        ninety: 6.205,
-        oneHundred: 6.761,
-        originalPGA: 5.055
+        amatuer: 5.649,
     }, {
         lie: 'r',
         distance: 563,
         pgaTour: 5.058,
-        eighty: 5.652,
-        ninety: 6.208,
-        oneHundred: 6.764,
-        originalPGA: 5.058
+        amatuer: 5.652,
     }, {
         lie: 'r',
         distance: 564,        
         pgaTour: 5.06,
-        eighty: 5.654,
-        ninety: 6.21,
-        oneHundred: 6.766,
-        originalPGA: 5.06
+        amatuer: 5.654,
     }, {
         lie: 'r',
         distance: 565,        
         pgaTour: 5.063,
-        eighty: 5.657,
-        ninety: 6.213,
-        oneHundred: 6.769,
-        originalPGA: 5.063
+        amatuer: 5.657,
     }, {
         lie: 'r',
         distance: 566,
         pgaTour: 5.065,
-        eighty: 5.659,
-        ninety: 6.215,
-        oneHundred: 6.771,
-        originalPGA: 5.065
+        amatuer: 5.659,
     }, {
         lie: 'r',
         distance: 567,
         pgaTour: 5.068,
-        eighty: 5.662,
-        ninety: 6.218,
-        oneHundred: 6.774,
-        originalPGA: 5.068
+        amatuer: 5.662,
     }, {
         lie: 'r',
         distance: 568,
         pgaTour: 5.07,
-        eighty: 5.664,
-        ninety: 6.22,
-        oneHundred: 6.776,
-        originalPGA: 5.07
+        amatuer: 5.664,
     }, {
         lie: 'r',
         distance: 569,
         pgaTour: 5.073,
-        eighty: 5.667,
-        ninety: 6.223,
-        oneHundred: 6.779,
-        originalPGA: 5.073
+        amatuer: 5.667,
     }, {
         lie: 'r',
         distance: 570,
         pgaTour: 5.075,
-        eighty: 5.669,
-        ninety: 6.225,
-        oneHundred: 6.781,
-        originalPGA: 5.075
+        amatuer: 5.669,
     }, {
         lie: 'r',
         distance: 571,
         pgaTour: 5.078,
-        eighty: 5.672,
-        ninety: 6.228,
-        oneHundred: 6.784,
-        originalPGA: 5.078
+        amatuer: 5.672,
     }, {
         lie: 'r',
         distance: 572,        
         pgaTour: 5.08,
-        eighty: 5.674,
-        ninety: 6.23,
-        oneHundred: 6.786,
-        originalPGA: 5.08
+        amatuer: 5.674,
     }, {
         lie: 'r',
         distance: 573,        
         pgaTour: 5.083,
-        eighty: 5.677,
-        ninety: 6.233,
-        oneHundred: 6.789,
-        originalPGA: 5.083
+        amatuer: 5.677,
     }, {
         lie: 'r',
         distance: 574,        
         pgaTour: 5.085,
-        eighty: 5.679,
-        ninety: 6.235,
-        oneHundred: 6.791,
-        originalPGA: 5.085
+        amatuer: 5.679,
     }, {
         lie: 'r',
         distance: 575,        
         pgaTour: 5.088,
-        eighty: 5.682,
-        ninety: 6.238,
-        oneHundred: 6.794,
-        originalPGA: 5.088
+        amatuer: 5.682,
     }, {
         lie: 'r',
         distance: 576,        
         pgaTour: 5.09,
-        eighty: 5.684,
-        ninety: 6.24,
-        oneHundred: 6.796,
-        originalPGA: 5.09
+        amatuer: 5.684,
     }, {
         lie: 'r',
         distance: 577,        
         pgaTour: 5.093,
-        eighty: 5.687,
-        ninety: 6.243,
-        oneHundred: 6.799,
-        originalPGA: 5.093
+        amatuer: 5.687,
     }, {
         lie: 'r',
         distance: 578,
         pgaTour: 5.095,
-        eighty: 5.689,
-        ninety: 6.245,
-        oneHundred: 6.801,
-        originalPGA: 5.095
+        amatuer: 5.689,
     }, {
         lie: 'r',
         distance: 579,
         pgaTour: 5.098,
-        eighty: 5.692,
-        ninety: 6.248,
-        oneHundred: 6.804,
-        originalPGA: 5.098
+        amatuer: 5.692,
     }, {
         lie: 'r',
         distance: 580,
         pgaTour: 5.1,
-        eighty: 5.694,
-        ninety: 6.25,
-        oneHundred: 6.806,
-        originalPGA: 5.1
+        amatuer: 5.694,
     }, {
         lie: 'r',
         distance: 581,        
         pgaTour: 5.102,
-        eighty: 5.696,
-        ninety: 6.252,
-        oneHundred: 6.808,
-        originalPGA: 5.102
+        amatuer: 5.696,
     }, {
         lie: 'r',
         distance: 582,
         pgaTour: 5.103,
-        eighty: 5.697,
-        ninety: 6.253,
-        oneHundred: 6.809,
-        originalPGA: 5.103
+        amatuer: 5.697,
     }, {
         lie: 'r',
         distance: 583,        
         pgaTour: 5.105,
-        eighty: 5.699,
-        ninety: 6.255,
-        oneHundred: 6.811,
-        originalPGA: 5.105
+        amatuer: 5.699,
     }, {
         lie: 'r',
         distance: 584,        
         pgaTour: 5.106,
-        eighty: 5.7,
-        ninety: 6.256,
-        oneHundred: 6.812,
-        originalPGA: 5.106
+        amatuer: 5.7,
     }, {
         lie: 'r',
         distance: 585,
         pgaTour: 5.108,
-        eighty: 5.702,
-        ninety: 6.258,
-        oneHundred: 6.814,
-        originalPGA: 5.108
+        amatuer: 5.702,
     }, {
         lie: 'r',
         distance: 586,
         pgaTour: 5.109,
-        eighty: 5.703,
-        ninety: 6.259,
-        oneHundred: 6.815,
-        originalPGA: 5.109
+        amatuer: 5.703,
     }, {
         lie: 'r',
         distance: 587,        
         pgaTour: 5.111,
-        eighty: 5.705,
-        ninety: 6.261,
-        oneHundred: 6.817,
-        originalPGA: 5.111
+        amatuer: 5.705,
     }, {
         lie: 'r',
         distance: 588,        
         pgaTour: 5.112,
-        eighty: 5.706,
-        ninety: 6.262,
-        oneHundred: 6.818,
-        originalPGA: 5.112
+        amatuer: 5.706,
     }, {
         lie: 'r',
         distance: 589,
         pgaTour: 5.114,
-        eighty: 5.708,
-        ninety: 6.264,
-        oneHundred: 6.82,
-        originalPGA: 5.114
+        amatuer: 5.708,
     }, {
         lie: 'r',
         distance: 590,
         pgaTour: 5.115,
-        eighty: 5.709,
-        ninety: 6.265,
-        oneHundred: 6.821,
-        originalPGA: 5.115
+        amatuer: 5.709,
     }, {
         lie: 'r',
         distance: 591,
         pgaTour: 5.117,
-        eighty: 5.711,
-        ninety: 6.267,
-        oneHundred: 6.823,
-        originalPGA: 5.117
+        amatuer: 5.711,
     }, {
         lie: 'r',
         distance: 592,
         pgaTour: 5.118,
-        eighty: 5.712,
-        ninety: 6.268,
-        oneHundred: 6.824,
-        originalPGA: 5.118
+        amatuer: 5.712,
     }, {
         lie: 'r',
         distance: 593,
         pgaTour: 5.12,
-        eighty: 5.714,
-        ninety: 6.27,
-        oneHundred: 6.826,
-        originalPGA: 5.12
+        amatuer: 5.714,
     }, {
         lie: 'r',
         distance: 594,        
         pgaTour: 5.121,
-        eighty: 5.715,
-        ninety: 6.271,
-        oneHundred: 6.827,
-        originalPGA: 5.121
+        amatuer: 5.715,
     }, {
         lie: 'r',
         distance: 595,
         pgaTour: 5.123,
-        eighty: 5.717,
-        ninety: 6.273,
-        oneHundred: 6.829,
-        originalPGA: 5.123
+        amatuer: 5.717,
     }, {
         lie: 'r',
         distance: 596,
         pgaTour: 5.124,
-        eighty: 5.718,
-        ninety: 6.274,
-        oneHundred: 6.83,
-        originalPGA: 5.124
+        amatuer: 5.718,
     }, {
         lie: 'r',
         distance: 597,
         pgaTour: 5.126,
-        eighty: 5.72,
-        ninety: 6.276,
-        oneHundred: 6.832,
-        originalPGA: 5.126
+        amatuer: 5.72,
     }, {
         lie: 'r',
         distance: 598,        
         pgaTour: 5.127,
-        eighty: 5.721,
-        ninety: 6.277,
-        oneHundred: 6.833,
-        originalPGA: 5.127
+        amatuer: 5.721,
     }, {
         lie: 'r',
         distance: 599,
         pgaTour: 5.129,
-        eighty: 5.723,
-        ninety: 6.279,
-        oneHundred: 6.835,
-        originalPGA: 5.129
+        amatuer: 5.723,
     }, {
         lie: 'r',
         distance: 600,
         pgaTour: 5.13,
-        eighty: 5.724,
-        ninety: 6.28,
-        oneHundred: 6.836,
-        originalPGA: 5.13
+        amatuer: 5.724,
     }, {
         lie: 'x',
         distance: 1,
         pgaTour: 2.421,
-        eighty: 3.694,
-        ninety: 4.25,
-        oneHundred: 4.806,
-        originalPGA: 3.1
+        amatuer: 3.694,
     }, {
         lie: 'x',
         distance: 2,
         pgaTour: 2.709,
-        eighty: 3.804,
-        ninety: 4.36,
-        oneHundred: 4.916,
-        originalPGA: 3.21
+        amatuer: 3.804,
     }, {
         lie: 'x',
         distance: 3,
         pgaTour: 2.92,
-        eighty: 3.824,
-        ninety: 4.38,
-        oneHundred: 4.936,
-        originalPGA: 3.23
+        amatuer: 3.824,
     }, {
         lie: 'x',
         distance: 4,
         pgaTour: 3.063,
-        eighty: 3.844,
-        ninety: 4.4,
-        oneHundred: 4.956,
-        originalPGA: 3.25
+        amatuer: 3.844,
     }, {
         lie: 'x',
         distance: 5,
         pgaTour: 3.15,
-        eighty: 3.864,
-        ninety: 4.42,
-        oneHundred: 4.976,
-        originalPGA: 3.27
+        amatuer: 3.864,
     }, {
         lie: 'x',
         distance: 6,
         pgaTour: 3.205,
-        eighty: 3.884,
-        ninety: 4.44,
-        oneHundred: 4.996,
-        originalPGA: 3.29
+        amatuer: 3.884,
     }, {
         lie: 'x',
         distance: 7,
         pgaTour: 3.24,
-        eighty: 3.904,
-        ninety: 4.46,
-        oneHundred: 5.016,
-        originalPGA: 3.31
+        amatuer: 3.904,
     }, {
         lie: 'x',
         distance: 8,
         pgaTour: 3.288,
-        eighty: 3.924,
-        ninety: 4.48,
-        oneHundred: 5.036,
-        originalPGA: 3.33
+        amatuer: 3.924,
     }, {
         lie: 'x',
         distance: 9,
         pgaTour: 3.325,
-        eighty: 3.944,
-        ninety: 4.5,
-        oneHundred: 5.056,
-        originalPGA: 3.35
+        amatuer: 3.944,
     }, {
         lie: 'x',
         distance: 10,
         pgaTour: 3.344,
-        eighty: 3.964,
-        ninety: 4.52,
-        oneHundred: 5.076,
-        originalPGA: 3.37
+        amatuer: 3.964,
     }, {
         lie: 'x',
         distance: 11,
         pgaTour: 3.386,
-        eighty: 3.984,
-        ninety: 4.54,
-        oneHundred: 5.096,
-        originalPGA: 3.39
+        amatuer: 3.984,
     }, {
         lie: 'x',
         distance: 12,
         pgaTour: 3.415,
-        eighty: 4.004,
-        ninety: 4.56,
-        oneHundred: 5.116,
-        originalPGA: 3.41
+        amatuer: 4.004,
     }, {
         lie: 'x',
         distance: 13,
         pgaTour: 3.438,
-        eighty: 4.024,
-        ninety: 4.58,
-        oneHundred: 5.136,
-        originalPGA: 3.43
+        amatuer: 4.024,
     }, {
         lie: 'x',
         distance: 14,
         pgaTour: 3.467,
-        eighty: 4.044,
-        ninety: 4.6,
-        oneHundred: 5.156,
-        originalPGA: 3.45
+        amatuer: 4.044,
     }, {
         lie: 'x',
         distance: 15,
         pgaTour: 3.495,
-        eighty: 4.064,
-        ninety: 4.62,
-        oneHundred: 5.176,
-        originalPGA: 3.47
+        amatuer: 4.064,
     }, {
         lie: 'x',
         distance: 16,
         pgaTour: 3.514,
-        eighty: 4.084,
-        ninety: 4.64,
-        oneHundred: 5.196,
-        originalPGA: 3.49
+        amatuer: 4.084,
     }, {
         lie: 'x',
         distance: 17,
         pgaTour: 3.537,
-        eighty: 4.104,
-        ninety: 4.66,
-        oneHundred: 5.216,
-        originalPGA: 3.51
+        amatuer: 4.104,
     }, {
         lie: 'x',
         distance: 18,
         pgaTour: 3.546,
-        eighty: 4.124,
-        ninety: 4.68,
-        oneHundred: 5.236,
-        originalPGA: 3.53
+        amatuer: 4.124,
     }, {
         lie: 'x',
         distance: 19,
         pgaTour: 3.562,
-        eighty: 4.144,
-        ninety: 4.7,
-        oneHundred: 5.256,
-        originalPGA: 3.55
+        amatuer: 4.144,
     }, {
         lie: 'x',
         distance: 20,
         pgaTour: 3.59,
-        eighty: 4.184,
-        ninety: 4.74,
-        oneHundred: 5.296,
-        originalPGA: 3.59
+        amatuer: 4.184,
     }, {
         lie: 'x',
         distance: 21,
         pgaTour: 3.606,
-        eighty: 4.194,
-        ninety: 4.75,
-        oneHundred: 5.306,
-        originalPGA: 3.6
+        amatuer: 4.194,
     }, {
         lie: 'x',
         distance: 22,
         pgaTour: 3.617,
-        eighty: 4.203,
-        ninety: 4.759,
-        oneHundred: 5.315,
-        originalPGA: 3.609
+        amatuer: 4.203,
     }, {
         lie: 'x',
         distance: 23,
         pgaTour: 3.628,
-        eighty: 4.213,
-        ninety: 4.769,
-        oneHundred: 5.325,
-        originalPGA: 3.619
+        amatuer: 4.213,
     }, {
         lie: 'x',
         distance: 24,
         pgaTour: 3.638,
-        eighty: 4.222,
-        ninety: 4.778,
-        oneHundred: 5.334,
-        originalPGA: 3.628
+        amatuer: 4.222,
     }, {
         lie: 'x',
         distance: 25,
         pgaTour: 3.645,
-        eighty: 4.232,
-        ninety: 4.788,
-        oneHundred: 5.344,
-        originalPGA: 3.638
+        amatuer: 4.232,
     }, {
         lie: 'x',
         distance: 26,
         pgaTour: 3.657,
-        eighty: 4.241,
-        ninety: 4.797,
-        oneHundred: 5.353,
-        originalPGA: 3.647
+        amatuer: 4.241,
     }, {
         lie: 'x',
         distance: 27,
         pgaTour: 3.666,
-        eighty: 4.251,
-        ninety: 4.807,
-        oneHundred: 5.363,
-        originalPGA: 3.657
+        amatuer: 4.251,
     }, {
         lie: 'x',
         distance: 28,
         pgaTour: 3.676,
-        eighty: 4.26,
-        ninety: 4.816,
-        oneHundred: 5.372,
-        originalPGA: 3.666
+        amatuer: 4.26,
     }, {
         lie: 'x',
         distance: 29,
         pgaTour: 3.687,
-        eighty: 4.27,
-        ninety: 4.826,
-        oneHundred: 5.382,
-        originalPGA: 3.676
+        amatuer: 4.27,
     }, {
         lie: 'x',
         distance: 30,
         pgaTour: 3.7,
-        eighty: 4.279,
-        ninety: 4.835,
-        oneHundred: 5.391,
-        originalPGA: 3.685
+        amatuer: 4.279,
     }, {
         lie: 'x',
         distance: 31,
         pgaTour: 3.702,
-        eighty: 4.289,
-        ninety: 4.845,
-        oneHundred: 5.401,
-        originalPGA: 3.695
+        amatuer: 4.289,
     }, {
         lie: 'x',
         distance: 32,
         pgaTour: 3.704,
-        eighty: 4.298,
-        ninety: 4.854,
-        oneHundred: 5.41,
-        originalPGA: 3.704
+        amatuer: 4.298,
     }, {
         lie: 'x',
         distance: 33,
         pgaTour: 3.714,
-        eighty: 4.308,
-        ninety: 4.864,
-        oneHundred: 5.42,
-        originalPGA: 3.714
+        amatuer: 4.308,
     }, {
         lie: 'x',
         distance: 34,
         pgaTour: 3.723,
-        eighty: 4.317,
-        ninety: 4.873,
-        oneHundred: 5.429,
-        originalPGA: 3.723
+        amatuer: 4.317,
     }, {
         lie: 'x',
         distance: 35,
         pgaTour: 3.733,
-        eighty: 4.327,
-        ninety: 4.883,
-        oneHundred: 5.439,
-        originalPGA: 3.733
+        amatuer: 4.327,
     }, {
         lie: 'x',
         distance: 36,
         pgaTour: 3.742,
-        eighty: 4.336,
-        ninety: 4.892,
-        oneHundred: 5.448,
-        originalPGA: 3.742
+        amatuer: 4.336,
     }, {
         lie: 'x',
         distance: 37,
         pgaTour: 3.752,
-        eighty: 4.346,
-        ninety: 4.902,
-        oneHundred: 5.458,
-        originalPGA: 3.752
+        amatuer: 4.346,
     }, {
         lie: 'x',
         distance: 38,
         pgaTour: 3.761,
-        eighty: 4.355,
-        ninety: 4.911,
-        oneHundred: 5.467,
-        originalPGA: 3.761
+        amatuer: 4.355,
     }, {
         lie: 'x',
         distance: 39,
         pgaTour: 3.771,
-        eighty: 4.365,
-        ninety: 4.921,
-        oneHundred: 5.477,
-        originalPGA: 3.771
+        amatuer: 4.365,
     }, {
         lie: 'x',
         distance: 40,
         pgaTour: 3.78,
-        eighty: 4.374,
-        ninety: 4.93,
-        oneHundred: 5.486,
-        originalPGA: 3.78
+        amatuer: 4.374,
     }, {
         lie: 'x',
         distance: 41,
         pgaTour: 3.787,
-        eighty: 4.381,
-        ninety: 4.937,
-        oneHundred: 5.493,
-        originalPGA: 3.787
+        amatuer: 4.381,
     }, {
         lie: 'x',
         distance: 42,
         pgaTour: 3.793,
-        eighty: 4.387,
-        ninety: 4.943,
-        oneHundred: 5.499,
-        originalPGA: 3.793
+        amatuer: 4.387,
     }, {
         lie: 'x',
         distance: 43,
         pgaTour: 3.8,
-        eighty: 4.394,
-        ninety: 4.95,
-        oneHundred: 5.506,
-        originalPGA: 3.8
+        amatuer: 4.394,
     }, {
         lie: 'x',
         distance: 44,
         pgaTour: 3.806,
-        eighty: 4.4,
-        ninety: 4.956,
-        oneHundred: 5.512,
-        originalPGA: 3.806
+        amatuer: 4.4,
     }, {
         lie: 'x',
         distance: 45,
         pgaTour: 3.813,
-        eighty: 4.407,
-        ninety: 4.963,
-        oneHundred: 5.519,
-        originalPGA: 3.813
+        amatuer: 4.407,
     }, {
         lie: 'x',
         distance: 46,
         pgaTour: 3.819,
-        eighty: 4.413,
-        ninety: 4.969,
-        oneHundred: 5.525,
-        originalPGA: 3.819
+        amatuer: 4.413,
     }, {
         lie: 'x',
         distance: 47,
         pgaTour: 3.826,
-        eighty: 4.42,
-        ninety: 4.976,
-        oneHundred: 5.532,
-        originalPGA: 3.826
+        amatuer: 4.42,
     }, {
         lie: 'x',
         distance: 48,
         pgaTour: 3.832,
-        eighty: 4.426,
-        ninety: 4.982,
-        oneHundred: 5.538,
-        originalPGA: 3.832
+        amatuer: 4.426,
     }, {
         lie: 'x',
         distance: 49,
         pgaTour: 3.839,
-        eighty: 4.433,
-        ninety: 4.989,
-        oneHundred: 5.545,
-        originalPGA: 3.839
+        amatuer: 4.433,
     }, {
         lie: 'x',
         distance: 50,
         pgaTour: 3.845,
-        eighty: 4.439,
-        ninety: 4.995,
-        oneHundred: 5.551,
-        originalPGA: 3.845
+        amatuer: 4.439,
     }, {
         lie: 'x',
         distance: 51,
         pgaTour: 3.852,
-        eighty: 4.446,
-        ninety: 5.002,
-        oneHundred: 5.558,
-        originalPGA: 3.852
+        amatuer: 4.446,
     }, {
         lie: 'x',
         distance: 52,
         pgaTour: 3.858,
-        eighty: 4.452,
-        ninety: 5.008,
-        oneHundred: 5.564,
-        originalPGA: 3.858
+        amatuer: 4.452,
     }, {
         lie: 'x',
         distance: 53,
         pgaTour: 3.865,
-        eighty: 4.459,
-        ninety: 5.015,
-        oneHundred: 5.571,
-        originalPGA: 3.865
+        amatuer: 4.459,
     }, {
         lie: 'x',
         distance: 54,
         pgaTour: 3.871,
-        eighty: 4.465,
-        ninety: 5.021,
-        oneHundred: 5.577,
-        originalPGA: 3.871
+        amatuer: 4.465,
     }, {
         lie: 'x',
         distance: 55,
         pgaTour: 3.878,
-        eighty: 4.472,
-        ninety: 5.028,
-        oneHundred: 5.584,
-        originalPGA: 3.878
+        amatuer: 4.472,
     }, {
         lie: 'x',
         distance: 56,
         pgaTour: 3.884,
-        eighty: 4.478,
-        ninety: 5.034,
-        oneHundred: 5.59,
-        originalPGA: 3.884
+        amatuer: 4.478,
     }, {
         lie: 'x',
         distance: 57,
         pgaTour: 3.891,
-        eighty: 4.485,
-        ninety: 5.041,
-        oneHundred: 5.597,
-        originalPGA: 3.891
+        amatuer: 4.485,
     }, {
         lie: 'x',
         distance: 58,
         pgaTour: 3.897,
-        eighty: 4.491,
-        ninety: 5.047,
-        oneHundred: 5.603,
-        originalPGA: 3.897
+        amatuer: 4.491,
     }, {
         lie: 'x',
         distance: 59,
         pgaTour: 3.904,
-        eighty: 4.498,
-        ninety: 5.054,
-        oneHundred: 5.61,
-        originalPGA: 3.904
+        amatuer: 4.498,
     }, {
         lie: 'x',
         distance: 60,
         pgaTour: 3.91,
-        eighty: 4.504,
-        ninety: 5.06,
-        oneHundred: 5.616,
-        originalPGA: 3.91
+        amatuer: 4.504,
     }, {
         lie: 'x',
         distance: 61,
         pgaTour: 3.913,
-        eighty: 4.507,
-        ninety: 5.063,
-        oneHundred: 5.619,
-        originalPGA: 3.913
+        amatuer: 4.507,
     }, {
         lie: 'x',
         distance: 62,
         pgaTour: 3.915,
-        eighty: 4.509,
-        ninety: 5.065,
-        oneHundred: 5.621,
-        originalPGA: 3.915
+        amatuer: 4.509,
     }, {
         lie: 'x',
         distance: 63,
         pgaTour: 3.918,
-        eighty: 4.512,
-        ninety: 5.068,
-        oneHundred: 5.624,
-        originalPGA: 3.918
+        amatuer: 4.512,
     }, {
         lie: 'x',
         distance: 64,
         pgaTour: 3.92,
-        eighty: 4.514,
-        ninety: 5.07,
-        oneHundred: 5.626,
-        originalPGA: 3.92
+        amatuer: 4.514,
     }, {
         lie: 'x',
         distance: 65,
         pgaTour: 3.923,
-        eighty: 4.517,
-        ninety: 5.073,
-        oneHundred: 5.629,
-        originalPGA: 3.923
+        amatuer: 4.517,
     }, {
         lie: 'x',
         distance: 66,
         pgaTour: 3.925,
-        eighty: 4.519,
-        ninety: 5.075,
-        oneHundred: 5.631,
-        originalPGA: 3.925
+        amatuer: 4.519,
     }, {
         lie: 'x',
         distance: 67,
         pgaTour: 3.928,
-        eighty: 4.522,
-        ninety: 5.078,
-        oneHundred: 5.634,
-        originalPGA: 3.928
+        amatuer: 4.522,
     }, {
         lie: 'x',
         distance: 68,
         pgaTour: 3.93,
-        eighty: 4.524,
-        ninety: 5.08,
-        oneHundred: 5.636,
-        originalPGA: 3.93
+        amatuer: 4.524,
     }, {
         lie: 'x',
         distance: 69,
         pgaTour: 3.933,
-        eighty: 4.527,
-        ninety: 5.083,
-        oneHundred: 5.639,
-        originalPGA: 3.933
+        amatuer: 4.527,
     }, {
         lie: 'x',
         distance: 70,
         pgaTour: 3.935,
-        eighty: 4.529,
-        ninety: 5.085,
-        oneHundred: 5.641,
-        originalPGA: 3.935
+        amatuer: 4.529,
     }, {
         lie: 'x',
         distance: 71,
         pgaTour: 3.938,
-        eighty: 4.532,
-        ninety: 5.088,
-        oneHundred: 5.644,
-        originalPGA: 3.938
+        amatuer: 4.532,
     }, {
         lie: 'x',
         distance: 72,
         pgaTour: 3.94,
-        eighty: 4.534,
-        ninety: 5.09,
-        oneHundred: 5.646,
-        originalPGA: 3.94
+        amatuer: 4.534,
     }, {
         lie: 'x',
         distance: 73,
         pgaTour: 3.943,
-        eighty: 4.537,
-        ninety: 5.093,
-        oneHundred: 5.649,
-        originalPGA: 3.943
+        amatuer: 4.537,
     }, {
         lie: 'x',
         distance: 74,
         pgaTour: 3.945,
-        eighty: 4.539,
-        ninety: 5.095,
-        oneHundred: 5.651,
-        originalPGA: 3.945
+        amatuer: 4.539,
     }, {
         lie: 'x',
         distance: 75,
         pgaTour: 3.948,
-        eighty: 4.542,
-        ninety: 5.098,
-        oneHundred: 5.654,
-        originalPGA: 3.948
+        amatuer: 4.542,
     }, {
         lie: 'x',
         distance: 76,
         pgaTour: 3.95,
-        eighty: 4.544,
-        ninety: 5.1,
-        oneHundred: 5.656,
-        originalPGA: 3.95
+        amatuer: 4.544,
     }, {
         lie: 'x',
         distance: 77,
         pgaTour: 3.953,
-        eighty: 4.547,
-        ninety: 5.103,
-        oneHundred: 5.659,
-        originalPGA: 3.953
+        amatuer: 4.547,
     }, {
         lie: 'x',
         distance: 78,
         pgaTour: 3.955,
-        eighty: 4.549,
-        ninety: 5.105,
-        oneHundred: 5.661,
-        originalPGA: 3.955
+        amatuer: 4.549,
     }, {
         lie: 'x',
         distance: 79,
         pgaTour: 3.958,
-        eighty: 4.552,
-        ninety: 5.108,
-        oneHundred: 5.664,
-        originalPGA: 3.958
+        amatuer: 4.552,
     }, {
         lie: 'x',
         distance: 80,
         pgaTour: 3.96,
-        eighty: 4.554,
-        ninety: 5.11,
-        oneHundred: 5.666,
-        originalPGA: 3.96
+        amatuer: 4.554,
     }, {
         lie: 'x',
         distance: 81,
         pgaTour: 3.963,
-        eighty: 4.557,
-        ninety: 5.113,
-        oneHundred: 5.669,
-        originalPGA: 3.963
+        amatuer: 4.557,
     }, {
         lie: 'x',
         distance: 82,
         pgaTour: 3.966,
-        eighty: 4.56,
-        ninety: 5.116,
-        oneHundred: 5.672,
-        originalPGA: 3.966
+        amatuer: 4.56,
     }, {
         lie: 'x',
         distance: 83,
         pgaTour: 3.969,
-        eighty: 4.563,
-        ninety: 5.119,
-        oneHundred: 5.675,
-        originalPGA: 3.969
+        amatuer: 4.563,
     }, {
         lie: 'x',
         distance: 84,
         pgaTour: 3.972,
-        eighty: 4.566,
-        ninety: 5.122,
-        oneHundred: 5.678,
-        originalPGA: 3.972
+        amatuer: 4.566,
     }, {
         lie: 'x',
         distance: 85,
         pgaTour: 3.975,
-        eighty: 4.569,
-        ninety: 5.125,
-        oneHundred: 5.681,
-        originalPGA: 3.975
+        amatuer: 4.569,
     }, {
         lie: 'x',
         distance: 86,
         pgaTour: 3.978,
-        eighty: 4.572,
-        ninety: 5.128,
-        oneHundred: 5.684,
-        originalPGA: 3.978
+        amatuer: 4.572,
     }, {
         lie: 'x',
         distance: 87,
         pgaTour: 3.981,
-        eighty: 4.575,
-        ninety: 5.131,
-        oneHundred: 5.687,
-        originalPGA: 3.981
+        amatuer: 4.575,
     }, {
         lie: 'x',
         distance: 88,
         pgaTour: 3.984,
-        eighty: 4.578,
-        ninety: 5.134,
-        oneHundred: 5.69,
-        originalPGA: 3.984
+        amatuer: 4.578,
     }, {
         lie: 'x',
         distance: 89,
         pgaTour: 3.987,
-        eighty: 4.581,
-        ninety: 5.137,
-        oneHundred: 5.693,
-        originalPGA: 3.987
+        amatuer: 4.581,
     }, {
         lie: 'x',
         distance: 90,
         pgaTour: 3.99,
-        eighty: 4.584,
-        ninety: 5.14,
-        oneHundred: 5.696,
-        originalPGA: 3.99
+        amatuer: 4.584,
     }, {
         lie: 'x',
         distance: 91,
         pgaTour: 3.993,
-        eighty: 4.587,
-        ninety: 5.143,
-        oneHundred: 5.699,
-        originalPGA: 3.993
+        amatuer: 4.587,
     }, {
         lie: 'x',
         distance: 92,
         pgaTour: 3.996,
-        eighty: 4.59,
-        ninety: 5.146,
-        oneHundred: 5.702,
-        originalPGA: 3.996
+        amatuer: 4.59,
     }, {
         lie: 'x',
         distance: 93,
         pgaTour: 3.999,
-        eighty: 4.593,
-        ninety: 5.149,
-        oneHundred: 5.705,
-        originalPGA: 3.999
+        amatuer: 4.593,
     }, {
         lie: 'x',
         distance: 94,
         pgaTour: 4.002,
-        eighty: 4.596,
-        ninety: 5.152,
-        oneHundred: 5.708,
-        originalPGA: 4.002
+        amatuer: 4.596,
     }, {
         lie: 'x',
         distance: 95,
         pgaTour: 4.005,
-        eighty: 4.599,
-        ninety: 5.155,
-        oneHundred: 5.711,
-        originalPGA: 4.005
+        amatuer: 4.599,
     }, {
         lie: 'x',
         distance: 96,
         pgaTour: 4.008,
-        eighty: 4.602,
-        ninety: 5.158,
-        oneHundred: 5.714,
-        originalPGA: 4.008
+        amatuer: 4.602,
     }, {
         lie: 'x',
         distance: 97,
         pgaTour: 4.011,
-        eighty: 4.605,
-        ninety: 5.161,
-        oneHundred: 5.717,
-        originalPGA: 4.011
+        amatuer: 4.605,
     }, {
         lie: 'x',
         distance: 98,
         pgaTour: 4.014,
-        eighty: 4.608,
-        ninety: 5.164,
-        oneHundred: 5.72,
-        originalPGA: 4.014
+        amatuer: 4.608,
     }, {
         lie: 'x',
         distance: 99,
         pgaTour: 4.017,
-        eighty: 4.611,
-        ninety: 5.167,
-        oneHundred: 5.723,
-        originalPGA: 4.017
+        amatuer: 4.611,
     }, {
         lie: 'x',
         distance: 100,
         pgaTour: 4.02,
-        eighty: 4.614,
-        ninety: 5.17,
-        oneHundred: 5.726,
-        originalPGA: 4.02
+        amatuer: 4.614,
     }, {
         lie: 'x',
         distance: 101,
         pgaTour: 4.023,
-        eighty: 4.617,
-        ninety: 5.173,
-        oneHundred: 5.729,
-        originalPGA: 4.023
+        amatuer: 4.617,
     }, {
         lie: 'x',
         distance: 102,
         pgaTour: 4.026,
-        eighty: 4.62,
-        ninety: 5.176,
-        oneHundred: 5.732,
-        originalPGA: 4.026
+        amatuer: 4.62,
     }, {
         lie: 'x',
         distance: 103,
         pgaTour: 4.029,
-        eighty: 4.623,
-        ninety: 5.179,
-        oneHundred: 5.735,
-        originalPGA: 4.029
+        amatuer: 4.623,
     }, {
         lie: 'x',
         distance: 104,
         pgaTour: 4.032,
-        eighty: 4.626,
-        ninety: 5.182,
-        oneHundred: 5.738,
-        originalPGA: 4.032
     }, {
         lie: 'x',
         distance: 105,
         pgaTour: 4.035,
-        eighty: 4.629,
-        ninety: 5.185,
-        oneHundred: 5.741,
-        originalPGA: 4.035
+        amatuer: 4.629,
     }, {
         lie: 'x',
         distance: 106,
         pgaTour: 4.038,
-        eighty: 4.632,
-        ninety: 5.188,
-        oneHundred: 5.744,
-        originalPGA: 4.038
+        amatuer: 4.632,
     }, {
         lie: 'x',
         distance: 107,
         pgaTour: 4.041,
-        eighty: 4.635,
-        ninety: 5.191,
-        oneHundred: 5.747,
-        originalPGA: 4.041
+        amatuer: 4.635,
     }, {
         lie: 'x',
         distance: 108,
         pgaTour: 4.044,
-        eighty: 4.638,
-        ninety: 5.194,
-        oneHundred: 5.75,
-        originalPGA: 4.044
+        amatuer: 4.638,
     }, {
         lie: 'x',
         distance: 109,
         pgaTour: 4.047,
-        eighty: 4.641,
-        ninety: 5.197,
-        oneHundred: 5.753,
-        originalPGA: 4.047
+        amatuer: 4.641,
     }, {
         lie: 'x',
         distance: 110,
         pgaTour: 4.05,
-        eighty: 4.644,
-        ninety: 5.2,
-        oneHundred: 5.756,
-        originalPGA: 4.05
+        amatuer: 4.644,
     }, {
         lie: 'x',
         distance: 111,
         pgaTour: 4.053,
-        eighty: 4.647,
-        ninety: 5.203,
-        oneHundred: 5.759,
-        originalPGA: 4.053
+        amatuer: 4.647,
     }, {
         lie: 'x',
         distance: 112,
         pgaTour: 4.056,
-        eighty: 4.65,
-        ninety: 5.206,
-        oneHundred: 5.762,
-        originalPGA: 4.056
+        amatuer: 4.65,
     }, {
         lie: 'x',
         distance: 113,
         pgaTour: 4.059,
-        eighty: 4.653,
-        ninety: 5.209,
-        oneHundred: 5.765,
-        originalPGA: 4.059
+        amatuer: 4.653,
     }, {
         lie: 'x',
         distance: 114,
         pgaTour: 4.062,
-        eighty: 4.656,
-        ninety: 5.212,
-        oneHundred: 5.768,
-        originalPGA: 4.062
+        amatuer: 4.656,
     }, {
         lie: 'x',
         distance: 115,
         pgaTour: 4.065,
-        eighty: 4.659,
-        ninety: 5.215,
-        oneHundred: 5.771,
-        originalPGA: 4.065
+        amatuer: 4.659,
     }, {
         lie: 'x',
         distance: 116,
         pgaTour: 4.068,
-        eighty: 4.662,
-        ninety: 5.218,
-        oneHundred: 5.774,
-        originalPGA: 4.068
+        amatuer: 4.662,
     }, {
         lie: 'x',
         distance: 117,
         pgaTour: 4.071,
-        eighty: 4.665,
-        ninety: 5.221,
-        oneHundred: 5.777,
-        originalPGA: 4.071
+        amatuer: 4.665,
     }, {
         lie: 'x',
         distance: 118,
         pgaTour: 4.074,
-        eighty: 4.668,
-        ninety: 5.224,
-        oneHundred: 5.78,
-        originalPGA: 4.074
+        amatuer: 4.668,
     }, {
         lie: 'x',
         distance: 119,
         pgaTour: 4.077,
-        eighty: 4.671,
-        ninety: 5.227,
-        oneHundred: 5.783,
-        originalPGA: 4.077
+        amatuer: 4.671,
     }, {
         lie: 'x',
         distance: 120,
         pgaTour: 4.08,
-        eighty: 4.674,
-        ninety: 5.23,
-        oneHundred: 5.786,
-        originalPGA: 4.08
+        amatuer: 4.674,
     }, {
         lie: 'x',
         distance: 121,
         pgaTour: 4.084,
-        eighty: 4.678,
-        ninety: 5.234,
-        oneHundred: 5.79,
-        originalPGA: 4.084
+        amatuer: 4.678,
     }, {
         lie: 'x',
         distance: 122,
         pgaTour: 4.087,
-        eighty: 4.681,
-        ninety: 5.237,
-        oneHundred: 5.793,
-        originalPGA: 4.087
+        amatuer: 4.681,
     }, {
         lie: 'x',
         distance: 123,
         pgaTour: 4.091,
-        eighty: 4.685,
-        ninety: 5.241,
-        oneHundred: 5.797,
-        originalPGA: 4.091
+        amatuer: 4.685,
     }, {
         lie: 'x',
         distance: 124,
         pgaTour: 4.094,
-        eighty: 4.688,
-        ninety: 5.244,
-        oneHundred: 5.8,
-        originalPGA: 4.094
+        amatuer: 4.688,
     }, {
         lie: 'x',
         distance: 125,
         pgaTour: 4.098,
-        eighty: 4.692,
-        ninety: 5.248,
-        oneHundred: 5.804,
-        originalPGA: 4.098
+        amatuer: 4.692,
     }, {
         lie: 'x',
         distance: 126,
         pgaTour: 4.101,
-        eighty: 4.695,
-        ninety: 5.251,
-        oneHundred: 5.807,
-        originalPGA: 4.101
+        amatuer: 4.695,
     }, {
         lie: 'x',
         distance: 127,
         pgaTour: 4.105,
-        eighty: 4.699,
-        ninety: 5.255,
-        oneHundred: 5.811,
-        originalPGA: 4.105
+        amatuer: 4.699,
     }, {
         lie: 'x',
         distance: 128,
         pgaTour: 4.108,
-        eighty: 4.702,
-        ninety: 5.258,
-        oneHundred: 5.814,
-        originalPGA: 4.108
+        amatuer: 4.702,
     }, {
         lie: 'x',
         distance: 129,
         pgaTour: 4.112,
-        eighty: 4.706,
-        ninety: 5.262,
-        oneHundred: 5.818,
-        originalPGA: 4.112
+        amatuer: 4.706,
     }, {
         lie: 'x',
         distance: 130,
         pgaTour: 4.115,
-        eighty: 4.709,
-        ninety: 5.265,
-        oneHundred: 5.821,
-        originalPGA: 4.115
+        amatuer: 4.709,
     }, {
         lie: 'x',
         distance: 131,
         pgaTour: 4.119,
-        eighty: 4.713,
-        ninety: 5.269,
-        oneHundred: 5.825,
-        originalPGA: 4.119
+        amatuer: 4.713,
     }, {
         lie: 'x',
         distance: 132,
         pgaTour: 4.122,
-        eighty: 4.716,
-        ninety: 5.272,
-        oneHundred: 5.828,
-        originalPGA: 4.122
+        amatuer: 4.716,
     }, {
         lie: 'x',
         distance: 133,
         pgaTour: 4.126,
-        eighty: 4.72,
-        ninety: 5.276,
-        oneHundred: 5.832,
-        originalPGA: 4.126
+        amatuer: 4.72,
     }, {
         lie: 'x',
         distance: 134,
         pgaTour: 4.129,
-        eighty: 4.723,
-        ninety: 5.279,
-        oneHundred: 5.835,
-        originalPGA: 4.129
+        amatuer: 4.723,
     }, {
         lie: 'x',
         distance: 135,
         pgaTour: 4.133,
-        eighty: 4.727,
-        ninety: 5.283,
-        oneHundred: 5.839,
-        originalPGA: 4.133
+        amatuer: 4.727,
     }, {
         lie: 'x',
         distance: 136,
         pgaTour: 4.136,
-        eighty: 4.73,
-        ninety: 5.286,
-        oneHundred: 5.842,
-        originalPGA: 4.136
+        amatuer: 4.73,
     }, {
         lie: 'x',
         distance: 137,
         pgaTour: 4.14,
-        eighty: 4.734,
-        ninety: 5.29,
-        oneHundred: 5.846,
-        originalPGA: 4.14
+        amatuer: 4.734,
     }, {
         lie: 'x',
         distance: 138,
         pgaTour: 4.143,
-        eighty: 4.737,
-        ninety: 5.293,
-        oneHundred: 5.849,
-        originalPGA: 4.143
+        amatuer: 4.737,
     }, {
         lie: 'x',
         distance: 139,
         pgaTour: 4.147,
-        eighty: 4.741,
-        ninety: 5.297,
-        oneHundred: 5.853,
-        originalPGA: 4.147
+        amatuer: 4.741,
     }, {
         lie: 'x',
         distance: 140,
         pgaTour: 4.15,
-        eighty: 4.744,
-        ninety: 5.3,
-        oneHundred: 5.856,
-        originalPGA: 4.15
+        amatuer: 4.744,
     }, {
         lie: 'x',
         distance: 141,
         pgaTour: 4.154,
-        eighty: 4.748,
-        ninety: 5.304,
-        oneHundred: 5.86,
-        originalPGA: 4.154
+        amatuer: 4.748,
     }, {
         lie: 'x',
         distance: 142,
         pgaTour: 4.158,
-        eighty: 4.752,
-        ninety: 5.308,
-        oneHundred: 5.864,
-        originalPGA: 4.158
+        amatuer: 4.752,
     }, {
         lie: 'x',
         distance: 143,
         pgaTour: 4.162,
-        eighty: 4.756,
-        ninety: 5.312,
-        oneHundred: 5.868,
-        originalPGA: 4.162
+        amatuer: 4.756,
     }, {
         lie: 'x',
         distance: 144,
         pgaTour: 4.166,
-        eighty: 4.76,
-        ninety: 5.316,
-        oneHundred: 5.872,
-        originalPGA: 4.166
+        amatuer: 4.76,
     }, {
         lie: 'x',
         distance: 145,
         pgaTour: 4.17,
-        eighty: 4.764,
-        ninety: 5.32,
-        oneHundred: 5.876,
-        originalPGA: 4.17
+        amatuer: 4.764,
     }, {
         lie: 'x',
         distance: 146,
         pgaTour: 4.174,
-        eighty: 4.768,
-        ninety: 5.324,
-        oneHundred: 5.88,
-        originalPGA: 4.174
+        amatuer: 4.768,
     }, {
         lie: 'x',
         distance: 147,
         pgaTour: 4.178,
-        eighty: 4.772,
-        ninety: 5.328,
-        oneHundred: 5.884,
-        originalPGA: 4.178
+        amatuer: 4.772,
     }, {
         lie: 'x',
         distance: 148,
         pgaTour: 4.182,
-        eighty: 4.776,
-        ninety: 5.332,
-        oneHundred: 5.888,
-        originalPGA: 4.182
+        amatuer: 4.776,
     }, {
         lie: 'x',
         distance: 149,
         pgaTour: 4.186,
-        eighty: 4.78,
-        ninety: 5.336,
-        oneHundred: 5.892,
-        originalPGA: 4.186
+        amatuer: 4.78,
     }, {
         lie: 'x',
         distance: 150,
         pgaTour: 4.19,
-        eighty: 4.784,
-        ninety: 5.34,
-        oneHundred: 5.896,
-        originalPGA: 4.19
+        amatuer: 4.784,
     }, {
         lie: 'x',
         distance: 151,
         pgaTour: 4.194,
-        eighty: 4.788,
-        ninety: 5.344,
-        oneHundred: 5.9,
-        originalPGA: 4.194
+        amatuer: 4.788,
     }, {
         lie: 'x',
         distance: 152,
         pgaTour: 4.198,
-        eighty: 4.792,
-        ninety: 5.348,
-        oneHundred: 5.904,
-        originalPGA: 4.198
+        amatuer: 4.792,
     }, {
         lie: 'x',
         distance: 153,
         pgaTour: 4.202,
-        eighty: 4.796,
-        ninety: 5.352,
-        oneHundred: 5.908,
-        originalPGA: 4.202
+        amatuer: 4.796,
     }, {
         lie: 'x',
         distance: 154,
         pgaTour: 4.206,
-        eighty: 4.8,
-        ninety: 5.356,
-        oneHundred: 5.912,
-        originalPGA: 4.206
+        amatuer: 4.8,
     }, {
         lie: 'x',
         distance: 155,
         pgaTour: 4.21,
-        eighty: 4.804,
-        ninety: 5.36,
-        oneHundred: 5.916,
-        originalPGA: 4.21
+        amatuer: 4.804,
     }, {
         lie: 'x',
         distance: 156,
         pgaTour: 4.214,
-        eighty: 4.808,
-        ninety: 5.364,
-        oneHundred: 5.92,
-        originalPGA: 4.214
+        amatuer: 4.808,
     }, {
         lie: 'x',
         distance: 157,
         pgaTour: 4.218,
-        eighty: 4.812,
-        ninety: 5.368,
-        oneHundred: 5.924,
-        originalPGA: 4.218
+        amatuer: 4.812,
     }, {
         lie: 'x',
         distance: 158,
         pgaTour: 4.222,
-        eighty: 4.816,
-        ninety: 5.372,
-        oneHundred: 5.928,
-        originalPGA: 4.222
+        amatuer: 4.816,
     }, {
         lie: 'x',
         distance: 159,
         pgaTour: 4.226,
-        eighty: 4.82,
-        ninety: 5.376,
-        oneHundred: 5.932,
-        originalPGA: 4.226
+        amatuer: 4.82,
     }, {
         lie: 'x',
         distance: 160,
         pgaTour: 4.23,
-        eighty: 4.824,
-        ninety: 5.38,
-        oneHundred: 5.936,
-        originalPGA: 4.23
+        amatuer: 4.824,
     }, {
         lie: 'x',
         distance: 161,
         pgaTour: 4.234,
-        eighty: 4.828,
-        ninety: 5.384,
-        oneHundred: 5.94,
-        originalPGA: 4.234
+        amatuer: 4.828,
     }, {
         lie: 'x',
         distance: 162,
         pgaTour: 4.238,
-        eighty: 4.832,
-        ninety: 5.388,
-        oneHundred: 5.944,
-        originalPGA: 4.238
+        amatuer: 4.832,
     }, {
         lie: 'x',
         distance: 163,
         pgaTour: 4.242,
-        eighty: 4.836,
-        ninety: 5.392,
-        oneHundred: 5.948,
-        originalPGA: 4.242
+        amatuer: 4.836,
     }, {
         lie: 'x',
         distance: 164,
         pgaTour: 4.246,
-        eighty: 4.84,
-        ninety: 5.396,
-        oneHundred: 5.952,
-        originalPGA: 4.246
+        amatuer: 4.84,
     }, {
         lie: 'x',
         distance: 165,
         pgaTour: 4.25,
-        eighty: 4.844,
-        ninety: 5.4,
-        oneHundred: 5.956,
-        originalPGA: 4.25
+        amatuer: 4.844,
     }, {
         lie: 'x',
         distance: 166,
         pgaTour: 4.254,
-        eighty: 4.848,
-        ninety: 5.404,
-        oneHundred: 5.96,
-        originalPGA: 4.254
+        amatuer: 4.848,
     }, {
         lie: 'x',
         distance: 167,
         pgaTour: 4.258,
-        eighty: 4.852,
-        ninety: 5.408,
-        oneHundred: 5.964,
-        originalPGA: 4.258
+        amatuer: 4.852,
     }, {
         lie: 'x',
         distance: 168,
         pgaTour: 4.262,
-        eighty: 4.856,
-        ninety: 5.412,
-        oneHundred: 5.968,
-        originalPGA: 4.262
+        amatuer: 4.856,
     }, {
         lie: 'x',
         distance: 169,
         pgaTour: 4.266,
-        eighty: 4.86,
-        ninety: 5.416,
-        oneHundred: 5.972,
-        originalPGA: 4.266
+        amatuer: 4.86,
     }, {
         lie: 'x',
         distance: 170,
         pgaTour: 4.27,
-        eighty: 4.864,
-        ninety: 5.42,
-        oneHundred: 5.976,
-        originalPGA: 4.27
+        amatuer: 4.864,
     }, {
         lie: 'x',
         distance: 171,
         pgaTour: 4.274,
-        eighty: 4.868,
-        ninety: 5.424,
-        oneHundred: 5.98,
-        originalPGA: 4.274
+        amatuer: 4.868,
     }, {
         lie: 'x',
         distance: 172,
         pgaTour: 4.278,
-        eighty: 4.872,
-        ninety: 5.428,
-        oneHundred: 5.984,
-        originalPGA: 4.278
+        amatuer: 4.872,
     }, {
         lie: 'x',
         distance: 173,
         pgaTour: 4.282,
-        eighty: 4.876,
-        ninety: 5.432,
-        oneHundred: 5.988,
-        originalPGA: 4.282
+        amatuer: 4.876,
     }, {
         lie: 'x',
         distance: 174,
         pgaTour: 4.286,
-        eighty: 4.88,
-        ninety: 5.436,
-        oneHundred: 5.992,
-        originalPGA: 4.286
+        amatuer: 4.88,
     }, {
         lie: 'x',
         distance: 175,
         pgaTour: 4.29,
-        eighty: 4.884,
-        ninety: 5.44,
-        oneHundred: 5.996,
-        originalPGA: 4.29
+        amatuer: 4.884,
     }, {
         lie: 'x',
         distance: 176,
         pgaTour: 4.294,
-        eighty: 4.888,
-        ninety: 5.444,
-        oneHundred: 6,
-        originalPGA: 4.294
+        amatuer: 4.888,
     }, {
         lie: 'x',
         distance: 177,
         pgaTour: 4.298,
-        eighty: 4.892,
-        ninety: 5.448,
-        oneHundred: 6.004,
-        originalPGA: 4.298
+        amatuer: 4.892,
     }, {
         lie: 'x',
         distance: 178,
         pgaTour: 4.302,
-        eighty: 4.896,
-        ninety: 5.452,
-        oneHundred: 6.008,
-        originalPGA: 4.302
+        amatuer: 4.896,
     }, {
         lie: 'x',
         distance: 179,
         pgaTour: 4.306,
-        eighty: 4.9,
-        ninety: 5.456,
-        oneHundred: 6.012,
-        originalPGA: 4.306
+        amatuer: 4.9,
     }, {
         lie: 'x',
         distance: 180,
         pgaTour: 4.31,
-        eighty: 4.904,
-        ninety: 5.46,
-        oneHundred: 6.016,
-        originalPGA: 4.31
-    }, {
+        amatuer: 4.904,    }, {
         lie: 'x',
         distance: 181,
         pgaTour: 4.316,
-        eighty: 4.91,
-        ninety: 5.466,
-        oneHundred: 6.022,
-        originalPGA: 4.316
+        amatuer: 4.91,
     }, {
         lie: 'x',
         distance: 182,
         pgaTour: 4.321,
-        eighty: 4.915,
-        ninety: 5.471,
-        oneHundred: 6.027,
-        originalPGA: 4.321
+        amatuer: 4.915,
     }, {
         lie: 'x',
         distance: 183,
         pgaTour: 4.327,
-        eighty: 4.921,
-        ninety: 5.477,
-        oneHundred: 6.033,
-        originalPGA: 4.327
+        amatuer: 4.921,
     }, {
         lie: 'x',
         distance: 184,
         pgaTour: 4.332,
-        eighty: 4.926,
-        ninety: 5.482,
-        oneHundred: 6.038,
-        originalPGA: 4.332
+        amatuer: 4.926,
     }, {
         lie: 'x',
         distance: 185,
         pgaTour: 4.338,
-        eighty: 4.932,
-        ninety: 5.488,
-        oneHundred: 6.044,
-        originalPGA: 4.338
+        amatuer: 4.932,
     }, {
         lie: 'x',
         distance: 186,
         pgaTour: 4.343,
-        eighty: 4.937,
-        ninety: 5.493,
-        oneHundred: 6.049,
-        originalPGA: 4.343
+        amatuer: 4.937,
     }, {
         lie: 'x',
         distance: 187,
         pgaTour: 4.349,
-        eighty: 4.943,
-        ninety: 5.499,
-        oneHundred: 6.055,
-        originalPGA: 4.349
+        amatuer: 4.943,
     }, {
         lie: 'x',
         distance: 188,
         pgaTour: 4.354,
-        eighty: 4.948,
-        ninety: 5.504,
-        oneHundred: 6.06,
-        originalPGA: 4.354
+        amatuer: 4.948,
     }, {
         lie: 'x',
         distance: 189,
         pgaTour: 4.36,
-        eighty: 4.954,
-        ninety: 5.51,
-        oneHundred: 6.066,
-        originalPGA: 4.36
+        amatuer: 4.954,
     }, {
         lie: 'x',
         distance: 190,
         pgaTour: 4.365,
-        eighty: 4.959,
-        ninety: 5.515,
-        oneHundred: 6.071,
-        originalPGA: 4.365
+        amatuer: 4.959,
     }, {
         lie: 'x',
         distance: 191,
         pgaTour: 4.371,
-        eighty: 4.965,
-        ninety: 5.521,
-        oneHundred: 6.077,
-        originalPGA: 4.371
+        amatuer: 4.965,
     }, {
         lie: 'x',
         distance: 192,
         pgaTour: 4.376,
-        eighty: 4.97,
-        ninety: 5.526,
-        oneHundred: 6.082,
-        originalPGA: 4.376
+        amatuer: 4.97,
     }, {
         lie: 'x',
         distance: 193,
         pgaTour: 4.382,
-        eighty: 4.976,
-        ninety: 5.532,
-        oneHundred: 6.088,
-        originalPGA: 4.382
+        amatuer: 4.976,
     }, {
         lie: 'x',
         distance: 194,
         pgaTour: 4.387,
-        eighty: 4.981,
-        ninety: 5.537,
-        oneHundred: 6.093,
-        originalPGA: 4.387
+        amatuer: 4.981,
     }, {
         lie: 'x',
         distance: 195,
         pgaTour: 4.393,
-        eighty: 4.987,
-        ninety: 5.543,
-        oneHundred: 6.099,
-        originalPGA: 4.393
+        amatuer: 4.987,
     }, {
         lie: 'x',
         distance: 196,
         pgaTour: 4.398,
-        eighty: 4.992,
-        ninety: 5.548,
-        oneHundred: 6.104,
-        originalPGA: 4.398
+        amatuer: 4.992,
     }, {
         lie: 'x',
         distance: 197,
         pgaTour: 4.404,
-        eighty: 4.998,
-        ninety: 5.554,
-        oneHundred: 6.11,
-        originalPGA: 4.404
+        amatuer: 4.998,
     }, {
         lie: 'x',
         distance: 198,
         pgaTour: 4.409,
-        eighty: 5.003,
-        ninety: 5.559,
-        oneHundred: 6.115,
-        originalPGA: 4.409
+        amatuer: 5.003,
     }, {
         lie: 'x',
         distance: 199,
         pgaTour: 4.415,
-        eighty: 5.009,
-        ninety: 5.565,
-        oneHundred: 6.121,
-        originalPGA: 4.415
+        amatuer: 5.009,
     }, {
         lie: 'x',
         distance: 200,
         pgaTour: 4.42,
-        eighty: 5.014,
-        ninety: 5.57,
-        oneHundred: 6.126,
-        originalPGA: 4.42
+        amatuer: 5.014,
     }, {
         lie: 'x',
         distance: 201,
         pgaTour: 4.426,
-        eighty: 5.02,
-        ninety: 5.576,
-        oneHundred: 6.132,
-        originalPGA: 4.426
+        amatuer: 5.02,
     }, {
         lie: 'x',
         distance: 202,
         pgaTour: 4.431,
-        eighty: 5.025,
-        ninety: 5.581,
-        oneHundred: 6.137,
-        originalPGA: 4.431
+        amatuer: 5.025,
     }, {
         lie: 'x',
         distance: 203,
         pgaTour: 4.437,
-        eighty: 5.031,
-        ninety: 5.587,
-        oneHundred: 6.143,
-        originalPGA: 4.437
+        amatuer: 5.031,
     }, {
         lie: 'x',
         distance: 204,
         pgaTour: 4.442,
-        eighty: 5.036,
-        ninety: 5.592,
-        oneHundred: 6.148,
-        originalPGA: 4.442
+        amatuer: 5.036,
     }, {
         lie: 'x',
         distance: 205,
         pgaTour: 4.448,
-        eighty: 5.042,
-        ninety: 5.598,
-        oneHundred: 6.154,
-        originalPGA: 4.448
+        amatuer: 5.042,
     }, {
         lie: 'x',
         distance: 206,
         pgaTour: 4.453,
-        eighty: 5.047,
-        ninety: 5.603,
-        oneHundred: 6.159,
-        originalPGA: 4.453
+        amatuer: 5.047,
     }, {
         lie: 'x',
         distance: 207,
         pgaTour: 4.459,
-        eighty: 5.053,
-        ninety: 5.609,
-        oneHundred: 6.165,
-        originalPGA: 4.459
+        amatuer: 5.053,
     }, {
         lie: 'x',
         distance: 208,
         pgaTour: 4.464,
-        eighty: 5.058,
-        ninety: 5.614,
-        oneHundred: 6.17,
-        originalPGA: 4.464
+        amatuer: 5.058,
     }, {
         lie: 'x',
         distance: 209,
         pgaTour: 4.47,
-        eighty: 5.064,
-        ninety: 5.62,
-        oneHundred: 6.176,
-        originalPGA: 4.47
+        amatuer: 5.064,
     }, {
         lie: 'x',
         distance: 210,
         pgaTour: 4.475,
-        eighty: 5.069,
-        ninety: 5.625,
-        oneHundred: 6.181,
-        originalPGA: 4.475
+        amatuer: 5.069,
     }, {
         lie: 'x',
         distance: 211,
         pgaTour: 4.481,
-        eighty: 5.075,
-        ninety: 5.631,
-        oneHundred: 6.187,
-        originalPGA: 4.481
+        amatuer: 5.075,
     }, {
         lie: 'x',
         distance: 212,
         pgaTour: 4.486,
-        eighty: 5.08,
-        ninety: 5.636,
-        oneHundred: 6.192,
-        originalPGA: 4.486
+        amatuer: 5.08,
     }, {
         lie: 'x',
         distance: 213,
         pgaTour: 4.492,
-        eighty: 5.086,
-        ninety: 5.642,
-        oneHundred: 6.198,
-        originalPGA: 4.492
+        amatuer: 5.086,
     }, {
         lie: 'x',
         distance: 214,
         pgaTour: 4.497,
-        eighty: 5.091,
-        ninety: 5.647,
-        oneHundred: 6.203,
-        originalPGA: 4.497
+        amatuer: 5.091,
     }, {
         lie: 'x',
         distance: 215,
         pgaTour: 4.503,
-        eighty: 5.097,
-        ninety: 5.653,
-        oneHundred: 6.209,
-        originalPGA: 4.503
+        amatuer: 5.097,
     }, {
         lie: 'x',
         distance: 216,
         pgaTour: 4.508,
-        eighty: 5.102,
-        ninety: 5.658,
-        oneHundred: 6.214,
-        originalPGA: 4.508
+        amatuer: 5.102,
     }, {
         lie: 'x',
         distance: 217,
         pgaTour: 4.514,
-        eighty: 5.108,
-        ninety: 5.664,
-        oneHundred: 6.22,
-        originalPGA: 4.514
+        amatuer: 5.108,
     }, {
         lie: 'x',
         distance: 218,
         pgaTour: 4.519,
-        eighty: 5.113,
-        ninety: 5.669,
-        oneHundred: 6.225,
-        originalPGA: 4.519
+        amatuer: 5.113,
     }, {
         lie: 'x',
         distance: 219,
         pgaTour: 4.525,
-        eighty: 5.119,
-        ninety: 5.675,
-        oneHundred: 6.231,
-        originalPGA: 4.525
+        amatuer: 5.119,
     }, {
         lie: 'x',
         distance: 220,
         pgaTour: 4.53,
-        eighty: 5.124,
-        ninety: 5.68,
-        oneHundred: 6.236,
-        originalPGA: 4.53
+        amatuer: 5.124,
     }, {
         lie: 'x',
         distance: 221,
         pgaTour: 4.536,
-        eighty: 5.13,
-        ninety: 5.686,
-        oneHundred: 6.242,
-        originalPGA: 4.536
+        amatuer: 5.13,
     }, {
         lie: 'x',
         distance: 222,
         pgaTour: 4.541,
-        eighty: 5.135,
-        ninety: 5.691,
-        oneHundred: 6.247,
-        originalPGA: 4.541
+        amatuer: 5.135,
     }, {
         lie: 'x',
         distance: 223,
         pgaTour: 4.547,
-        eighty: 5.141,
-        ninety: 5.697,
-        oneHundred: 6.253,
-        originalPGA: 4.547
+        amatuer: 5.141,
     }, {
         lie: 'x',
         distance: 224,
         pgaTour: 4.552,
-        eighty: 5.146,
-        ninety: 5.702,
-        oneHundred: 6.258,
-        originalPGA: 4.552
+        amatuer: 5.146,
     }, {
         lie: 'x',
         distance: 225,
         pgaTour: 4.558,
-        eighty: 5.152,
-        ninety: 5.708,
-        oneHundred: 6.264,
-        originalPGA: 4.558
+        amatuer: 5.152,
     }, {
         lie: 'x',
         distance: 226,
         pgaTour: 4.563,
-        eighty: 5.157,
-        ninety: 5.713,
-        oneHundred: 6.269,
-        originalPGA: 4.563
+        amatuer: 5.157,
     }, {
         lie: 'x',
         distance: 227,
         pgaTour: 4.569,
-        eighty: 5.163,
-        ninety: 5.719,
-        oneHundred: 6.275,
-        originalPGA: 4.569
+        amatuer: 5.163,
     }, {
         lie: 'x',
         distance: 228,
         pgaTour: 4.574,
-        eighty: 5.168,
-        ninety: 5.724,
-        oneHundred: 6.28,
-        originalPGA: 4.574
+        amatuer: 5.168,
     }, {
         lie: 'x',
         distance: 229,
         pgaTour: 4.58,
-        eighty: 5.174,
-        ninety: 5.73,
-        oneHundred: 6.286,
-        originalPGA: 4.58
+        amatuer: 5.174,
     }, {
         lie: 'x',
         distance: 230,
         pgaTour: 4.585,
-        eighty: 5.179,
-        ninety: 5.735,
-        oneHundred: 6.291,
-        originalPGA: 4.585
+        amatuer: 5.179,
     }, {
         lie: 'x',
         distance: 231,
         pgaTour: 4.591,
-        eighty: 5.185,
-        ninety: 5.741,
-        oneHundred: 6.297,
-        originalPGA: 4.591
+        amatuer: 5.185,
     }, {
         lie: 'x',
         distance: 232,
         pgaTour: 4.596,
-        eighty: 5.19,
-        ninety: 5.746,
-        oneHundred: 6.302,
-        originalPGA: 4.596
+        amatuer: 5.19,
     }, {
         lie: 'x',
         distance: 233,
         pgaTour: 4.602,
-        eighty: 5.196,
-        ninety: 5.752,
-        oneHundred: 6.308,
-        originalPGA: 4.602
+        amatuer: 5.196,
     }, {
         lie: 'x',
         distance: 234,
         pgaTour: 4.607,
-        eighty: 5.201,
-        ninety: 5.757,
-        oneHundred: 6.313,
-        originalPGA: 4.607
+        amatuer: 5.201,
     }, {
         lie: 'x',
         distance: 235,
         pgaTour: 4.613,
-        eighty: 5.207,
-        ninety: 5.763,
-        oneHundred: 6.319,
-        originalPGA: 4.613
+        amatuer: 5.207,
     }, {
         lie: 'x',
         distance: 236,
         pgaTour: 4.618,
-        eighty: 5.212,
-        ninety: 5.768,
-        oneHundred: 6.324,
-        originalPGA: 4.618
+        amatuer: 5.212,
     }, {
         lie: 'x',
         distance: 237,
         pgaTour: 4.624,
-        eighty: 5.218,
-        ninety: 5.774,
-        oneHundred: 6.33,
-        originalPGA: 4.624
+        amatuer: 5.218,
     }, {
         lie: 'x',
         distance: 238,
         pgaTour: 4.629,
-        eighty: 5.223,
-        ninety: 5.779,
-        oneHundred: 6.335,
-        originalPGA: 4.629
+        amatuer: 5.223,
     }, {
         lie: 'x',
         distance: 239,
         pgaTour: 4.635,
-        eighty: 5.229,
-        ninety: 5.785,
-        oneHundred: 6.341,
-        originalPGA: 4.635
+        amatuer: 5.229,
     }, {
         lie: 'x',
         distance: 240,
         pgaTour: 4.64,
-        eighty: 5.234,
-        ninety: 5.79,
-        oneHundred: 6.346,
-        originalPGA: 4.64
+        amatuer: 5.234,
     }, {
         lie: 'x',
         distance: 241,
         pgaTour: 4.645,
-        eighty: 5.239,
-        ninety: 5.795,
-        oneHundred: 6.351,
-        originalPGA: 4.645
+        amatuer: 5.239,
     }, {
         lie: 'x',
         distance: 242,
         pgaTour: 4.65,
-        eighty: 5.244,
-        ninety: 5.8,
-        oneHundred: 6.356,
-        originalPGA: 4.65
+        amatuer: 5.244,
     }, {
         lie: 'x',
         distance: 243,
         pgaTour: 4.655,
-        eighty: 5.249,
-        ninety: 5.805,
-        oneHundred: 6.361,
-        originalPGA: 4.655
+        amatuer: 5.249,
     }, {
         lie: 'x',
         distance: 244,
         pgaTour: 4.66,
-        eighty: 5.254,
-        ninety: 5.81,
-        oneHundred: 6.366,
-        originalPGA: 4.66
+        amatuer: 5.254,
     }, {
         lie: 'x',
         distance: 245,
         pgaTour: 4.665,
-        eighty: 5.259,
-        ninety: 5.815,
-        oneHundred: 6.371,
-        originalPGA: 4.665
+        amatuer: 5.259,
     }, {
         lie: 'x',
         distance: 246,
         pgaTour: 4.67,
-        eighty: 5.264,
-        ninety: 5.82,
-        oneHundred: 6.376,
-        originalPGA: 4.67
+        amatuer: 5.264,
     }, {
         lie: 'x',
         distance: 247,
         pgaTour: 4.675,
-        eighty: 5.269,
-        ninety: 5.825,
-        oneHundred: 6.381,
-        originalPGA: 4.675
+        amatuer: 5.269,
     }, {
         lie: 'x',
         distance: 248,
         pgaTour: 4.68,
-        eighty: 5.274,
-        ninety: 5.83,
-        oneHundred: 6.386,
-        originalPGA: 4.68
+        amatuer: 5.274,
     }, {
         lie: 'x',
         distance: 249,
         pgaTour: 4.685,
-        eighty: 5.279,
-        ninety: 5.835,
-        oneHundred: 6.391,
-        originalPGA: 4.685
+        amatuer: 5.279,
     }, {
         lie: 'x',
         distance: 250,
         pgaTour: 4.69,
-        eighty: 5.284,
-        ninety: 5.84,
-        oneHundred: 6.396,
-        originalPGA: 4.69
+        amatuer: 5.284,
     }, {
         lie: 'x',
         distance: 251,
         pgaTour: 4.695,
-        eighty: 5.289,
-        ninety: 5.845,
-        oneHundred: 6.401,
-        originalPGA: 4.695
+        amatuer: 5.289,
     }, {
         lie: 'x',
         distance: 252,
         pgaTour: 4.7,
-        eighty: 5.294,
-        ninety: 5.85,
-        oneHundred: 6.406,
-        originalPGA: 4.7
+        amatuer: 5.294,
     }, {
         lie: 'x',
         distance: 253,
         pgaTour: 4.705,
-        eighty: 5.299,
-        ninety: 5.855,
-        oneHundred: 6.411,
-        originalPGA: 4.705
+        amatuer: 5.299,
     }, {
         lie: 'x',
         distance: 254,
         pgaTour: 4.71,
-        eighty: 5.304,
-        ninety: 5.86,
-        oneHundred: 6.416,
-        originalPGA: 4.71
+        amatuer: 5.304,
     }, {
         lie: 'x',
         distance: 255,
         pgaTour: 4.715,
-        eighty: 5.309,
-        ninety: 5.865,
-        oneHundred: 6.421,
-        originalPGA: 4.715
+        amatuer: 5.309,
     }, {
         lie: 'x',
         distance: 256,
         pgaTour: 4.72,
-        eighty: 5.314,
-        ninety: 5.87,
-        oneHundred: 6.426,
-        originalPGA: 4.72
+        amatuer: 5.314,
     }, {
         lie: 'x',
         distance: 257,
         pgaTour: 4.725,
-        eighty: 5.319,
-        ninety: 5.875,
-        oneHundred: 6.431,
-        originalPGA: 4.725
+        amatuer: 5.319,
     }, {
         lie: 'x',
         distance: 258,
         pgaTour: 4.73,
-        eighty: 5.324,
-        ninety: 5.88,
-        oneHundred: 6.436,
-        originalPGA: 4.73
+        amatuer: 5.324,
     }, {
         lie: 'x',
         distance: 259,
         pgaTour: 4.735,
-        eighty: 5.329,
-        ninety: 5.885,
-        oneHundred: 6.441,
-        originalPGA: 4.735
+        amatuer: 5.329,
     }, {
         lie: 'x',
         distance: 260,
         pgaTour: 4.74,
-        eighty: 5.334,
-        ninety: 5.89,
-        oneHundred: 6.446,
-        originalPGA: 4.74
+        amatuer: 5.334,
     }, {
         lie: 'x',
         distance: 261,
         pgaTour: 4.745,
-        eighty: 5.339,
-        ninety: 5.895,
-        oneHundred: 6.451,
-        originalPGA: 4.745
+        amatuer: 5.339,
     }, {
         lie: 'x',
         distance: 262,
         pgaTour: 4.749,
-        eighty: 5.343,
-        ninety: 5.899,
-        oneHundred: 6.455,
-        originalPGA: 4.749
+        amatuer: 5.343,
     }, {
         lie: 'x',
         distance: 263,
         pgaTour: 4.754,
-        eighty: 5.348,
-        ninety: 5.904,
-        oneHundred: 6.46,
-        originalPGA: 4.754
+        amatuer: 5.348,
     }, {
         lie: 'x',
         distance: 264,
         pgaTour: 4.758,
-        eighty: 5.352,
-        ninety: 5.908,
-        oneHundred: 6.464,
-        originalPGA: 4.758
+        amatuer: 5.352,
     }, {
         lie: 'x',
         distance: 265,
         pgaTour: 4.763,
-        eighty: 5.357,
-        ninety: 5.913,
-        oneHundred: 6.469,
-        originalPGA: 4.763
+        amatuer: 5.357,
     }, {
         lie: 'x',
         distance: 266,
         pgaTour: 4.767,
-        eighty: 5.361,
-        ninety: 5.917,
-        oneHundred: 6.473,
-        originalPGA: 4.767
+        amatuer: 5.361,
     }, {
         lie: 'x',
         distance: 267,
         pgaTour: 4.772,
-        eighty: 5.366,
-        ninety: 5.922,
-        oneHundred: 6.478,
-        originalPGA: 4.772
+        amatuer: 5.366,
     }, {
         lie: 'x',
         distance: 268,
         pgaTour: 4.776,
-        eighty: 5.37,
-        ninety: 5.926,
-        oneHundred: 6.482,
-        originalPGA: 4.776
+        amatuer: 5.37,
     }, {
         lie: 'x',
         distance: 269,
         pgaTour: 4.781,
-        eighty: 5.375,
-        ninety: 5.931,
-        oneHundred: 6.487,
-        originalPGA: 4.781
+        amatuer: 5.375,
     }, {
         lie: 'x',
         distance: 270,
         pgaTour: 4.785,
-        eighty: 5.379,
-        ninety: 5.935,
-        oneHundred: 6.491,
-        originalPGA: 4.785
+        amatuer: 5.379,
     }, {
         lie: 'x',
         distance: 271,
         pgaTour: 4.79,
-        eighty: 5.384,
-        ninety: 5.94,
-        oneHundred: 6.496,
-        originalPGA: 4.79
+        amatuer: 5.384,
     }, {
         lie: 'x',
         distance: 272,
         pgaTour: 4.794,
-        eighty: 5.388,
-        ninety: 5.944,
-        oneHundred: 6.5,
-        originalPGA: 4.794
+        amatuer: 5.388,
     }, {
         lie: 'x',
         distance: 273,
         pgaTour: 4.799,
-        eighty: 5.393,
-        ninety: 5.949,
-        oneHundred: 6.505,
-        originalPGA: 4.799
+        amatuer: 5.393,
     }, {
         lie: 'x',
         distance: 274,
         pgaTour: 4.803,
-        eighty: 5.397,
-        ninety: 5.953,
-        oneHundred: 6.509,
-        originalPGA: 4.803
+        amatuer: 5.397,
     }, {
         lie: 'x',
         distance: 275,
         pgaTour: 4.808,
-        eighty: 5.402,
-        ninety: 5.958,
-        oneHundred: 6.514,
-        originalPGA: 4.808
+        amatuer: 5.402,
     }, {
         lie: 'x',
         distance: 276,
         pgaTour: 4.812,
-        eighty: 5.406,
-        ninety: 5.962,
-        oneHundred: 6.518,
-        originalPGA: 4.812
+        amatuer: 5.406,
     }, {
         lie: 'x',
         distance: 277,
         pgaTour: 4.817,
-        eighty: 5.411,
-        ninety: 5.967,
-        oneHundred: 6.523,
-        originalPGA: 4.817
+        amatuer: 5.411,
     }, {
         lie: 'x',
         distance: 278,
         pgaTour: 4.821,
-        eighty: 5.415,
-        ninety: 5.971,
-        oneHundred: 6.527,
-        originalPGA: 4.821
+        amatuer: 5.415,
     }, {
         lie: 'x',
         distance: 279,
         pgaTour: 4.826,
-        eighty: 5.42,
-        ninety: 5.976,
-        oneHundred: 6.532,
-        originalPGA: 4.826
+        amatuer: 5.42,
     }, {
         lie: 'x',
         distance: 280,
         pgaTour: 4.83,
-        eighty: 5.424,
-        ninety: 5.98,
-        oneHundred: 6.536,
-        originalPGA: 4.83
+        amatuer: 5.424,
     }, {
         lie: 'x',
         distance: 281,
         pgaTour: 4.834,
-        eighty: 5.428,
-        ninety: 5.984,
-        oneHundred: 6.54,
-        originalPGA: 4.834
+        amatuer: 5.428,
     }, {
         lie: 'x',
         distance: 282,
         pgaTour: 4.837,
-        eighty: 5.431,
-        ninety: 5.987,
-        oneHundred: 6.543,
-        originalPGA: 4.837
+        amatuer: 5.431,
     }, {
         lie: 'x',
         distance: 283,
         pgaTour: 4.841,
-        eighty: 5.435,
-        ninety: 5.991,
-        oneHundred: 6.547,
-        originalPGA: 4.841
+        amatuer: 5.435,
     }, {
         lie: 'x',
         distance: 284,
         pgaTour: 4.844,
-        eighty: 5.438,
-        ninety: 5.994,
-        oneHundred: 6.55,
-        originalPGA: 4.844
+        amatuer: 5.438,
     }, {
         lie: 'x',
         distance: 285,
         pgaTour: 4.848,
-        eighty: 5.442,
-        ninety: 5.998,
-        oneHundred: 6.554,
-        originalPGA: 4.848
+        amatuer: 5.442,
     }, {
         lie: 'x',
         distance: 286,
         pgaTour: 4.851,
-        eighty: 5.445,
-        ninety: 6.001,
-        oneHundred: 6.557,
-        originalPGA: 4.851
+        amatuer: 5.445,
     }, {
         lie: 'x',
         distance: 287,
         pgaTour: 4.855,
-        eighty: 5.449,
-        ninety: 6.005,
-        oneHundred: 6.561,
-        originalPGA: 4.855
+        amatuer: 5.449,
     }, {
         lie: 'x',
         distance: 288,
         pgaTour: 4.858,
-        eighty: 5.452,
-        ninety: 6.008,
-        oneHundred: 6.564,
-        originalPGA: 4.858
+        amatuer: 5.452,
     }, {
         lie: 'x',
         distance: 289,
         pgaTour: 4.862,
-        eighty: 5.456,
-        ninety: 6.012,
-        oneHundred: 6.568,
-        originalPGA: 4.862
+        amatuer: 5.456,
     }, {
         lie: 'x',
         distance: 290,
         pgaTour: 4.865,
-        eighty: 5.459,
-        ninety: 6.015,
-        oneHundred: 6.571,
-        originalPGA: 4.865
+        amatuer: 5.459,
     }, {
         lie: 'x',
         distance: 291,
         pgaTour: 4.869,
-        eighty: 5.463,
-        ninety: 6.019,
-        oneHundred: 6.575,
-        originalPGA: 4.869
+        amatuer: 5.463,
     }, {
         lie: 'x',
         distance: 292,
         pgaTour: 4.872,
-        eighty: 5.466,
-        ninety: 6.022,
-        oneHundred: 6.578,
-        originalPGA: 4.872
+        amatuer: 5.466,
     }, {
         lie: 'x',
         distance: 293,
         pgaTour: 4.876,
-        eighty: 5.47,
-        ninety: 6.026,
-        oneHundred: 6.582,
-        originalPGA: 4.876
+        amatuer: 5.47,
     }, {
         lie: 'x',
         distance: 294,
         pgaTour: 4.879,
-        eighty: 5.473,
-        ninety: 6.029,
-        oneHundred: 6.585,
-        originalPGA: 4.879
+        amatuer: 5.473,
     }, {
         lie: 'x',
         distance: 295,
         pgaTour: 4.883,
-        eighty: 5.477,
-        ninety: 6.033,
-        oneHundred: 6.589,
-        originalPGA: 4.883
+        amatuer: 5.477,
     }, {
         lie: 'x',
         distance: 296,
         pgaTour: 4.886,
-        eighty: 5.48,
-        ninety: 6.036,
-        oneHundred: 6.592,
-        originalPGA: 4.886
+        amatuer: 5.48,
     }, {
         lie: 'x',
         distance: 297,
         pgaTour: 4.89,
-        eighty: 5.484,
-        ninety: 6.04,
-        oneHundred: 6.596,
-        originalPGA: 4.89
+        amatuer: 5.484,
     }, {
         lie: 'x',
         distance: 298,
         pgaTour: 4.893,
-        eighty: 5.487,
-        ninety: 6.043,
-        oneHundred: 6.599,
-        originalPGA: 4.893
+        amatuer: 5.487,
     }, {
         lie: 'x',
         distance: 299,
         pgaTour: 4.897,
-        eighty: 5.491,
-        ninety: 6.047,
-        oneHundred: 6.603,
-        originalPGA: 4.897
+        amatuer: 5.491,
     }, {
         lie: 'x',
         distance: 300,
         pgaTour: 4.9,
-        eighty: 5.494,
-        ninety: 6.05,
-        oneHundred: 6.606,
-        originalPGA: 4.9
+        amatuer: 5.494,
     }, {
         lie: 'x',
         distance: 301,
         pgaTour: 4.903,
-        eighty: 5.497,
-        ninety: 6.053,
-        oneHundred: 6.609,
-        originalPGA: 4.903
+        amatuer: 5.497,
     }, {
         lie: 'x',
         distance: 302,
         pgaTour: 4.905,
-        eighty: 5.499,
-        ninety: 6.055,
-        oneHundred: 6.611,
-        originalPGA: 4.905
+        amatuer: 5.499,
     }, {
         lie: 'x',
         distance: 303,
         pgaTour: 4.908,
-        eighty: 5.502,
-        ninety: 6.058,
-        oneHundred: 6.614,
-        originalPGA: 4.908
+        amatuer: 5.502,
     }, {
         lie: 'x',
         distance: 304,
         pgaTour: 4.91,
-        eighty: 5.504,
-        ninety: 6.06,
-        oneHundred: 6.616,
-        originalPGA: 4.91
+        amatuer: 5.504,
     }, {
         lie: 'x',
         distance: 305,
         pgaTour: 4.913,
-        eighty: 5.507,
-        ninety: 6.063,
-        oneHundred: 6.619,
-        originalPGA: 4.913
+        amatuer: 5.507,
     }, {
         lie: 'x',
         distance: 306,
         pgaTour: 4.915,
-        eighty: 5.509,
-        ninety: 6.065,
-        oneHundred: 6.621,
-        originalPGA: 4.915
+        amatuer: 5.509,
     }, {
         lie: 'x',
         distance: 307,
         pgaTour: 4.918,
-        eighty: 5.512,
-        ninety: 6.068,
-        oneHundred: 6.624,
-        originalPGA: 4.918
+        amatuer: 5.512,
     }, {
         lie: 'x',
         distance: 308,
         pgaTour: 4.92,
-        eighty: 5.514,
-        ninety: 6.07,
-        oneHundred: 6.626,
-        originalPGA: 4.92
+        amatuer: 5.514,
     }, {
         lie: 'x',
         distance: 309,
         pgaTour: 4.923,
-        eighty: 5.517,
-        ninety: 6.073,
-        oneHundred: 6.629,
-        originalPGA: 4.923
+        amatuer: 5.517,
     }, {
         lie: 'x',
         distance: 310,
         pgaTour: 4.925,
-        eighty: 5.519,
-        ninety: 6.075,
-        oneHundred: 6.631,
-        originalPGA: 4.925
+        amatuer: 5.519,
     }, {
         lie: 'x',
         distance: 311,
         pgaTour: 4.928,
-        eighty: 5.522,
-        ninety: 6.078,
-        oneHundred: 6.634,
-        originalPGA: 4.928
+        amatuer: 5.522,
     }, {
         lie: 'x',
         distance: 312,
         pgaTour: 4.93,
-        eighty: 5.524,
-        ninety: 6.08,
-        oneHundred: 6.636,
-        originalPGA: 4.93
+        amatuer: 5.524,
     }, {
         lie: 'x',
         distance: 313,
         pgaTour: 4.933,
-        eighty: 5.527,
-        ninety: 6.083,
-        oneHundred: 6.639,
-        originalPGA: 4.933
+        amatuer: 5.527,
     }, {
         lie: 'x',
         distance: 314,
         pgaTour: 4.935,
-        eighty: 5.529,
-        ninety: 6.085,
-        oneHundred: 6.641,
-        originalPGA: 4.935
+        amatuer: 5.529,
     }, {
         lie: 'x',
         distance: 315,
         pgaTour: 4.938,
-        eighty: 5.532,
-        ninety: 6.088,
-        oneHundred: 6.644,
-        originalPGA: 4.938
+        amatuer: 5.532,
     }, {
         lie: 'x',
         distance: 316,
         pgaTour: 4.94,
-        eighty: 5.534,
-        ninety: 6.09,
-        oneHundred: 6.646,
-        originalPGA: 4.94
+        amatuer: 5.534,
     }, {
         lie: 'x',
         distance: 317,
         pgaTour: 4.943,
-        eighty: 5.537,
-        ninety: 6.093,
-        oneHundred: 6.649,
-        originalPGA: 4.943
+        amatuer: 5.537,
     }, {
         lie: 'x',
         distance: 318,
         pgaTour: 4.945,
-        eighty: 5.539,
-        ninety: 6.095,
-        oneHundred: 6.651,
-        originalPGA: 4.945
+        amatuer: 5.539,
     }, {
         lie: 'x',
         distance: 319,
         pgaTour: 4.948,
-        eighty: 5.542,
-        ninety: 6.098,
-        oneHundred: 6.654,
-        originalPGA: 4.948
+        amatuer: 5.542,
     }, {
         lie: 'x',
         distance: 320,
         pgaTour: 4.95,
-        eighty: 5.544,
-        ninety: 6.1,
-        oneHundred: 6.656,
-        originalPGA: 4.95
+        amatuer: 5.544,
     }, {
         lie: 'x',
         distance: 321,
         pgaTour: 4.954,
-        eighty: 5.548,
-        ninety: 6.104,
-        oneHundred: 6.66,
-        originalPGA: 4.954
+        amatuer: 5.548,
     }, {
         lie: 'x',
         distance: 322,
         pgaTour: 4.957,
-        eighty: 5.551,
-        ninety: 6.107,
-        oneHundred: 6.663,
-        originalPGA: 4.957
+        amatuer: 5.551,
     }, {
         lie: 'x',
         distance: 323,
         pgaTour: 4.961,
-        eighty: 5.555,
-        ninety: 6.111,
-        oneHundred: 6.667,
-        originalPGA: 4.961
+        amatuer: 5.555,
     }, {
         lie: 'x',
         distance: 324,
         pgaTour: 4.964,
-        eighty: 5.558,
-        ninety: 6.114,
-        oneHundred: 6.67,
-        originalPGA: 4.964
+        amatuer: 5.558,
     }, {
         lie: 'x',
         distance: 325,
         pgaTour: 4.968,
-        eighty: 5.562,
-        ninety: 6.118,
-        oneHundred: 6.674,
-        originalPGA: 4.968
+        amatuer: 5.562,
     }, {
         lie: 'x',
         distance: 326,
         pgaTour: 4.971,
-        eighty: 5.565,
-        ninety: 6.121,
-        oneHundred: 6.677,
-        originalPGA: 4.971
+        amatuer: 5.565,
     }, {
         lie: 'x',
         distance: 327,
         pgaTour: 4.975,
-        eighty: 5.569,
-        ninety: 6.125,
-        oneHundred: 6.681,
-        originalPGA: 4.975
+        amatuer: 5.569,
     }, {
         lie: 'x',
         distance: 328,
         pgaTour: 4.978,
-        eighty: 5.572,
-        ninety: 6.128,
-        oneHundred: 6.684,
-        originalPGA: 4.978
+        amatuer: 5.572,
     }, {
         lie: 'x',
         distance: 329,
         pgaTour: 4.982,
-        eighty: 5.576,
-        ninety: 6.132,
-        oneHundred: 6.688,
-        originalPGA: 4.982
+        amatuer: 5.576,
     }, {
         lie: 'x',
         distance: 330,
         pgaTour: 4.985,
-        eighty: 5.579,
-        ninety: 6.135,
-        oneHundred: 6.691,
-        originalPGA: 4.985
+        amatuer: 5.579,
     }, {
         lie: 'x',
         distance: 331,
         pgaTour: 4.989,
-        eighty: 5.583,
-        ninety: 6.139,
-        oneHundred: 6.695,
-        originalPGA: 4.989
+        amatuer: 5.583,
     }, {
         lie: 'x',
         distance: 332,
         pgaTour: 4.992,
-        eighty: 5.586,
-        ninety: 6.142,
-        oneHundred: 6.698,
-        originalPGA: 4.992
+        amatuer: 5.586,
     }, {
         lie: 'x',
         distance: 333,
         pgaTour: 4.996,
-        eighty: 5.59,
-        ninety: 6.146,
-        oneHundred: 6.702,
-        originalPGA: 4.996
+        amatuer: 5.59,
     }, {
         lie: 'x',
         distance: 334,
         pgaTour: 4.999,
-        eighty: 5.593,
-        ninety: 6.149,
-        oneHundred: 6.705,
-        originalPGA: 4.999
+        amatuer: 5.593,
     }, {
         lie: 'x',
         distance: 335,
         pgaTour: 5.003,
-        eighty: 5.597,
-        ninety: 6.153,
-        oneHundred: 6.709,
-        originalPGA: 5.003
+        amatuer: 5.597,
     }, {
         lie: 'x',
         distance: 336,
         pgaTour: 5.006,
-        eighty: 5.6,
-        ninety: 6.156,
-        oneHundred: 6.712,
-        originalPGA: 5.006
+        amatuer: 5.6,
     }, {
         lie: 'x',
         distance: 337,
         pgaTour: 5.01,
-        eighty: 5.604,
-        ninety: 6.16,
-        oneHundred: 6.716,
-        originalPGA: 5.01
+        amatuer: 5.604,
     }, {
         lie: 'x',
         distance: 338,
         pgaTour: 5.013,
-        eighty: 5.607,
-        ninety: 6.163,
-        oneHundred: 6.719,
-        originalPGA: 5.013
+        amatuer: 5.607,
     }, {
         lie: 'x',
         distance: 339,
         pgaTour: 5.017,
-        eighty: 5.611,
-        ninety: 6.167,
-        oneHundred: 6.723,
-        originalPGA: 5.017
+        amatuer: 5.611,
     }, {
         lie: 'x',
         distance: 340,
         pgaTour: 5.02,
-        eighty: 5.614,
-        ninety: 6.17,
-        oneHundred: 6.726,
-        originalPGA: 5.02
+        amatuer: 5.614,
     }, {
         lie: 'x',
         distance: 341,
         pgaTour: 5.025,
-        eighty: 5.619,
-        ninety: 6.175,
-        oneHundred: 6.731,
-        originalPGA: 5.025
+        amatuer: 5.619,
     }, {
         lie: 'x',
         distance: 342,
         pgaTour: 5.029,
-        eighty: 5.623,
-        ninety: 6.179,
-        oneHundred: 6.735,
-        originalPGA: 5.029
+        amatuer: 5.623,
     }, {
         lie: 'x',
         distance: 343,
         pgaTour: 5.034,
-        eighty: 5.628,
-        ninety: 6.184,
-        oneHundred: 6.74,
-        originalPGA: 5.034
+        amatuer: 5.628,
     }, {
         lie: 'x',
         distance: 344,
         pgaTour: 5.038,
-        eighty: 5.632,
-        ninety: 6.188,
-        oneHundred: 6.744,
-        originalPGA: 5.038
+        amatuer: 5.632,
     }, {
         lie: 'x',
         distance: 345,
         pgaTour: 5.043,
-        eighty: 5.637,
-        ninety: 6.193,
-        oneHundred: 6.749,
-        originalPGA: 5.043
+        amatuer: 5.637,
     }, {
         lie: 'x',
         distance: 346,
         pgaTour: 5.047,
-        eighty: 5.641,
-        ninety: 6.197,
-        oneHundred: 6.753,
-        originalPGA: 5.047
+        amatuer: 5.641,
     }, {
         lie: 'x',
         distance: 347,
         pgaTour: 5.052,
-        eighty: 5.646,
-        ninety: 6.202,
-        oneHundred: 6.758,
-        originalPGA: 5.052
+        amatuer: 5.646,
     }, {
         lie: 'x',
         distance: 348,
         pgaTour: 5.056,
-        eighty: 5.65,
-        ninety: 6.206,
-        oneHundred: 6.762,
-        originalPGA: 5.056
+        amatuer: 5.65,
     }, {
         lie: 'x',
         distance: 349,
         pgaTour: 5.061,
-        eighty: 5.655,
-        ninety: 6.211,
-        oneHundred: 6.767,
-        originalPGA: 5.061
+        amatuer: 5.655,
     }, {
         lie: 'x',
         distance: 350,
         pgaTour: 5.065,
-        eighty: 5.659,
-        ninety: 6.215,
-        oneHundred: 6.771,
-        originalPGA: 5.065
+        amatuer: 5.659,
     }, {
         lie: 'x',
         distance: 351,
         pgaTour: 5.07,
-        eighty: 5.664,
-        ninety: 6.22,
-        oneHundred: 6.776,
-        originalPGA: 5.07
+        amatuer: 5.664,
     }, {
         lie: 'x',
         distance: 352,
         pgaTour: 5.074,
-        eighty: 5.668,
-        ninety: 6.224,
-        oneHundred: 6.78,
-        originalPGA: 5.074
+        amatuer: 5.668,
     }, {
         lie: 'x',
         distance: 353,
         pgaTour: 5.079,
-        eighty: 5.673,
-        ninety: 6.229,
-        oneHundred: 6.785,
-        originalPGA: 5.079
+        amatuer: 5.673,
     }, {
         lie: 'x',
         distance: 354,
         pgaTour: 5.083,
-        eighty: 5.677,
-        ninety: 6.233,
-        oneHundred: 6.789,
-        originalPGA: 5.083
+        amatuer: 5.677,
     }, {
         lie: 'x',
         distance: 355,
         pgaTour: 5.088,
-        eighty: 5.682,
-        ninety: 6.238,
-        oneHundred: 6.794,
-        originalPGA: 5.088
+        amatuer: 5.682,
     }, {
         lie: 'x',
         distance: 356,
         pgaTour: 5.092,
-        eighty: 5.686,
-        ninety: 6.242,
-        oneHundred: 6.798,
-        originalPGA: 5.092
+        amatuer: 5.686,
     }, {
         lie: 'x',
         distance: 357,
         pgaTour: 5.097,
-        eighty: 5.691,
-        ninety: 6.247,
-        oneHundred: 6.803,
-        originalPGA: 5.097
+        amatuer: 5.691,
     }, {
         lie: 'x',
         distance: 358,
         pgaTour: 5.101,
-        eighty: 5.695,
-        ninety: 6.251,
-        oneHundred: 6.807,
-        originalPGA: 5.101
+        amatuer: 5.695,
     }, {
         lie: 'x',
         distance: 359,
         pgaTour: 5.106,
-        eighty: 5.7,
-        ninety: 6.256,
-        oneHundred: 6.812,
-        originalPGA: 5.106
+        amatuer: 5.7,
     }, {
         lie: 'x',
         distance: 360,
         pgaTour: 5.11,
-        eighty: 5.704,
-        ninety: 6.26,
-        oneHundred: 6.816,
-        originalPGA: 5.11
+        amatuer: 5.704,
     }, {
         lie: 'x',
         distance: 361,
         pgaTour: 5.115,
-        eighty: 5.709,
-        ninety: 6.265,
-        oneHundred: 6.821,
-        originalPGA: 5.115
+        amatuer: 5.709,
     }, {
         lie: 'x',
         distance: 362,
         pgaTour: 5.12,
-        eighty: 5.714,
-        ninety: 6.27,
-        oneHundred: 6.826,
-        originalPGA: 5.12
+        amatuer: 5.714,
     }, {
         lie: 'x',
         distance: 363,
         pgaTour: 5.125,
-        eighty: 5.719,
-        ninety: 6.275,
-        oneHundred: 6.831,
-        originalPGA: 5.125
+        amatuer: 5.719,
     }, {
         lie: 'x',
         distance: 364,
         pgaTour: 5.13,
-        eighty: 5.724,
-        ninety: 6.28,
-        oneHundred: 6.836,
-        originalPGA: 5.13
+        amatuer: 5.724,
     }, {
         lie: 'x',
         distance: 365,
         pgaTour: 5.135,
-        eighty: 5.729,
-        ninety: 6.285,
-        oneHundred: 6.841,
-        originalPGA: 5.135
+        amatuer: 5.729,
     }, {
         lie: 'x',
         distance: 366,
         pgaTour: 5.14,
-        eighty: 5.734,
-        ninety: 6.29,
-        oneHundred: 6.846,
-        originalPGA: 5.14
+        amatuer: 5.734,
     }, {
         lie: 'x',
         distance: 367,
         pgaTour: 5.145,
-        eighty: 5.739,
-        ninety: 6.295,
-        oneHundred: 6.851,
-        originalPGA: 5.145
+        amatuer: 5.739,
     }, {
         lie: 'x',
         distance: 368,
         pgaTour: 5.15,
-        eighty: 5.744,
-        ninety: 6.3,
-        oneHundred: 6.856,
-        originalPGA: 5.15
+        amatuer: 5.744,
     }, {
         lie: 'x',
         distance: 369,
         pgaTour: 5.155,
-        eighty: 5.749,
-        ninety: 6.305,
-        oneHundred: 6.861,
-        originalPGA: 5.155
+        amatuer: 5.749,
     }, {
         lie: 'x',
         distance: 370,
         pgaTour: 5.16,
-        eighty: 5.754,
-        ninety: 6.31,
-        oneHundred: 6.866,
-        originalPGA: 5.16
+        amatuer: 5.754,
     }, {
         lie: 'x',
         distance: 371,
         pgaTour: 5.165,
-        eighty: 5.759,
-        ninety: 6.315,
-        oneHundred: 6.871,
-        originalPGA: 5.165
+        amatuer: 5.759,
     }, {
         lie: 'x',
         distance: 372,
         pgaTour: 5.17,
-        eighty: 5.764,
-        ninety: 6.32,
-        oneHundred: 6.876,
-        originalPGA: 5.17
+        amatuer: 5.764,
     }, {
         lie: 'x',
         distance: 373,
         pgaTour: 5.175,
-        eighty: 5.769,
-        ninety: 6.325,
-        oneHundred: 6.881,
-        originalPGA: 5.175
+        amatuer: 5.769,
     }, {
         lie: 'x',
         distance: 374,
         pgaTour: 5.18,
-        eighty: 5.774,
-        ninety: 6.33,
-        oneHundred: 6.886,
-        originalPGA: 5.18
+        amatuer: 5.774,
     }, {
         lie: 'x',
         distance: 375,
         pgaTour: 5.185,
-        eighty: 5.779,
-        ninety: 6.335,
-        oneHundred: 6.891,
-        originalPGA: 5.185
+        amatuer: 5.779,
     }, {
         lie: 'x',
         distance: 376,
         pgaTour: 5.19,
-        eighty: 5.784,
-        ninety: 6.34,
-        oneHundred: 6.896,
-        originalPGA: 5.19
+        amatuer: 5.784,
     }, {
         lie: 'x',
         distance: 377,
         pgaTour: 5.195,
-        eighty: 5.789,
-        ninety: 6.345,
-        oneHundred: 6.901,
-        originalPGA: 5.195
+        amatuer: 5.789,
     }, {
         lie: 'x',
         distance: 378,
         pgaTour: 5.2,
-        eighty: 5.794,
-        ninety: 6.35,
-        oneHundred: 6.906,
-        originalPGA: 5.2
+        amatuer: 5.794,
     }, {
         lie: 'x',
         distance: 379,
         pgaTour: 5.205,
-        eighty: 5.799,
-        ninety: 6.355,
-        oneHundred: 6.911,
-        originalPGA: 5.205
+        amatuer: 5.799,
     }, {
         lie: 'x',
         distance: 380,
         pgaTour: 5.21,
-        eighty: 5.804,
-        ninety: 6.36,
-        oneHundred: 6.916,
-        originalPGA: 5.21
+        amatuer: 5.804,
     }, {
         lie: 'x',
         distance: 381,
         pgaTour: 5.215,
-        eighty: 5.809,
-        ninety: 6.365,
-        oneHundred: 6.921,
-        originalPGA: 5.215
+        amatuer: 5.809,
     }, {
         lie: 'x',
         distance: 382,
         pgaTour: 5.219,
-        eighty: 5.813,
-        ninety: 6.369,
-        oneHundred: 6.925,
-        originalPGA: 5.219
+        amatuer: 5.813,
     }, {
         lie: 'x',
         distance: 383,
         pgaTour: 5.224,
-        eighty: 5.818,
-        ninety: 6.374,
-        oneHundred: 6.93,
-        originalPGA: 5.224
+        amatuer: 5.818,
     }, {
         lie: 'x',
         distance: 384,
         pgaTour: 5.228,
-        eighty: 5.822,
-        ninety: 6.378,
-        oneHundred: 6.934,
-        originalPGA: 5.228
+        amatuer: 5.822,
     }, {
         lie: 'x',
         distance: 385,
         pgaTour: 5.233,
-        eighty: 5.827,
-        ninety: 6.383,
-        oneHundred: 6.939,
-        originalPGA: 5.233
+        amatuer: 5.827,
     }, {
         lie: 'x',
         distance: 386,
         pgaTour: 5.237,
-        eighty: 5.831,
-        ninety: 6.387,
-        oneHundred: 6.943,
-        originalPGA: 5.237
+        amatuer: 5.831,
     }, {
         lie: 'x',
         distance: 387,
         pgaTour: 5.242,
-        eighty: 5.836,
-        ninety: 6.392,
-        oneHundred: 6.948,
-        originalPGA: 5.242
+        amatuer: 5.836,
     }, {
         lie: 'x',
         distance: 388,
         pgaTour: 5.246,
-        eighty: 5.84,
-        ninety: 6.396,
-        oneHundred: 6.952,
-        originalPGA: 5.246
+        amatuer: 5.84,
     }, {
         lie: 'x',
         distance: 389,
         pgaTour: 5.251,
-        eighty: 5.845,
-        ninety: 6.401,
-        oneHundred: 6.957,
-        originalPGA: 5.251
+        amatuer: 5.845,
     }, {
         lie: 'x',
         distance: 390,
         pgaTour: 5.255,
-        eighty: 5.849,
-        ninety: 6.405,
-        oneHundred: 6.961,
-        originalPGA: 5.255
+        amatuer: 5.849,
     }, {
         lie: 'x',
         distance: 391,
         pgaTour: 5.26,
-        eighty: 5.854,
-        ninety: 6.41,
-        oneHundred: 6.966,
-        originalPGA: 5.26
+        amatuer: 5.854,
     }, {
         lie: 'x',
         distance: 392,
         pgaTour: 5.264,
-        eighty: 5.858,
-        ninety: 6.414,
-        oneHundred: 6.97,
-        originalPGA: 5.264
+        amatuer: 5.858,
     }, {
         lie: 'x',
         distance: 393,
         pgaTour: 5.269,
-        eighty: 5.863,
-        ninety: 6.419,
-        oneHundred: 6.975,
-        originalPGA: 5.269
+        amatuer: 5.863,
     }, {
         lie: 'x',
         distance: 394,
         pgaTour: 5.273,
-        eighty: 5.867,
-        ninety: 6.423,
-        oneHundred: 6.979,
-        originalPGA: 5.273
+        amatuer: 5.867,
     }, {
         lie: 'x',
         distance: 395,
         pgaTour: 5.278,
-        eighty: 5.872,
-        ninety: 6.428,
-        oneHundred: 6.984,
-        originalPGA: 5.278
+        amatuer: 5.872,
     }, {
         lie: 'x',
         distance: 396,
         pgaTour: 5.282,
-        eighty: 5.876,
-        ninety: 6.432,
-        oneHundred: 6.988,
-        originalPGA: 5.282
+        amatuer: 5.876,
     }, {
         lie: 'x',
         distance: 397,
         pgaTour: 5.287,
-        eighty: 5.881,
-        ninety: 6.437,
-        oneHundred: 6.993,
-        originalPGA: 5.287
+        amatuer: 5.881,
     }, {
         lie: 'x',
         distance: 398,
         pgaTour: 5.291,
-        eighty: 5.885,
-        ninety: 6.441,
-        oneHundred: 6.997,
-        originalPGA: 5.291
+        amatuer: 5.885,
     }, {
         lie: 'x',
         distance: 399,
         pgaTour: 5.296,
-        eighty: 5.89,
-        ninety: 6.446,
-        oneHundred: 7.002,
-        originalPGA: 5.296
+        amatuer: 5.89,
     }, {
         lie: 'x',
         distance: 400,
         pgaTour: 5.3,
-        eighty: 5.894,
-        ninety: 6.45,
-        oneHundred: 7.006,
-        originalPGA: 5.3
+        amatuer: 5.894,
     }, {
         lie: 'x',
         distance: 401,
         pgaTour: 5.302,
-        eighty: 5.896,
-        ninety: 6.452,
-        oneHundred: 7.008,
-        originalPGA: 5.302
+        amatuer: 5.896,
     }, {
         lie: 'x',
         distance: 402,
         pgaTour: 5.304,
-        eighty: 5.898,
-        ninety: 6.454,
-        oneHundred: 7.01,
-        originalPGA: 5.304
+        amatuer: 5.898,
     }, {
         lie: 'x',
         distance: 403,
         pgaTour: 5.306,
-        eighty: 5.9,
-        ninety: 6.456,
-        oneHundred: 7.012,
-        originalPGA: 5.306
+        amatuer: 5.9,
     }, {
         lie: 'x',
         distance: 404,
         pgaTour: 5.308,
-        eighty: 5.902,
-        ninety: 6.458,
-        oneHundred: 7.014,
-        originalPGA: 5.308
+        amatuer: 5.902,
     }, {
         lie: 'x',
         distance: 405,
         pgaTour: 5.31,
-        eighty: 5.904,
-        ninety: 6.46,
-        oneHundred: 7.016,
-        originalPGA: 5.31
+        amatuer: 5.904,
     }, {
         lie: 'x',
         distance: 406,
         pgaTour: 5.312,
-        eighty: 5.906,
-        ninety: 6.462,
-        oneHundred: 7.018,
-        originalPGA: 5.312
+        amatuer: 5.906,
     }, {
         lie: 'x',
         distance: 407,
         pgaTour: 5.314,
-        eighty: 5.908,
-        ninety: 6.464,
-        oneHundred: 7.02,
-        originalPGA: 5.314
+        amatuer: 5.908,
     }, {
         lie: 'x',
         distance: 408,
         pgaTour: 5.316,
-        eighty: 5.91,
-        ninety: 6.466,
-        oneHundred: 7.022,
-        originalPGA: 5.316
+        amatuer: 5.91,
     }, {
         lie: 'x',
         distance: 409,
         pgaTour: 5.318,
-        eighty: 5.912,
-        ninety: 6.468,
-        oneHundred: 7.024,
-        originalPGA: 5.318
+        amatuer: 5.912,
     }, {
         lie: 'x',
         distance: 410,
         pgaTour: 5.32,
-        eighty: 5.914,
-        ninety: 6.47,
-        oneHundred: 7.026,
-        originalPGA: 5.32
+        amatuer: 5.914,
     }, {
         lie: 'x',
         distance: 411,
         pgaTour: 5.322,
-        eighty: 5.916,
-        ninety: 6.472,
-        oneHundred: 7.028,
-        originalPGA: 5.322
+        amatuer: 5.916,
     }, {
         lie: 'x',
         distance: 412,
         pgaTour: 5.324,
-        eighty: 5.918,
-        ninety: 6.474,
-        oneHundred: 7.03,
-        originalPGA: 5.324
+        amatuer: 5.918,
     }, {
         lie: 'x',
         distance: 413,
         pgaTour: 5.326,
-        eighty: 5.92,
-        ninety: 6.476,
-        oneHundred: 7.032,
-        originalPGA: 5.326
+        amatuer: 5.92,
     }, {
         lie: 'x',
         distance: 414,
         pgaTour: 5.328,
-        eighty: 5.922,
-        ninety: 6.478,
-        oneHundred: 7.034,
-        originalPGA: 5.328
+        amatuer: 5.922,
     }, {
         lie: 'x',
         distance: 415,
         pgaTour: 5.33,
-        eighty: 5.924,
-        ninety: 6.48,
-        oneHundred: 7.036,
-        originalPGA: 5.33
+        amatuer: 5.924,
     }, {
         lie: 'x',
         distance: 416,
         pgaTour: 5.332,
-        eighty: 5.926,
-        ninety: 6.482,
-        oneHundred: 7.038,
-        originalPGA: 5.332
+        amatuer: 5.926,
     }, {
         lie: 'x',
         distance: 417,
         pgaTour: 5.334,
-        eighty: 5.928,
-        ninety: 6.484,
-        oneHundred: 7.04,
-        originalPGA: 5.334
+        amatuer: 5.928,
     }, {
         lie: 'x',
         distance: 418,
         pgaTour: 5.336,
-        eighty: 5.93,
-        ninety: 6.486,
-        oneHundred: 7.042,
-        originalPGA: 5.336
+        amatuer: 5.93,
     }, {
         lie: 'x',
         distance: 419,
         pgaTour: 5.338,
-        eighty: 5.932,
-        ninety: 6.488,
-        oneHundred: 7.044,
-        originalPGA: 5.338
+        amatuer: 5.932,
     }, {
         lie: 'x',
         distance: 420,
         pgaTour: 5.34,
-        eighty: 5.934,
-        ninety: 6.49,
-        oneHundred: 7.046,
-        originalPGA: 5.34
+        amatuer: 5.934,
     }, {
         lie: 'x',
         distance: 421,
         pgaTour: 5.343,
-        eighty: 5.937,
-        ninety: 6.493,
-        oneHundred: 7.049,
-        originalPGA: 5.343
+        amatuer: 5.937,
     }, {
         lie: 'x',
         distance: 422,
         pgaTour: 5.345,
-        eighty: 5.939,
-        ninety: 6.495,
-        oneHundred: 7.051,
-        originalPGA: 5.345
+        amatuer: 5.939,
     }, {
         lie: 'x',
         distance: 423,
         pgaTour: 5.348,
-        eighty: 5.942,
-        ninety: 6.498,
-        oneHundred: 7.054,
-        originalPGA: 5.348
+        amatuer: 5.942,
     }, {
         lie: 'x',
         distance: 424,
         pgaTour: 5.35,
-        eighty: 5.944,
-        ninety: 6.5,
-        oneHundred: 7.056,
-        originalPGA: 5.35
+        amatuer: 5.944,
     }, {
         lie: 'x',
         distance: 425,
         pgaTour: 5.353,
-        eighty: 5.947,
-        ninety: 6.503,
-        oneHundred: 7.059,
-        originalPGA: 5.353
+        amatuer: 5.947,
     }, {
         lie: 'x',
         distance: 426,
         pgaTour: 5.355,
-        eighty: 5.949,
-        ninety: 6.505,
-        oneHundred: 7.061,
-        originalPGA: 5.355
+        amatuer: 5.949,
     }, {
         lie: 'x',
         distance: 427,
         pgaTour: 5.358,
-        eighty: 5.952,
-        ninety: 6.508,
-        oneHundred: 7.064,
-        originalPGA: 5.358
+        amatuer: 5.952,
     }, {
         lie: 'x',
         distance: 428,
         pgaTour: 5.36,
-        eighty: 5.954,
-        ninety: 6.51,
-        oneHundred: 7.066,
-        originalPGA: 5.36
+        amatuer: 5.954,
     }, {
         lie: 'x',
         distance: 429,
         pgaTour: 5.363,
-        eighty: 5.957,
-        ninety: 6.513,
-        oneHundred: 7.069,
-        originalPGA: 5.363
+        amatuer: 5.957,
     }, {
         lie: 'x',
         distance: 430,
         pgaTour: 5.365,
-        eighty: 5.959,
-        ninety: 6.515,
-        oneHundred: 7.071,
-        originalPGA: 5.365
+        amatuer: 5.959,
     }, {
         lie: 'x',
         distance: 431,
         pgaTour: 5.368,
-        eighty: 5.962,
-        ninety: 6.518,
-        oneHundred: 7.074,
-        originalPGA: 5.368
+        amatuer: 5.962,
     }, {
         lie: 'x',
         distance: 432,
         pgaTour: 5.37,
-        eighty: 5.964,
-        ninety: 6.52,
-        oneHundred: 7.076,
-        originalPGA: 5.37
+        amatuer: 5.964,
     }, {
         lie: 'x',
         distance: 433,
         pgaTour: 5.373,
-        eighty: 5.967,
-        ninety: 6.523,
-        oneHundred: 7.079,
-        originalPGA: 5.373
+        amatuer: 5.967,
     }, {
         lie: 'x',
         distance: 434,
         pgaTour: 5.375,
-        eighty: 5.969,
-        ninety: 6.525,
-        oneHundred: 7.081,
-        originalPGA: 5.375
+        amatuer: 5.969,
     }, {
         lie: 'x',
         distance: 435,
         pgaTour: 5.378,
-        eighty: 5.972,
-        ninety: 6.528,
-        oneHundred: 7.084,
-        originalPGA: 5.378
+        amatuer: 5.972,
     }, {
         lie: 'x',
         distance: 436,
         pgaTour: 5.38,
-        eighty: 5.974,
-        ninety: 6.53,
-        oneHundred: 7.086,
-        originalPGA: 5.38
+        amatuer: 5.974,
     }, {
         lie: 'x',
         distance: 437,
         pgaTour: 5.383,
-        eighty: 5.977,
-        ninety: 6.533,
-        oneHundred: 7.089,
-        originalPGA: 5.383
+        amatuer: 5.977,
     }, {
         lie: 'x',
         distance: 438,
         pgaTour: 5.385,
-        eighty: 5.979,
-        ninety: 6.535,
-        oneHundred: 7.091,
-        originalPGA: 5.385
+        amatuer: 5.979,
     }, {
         lie: 'x',
         distance: 439,
         pgaTour: 5.388,
-        eighty: 5.982,
-        ninety: 6.538,
-        oneHundred: 7.094,
-        originalPGA: 5.388
+        amatuer: 5.982,
     }, {
         lie: 'x',
         distance: 440,
         pgaTour: 5.39,
-        eighty: 5.984,
-        ninety: 6.54,
-        oneHundred: 7.096,
-        originalPGA: 5.39
+        amatuer: 5.984,
     }, {
         lie: 'x',
         distance: 441,
         pgaTour: 5.395,
-        eighty: 5.989,
-        ninety: 6.545,
-        oneHundred: 7.101,
-        originalPGA: 5.395
+        amatuer: 5.989,
     }, {
         lie: 'x',
         distance: 442,
         pgaTour: 5.399,
-        eighty: 5.993,
-        ninety: 6.549,
-        oneHundred: 7.105,
-        originalPGA: 5.399
+        amatuer: 5.993,
     }, {
         lie: 'x',
         distance: 443,
         pgaTour: 5.404,
-        eighty: 5.998,
-        ninety: 6.554,
-        oneHundred: 7.11,
-        originalPGA: 5.404
+        amatuer: 5.998,
     }, {
         lie: 'x',
         distance: 444,
         pgaTour: 5.408,
-        eighty: 6.002,
-        ninety: 6.558,
-        oneHundred: 7.114,
-        originalPGA: 5.408
+        amatuer: 6.002,
     }, {
         lie: 'x',
         distance: 445,
         pgaTour: 5.413,
-        eighty: 6.007,
-        ninety: 6.563,
-        oneHundred: 7.119,
-        originalPGA: 5.413
+        amatuer: 6.007,
     }, {
         lie: 'x',
         distance: 446,
         pgaTour: 5.417,
-        eighty: 6.011,
-        ninety: 6.567,
-        oneHundred: 7.123,
-        originalPGA: 5.417
+        amatuer: 6.011,
     }, {
         lie: 'x',
         distance: 447,
         pgaTour: 5.422,
-        eighty: 6.016,
-        ninety: 6.572,
-        oneHundred: 7.128,
-        originalPGA: 5.422
+        amatuer: 6.016,
     }, {
         lie: 'x',
         distance: 448,
         pgaTour: 5.426,
-        eighty: 6.02,
-        ninety: 6.576,
-        oneHundred: 7.132,
-        originalPGA: 5.426
+        amatuer: 6.02,
     }, {
         lie: 'x',
         distance: 449,
         pgaTour: 5.431,
-        eighty: 6.025,
-        ninety: 6.581,
-        oneHundred: 7.137,
-        originalPGA: 5.431
+        amatuer: 6.025,
     }, {
         lie: 'x',
         distance: 450,
         pgaTour: 5.435,
-        eighty: 6.029,
-        ninety: 6.585,
-        oneHundred: 7.141,
-        originalPGA: 5.435
+        amatuer: 6.029,
     }, {
         lie: 'x',
         distance: 451,
         pgaTour: 5.44,
-        eighty: 6.034,
-        ninety: 6.59,
-        oneHundred: 7.146,
-        originalPGA: 5.44
+        amatuer: 6.034,
     }, {
         lie: 'x',
         distance: 452,
         pgaTour: 5.444,
-        eighty: 6.038,
-        ninety: 6.594,
-        oneHundred: 7.15,
-        originalPGA: 5.444
+        amatuer: 6.038,
     }, {
         lie: 'x',
         distance: 453,
         pgaTour: 5.449,
-        eighty: 6.043,
-        ninety: 6.599,
-        oneHundred: 7.155,
-        originalPGA: 5.449
+        amatuer: 6.043,
     }, {
         lie: 'x',
         distance: 454,
         pgaTour: 5.453,
-        eighty: 6.047,
-        ninety: 6.603,
-        oneHundred: 7.159,
-        originalPGA: 5.453
+        amatuer: 6.047,
     }, {
         lie: 'x',
         distance: 455,
         pgaTour: 5.458,
-        eighty: 6.052,
-        ninety: 6.608,
-        oneHundred: 7.164,
-        originalPGA: 5.458
+        amatuer: 6.052,
     }, {
         lie: 'x',
         distance: 456,
         pgaTour: 5.462,
-        eighty: 6.056,
-        ninety: 6.612,
-        oneHundred: 7.168,
-        originalPGA: 5.462
+        amatuer: 6.056,
     }, {
         lie: 'x',
         distance: 457,
         pgaTour: 5.467,
-        eighty: 6.061,
-        ninety: 6.617,
-        oneHundred: 7.173,
-        originalPGA: 5.467
+        amatuer: 6.061,
     }, {
         lie: 'x',
         distance: 458,
         pgaTour: 5.471,
-        eighty: 6.065,
-        ninety: 6.621,
-        oneHundred: 7.177,
-        originalPGA: 5.471
+        amatuer: 6.065,
     }, {
         lie: 'x',
         distance: 459,
         pgaTour: 5.476,
-        eighty: 6.07,
-        ninety: 6.626,
-        oneHundred: 7.182,
-        originalPGA: 5.476
+        amatuer: 6.07,
     }, {
         lie: 'x',
         distance: 460,
         pgaTour: 5.48,
-        eighty: 6.074,
-        ninety: 6.63,
-        oneHundred: 7.186,
-        originalPGA: 5.48
+        amatuer: 6.074,
     }, {
         lie: 'x',
         distance: 461,
         pgaTour: 5.486,
-        eighty: 6.08,
-        ninety: 6.636,
-        oneHundred: 7.192,
-        originalPGA: 5.486
+        amatuer: 6.08,
     }, {
         lie: 'x',
         distance: 462,
         pgaTour: 5.491,
-        eighty: 6.085,
-        ninety: 6.641,
-        oneHundred: 7.197,
-        originalPGA: 5.491
+        amatuer: 6.085,
     }, {
         lie: 'x',
         distance: 463,
         pgaTour: 5.497,
-        eighty: 6.091,
-        ninety: 6.647,
-        oneHundred: 7.203,
-        originalPGA: 5.497
+        amatuer: 6.091,
     }, {
         lie: 'x',
         distance: 464,
         pgaTour: 5.502,
-        eighty: 6.096,
-        ninety: 6.652,
-        oneHundred: 7.208,
-        originalPGA: 5.502
+        amatuer: 6.096,
     }, {
         lie: 'x',
         distance: 465,
         pgaTour: 5.508,
-        eighty: 6.102,
-        ninety: 6.658,
-        oneHundred: 7.214,
-        originalPGA: 5.508
+        amatuer: 6.102,
     }, {
         lie: 'x',
         distance: 466,
         pgaTour: 5.513,
-        eighty: 6.107,
-        ninety: 6.663,
-        oneHundred: 7.219,
-        originalPGA: 5.513
+        amatuer: 6.107,
     }, {
         lie: 'x',
         distance: 467,
         pgaTour: 5.519,
-        eighty: 6.113,
-        ninety: 6.669,
-        oneHundred: 7.225,
-        originalPGA: 5.519
+        amatuer: 6.113,
     }, {
         lie: 'x',
         distance: 468,
         pgaTour: 5.524,
-        eighty: 6.118,
-        ninety: 6.674,
-        oneHundred: 7.23,
-        originalPGA: 5.524
+        amatuer: 6.118,
     }, {
         lie: 'x',
         distance: 469,
         pgaTour: 5.53,
-        eighty: 6.124,
-        ninety: 6.68,
-        oneHundred: 7.236,
-        originalPGA: 5.53
+        amatuer: 6.124,
     }, {
         lie: 'x',
         distance: 470,
         pgaTour: 5.535,
-        eighty: 6.129,
-        ninety: 6.685,
-        oneHundred: 7.241,
-        originalPGA: 5.535
+        amatuer: 6.129,
     }, {
         lie: 'x',
         distance: 471,
         pgaTour: 5.541,
-        eighty: 6.135,
-        ninety: 6.691,
-        oneHundred: 7.247,
-        originalPGA: 5.541
+        amatuer: 6.135,
     }, {
         lie: 'x',
         distance: 472,
         pgaTour: 5.546,
-        eighty: 6.14,
-        ninety: 6.696,
-        oneHundred: 7.252,
-        originalPGA: 5.546
+        amatuer: 6.14,
     }, {
         lie: 'x',
         distance: 473,
         pgaTour: 5.552,
-        eighty: 6.146,
-        ninety: 6.702,
-        oneHundred: 7.258,
-        originalPGA: 5.552
+        amatuer: 6.146,
     }, {
         lie: 'x',
         distance: 474,
         pgaTour: 5.557,
-        eighty: 6.151,
-        ninety: 6.707,
-        oneHundred: 7.263,
-        originalPGA: 5.557
+        amatuer: 6.151,
     }, {
         lie: 'x',
         distance: 475,
         pgaTour: 5.563,
-        eighty: 6.157,
-        ninety: 6.713,
-        oneHundred: 7.269,
-        originalPGA: 5.563
+        amatuer: 6.157,
     }, {
         lie: 'x',
         distance: 476,
         pgaTour: 5.568,
-        eighty: 6.162,
-        ninety: 6.718,
-        oneHundred: 7.274,
-        originalPGA: 5.568
+        amatuer: 6.162,
     }, {
         lie: 'x',
         distance: 477,
         pgaTour: 5.574,
-        eighty: 6.168,
-        ninety: 6.724,
-        oneHundred: 7.28,
-        originalPGA: 5.574
+        amatuer: 6.168,
     }, {
         lie: 'x',
         distance: 478,
         pgaTour: 5.579,
-        eighty: 6.173,
-        ninety: 6.729,
-        oneHundred: 7.285,
-        originalPGA: 5.579
+        amatuer: 6.173,
     }, {
         lie: 'x',
         distance: 479,
         pgaTour: 5.585,
-        eighty: 6.179,
-        ninety: 6.735,
-        oneHundred: 7.291,
-        originalPGA: 5.585
+        amatuer: 6.179,
     }, {
         lie: 'x',
         distance: 480,
         pgaTour: 5.59,
-        eighty: 6.184,
-        ninety: 6.74,
-        oneHundred: 7.296,
-        originalPGA: 5.59
+        amatuer: 6.184,
     }, {
         lie: 'x',
         distance: 481,
         pgaTour: 5.597,
-        eighty: 6.191,
-        ninety: 6.747,
-        oneHundred: 7.303,
-        originalPGA: 5.597
-    }, {
+        amatuer: 6.191,
+        }, {
         lie: 'x',
         distance: 482,
         pgaTour: 5.603,
-        eighty: 6.197,
-        ninety: 6.753,
-        oneHundred: 7.309,
-        originalPGA: 5.603
+        amatuer: 6.197,
     }, {
         lie: 'x',
         distance: 483,
         pgaTour: 5.61,
-        eighty: 6.204,
-        ninety: 6.76,
-        oneHundred: 7.316,
-        originalPGA: 5.61
+        amatuer: 6.204,
     }, {
         lie: 'x',
         distance: 484,
         pgaTour: 5.616,
-        eighty: 6.21,
-        ninety: 6.766,
-        oneHundred: 7.322,
-        originalPGA: 5.616
+        amatuer: 6.21,
     }, {
         lie: 'x',
         distance: 485,
         pgaTour: 5.623,
-        eighty: 6.217,
-        ninety: 6.773,
-        oneHundred: 7.329,
-        originalPGA: 5.623
+        amatuer: 6.217,
     }, {
         lie: 'x',
         distance: 486,
         pgaTour: 5.629,
-        eighty: 6.223,
-        ninety: 6.779,
-        oneHundred: 7.335,
-        originalPGA: 5.629
+        amatuer: 6.223,
     }, {
         lie: 'x',
         distance: 487,
         pgaTour: 5.636,
-        eighty: 6.23,
-        ninety: 6.786,
-        oneHundred: 7.342,
-        originalPGA: 5.636
+        amatuer: 6.23,
     }, {
         lie: 'x',
         distance: 488,
         pgaTour: 5.642,
-        eighty: 6.236,
-        ninety: 6.792,
-        oneHundred: 7.348,
-        originalPGA: 5.642
+        amatuer: 6.236,
     }, {
         lie: 'x',
         distance: 489,
         pgaTour: 5.649,
-        eighty: 6.243,
-        ninety: 6.799,
-        oneHundred: 7.355,
-        originalPGA: 5.649
+        amatuer: 6.243,
     }, {
         lie: 'x',
         distance: 490,
         pgaTour: 5.655,
-        eighty: 6.249,
-        ninety: 6.805,
-        oneHundred: 7.361,
-        originalPGA: 5.655
+        amatuer: 6.249,
     }, {
         lie: 'x',
         distance: 491,
         pgaTour: 5.662,
-        eighty: 6.256,
-        ninety: 6.812,
-        oneHundred: 7.368,
-        originalPGA: 5.662
+        amatuer: 6.256,
     }, {
         lie: 'x',
         distance: 492,
         pgaTour: 5.668,
-        eighty: 6.262,
-        ninety: 6.818,
-        oneHundred: 7.374,
-        originalPGA: 5.668
+        amatuer: 6.262,
     }, {
         lie: 'x',
         distance: 493,
         pgaTour: 5.675,
-        eighty: 6.269,
-        ninety: 6.825,
-        oneHundred: 7.381,
-        originalPGA: 5.675
+        amatuer: 6.269,
     }, {
         lie: 'x',
         distance: 494,
         pgaTour: 5.681,
-        eighty: 6.275,
-        ninety: 6.831,
-        oneHundred: 7.387,
-        originalPGA: 5.681
+        amatuer: 6.275,
     }, {
         lie: 'x',
         distance: 495,
         pgaTour: 5.688,
-        eighty: 6.282,
-        ninety: 6.838,
-        oneHundred: 7.394,
-        originalPGA: 5.688
+        amatuer: 6.282,
     }, {
         lie: 'x',
         distance: 496,
         pgaTour: 5.694,
-        eighty: 6.288,
-        ninety: 6.844,
-        oneHundred: 7.4,
-        originalPGA: 5.694
+        amatuer: 6.288,
     }, {
         lie: 'x',
         distance: 497,
         pgaTour: 5.701,
-        eighty: 6.295,
-        ninety: 6.851,
-        oneHundred: 7.407,
-        originalPGA: 5.701
+        amatuer: 6.295,
     }, {
         lie: 'x',
         distance: 498,
         pgaTour: 5.707,
-        eighty: 6.301,
-        ninety: 6.857,
-        oneHundred: 7.413,
-        originalPGA: 5.707
+        amatuer: 6.301,
     }, {
         lie: 'x',
         distance: 499,
         pgaTour: 5.714,
-        eighty: 6.308,
-        ninety: 6.864,
-        oneHundred: 7.42,
-        originalPGA: 5.714
+        amatuer: 6.308,
     }, {
         lie: 'x',
         distance: 500,
         pgaTour: 5.72,
-        eighty: 6.314,
-        ninety: 6.87,
-        oneHundred: 7.426,
-        originalPGA: 5.72
+        amatuer: 6.314,
     }, {
         lie: 'x',
         distance: 501,
         pgaTour: 5.727,
-        eighty: 6.321,
-        ninety: 6.877,
-        oneHundred: 7.433,
-        originalPGA: 5.727
+        amatuer: 6.321,
     }, {
         lie: 'x',
         distance: 502,
         pgaTour: 5.733,
-        eighty: 6.327,
-        ninety: 6.883,
-        oneHundred: 7.439,
-        originalPGA: 5.733
+        amatuer: 6.327,
     }, {
         lie: 'x',
         distance: 503,
         pgaTour: 5.74,
-        eighty: 6.334,
-        ninety: 6.89,
-        oneHundred: 7.446,
-        originalPGA: 5.74
+        amatuer: 6.334,
     }, {
         lie: 'x',
         distance: 504,
         pgaTour: 5.746,
-        eighty: 6.34,
-        ninety: 6.896,
-        oneHundred: 7.452,
-        originalPGA: 5.746
+        amatuer: 6.34,
     }, {
         lie: 'x',
         distance: 505,
         pgaTour: 5.753,
-        eighty: 6.347,
-        ninety: 6.903,
-        oneHundred: 7.459,
-        originalPGA: 5.753
+        amatuer: 6.347,
     }, {
         lie: 'x',
         distance: 506,
         pgaTour: 5.759,
-        eighty: 6.353,
-        ninety: 6.909,
-        oneHundred: 7.465,
-        originalPGA: 5.759
+        amatuer: 6.353,
     }, {
         lie: 'x',
         distance: 507,
         pgaTour: 5.766,
-        eighty: 6.36,
-        ninety: 6.916,
-        oneHundred: 7.472,
-        originalPGA: 5.766
+        amatuer: 6.36,
     }, {
         lie: 'x',
         distance: 508,
         pgaTour: 5.772,
-        eighty: 6.366,
-        ninety: 6.922,
-        oneHundred: 7.478,
-        originalPGA: 5.772
+        amatuer: 6.366,
     }, {
         lie: 'x',
         distance: 509,
         pgaTour: 5.779,
-        eighty: 6.373,
-        ninety: 6.929,
-        oneHundred: 7.485,
-        originalPGA: 5.779
+        amatuer: 6.373,
     }, {
         lie: 'x',
         distance: 510,
         pgaTour: 5.785,
-        eighty: 6.379,
-        ninety: 6.935,
-        oneHundred: 7.491,
-        originalPGA: 5.785
+        amatuer: 6.379,
     }, {
         lie: 'x',
         distance: 511,
         pgaTour: 5.792,
-        eighty: 6.386,
-        ninety: 6.942,
-        oneHundred: 7.498,
-        originalPGA: 5.792
+        amatuer: 6.386,
     }, {
         lie: 'x',
         distance: 512,
         pgaTour: 5.798,
-        eighty: 6.392,
-        ninety: 6.948,
-        oneHundred: 7.504,
-        originalPGA: 5.798
+        amatuer: 6.392,
     }, {
         lie: 'x',
         distance: 513,
         pgaTour: 5.805,
-        eighty: 6.399,
-        ninety: 6.955,
-        oneHundred: 7.511,
-        originalPGA: 5.805
+        amatuer: 6.399,
     }, {
         lie: 'x',
         distance: 514,
         pgaTour: 5.811,
-        eighty: 6.405,
-        ninety: 6.961,
-        oneHundred: 7.517,
-        originalPGA: 5.811
+        amatuer: 6.405,
     }, {
         lie: 'x',
         distance: 515,
         pgaTour: 5.818,
-        eighty: 6.412,
-        ninety: 6.968,
-        oneHundred: 7.524,
-        originalPGA: 5.818
+        amatuer: 6.412,
     }, {
         lie: 'x',
         distance: 516,
         pgaTour: 5.824,
-        eighty: 6.418,
-        ninety: 6.974,
-        oneHundred: 7.53,
-        originalPGA: 5.824
+        amatuer: 6.418,
     }, {
         lie: 'x',
         distance: 517,
         pgaTour: 5.831,
-        eighty: 6.425,
-        ninety: 6.981,
-        oneHundred: 7.537,
-        originalPGA: 5.831
+        amatuer: 6.425,
     }, {
         lie: 'x',
         distance: 518,
         pgaTour: 5.837,
-        eighty: 6.431,
-        ninety: 6.987,
-        oneHundred: 7.543,
-        originalPGA: 5.837
+        amatuer: 6.431,
     }, {
         lie: 'x',
         distance: 519,
         pgaTour: 5.844,
-        eighty: 6.438,
-        ninety: 6.994,
-        oneHundred: 7.55,
-        originalPGA: 5.844
+        amatuer: 6.438,
     }, {
         lie: 'x',
         distance: 520,
         pgaTour: 5.85,
-        eighty: 6.444,
-        ninety: 7,
-        oneHundred: 7.556,
-        originalPGA: 5.85
+        amatuer: 6.444,
     }, {
         lie: 'x',
         distance: 521,
         pgaTour: 5.856,
-        eighty: 6.45,
-        ninety: 7.006,
-        oneHundred: 7.562,
-        originalPGA: 5.856
+        amatuer: 6.45,
     }, {
         lie: 'x',
         distance: 522,
         pgaTour: 5.862,
-        eighty: 6.456,
-        ninety: 7.012,
-        oneHundred: 7.568,
-        originalPGA: 5.862
+        amatuer: 6.456,
     }, {
         lie: 'x',
         distance: 523,
         pgaTour: 5.868,
-        eighty: 6.462,
-        ninety: 7.018,
-        oneHundred: 7.574,
-        originalPGA: 5.868
+        amatuer: 6.462,
     }, {
         lie: 'x',
         distance: 524,
         pgaTour: 5.874,
-        eighty: 6.468,
-        ninety: 7.024,
-        oneHundred: 7.58,
-        originalPGA: 5.874
+        amatuer: 6.468,
     }, {
         lie: 'x',
         distance: 525,
         pgaTour: 5.88,
-        eighty: 6.474,
-        ninety: 7.03,
-        oneHundred: 7.586,
-        originalPGA: 5.88
+        amatuer: 6.474,
     }, {
         lie: 'x',
         distance: 526,
         pgaTour: 5.886,
-        eighty: 6.48,
-        ninety: 7.036,
-        oneHundred: 7.592,
-        originalPGA: 5.886
+        amatuer: 6.48,
     }, {
         lie: 'x',
         distance: 527,
         pgaTour: 5.892,
-        eighty: 6.486,
-        ninety: 7.042,
-        oneHundred: 7.598,
-        originalPGA: 5.892
+        amatuer: 6.486,
     }, {
         lie: 'x',
         distance: 528,
         pgaTour: 5.898,
-        eighty: 6.492,
-        ninety: 7.048,
-        oneHundred: 7.604,
-        originalPGA: 5.898
+        amatuer: 6.492,
     }, {
         lie: 'x',
         distance: 529,
         pgaTour: 5.904,
-        eighty: 6.498,
-        ninety: 7.054,
-        oneHundred: 7.61,
-        originalPGA: 5.904
+        amatuer: 6.498,
     }, {
         lie: 'x',
         distance: 530,
         pgaTour: 5.91,
-        eighty: 6.504,
-        ninety: 7.06,
-        oneHundred: 7.616,
-        originalPGA: 5.91
+        amatuer: 6.504,
     }, {
         lie: 'x',
         distance: 531,
         pgaTour: 5.916,
-        eighty: 6.51,
-        ninety: 7.066,
-        oneHundred: 7.622,
-        originalPGA: 5.916
+        amatuer: 6.51,
     }, {
         lie: 'x',
         distance: 532,
         pgaTour: 5.922,
-        eighty: 6.516,
-        ninety: 7.072,
-        oneHundred: 7.628,
-        originalPGA: 5.922
+        amatuer: 6.516,
     }, {
         lie: 'x',
         distance: 533,
         pgaTour: 5.928,
-        eighty: 6.522,
-        ninety: 7.078,
-        oneHundred: 7.634,
-        originalPGA: 5.928
+        amatuer: 6.522,
     }, {
         lie: 'x',
         distance: 534,
         pgaTour: 5.934,
-        eighty: 6.528,
-        ninety: 7.084,
-        oneHundred: 7.64,
-        originalPGA: 5.934
+        amatuer: 6.528,
     }, {
         lie: 'x',
         distance: 535,
         pgaTour: 5.94,
-        eighty: 6.534,
-        ninety: 7.09,
-        oneHundred: 7.646,
-        originalPGA: 5.94
+        amatuer: 6.534,
     }, {
         lie: 'x',
         distance: 536,
         pgaTour: 5.946,
-        eighty: 6.54,
-        ninety: 7.096,
-        oneHundred: 7.652,
-        originalPGA: 5.946
+        amatuer: 6.54,
     }, {
         lie: 'x',
         distance: 537,
         pgaTour: 5.952,
-        eighty: 6.546,
-        ninety: 7.102,
-        oneHundred: 7.658,
-        originalPGA: 5.952
+        amatuer: 6.546,
     }, {
         lie: 'x',
         distance: 538,
         pgaTour: 5.958,
-        eighty: 6.552,
-        ninety: 7.108,
-        oneHundred: 7.664,
-        originalPGA: 5.958
+        amatuer: 6.552,
     }, {
         lie: 'x',
         distance: 539,
         pgaTour: 5.964,
-        eighty: 6.558,
-        ninety: 7.114,
-        oneHundred: 7.67,
-        originalPGA: 5.964
+        amatuer: 6.558,
     }, {
         lie: 'x',
         distance: 540,
         pgaTour: 5.97,
-        eighty: 6.564,
-        ninety: 7.12,
-        oneHundred: 7.676,
-        originalPGA: 5.97
+        amatuer: 6.564,
     }, {
         lie: 'x',
         distance: 541,
         pgaTour: 5.974,
-        eighty: 6.568,
-        ninety: 7.124,
-        oneHundred: 7.68,
-        originalPGA: 5.974
+        amatuer: 6.568,
     }, {
         lie: 'x',
         distance: 542,
         pgaTour: 5.978,
-        eighty: 6.572,
-        ninety: 7.128,
-        oneHundred: 7.684,
-        originalPGA: 5.978
+        amatuer: 6.572,
     }, {
         lie: 'x',
         distance: 543,
         pgaTour: 5.982,
-        eighty: 6.576,
-        ninety: 7.132,
-        oneHundred: 7.688,
-        originalPGA: 5.982
+        amatuer: 6.576,
     }, {
         lie: 'x',
         distance: 544,
         pgaTour: 5.986,
-        eighty: 6.58,
-        ninety: 7.136,
-        oneHundred: 7.692,
-        originalPGA: 5.986
+        amatuer: 6.58,
     }, {
         lie: 'x',
         distance: 545,
         pgaTour: 5.99,
-        eighty: 6.584,
-        ninety: 7.14,
-        oneHundred: 7.696,
-        originalPGA: 5.99
+        amatuer: 6.584,
     }, {
         lie: 'x',
         distance: 546,
         pgaTour: 5.994,
-        eighty: 6.588,
-        ninety: 7.144,
-        oneHundred: 7.7,
-        originalPGA: 5.994
+        amatuer: 6.588,
     }, {
         lie: 'x',
         distance: 547,
         pgaTour: 5.998,
-        eighty: 6.592,
-        ninety: 7.148,
-        oneHundred: 7.704,
-        originalPGA: 5.998
+        amatuer: 6.592,
     }, {
         lie: 'x',
         distance: 548,
         pgaTour: 6.002,
-        eighty: 6.596,
-        ninety: 7.152,
-        oneHundred: 7.708,
-        originalPGA: 6.002
+        amatuer: 6.596,
     }, {
         lie: 'x',
         distance: 549,
         pgaTour: 6.006,
-        eighty: 6.6,
-        ninety: 7.156,
-        oneHundred: 7.712,
-        originalPGA: 6.006
+        amatuer: 6.6,
     }, {
         lie: 'x',
         distance: 550,
         pgaTour: 6.01,
-        eighty: 6.604,
-        ninety: 7.16,
-        oneHundred: 7.716,
-        originalPGA: 6.01
+        amatuer: 6.604,
     }, {
         lie: 'x',
         distance: 551,
         pgaTour: 6.014,
-        eighty: 6.608,
-        ninety: 7.164,
-        oneHundred: 7.72,
-        originalPGA: 6.014
+        amatuer: 6.608,
     }, {
         lie: 'x',
         distance: 552,
         pgaTour: 6.018,
-        eighty: 6.612,
-        ninety: 7.168,
-        oneHundred: 7.724,
-        originalPGA: 6.018
+        amatuer: 6.612,
     }, {
         lie: 'x',
         distance: 553,
         pgaTour: 6.022,
-        eighty: 6.616,
-        ninety: 7.172,
-        oneHundred: 7.728,
-        originalPGA: 6.022
+        amatuer: 6.616,
     }, {
         lie: 'x',
         distance: 554,
         pgaTour: 6.026,
-        eighty: 6.62,
-        ninety: 7.176,
-        oneHundred: 7.732,
-        originalPGA: 6.026
+        amatuer: 6.62,
     }, {
         lie: 'x',
         distance: 555,
         pgaTour: 6.03,
-        eighty: 6.624,
-        ninety: 7.18,
-        oneHundred: 7.736,
-        originalPGA: 6.03
+        amatuer: 6.624,
     }, {
         lie: 'x',
         distance: 556,
         pgaTour: 6.034,
-        eighty: 6.628,
-        ninety: 7.184,
-        oneHundred: 7.74,
-        originalPGA: 6.034
+        amatuer: 6.628,
     }, {
         lie: 'x',
         distance: 557,
         pgaTour: 6.038,
-        eighty: 6.632,
-        ninety: 7.188,
-        oneHundred: 7.744,
-        originalPGA: 6.038
+        amatuer: 6.632,
     }, {
         lie: 'x',
         distance: 558,
         pgaTour: 6.042,
-        eighty: 6.636,
-        ninety: 7.192,
-        oneHundred: 7.748,
-        originalPGA: 6.042
+        amatuer: 6.636,
     }, {
         lie: 'x',
         distance: 559,
         pgaTour: 6.046,
-        eighty: 6.64,
-        ninety: 7.196,
-        oneHundred: 7.752,
-        originalPGA: 6.046
+        amatuer: 6.64,
     }, {
         lie: 'x',
         distance: 560,
         pgaTour: 6.05,
-        eighty: 6.644,
-        ninety: 7.2,
-        oneHundred: 7.756,
-        originalPGA: 6.05
+        amatuer: 6.644,
     }, {
         lie: 'x',
         distance: 561,
         pgaTour: 6.053,
-        eighty: 6.647,
-        ninety: 7.203,
-        oneHundred: 7.759,
-        originalPGA: 6.053
+        amatuer: 6.647,
     }, {
         lie: 'x',
         distance: 562,
         pgaTour: 6.055,
-        eighty: 6.649,
-        ninety: 7.205,
-        oneHundred: 7.761,
-        originalPGA: 6.055
+        amatuer: 6.649,
     }, {
         lie: 'x',
         distance: 563,
         pgaTour: 6.058,
-        eighty: 6.652,
-        ninety: 7.208,
-        oneHundred: 7.764,
-        originalPGA: 6.058
+        amatuer: 6.652,
     }, {
         lie: 'x',
         distance: 564,
         pgaTour: 6.06,
-        eighty: 6.654,
-        ninety: 7.21,
-        oneHundred: 7.766,
-        originalPGA: 6.06
+        amatuer: 6.654,
     }, {
         lie: 'x',
         distance: 565,
         pgaTour: 6.063,
-        eighty: 6.657,
-        ninety: 7.213,
-        oneHundred: 7.769,
-        originalPGA: 6.063
+        amatuer: 6.657,
     }, {
         lie: 'x',
         distance: 566,
         pgaTour: 6.065,
-        eighty: 6.659,
-        ninety: 7.215,
-        oneHundred: 7.771,
-        originalPGA: 6.065
+        amatuer: 6.659,
     }, {
         lie: 'x',
         distance: 567,
         pgaTour: 6.068,
-        eighty: 6.662,
-        ninety: 7.218,
-        oneHundred: 7.774,
-        originalPGA: 6.068
+        amatuer: 6.662,
     }, {
         lie: 'x',
         distance: 568,
         pgaTour: 6.07,
-        eighty: 6.664,
-        ninety: 7.22,
-        oneHundred: 7.776,
-        originalPGA: 6.07
+        amatuer: 6.664,
     }, {
         lie: 'x',
         distance: 569,
         pgaTour: 6.073,
-        eighty: 6.667,
-        ninety: 7.223,
-        oneHundred: 7.779,
-        originalPGA: 6.073
+        amatuer: 6.667,
     }, {
         lie: 'x',
         distance: 570,
         pgaTour: 6.075,
-        eighty: 6.669,
-        ninety: 7.225,
-        oneHundred: 7.781,
-        originalPGA: 6.075
+        amatuer: 6.669,
     }, {
         lie: 'x',
         distance: 571,
         pgaTour: 6.078,
-        eighty: 6.672,
-        ninety: 7.228,
-        oneHundred: 7.784,
-        originalPGA: 6.078
+        amatuer: 6.672,
     }, {
         lie: 'x',
         distance: 572,
         pgaTour: 6.08,
-        eighty: 6.674,
-        ninety: 7.23,
-        oneHundred: 7.786,
-        originalPGA: 6.08
+        amatuer: 6.674,
     }, {
         lie: 'x',
         distance: 573,
         pgaTour: 6.083,
-        eighty: 6.677,
-        ninety: 7.233,
-        oneHundred: 7.789,
-        originalPGA: 6.083
+        amatuer: 6.677,
     }, {
         lie: 'x',
         distance: 574,
         pgaTour: 6.085,
-        eighty: 6.679,
-        ninety: 7.235,
-        oneHundred: 7.791,
-        originalPGA: 6.085
+        amatuer: 6.679,
     }, {
         lie: 'x',
         distance: 575,
         pgaTour: 6.088,
-        eighty: 6.682,
-        ninety: 7.238,
-        oneHundred: 7.794,
-        originalPGA: 6.088
+        amatuer: 6.682,
     }, {
         lie: 'x',
         distance: 576,
         pgaTour: 6.09,
-        eighty: 6.684,
-        ninety: 7.24,
-        oneHundred: 7.796,
-        originalPGA: 6.09
+        amatuer: 6.684,
     }, {
         lie: 'x',
         distance: 577,
         pgaTour: 6.093,
-        eighty: 6.687,
-        ninety: 7.243,
-        oneHundred: 7.799,
-        originalPGA: 6.093
+        amatuer: 6.687,
     }, {
         lie: 'x',
         distance: 578,
         pgaTour: 6.095,
-        eighty: 6.689,
-        ninety: 7.245,
-        oneHundred: 7.801,
-        originalPGA: 6.095
+        amatuer: 6.689,
     }, {
         lie: 'x',
         distance: 579,
         pgaTour: 6.098,
-        eighty: 6.692,
-        ninety: 7.248,
-        oneHundred: 7.804,
-        originalPGA: 6.098
+        amatuer: 6.692,
     }, {
         lie: 'x',
         distance: 580,
         pgaTour: 6.1,
-        eighty: 6.694,
-        ninety: 7.25,
-        oneHundred: 7.806,
-        originalPGA: 6.1
+        amatuer: 6.694,
     }, {
         lie: 'x',
         distance: 581,
         pgaTour: 6.102,
-        eighty: 6.696,
-        ninety: 7.252,
-        oneHundred: 7.808,
-        originalPGA: 6.102
+        amatuer: 6.696,
     }, {
         lie: 'x',
         distance: 582,
         pgaTour: 6.103,
-        eighty: 6.697,
-        ninety: 7.253,
-        oneHundred: 7.809,
-        originalPGA: 6.103
+        amatuer: 6.697,
     }, {
         lie: 'x',
         distance: 583,
         pgaTour: 6.105,
-        eighty: 6.699,
-        ninety: 7.255,
-        oneHundred: 7.811,
-        originalPGA: 6.105
+        amatuer: 6.699,
     }, {
         lie: 'x',
         distance: 584,
         pgaTour: 6.106,
-        eighty: 6.7,
-        ninety: 7.256,
-        oneHundred: 7.812,
-        originalPGA: 6.106
+        amatuer: 6.7,
     }, {
         lie: 'x',
         distance: 585,
         pgaTour: 6.108,
-        eighty: 6.702,
-        ninety: 7.258,
-        oneHundred: 7.814,
-        originalPGA: 6.108
+        amatuer: 6.702,
     }, {
         lie: 'x',
         distance: 586,
         pgaTour: 6.109,
-        eighty: 6.703,
-        ninety: 7.259,
-        oneHundred: 7.815,
-        originalPGA: 6.109
+        amatuer: 6.703,
     }, {
         lie: 'x',
         distance: 587,
         pgaTour: 6.111,
-        eighty: 6.705,
-        ninety: 7.261,
-        oneHundred: 7.817,
-        originalPGA: 6.111
+        amatuer: 6.705,
     }, {
         lie: 'x',
         distance: 588,
         pgaTour: 6.112,
-        eighty: 6.706,
-        ninety: 7.262,
-        oneHundred: 7.818,
-        originalPGA: 6.112
+        amatuer: 6.706,
     }, {
         lie: 'x',
         distance: 589,
         pgaTour: 6.114,
-        eighty: 6.708,
-        ninety: 7.264,
-        oneHundred: 7.82,
-        originalPGA: 6.114
+        amatuer: 6.708,
     }, {
         lie: 'x',
         distance: 590,
         pgaTour: 6.115,
-        eighty: 6.709,
-        ninety: 7.265,
-        oneHundred: 7.821,
-        originalPGA: 6.115
+        amatuer: 6.709,
     }, {
         lie: 'x',
         distance: 591,
         pgaTour: 6.117,
-        eighty: 6.711,
-        ninety: 7.267,
-        oneHundred: 7.823,
-        originalPGA: 6.117
+        amatuer: 6.711,
     }, {
         lie: 'x',
         distance: 592,
         pgaTour: 6.118,
-        eighty: 6.712,
-        ninety: 7.268,
-        oneHundred: 7.824,
-        originalPGA: 6.118
+        amatuer: 6.712,
     }, {
         lie: 'x',
         distance: 593,
         pgaTour: 6.12,
-        eighty: 6.714,
-        ninety: 7.27,
-        oneHundred: 7.826,
-        originalPGA: 6.12
+        amatuer: 6.714,
     }, {
         lie: 'x',
         distance: 594,
         pgaTour: 6.121,
-        eighty: 6.715,
-        ninety: 7.271,
-        oneHundred: 7.827,
-        originalPGA: 6.121
+        amatuer: 6.715,
     }, {
         lie: 'x',
         distance: 595,
         pgaTour: 6.123,
-        eighty: 6.717,
-        ninety: 7.273,
-        oneHundred: 7.829,
-        originalPGA: 6.123
+        amatuer: 6.717,
     }, {
         lie: 'x',
         distance: 596,
         pgaTour: 6.124,
-        eighty: 6.718,
-        ninety: 7.274,
-        oneHundred: 7.83,
-        originalPGA: 6.124
+        amatuer: 6.718,
     }, {
         lie: 'x',
         distance: 597,
         pgaTour: 6.126,
-        eighty: 6.72,
-        ninety: 7.276,
-        oneHundred: 7.832,
-        originalPGA: 6.126
+        amatuer: 6.72,
     }, {
         lie: 'x',
         distance: 598,
         pgaTour: 6.127,
-        eighty: 6.721,
-        ninety: 7.277,
-        oneHundred: 7.833,
-        originalPGA: 6.127
+        amatuer: 6.721,
     }, {
         lie: 'x',
         distance: 599,
         pgaTour: 6.129,
-        eighty: 6.723,
-        ninety: 7.279,
-        oneHundred: 7.835,
-        originalPGA: 6.129
+        amatuer: 6.723,
     }, {
         lie: 'x',
         distance: 600,
         pgaTour: 6.13,
-        eighty: 6.724,
-        ninety: 7.28,
-        oneHundred: 7.836,
-        originalPGA: 6.13
+        amatuer: 6.724,
     },
     // SAND
     {
         lie: 's',
         distance: 1,
         pgaTour: 1.72,
-        eighty: 2.974,
-        ninety: 3.53,
-        oneHundred: 4.086,
-        originalPGA: 2.38
+        amatuer: 2.974,
     }, {
         lie: 's',
         distance: 2,
         pgaTour: 1.992,
-        eighty: 2.979,
-        ninety: 3.535,
-        oneHundred: 4.091,
-        originalPGA: 2.385
+        amatuer: 2.979,
     }, {
         lie: 's',
         distance: 3,
         pgaTour: 2.184,
-        eighty: 2.984,
-        ninety: 3.54,
-        oneHundred: 4.096,
-        originalPGA: 2.39
-    }, {
+        amatuer: 2.984,
+        }, {
         lie: 's',
         distance: 4,
         pgaTour: 2.306,
-        eighty: 2.989,
-        ninety: 3.545,
-        oneHundred: 4.101,
-        originalPGA: 2.395
+        amatuer: 2.989,
     }, {
         lie: 's',
         distance: 5,
         pgaTour: 2.37,
-        eighty: 2.994,
-        ninety: 3.55,
-        oneHundred: 4.106,
-        originalPGA: 2.4
+        amatuer: 2.994,
     }, {
         lie: 's',
         distance: 6,
         pgaTour: 2.4,
-        eighty: 3.004,
-        ninety: 3.56,
-        oneHundred: 4.116,
-        originalPGA: 2.41
+        amatuer: 3.004,
     }, {
         lie: 's',
         distance: 7,
         pgaTour: 2.41,
-        eighty: 3.014,
-        ninety: 3.57,
-        oneHundred: 4.126,
-        originalPGA: 2.42
+        amatuer: 3.014,
     }, {
         lie: 's',
         distance: 8,
         pgaTour: 2.435,
-        eighty: 3.024,
-        ninety: 3.58,
-        oneHundred: 4.136,
-        originalPGA: 2.43
+        amatuer: 3.024,
     }, {
         lie: 's',
         distance: 9,
         pgaTour: 2.447,
-        eighty: 3.034,
-        ninety: 3.59,
-        oneHundred: 4.146,
-        originalPGA: 2.44
+        amatuer: 3.034,
     }, {
         lie: 's',
         distance: 10,
         pgaTour: 2.45,
-        eighty: 3.044,
-        ninety: 3.6,
-        oneHundred: 4.156,
-        originalPGA: 2.45
+        amatuer: 3.044,
     }, {
         lie: 's',
         distance: 11,
         pgaTour: 2.462,
-        eighty: 3.054,
-        ninety: 3.61,
-        oneHundred: 4.166,
-        originalPGA: 2.46
+        amatuer: 3.054,
     }, {
         lie: 's',
         distance: 12,
         pgaTour: 2.47,
-        eighty: 3.064,
-        ninety: 3.62,
-        oneHundred: 4.176,
-        originalPGA: 2.47
+        amatuer: 3.064,
     }, {
         lie: 's',
         distance: 13,
         pgaTour: 2.473,
-        eighty: 3.074,
-        ninety: 3.63,
-        oneHundred: 4.186,
-        originalPGA: 2.48
+        amatuer: 3.074,
     }, {
         lie: 's',
         distance: 14,
         pgaTour: 2.484,
-        eighty: 3.084,
-        ninety: 3.64,
-        oneHundred: 4.196,
-        originalPGA: 2.49
+        amatuer: 3.084,
     }, {
         lie: 's',
         distance: 15,
         pgaTour: 2.5,
-        eighty: 3.094,
-        ninety: 3.65,
-        oneHundred: 4.206,
-        originalPGA: 2.5
+        amatuer: 3.094,
     }, {
         lie: 's',
         distance: 16,
         pgaTour: 2.5,
-        eighty: 3.104,
-        ninety: 3.66,
-        oneHundred: 4.216,
-        originalPGA: 2.51
+        amatuer: 3.104,
     }, {
         lie: 's',
         distance: 17,
         pgaTour: 2.512,
-        eighty: 3.114,
-        ninety: 3.67,
-        oneHundred: 4.226,
-        originalPGA: 2.52
+        amatuer: 3.114,
     }, {
         lie: 's',
         distance: 18,
         pgaTour: 2.51,
-        eighty: 3.124,
-        ninety: 3.68,
-        oneHundred: 4.236,
-        originalPGA: 2.53
+        amatuer: 3.124,
     }, {
         lie: 's',
         distance: 19,
         pgaTour: 2.518,
-        eighty: 3.124,
-        ninety: 3.68,
-        oneHundred: 4.236,
-        originalPGA: 2.53
+        amatuer: 3.124,
     }, {
         lie: 's',
         distance: 20,
         pgaTour: 2.53,
-        eighty: 3.124,
-        ninety: 3.68,
-        oneHundred: 4.236,
-        originalPGA: 2.53
+        amatuer: 3.124,
     }, {
         lie: 's',
         distance: 21,
         pgaTour: 2.551,
-        eighty: 3.139,
-        ninety: 3.695,
-        oneHundred: 4.251,
-        originalPGA: 2.545
+        amatuer: 3.139,
     }, {
         lie: 's',
         distance: 22,
         pgaTour: 2.56,
-        eighty: 3.153,
-        ninety: 3.709,
-        oneHundred: 4.265,
-        originalPGA: 2.559
+        amatuer: 3.153,
     }, {
         lie: 's',
         distance: 23,
         pgaTour: 2.571,
-        eighty: 3.168,
-        ninety: 3.724,
-        oneHundred: 4.28,
-        originalPGA: 2.574
+        amatuer: 3.168,
     }, {
         lie: 's',
         distance: 24,
         pgaTour: 2.581,
-        eighty: 3.182,
-        ninety: 3.738,
-        oneHundred: 4.294,
-        originalPGA: 2.588
+        amatuer: 3.182,
     }, {
         lie: 's',
         distance: 25,
         pgaTour: 2.595,
-        eighty: 3.197,
-        ninety: 3.753,
-        oneHundred: 4.309,
-        originalPGA: 2.603
+        amatuer: 3.197,
     }, {
         lie: 's',
         distance: 26,
         pgaTour: 2.604,
-        eighty: 3.211,
-        ninety: 3.767,
-        oneHundred: 4.323,
-        originalPGA: 2.617
+        amatuer: 3.211,
     }, {
         lie: 's',
         distance: 27,
         pgaTour: 2.618,
-        eighty: 3.226,
-        ninety: 3.782,
-        oneHundred: 4.338,
-        originalPGA: 2.632
+        amatuer: 3.226,
     }, {
         lie: 's',
         distance: 28,
         pgaTour: 2.631,
-        eighty: 3.24,
-        ninety: 3.796,
-        oneHundred: 4.352,
-        originalPGA: 2.646
+        amatuer: 3.24,
     }, {
         lie: 's',
         distance: 29,
         pgaTour: 2.645,
-        eighty: 3.255,
-        ninety: 3.811,
-        oneHundred: 4.367,
-        originalPGA: 2.661
+        amatuer: 3.255,
     }, {
         lie: 's',
         distance: 30,
         pgaTour: 2.66,
-        eighty: 3.269,
-        ninety: 3.825,
-        oneHundred: 4.381,
-        originalPGA: 2.675
+        amatuer: 3.269,
     }, {
         lie: 's',
         distance: 31,
         pgaTour: 2.69,
-        eighty: 3.284,
-        ninety: 3.84,
-        oneHundred: 4.396,
-        originalPGA: 2.69
+        amatuer: 3.284,
     }, {
         lie: 's',
         distance: 32,
         pgaTour: 2.704,
-        eighty: 3.298,
-        ninety: 3.854,
-        oneHundred: 4.41,
-        originalPGA: 2.704
+        amatuer: 3.298,
     }, {
         lie: 's',
         distance: 33,
         pgaTour: 2.719,
-        eighty: 3.313,
-        ninety: 3.869,
-        oneHundred: 4.425,
-        originalPGA: 2.719
+        amatuer: 3.313,
     }, {
         lie: 's',
         distance: 34,
         pgaTour: 2.733,
-        eighty: 3.327,
-        ninety: 3.883,
-        oneHundred: 4.439,
-        originalPGA: 2.733
+        amatuer: 3.327,
     }, {
         lie: 's',
         distance: 35,
         pgaTour: 2.748,
-        eighty: 3.342,
-        ninety: 3.898,
-        oneHundred: 4.454,
-        originalPGA: 2.748
+        amatuer: 3.342,
     }, {
         lie: 's',
         distance: 36,
         pgaTour: 2.762,
-        eighty: 3.356,
-        ninety: 3.912,
-        oneHundred: 4.468,
-        originalPGA: 2.762
+        amatuer: 3.356,
     }, {
         lie: 's',
         distance: 37,
         pgaTour: 2.777,
-        eighty: 3.371,
-        ninety: 3.927,
-        oneHundred: 4.483,
-        originalPGA: 2.777
+        amatuer: 3.371,
     }, {
         lie: 's',
         distance: 38,
         pgaTour: 2.791,
-        eighty: 3.385,
-        ninety: 3.941,
-        oneHundred: 4.497,
-        originalPGA: 2.791
+        amatuer: 3.385,
     }, {
         lie: 's',
         distance: 39,
         pgaTour: 2.806,
-        eighty: 3.4,
-        ninety: 3.956,
-        oneHundred: 4.512,
-        originalPGA: 2.806
+        amatuer: 3.4,
     }, {
         lie: 's',
         distance: 40,
         pgaTour: 2.82,
-        eighty: 3.414,
-        ninety: 3.97,
-        oneHundred: 4.526,
-        originalPGA: 2.82
+        amatuer: 3.414,
     }, {
         lie: 's',
         distance: 41,
         pgaTour: 2.837,
-        eighty: 3.431,
-        ninety: 3.987,
-        oneHundred: 4.543,
-        originalPGA: 2.837
+        amatuer: 3.431,
     }, {
         lie: 's',
         distance: 42,
         pgaTour: 2.853,
-        eighty: 3.447,
-        ninety: 4.003,
-        oneHundred: 4.559,
-        originalPGA: 2.853
+        amatuer: 3.447,
     }, {
         lie: 's',
         distance: 43,
         pgaTour: 2.87,
-        eighty: 3.464,
-        ninety: 4.02,
-        oneHundred: 4.576,
-        originalPGA: 2.87
+        amatuer: 3.464,
     }, {
         lie: 's',
         distance: 44,
         pgaTour: 2.886,
-        eighty: 3.48,
-        ninety: 4.036,
-        oneHundred: 4.592,
-        originalPGA: 2.886
+        amatuer: 3.48,
     }, {
         lie: 's',
         distance: 45,
         pgaTour: 2.903,
-        eighty: 3.497,
-        ninety: 4.053,
-        oneHundred: 4.609,
-        originalPGA: 2.903
+        amatuer: 3.497,
     }, {
         lie: 's',
         distance: 46,
         pgaTour: 2.919,
-        eighty: 3.513,
-        ninety: 4.069,
-        oneHundred: 4.625,
-        originalPGA: 2.919
+        amatuer: 3.513,
     }, {
         lie: 's',
         distance: 47,
         pgaTour: 2.936,
-        eighty: 3.53,
-        ninety: 4.086,
-        oneHundred: 4.642,
-        originalPGA: 2.936
+        amatuer: 3.53,
     }, {
         lie: 's',
         distance: 48,
         pgaTour: 2.952,
-        eighty: 3.546,
-        ninety: 4.102,
-        oneHundred: 4.658,
-        originalPGA: 2.952
+        amatuer: 3.546,
     }, {
         lie: 's',
         distance: 49,
         pgaTour: 2.969,
-        eighty: 3.563,
-        ninety: 4.119,
-        oneHundred: 4.675,
-        originalPGA: 2.969
+        amatuer: 3.563,
     }, {
         lie: 's',
         distance: 50,
         pgaTour: 2.985,
-        eighty: 3.579,
-        ninety: 4.135,
-        oneHundred: 4.691,
-        originalPGA: 2.985
+        amatuer: 3.579,
     }, {
         lie: 's',
         distance: 51,
         pgaTour: 3.002,
-        eighty: 3.596,
-        ninety: 4.152,
-        oneHundred: 4.708,
-        originalPGA: 3.002
+        amatuer: 3.596,
     }, {
         lie: 's',
         distance: 52,
         pgaTour: 3.018,
-        eighty: 3.612,
-        ninety: 4.168,
-        oneHundred: 4.724,
-        originalPGA: 3.018
+        amatuer: 3.612,
     }, {
         lie: 's',
         distance: 53,
         pgaTour: 3.035,
-        eighty: 3.629,
-        ninety: 4.185,
-        oneHundred: 4.741,
-        originalPGA: 3.035
+        amatuer: 3.629,
     }, {
         lie: 's',
         distance: 54,
         pgaTour: 3.051,
-        eighty: 3.645,
-        ninety: 4.201,
-        oneHundred: 4.757,
-        originalPGA: 3.051
+        amatuer: 3.645,
     }, {
         lie: 's',
         distance: 55,
         pgaTour: 3.068,
-        eighty: 3.662,
-        ninety: 4.218,
-        oneHundred: 4.774,
-        originalPGA: 3.068
+        amatuer: 3.662,
     }, {
         lie: 's',
         distance: 56,
         pgaTour: 3.084,
-        eighty: 3.678,
-        ninety: 4.234,
-        oneHundred: 4.79,
-        originalPGA: 3.084
+        amatuer: 3.678,
     }, {
         lie: 's',
         distance: 57,
         pgaTour: 3.101,
-        eighty: 3.695,
-        ninety: 4.251,
-        oneHundred: 4.807,
-        originalPGA: 3.101
+        amatuer: 3.695,
     }, {
         lie: 's',
         distance: 58,
         pgaTour: 3.117,
-        eighty: 3.711,
-        ninety: 4.267,
-        oneHundred: 4.823,
-        originalPGA: 3.117
+        amatuer: 3.711,
     }, {
         lie: 's',
         distance: 59,
         pgaTour: 3.134,
-        eighty: 3.728,
-        ninety: 4.284,
-        oneHundred: 4.84,
-        originalPGA: 3.134
+        amatuer: 3.728,
     }, {
         lie: 's',
         distance: 60,
         pgaTour: 3.15,
-        eighty: 3.744,
-        ninety: 4.3,
-        oneHundred: 4.856,
-        originalPGA: 3.15
+        amatuer: 3.744,
     }, {
         lie: 's',
         distance: 61,
         pgaTour: 3.155,
-        eighty: 3.749,
-        ninety: 4.305,
-        oneHundred: 4.861,
-        originalPGA: 3.155
+        amatuer: 3.749,
     }, {
         lie: 's',
         distance: 62,
         pgaTour: 3.159,
-        eighty: 3.753,
-        ninety: 4.309,
-        oneHundred: 4.865,
-        originalPGA: 3.159
+        amatuer: 3.753,
     }, {
         lie: 's',
         distance: 63,
         pgaTour: 3.164,
-        eighty: 3.758,
-        ninety: 4.314,
-        oneHundred: 4.87,
-        originalPGA: 3.164
+        amatuer: 3.758,
     }, {
         lie: 's',
         distance: 64,
         pgaTour: 3.168,
-        eighty: 3.762,
-        ninety: 4.318,
-        oneHundred: 4.874,
-        originalPGA: 3.168
+        amatuer: 3.762,
     }, {
         lie: 's',
         distance: 65,
         pgaTour: 3.173,
-        eighty: 3.767,
-        ninety: 4.323,
-        oneHundred: 4.879,
-        originalPGA: 3.173
+        amatuer: 3.767,
     }, {
         lie: 's',
         distance: 66,
         pgaTour: 3.177,
-        eighty: 3.771,
-        ninety: 4.327,
-        oneHundred: 4.883,
-        originalPGA: 3.177
+        amatuer: 3.771,
     }, {
         lie: 's',
         distance: 67,
         pgaTour: 3.182,
-        eighty: 3.776,
-        ninety: 4.332,
-        oneHundred: 4.888,
-        originalPGA: 3.182
+        amatuer: 3.776,
     }, {
         lie: 's',
         distance: 68,
         pgaTour: 3.186,
-        eighty: 3.78,
-        ninety: 4.336,
-        oneHundred: 4.892,
-        originalPGA: 3.186
+        amatuer: 3.78,
     }, {
         lie: 's',
         distance: 69,
         pgaTour: 3.191,
-        eighty: 3.785,
-        ninety: 4.341,
-        oneHundred: 4.897,
-        originalPGA: 3.191
+        amatuer: 3.785,
     }, {
         lie: 's',
         distance: 70,
         pgaTour: 3.195,
-        eighty: 3.789,
-        ninety: 4.345,
-        oneHundred: 4.901,
-        originalPGA: 3.195
+        amatuer: 3.789,
     }, {
         lie: 's',
         distance: 71,
         pgaTour: 3.2,
-        eighty: 3.794,
-        ninety: 4.35,
-        oneHundred: 4.906,
-        originalPGA: 3.2
+        amatuer: 3.794,
     }, {
         lie: 's',
         distance: 72,
         pgaTour: 3.204,
-        eighty: 3.798,
-        ninety: 4.354,
-        oneHundred: 4.91,
-        originalPGA: 3.204
+        amatuer: 3.798,
     }, {
         lie: 's',
         distance: 73,
         pgaTour: 3.209,
-        eighty: 3.803,
-        ninety: 4.359,
-        oneHundred: 4.915,
-        originalPGA: 3.209
+        amatuer: 3.803,
     }, {
         lie: 's',
         distance: 74,
         pgaTour: 3.213,
-        eighty: 3.807,
-        ninety: 4.363,
-        oneHundred: 4.919,
-        originalPGA: 3.213
+        amatuer: 3.807,
     }, {
         lie: 's',
         distance: 75,
         pgaTour: 3.218,
-        eighty: 3.812,
-        ninety: 4.368,
-        oneHundred: 4.924,
-        originalPGA: 3.218
+        amatuer: 3.812,
     }, {
         lie: 's',
         distance: 76,
         pgaTour: 3.222,
-        eighty: 3.816,
-        ninety: 4.372,
-        oneHundred: 4.928,
-        originalPGA: 3.222
+        amatuer: 3.816,
     }, {
         lie: 's',
         distance: 77,
         pgaTour: 3.227,
-        eighty: 3.821,
-        ninety: 4.377,
-        oneHundred: 4.933,
-        originalPGA: 3.227
+        amatuer: 3.821,
     }, {
         lie: 's',
         distance: 78,
         pgaTour: 3.231,
-        eighty: 3.825,
-        ninety: 4.381,
-        oneHundred: 4.937,
-        originalPGA: 3.231
+        amatuer: 3.825,
     }, {
         lie: 's',
         distance: 79,
         pgaTour: 3.236,
-        eighty: 3.83,
-        ninety: 4.386,
-        oneHundred: 4.942,
-        originalPGA: 3.236
+        amatuer: 3.83,
     }, {
         lie: 's',
         distance: 80,
         pgaTour: 3.24,
-        eighty: 3.834,
-        ninety: 4.39,
-        oneHundred: 4.946,
-        originalPGA: 3.24
+        amatuer: 3.834,
     }, {
         lie: 's',
         distance: 81,
         pgaTour: 3.24,
-        eighty: 3.834,
-        ninety: 4.39,
-        oneHundred: 4.946,
-        originalPGA: 3.24
+        amatuer: 3.834,
     }, {
         lie: 's',
         distance: 82,
         pgaTour: 3.239,
-        eighty: 3.833,
-        ninety: 4.389,
-        oneHundred: 4.945,
-        originalPGA: 3.239
+        amatuer: 3.833,
     }, {
         lie: 's',
         distance: 83,
         pgaTour: 3.239,
-        eighty: 3.833,
-        ninety: 4.389,
-        oneHundred: 4.945,
-        originalPGA: 3.239
+        amatuer: 3.833,
     }, {
         lie: 's',
         distance: 84,
         pgaTour: 3.238,
-        eighty: 3.832,
-        ninety: 4.388,
-        oneHundred: 4.944,
-        originalPGA: 3.238
+        amatuer: 3.832,
     }, {
         lie: 's',
         distance: 85,
         pgaTour: 3.238,
-        eighty: 3.832,
-        ninety: 4.388,
-        oneHundred: 4.944,
-        originalPGA: 3.238
+        amatuer: 3.832,
     }, {
         lie: 's',
         distance: 86,
         pgaTour: 3.237,
-        eighty: 3.831,
-        ninety: 4.387,
-        oneHundred: 4.943,
-        originalPGA: 3.237
+        amatuer: 3.831,
     }, {
         lie: 's',
         distance: 87,
         pgaTour: 3.237,
-        eighty: 3.831,
-        ninety: 4.387,
-        oneHundred: 4.943,
-        originalPGA: 3.237
+        amatuer: 3.831,
     }, {
         lie: 's',
         distance: 88,
         pgaTour: 3.236,
-        eighty: 3.83,
-        ninety: 4.386,
-        oneHundred: 4.942,
-        originalPGA: 3.236
+        amatuer: 3.83,
     }, {
         lie: 's',
         distance: 89,
         pgaTour: 3.236,
-        eighty: 3.83,
-        ninety: 4.386,
-        oneHundred: 4.942,
-        originalPGA: 3.236
+        amatuer: 3.83,
     }, {
         lie: 's',
         distance: 90,
         pgaTour: 3.235,
-        eighty: 3.829,
-        ninety: 4.385,
-        oneHundred: 4.941,
-        originalPGA: 3.235
+        amatuer: 3.829,
     }, {
         lie: 's',
         distance: 91,
         pgaTour: 3.235,
-        eighty: 3.829,
-        ninety: 4.385,
-        oneHundred: 4.941,
-        originalPGA: 3.235
+        amatuer: 3.829,
     }, {
         lie: 's',
         distance: 92,
         pgaTour: 3.234,
-        eighty: 3.828,
-        ninety: 4.384,
-        oneHundred: 4.94,
-        originalPGA: 3.234
+        amatuer: 3.828,
     }, {
         lie: 's',
         distance: 93,
         pgaTour: 3.234,
-        eighty: 3.828,
-        ninety: 4.384,
-        oneHundred: 4.94,
-        originalPGA: 3.234
+        amatuer: 3.828,
     }, {
         lie: 's',
         distance: 94,
         pgaTour: 3.233,
-        eighty: 3.827,
-        ninety: 4.383,
-        oneHundred: 4.939,
-        originalPGA: 3.233
+        amatuer: 3.827,
     }, {
         lie: 's',
         distance: 95,
         pgaTour: 3.233,
-        eighty: 3.827,
-        ninety: 4.383,
-        oneHundred: 4.939,
-        originalPGA: 3.233
+        amatuer: 3.827,
     }, {
         lie: 's',
         distance: 96,
         pgaTour: 3.232,
-        eighty: 3.826,
-        ninety: 4.382,
-        oneHundred: 4.938,
-        originalPGA: 3.232
+        amatuer: 3.826,
     }, {
         lie: 's',
         distance: 97,
         pgaTour: 3.232,
-        eighty: 3.826,
-        ninety: 4.382,
-        oneHundred: 4.938,
-        originalPGA: 3.232
+        amatuer: 3.826,
     }, {
         lie: 's',
         distance: 98,
         pgaTour: 3.231,
-        eighty: 3.825,
-        ninety: 4.381,
-        oneHundred: 4.937,
-        originalPGA: 3.231
+        amatuer: 3.825,
     }, {
         lie: 's',
         distance: 99,
         pgaTour: 3.231,
-        eighty: 3.825,
-        ninety: 4.381,
-        oneHundred: 4.937,
-        originalPGA: 3.231
+        amatuer: 3.825,
     }, {
         lie: 's',
         distance: 100,
         pgaTour: 3.23,
-        eighty: 3.824,
-        ninety: 4.38,
-        oneHundred: 4.936,
-        originalPGA: 3.23
+        amatuer: 3.824,
     }, {
         lie: 's',
         distance: 101,
         pgaTour: 3.229,
-        eighty: 3.823,
-        ninety: 4.379,
-        oneHundred: 4.935,
-        originalPGA: 3.229
+        amatuer: 3.823,
     }, {
         lie: 's',
         distance: 102,
         pgaTour: 3.228,
-        eighty: 3.822,
-        ninety: 4.378,
-        oneHundred: 4.934,
-        originalPGA: 3.228
+        amatuer: 3.822,
     }, {
         lie: 's',
         distance: 103,
         pgaTour: 3.227,
-        eighty: 3.821,
-        ninety: 4.377,
-        oneHundred: 4.933,
-        originalPGA: 3.227
+        amatuer: 3.821,
     }, {
         lie: 's',
         distance: 104,
         pgaTour: 3.226,
-        eighty: 3.82,
-        ninety: 4.376,
-        oneHundred: 4.932,
-        originalPGA: 3.226
+        amatuer: 3.82,
     }, {
         lie: 's',
         distance: 105,
         pgaTour: 3.225,
-        eighty: 3.819,
-        ninety: 4.375,
-        oneHundred: 4.931,
-        originalPGA: 3.225
+        amatuer: 3.819,
     }, {
         lie: 's',
         distance: 106,
         pgaTour: 3.224,
-        eighty: 3.818,
-        ninety: 4.374,
-        oneHundred: 4.93,
-        originalPGA: 3.224
+        amatuer: 3.818,
     }, {
         lie: 's',
         distance: 107,
         pgaTour: 3.223,
-        eighty: 3.817,
-        ninety: 4.373,
-        oneHundred: 4.929,
-        originalPGA: 3.223
+        amatuer: 3.817,
     }, {
         lie: 's',
         distance: 108,
         pgaTour: 3.222,
-        eighty: 3.816,
-        ninety: 4.372,
-        oneHundred: 4.928,
-        originalPGA: 3.222
+        amatuer: 3.816,
     }, {
         lie: 's',
         distance: 109,
         pgaTour: 3.221,
-        eighty: 3.815,
-        ninety: 4.371,
-        oneHundred: 4.927,
-        originalPGA: 3.221
+        amatuer: 3.815,
     }, {
         lie: 's',
         distance: 110,
         pgaTour: 3.22,
-        eighty: 3.814,
-        ninety: 4.37,
-        oneHundred: 4.926,
-        originalPGA: 3.22
+        amatuer: 3.814,
     }, {
         lie: 's',
         distance: 111,
         pgaTour: 3.219,
-        eighty: 3.813,
-        ninety: 4.369,
-        oneHundred: 4.925,
-        originalPGA: 3.219
+        amatuer: 3.813,
     }, {
         lie: 's',
         distance: 112,
         pgaTour: 3.218,
-        eighty: 3.812,
-        ninety: 4.368,
-        oneHundred: 4.924,
-        originalPGA: 3.218
+        amatuer: 3.812,
     }, {
         lie: 's',
         distance: 113,
         pgaTour: 3.217,
-        eighty: 3.811,
-        ninety: 4.367,
-        oneHundred: 4.923,
-        originalPGA: 3.217
+        amatuer: 3.811,
     }, {
         lie: 's',
         distance: 114,
         pgaTour: 3.216,
-        eighty: 3.81,
-        ninety: 4.366,
-        oneHundred: 4.922,
-        originalPGA: 3.216
+        amatuer: 3.81,
     }, {
         lie: 's',
         distance: 115,
         pgaTour: 3.215,
-        eighty: 3.809,
-        ninety: 4.365,
-        oneHundred: 4.921,
-        originalPGA: 3.215
+        amatuer: 3.809,
     }, {
         lie: 's',
         distance: 116,
         pgaTour: 3.214,
-        eighty: 3.808,
-        ninety: 4.364,
-        oneHundred: 4.92,
-        originalPGA: 3.214
+        amatuer: 3.808,
     }, {
         lie: 's',
         distance: 117,
         pgaTour: 3.213,
-        eighty: 3.807,
-        ninety: 4.363,
-        oneHundred: 4.919,
-        originalPGA: 3.213
+        amatuer: 3.807,
     }, {
         lie: 's',
         distance: 118,
         pgaTour: 3.212,
-        eighty: 3.806,
-        ninety: 4.362,
-        oneHundred: 4.918,
-        originalPGA: 3.212
+        amatuer: 3.806,
     }, {
         lie: 's',
         distance: 119,
         pgaTour: 3.211,
-        eighty: 3.805,
-        ninety: 4.361,
-        oneHundred: 4.917,
-        originalPGA: 3.211
+        amatuer: 3.805,
     }, {
         lie: 's',
         distance: 120,
         pgaTour: 3.21,
-        eighty: 3.804,
-        ninety: 4.36,
-        oneHundred: 4.916,
-        originalPGA: 3.21
+        amatuer: 3.804,
     }, {
         lie: 's',
         distance: 121,
         pgaTour: 3.211,
-        eighty: 3.805,
-        ninety: 4.361,
-        oneHundred: 4.917,
-        originalPGA: 3.211
+        amatuer: 3.805,
     }, {
         lie: 's',
         distance: 122,
         pgaTour: 3.211,
-        eighty: 3.805,
-        ninety: 4.361,
-        oneHundred: 4.917,
-        originalPGA: 3.211
+        amatuer: 3.805,
     }, {
         lie: 's',
         distance: 123,
         pgaTour: 3.212,
-        eighty: 3.806,
-        ninety: 4.362,
-        oneHundred: 4.918,
-        originalPGA: 3.212
+        amatuer: 3.806,
     }, {
         lie: 's',
         distance: 124,
         pgaTour: 3.212,
-        eighty: 3.806,
-        ninety: 4.362,
-        oneHundred: 4.918,
-        originalPGA: 3.212
+        amatuer: 3.806,
     }, {
         lie: 's',
         distance: 125,
         pgaTour: 3.213,
-        eighty: 3.807,
-        ninety: 4.363,
-        oneHundred: 4.919,
-        originalPGA: 3.213
-    }, {
+        amatuer: 3.807
+        }, {
         lie: 's',
         distance: 126,
         pgaTour: 3.213,
-        eighty: 3.807,
-        ninety: 4.363,
-        oneHundred: 4.919,
-        originalPGA: 3.213
+        amatuer: 3.807,
     }, {
         lie: 's',
         distance: 127,
         pgaTour: 3.214,
-        eighty: 3.808,
-        ninety: 4.364,
-        oneHundred: 4.92,
-        originalPGA: 3.214
+        amatuer: 3.808,
     }, {
         lie: 's',
         distance: 128,
         pgaTour: 3.214,
-        eighty: 3.808,
-        ninety: 4.364,
-        oneHundred: 4.92,
-        originalPGA: 3.214
+        amatuer: 3.808,
     }, {
         lie: 's',
         distance: 129,
         pgaTour: 3.215,
-        eighty: 3.809,
-        ninety: 4.365,
-        oneHundred: 4.921,
-        originalPGA: 3.215
+        amatuer: 3.809,
     }, {
         lie: 's',
         distance: 130,
         pgaTour: 3.215,
-        eighty: 3.809,
-        ninety: 4.365,
-        oneHundred: 4.921,
-        originalPGA: 3.215
+        amatuer: 3.809,
     }, {
         lie: 's',
         distance: 131,
         pgaTour: 3.216,
-        eighty: 3.81,
-        ninety: 4.366,
-        oneHundred: 4.922,
-        originalPGA: 3.216
+        amatuer: 3.81,
     }, {
         lie: 's',
         distance: 132,
         pgaTour: 3.216,
-        eighty: 3.81,
-        ninety: 4.366,
-        oneHundred: 4.922,
-        originalPGA: 3.216
+        amatuer: 3.81,
     }, {
         lie: 's',
         distance: 133,
         pgaTour: 3.217,
-        eighty: 3.811,
-        ninety: 4.367,
-        oneHundred: 4.923,
-        originalPGA: 3.217
+        amatuer: 3.811,
     }, {
         lie: 's',
         distance: 134,
         pgaTour: 3.217,
-        eighty: 3.811,
-        ninety: 4.367,
-        oneHundred: 4.923,
-        originalPGA: 3.217
+        amatuer: 3.811,
     }, {
         lie: 's',
         distance: 135,
         pgaTour: 3.218,
-        eighty: 3.812,
-        ninety: 4.368,
-        oneHundred: 4.924,
-        originalPGA: 3.218
+        amatuer: 3.812,
     }, {
         lie: 's',
         distance: 136,
         pgaTour: 3.218,
-        eighty: 3.812,
-        ninety: 4.368,
-        oneHundred: 4.924,
-        originalPGA: 3.218
+        amatuer: 3.812,
     }, {
         lie: 's',
         distance: 137,
         pgaTour: 3.219,
-        eighty: 3.813,
-        ninety: 4.369,
-        oneHundred: 4.925,
-        originalPGA: 3.219
+        amatuer: 3.813,
     }, {
         lie: 's',
         distance: 138,
         pgaTour: 3.219,
-        eighty: 3.813,
-        ninety: 4.369,
-        oneHundred: 4.925,
-        originalPGA: 3.219
+        amatuer: 3.813,
     }, {
         lie: 's',
         distance: 139,
         pgaTour: 3.22,
-        eighty: 3.814,
-        ninety: 4.37,
-        oneHundred: 4.926,
-        originalPGA: 3.22
+        amatuer: 3.814,
     }, {
         lie: 's',
         distance: 140,
         pgaTour: 3.22,
-        eighty: 3.814,
-        ninety: 4.37,
-        oneHundred: 4.926,
-        originalPGA: 3.22
+        amatuer: 3.814,
     }, {
         lie: 's',
         distance: 141,
         pgaTour: 3.223,
-        eighty: 3.817,
-        ninety: 4.373,
-        oneHundred: 4.929,
-        originalPGA: 3.223
+        amatuer: 3.817,
     }, {
         lie: 's',
         distance: 142,
         pgaTour: 3.226,
-        eighty: 3.82,
-        ninety: 4.376,
-        oneHundred: 4.932,
-        originalPGA: 3.226
+        amatuer: 3.82,
     }, {
         lie: 's',
         distance: 143,
         pgaTour: 3.229,
-        eighty: 3.823,
-        ninety: 4.379,
-        oneHundred: 4.935,
-        originalPGA: 3.229
+        amatuer: 3.823,
     }, {
         lie: 's',
         distance: 144,
         pgaTour: 3.232,
-        eighty: 3.826,
-        ninety: 4.382,
-        oneHundred: 4.938,
-        originalPGA: 3.232
+        amatuer: 3.826,
     }, {
         lie: 's',
         distance: 145,
         pgaTour: 3.235,
-        eighty: 3.829,
-        ninety: 4.385,
-        oneHundred: 4.941,
-        originalPGA: 3.235
+        amatuer: 3.829,
     }, {
         lie: 's',
         distance: 146,
         pgaTour: 3.238,
-        eighty: 3.832,
-        ninety: 4.388,
-        oneHundred: 4.944,
-        originalPGA: 3.238
+        amatuer: 3.832,
     }, {
         lie: 's',
         distance: 147,
         pgaTour: 3.241,
-        eighty: 3.835,
-        ninety: 4.391,
-        oneHundred: 4.947,
-        originalPGA: 3.241
+        amatuer: 3.835,
     }, {
         lie: 's',
         distance: 148,
         pgaTour: 3.244,
-        eighty: 3.838,
-        ninety: 4.394,
-        oneHundred: 4.95,
-        originalPGA: 3.244
+        amatuer: 3.838,
     }, {
         lie: 's',
         distance: 149,
         pgaTour: 3.247,
-        eighty: 3.841,
-        ninety: 4.397,
-        oneHundred: 4.953,
-        originalPGA: 3.247
+        amatuer: 3.841,
     }, {
         lie: 's',
         distance: 150,
         pgaTour: 3.25,
-        eighty: 3.844,
-        ninety: 4.4,
-        oneHundred: 4.956,
-        originalPGA: 3.25
+        amatuer: 3.844,
     }, {
         lie: 's',
         distance: 151,
         pgaTour: 3.253,
-        eighty: 3.847,
-        ninety: 4.403,
-        oneHundred: 4.959,
-        originalPGA: 3.253
+        amatuer: 3.847,
     }, {
         lie: 's',
         distance: 152,
         pgaTour: 3.256,
-        eighty: 3.85,
-        ninety: 4.406,
-        oneHundred: 4.962,
-        originalPGA: 3.256
+        amatuer: 3.85,
     }, {
         lie: 's',
         distance: 153,
         pgaTour: 3.259,
-        eighty: 3.853,
-        ninety: 4.409,
-        oneHundred: 4.965,
-        originalPGA: 3.259
+        amatuer: 3.853,
     }, {
         lie: 's',
         distance: 154,
         pgaTour: 3.262,
-        eighty: 3.856,
-        ninety: 4.412,
-        oneHundred: 4.968,
-        originalPGA: 3.262
+        amatuer: 3.856,
     }, {
         lie: 's',
         distance: 155,
         pgaTour: 3.265,
-        eighty: 3.859,
-        ninety: 4.415,
-        oneHundred: 4.971,
-        originalPGA: 3.265
+        amatuer: 3.859,
     }, {
         lie: 's',
         distance: 156,
         pgaTour: 3.268,
-        eighty: 3.862,
-        ninety: 4.418,
-        oneHundred: 4.974,
-        originalPGA: 3.268
+        amatuer: 3.862,
     }, {
         lie: 's',
         distance: 157,
         pgaTour: 3.271,
-        eighty: 3.865,
-        ninety: 4.421,
-        oneHundred: 4.977,
-        originalPGA: 3.271
+        amatuer: 3.865,
     }, {
         lie: 's',
         distance: 158,
         pgaTour: 3.274,
-        eighty: 3.868,
-        ninety: 4.424,
-        oneHundred: 4.98,
-        originalPGA: 3.274
+        amatuer: 3.868,
     }, {
         lie: 's',
         distance: 159,
         pgaTour: 3.277,
-        eighty: 3.871,
-        ninety: 4.427,
-        oneHundred: 4.983,
-        originalPGA: 3.277
+        amatuer: 3.871,
     }, {
         lie: 's',
         distance: 160,
         pgaTour: 3.28,
-        eighty: 3.874,
-        ninety: 4.43,
-        oneHundred: 4.986,
-        originalPGA: 3.28
+        amatuer: 3.874,
     }, {
         lie: 's',
         distance: 161,
         pgaTour: 3.286,
-        eighty: 3.88,
-        ninety: 4.436,
-        oneHundred: 4.992,
-        originalPGA: 3.286
+        amatuer: 3.88,
     }, {
         lie: 's',
         distance: 162,
         pgaTour: 3.292,
-        eighty: 3.886,
-        ninety: 4.442,
-        oneHundred: 4.998,
-        originalPGA: 3.292
+        amatuer: 3.886,
     }, {
         lie: 's',
         distance: 163,
         pgaTour: 3.298,
-        eighty: 3.892,
-        ninety: 4.448,
-        oneHundred: 5.004,
-        originalPGA: 3.298
+        amatuer: 3.892,
     }, {
         lie: 's',
         distance: 164,
         pgaTour: 3.304,
-        eighty: 3.898,
-        ninety: 4.454,
-        oneHundred: 5.01,
-        originalPGA: 3.304
+        amatuer: 3.898,
     }, {
         lie: 's',
         distance: 165,
         pgaTour: 3.31,
-        eighty: 3.904,
-        ninety: 4.46,
-        oneHundred: 5.016,
-        originalPGA: 3.31
+        amatuer: 3.904,
     }, {
         lie: 's',
         distance: 166,
         pgaTour: 3.316,
-        eighty: 3.91,
-        ninety: 4.466,
-        oneHundred: 5.022,
-        originalPGA: 3.316
+        amatuer: 3.91,
     }, {
         lie: 's',
         distance: 167,
         pgaTour: 3.322,
-        eighty: 3.916,
-        ninety: 4.472,
-        oneHundred: 5.028,
-        originalPGA: 3.322
+        amatuer: 3.916,
     }, {
         lie: 's',
         distance: 168,
         pgaTour: 3.328,
-        eighty: 3.922,
-        ninety: 4.478,
-        oneHundred: 5.034,
-        originalPGA: 3.328
+        amatuer: 3.922,
     }, {
         lie: 's',
         distance: 169,
         pgaTour: 3.334,
-        eighty: 3.928,
-        ninety: 4.484,
-        oneHundred: 5.04,
-        originalPGA: 3.334
+        amatuer: 3.928,
     }, {
         lie: 's',
         distance: 170,
         pgaTour: 3.34,
-        eighty: 3.934,
-        ninety: 4.49,
-        oneHundred: 5.046,
-        originalPGA: 3.34
+        amatuer: 3.934,
     }, {
         lie: 's',
         distance: 171,
         pgaTour: 3.346,
-        eighty: 3.94,
-        ninety: 4.496,
-        oneHundred: 5.052,
-        originalPGA: 3.346
+        amatuer: 3.94,
     }, {
         lie: 's',
         distance: 172,
         pgaTour: 3.352,
-        eighty: 3.946,
-        ninety: 4.502,
-        oneHundred: 5.058,
-        originalPGA: 3.352
+        amatuer: 3.946,
     }, {
         lie: 's',
         distance: 173,
         pgaTour: 3.358,
-        eighty: 3.952,
-        ninety: 4.508,
-        oneHundred: 5.064,
-        originalPGA: 3.358
+        amatuer: 3.952,
     }, {
         lie: 's',
         distance: 174,
         pgaTour: 3.364,
-        eighty: 3.958,
-        ninety: 4.514,
-        oneHundred: 5.07,
-        originalPGA: 3.364
+        amatuer: 3.958,
     }, {
         lie: 's',
         distance: 175,
         pgaTour: 3.37,
-        eighty: 3.964,
-        ninety: 4.52,
-        oneHundred: 5.076,
-        originalPGA: 3.37
+        amatuer: 3.964,
     }, {
         lie: 's',
         distance: 176,
         pgaTour: 3.376,
-        eighty: 3.97,
-        ninety: 4.526,
-        oneHundred: 5.082,
-        originalPGA: 3.376
+        amatuer: 3.97,
     }, {
         lie: 's',
         distance: 177,
         pgaTour: 3.382,
-        eighty: 3.976,
-        ninety: 4.532,
-        oneHundred: 5.088,
-        originalPGA: 3.382
+        amatuer: 3.976,
     }, {
         lie: 's',
         distance: 178,
         pgaTour: 3.388,
-        eighty: 3.982,
-        ninety: 4.538,
-        oneHundred: 5.094,
-        originalPGA: 3.388
+        amatuer: 3.982,
     }, {
         lie: 's',
         distance: 179,
         pgaTour: 3.394,
-        eighty: 3.988,
-        ninety: 4.544,
-        oneHundred: 5.1,
-        originalPGA: 3.394
+        amatuer: 3.988,
     }, {
         lie: 's',
         distance: 180,
         pgaTour: 3.4,
-        eighty: 3.994,
-        ninety: 4.55,
-        oneHundred: 5.106,
-        originalPGA: 3.4
+        amatuer: 3.994,
     }, {
         lie: 's',
         distance: 181,
         pgaTour: 3.408,
-        eighty: 4.002,
-        ninety: 4.558,
-        oneHundred: 5.114,
-        originalPGA: 3.408
+        amatuer: 4.002,
     }, {
         lie: 's',
         distance: 182,
         pgaTour: 3.415,
-        eighty: 4.009,
-        ninety: 4.565,
-        oneHundred: 5.121,
-        originalPGA: 3.415
+        amatuer: 4.009,
     }, {
         lie: 's',
         distance: 183,
         pgaTour: 3.423,
-        eighty: 4.017,
-        ninety: 4.573,
-        oneHundred: 5.129,
-        originalPGA: 3.423
+        amatuer: 4.017,
     }, {
         lie: 's',
         distance: 184,
         pgaTour: 3.43,
-        eighty: 4.024,
-        ninety: 4.58,
-        oneHundred: 5.136,
-        originalPGA: 3.43
+        amatuer: 4.024,
     }, {
         lie: 's',
         distance: 185,
         pgaTour: 3.438,
-        eighty: 4.032,
-        ninety: 4.588,
-        oneHundred: 5.144,
-        originalPGA: 3.438
+        amatuer: 4.032,
     }, {
         lie: 's',
         distance: 186,
         pgaTour: 3.445,
-        eighty: 4.039,
-        ninety: 4.595,
-        oneHundred: 5.151,
-        originalPGA: 3.445
+        amatuer: 4.039,
     }, {
         lie: 's',
         distance: 187,
         pgaTour: 3.453,
-        eighty: 4.047,
-        ninety: 4.603,
-        oneHundred: 5.159,
-        originalPGA: 3.453
+        amatuer: 4.047,
     }, {
         lie: 's',
         distance: 188,
         pgaTour: 3.46,
-        eighty: 4.054,
-        ninety: 4.61,
-        oneHundred: 5.166,
-        originalPGA: 3.46
+        amatuer: 4.054,
     }, {
         lie: 's',
         distance: 189,
         pgaTour: 3.468,
-        eighty: 4.062,
-        ninety: 4.618,
-        oneHundred: 5.174,
-        originalPGA: 3.468
+        amatuer: 4.062,
     }, {
         lie: 's',
         distance: 190,
         pgaTour: 3.475,
-        eighty: 4.069,
-        ninety: 4.625,
-        oneHundred: 5.181,
-        originalPGA: 3.475
+        amatuer: 4.069,
     }, {
         lie: 's',
         distance: 191,
         pgaTour: 3.483,
-        eighty: 4.077,
-        ninety: 4.633,
-        oneHundred: 5.189,
-        originalPGA: 3.483
+        amatuer: 4.077,
     }, {
         lie: 's',
         distance: 192,
         pgaTour: 3.49,
-        eighty: 4.084,
-        ninety: 4.64,
-        oneHundred: 5.196,
-        originalPGA: 3.49
+        amatuer: 4.084,
     }, {
         lie: 's',
         distance: 193,
         pgaTour: 3.498,
-        eighty: 4.092,
-        ninety: 4.648,
-        oneHundred: 5.204,
-        originalPGA: 3.498
+        amatuer: 4.092,
     }, {
         lie: 's',
         distance: 194,
         pgaTour: 3.505,
-        eighty: 4.099,
-        ninety: 4.655,
-        oneHundred: 5.211,
-        originalPGA: 3.505
+        amatuer: 4.099,
     }, {
         lie: 's',
         distance: 195,
         pgaTour: 3.513,
-        eighty: 4.107,
-        ninety: 4.663,
-        oneHundred: 5.219,
-        originalPGA: 3.513
+        amatuer: 4.107,
     }, {
         lie: 's',
         distance: 196,
         pgaTour: 3.52,
-        eighty: 4.114,
-        ninety: 4.67,
-        oneHundred: 5.226,
-        originalPGA: 3.52
+        amatuer: 4.114,
     }, {
         lie: 's',
         distance: 197,
         pgaTour: 3.528,
-        eighty: 4.122,
-        ninety: 4.678,
-        oneHundred: 5.234,
-        originalPGA: 3.528
+        amatuer: 4.122,
     }, {
         lie: 's',
         distance: 198,
         pgaTour: 3.535,
-        eighty: 4.129,
-        ninety: 4.685,
-        oneHundred: 5.241,
-        originalPGA: 3.535
+        amatuer: 4.129,
     }, {
         lie: 's',
         distance: 199,
         pgaTour: 3.543,
-        eighty: 4.137,
-        ninety: 4.693,
-        oneHundred: 5.249,
-        originalPGA: 3.543
+        amatuer: 4.137,
     }, {
         lie: 's',
         distance: 200,
         pgaTour: 3.55,
-        eighty: 4.144,
-        ninety: 4.7,
-        oneHundred: 5.256,
-        originalPGA: 3.55
+        amatuer: 4.144,
     }, {
         lie: 's',
         distance: 201,
         pgaTour: 3.558,
-        eighty: 4.152,
-        ninety: 4.708,
-        oneHundred: 5.264,
-        originalPGA: 3.558
+        amatuer: 4.152,
     }, {
         lie: 's',
         distance: 202,
         pgaTour: 3.565,
-        eighty: 4.159,
-        ninety: 4.715,
-        oneHundred: 5.271,
-        originalPGA: 3.565
+        amatuer: 4.159,
     }, {
         lie: 's',
         distance: 203,
         pgaTour: 3.573,
-        eighty: 4.167,
-        ninety: 4.723,
-        oneHundred: 5.279,
-        originalPGA: 3.573
+        amatuer: 4.167,
     }, {
         lie: 's',
         distance: 204,
         pgaTour: 3.58,
-        eighty: 4.174,
-        ninety: 4.73,
-        oneHundred: 5.286,
-        originalPGA: 3.58
+        amatuer: 4.174,
     }, {
         lie: 's',
         distance: 205,
         pgaTour: 3.588,
-        eighty: 4.182,
-        ninety: 4.738,
-        oneHundred: 5.294,
-        originalPGA: 3.588
+        amatuer: 4.182,
     }, {
         lie: 's',
         distance: 206,
         pgaTour: 3.595,
-        eighty: 4.189,
-        ninety: 4.745,
-        oneHundred: 5.301,
-        originalPGA: 3.595
+        amatuer: 4.189,
     }, {
         lie: 's',
         distance: 207,
         pgaTour: 3.603,
-        eighty: 4.197,
-        ninety: 4.753,
-        oneHundred: 5.309,
-        originalPGA: 3.603
+        amatuer: 4.197,
     }, {
         lie: 's',
         distance: 208,
         pgaTour: 3.61,
-        eighty: 4.204,
-        ninety: 4.76,
-        oneHundred: 5.316,
-        originalPGA: 3.61
+        amatuer: 4.204,
     }, {
         lie: 's',
         distance: 209,
         pgaTour: 3.618,
-        eighty: 4.212,
-        ninety: 4.768,
-        oneHundred: 5.324,
-        originalPGA: 3.618
+        amatuer: 4.212,
     }, {
         lie: 's',
         distance: 210,
         pgaTour: 3.625,
-        eighty: 4.219,
-        ninety: 4.775,
-        oneHundred: 5.331,
-        originalPGA: 3.625
+        amatuer: 4.219,
     }, {
         lie: 's',
         distance: 211,
         pgaTour: 3.633,
-        eighty: 4.227,
-        ninety: 4.783,
-        oneHundred: 5.339,
-        originalPGA: 3.633
+        amatuer: 4.227,
     }, {
         lie: 's',
         distance: 212,
         pgaTour: 3.64,
-        eighty: 4.234,
-        ninety: 4.79,
-        oneHundred: 5.346,
-        originalPGA: 3.64
+        amatuer: 4.234,
     }, {
         lie: 's',
         distance: 213,
         pgaTour: 3.648,
-        eighty: 4.242,
-        ninety: 4.798,
-        oneHundred: 5.354,
-        originalPGA: 3.648
+        amatuer: 4.242,
     }, {
         lie: 's',
         distance: 214,
         pgaTour: 3.655,
-        eighty: 4.249,
-        ninety: 4.805,
-        oneHundred: 5.361,
-        originalPGA: 3.655
+        amatuer: 4.249,
     }, {
         lie: 's',
         distance: 215,
         pgaTour: 3.663,
-        eighty: 4.257,
-        ninety: 4.813,
-        oneHundred: 5.369,
-        originalPGA: 3.663
+        amatuer: 4.257,
     }, {
         lie: 's',
         distance: 216,
         pgaTour: 3.67,
-        eighty: 4.264,
-        ninety: 4.82,
-        oneHundred: 5.376,
-        originalPGA: 3.67
+        amatuer: 4.264,
     }, {
         lie: 's',
         distance: 217,
         pgaTour: 3.678,
-        eighty: 4.272,
-        ninety: 4.828,
-        oneHundred: 5.384,
-        originalPGA: 3.678
+        amatuer: 4.272,
     }, {
         lie: 's',
         distance: 218,
         pgaTour: 3.685,
-        eighty: 4.279,
-        ninety: 4.835,
-        oneHundred: 5.391,
-        originalPGA: 3.685
+        amatuer: 4.279,
     }, {
         lie: 's',
         distance: 219,
         pgaTour: 3.693,
-        eighty: 4.287,
-        ninety: 4.843,
-        oneHundred: 5.399,
-        originalPGA: 3.693
+        amatuer: 4.287,
     }, {
         lie: 's',
         distance: 220,
         pgaTour: 3.7,
-        eighty: 4.294,
-        ninety: 4.85,
-        oneHundred: 5.406,
-        originalPGA: 3.7
+        amatuer: 4.294,
     }, {
         lie: 's',
         distance: 221,
         pgaTour: 3.707,
-        eighty: 4.301,
-        ninety: 4.857,
-        oneHundred: 5.413,
-        originalPGA: 3.707
+        amatuer: 4.301,
     }, {
         lie: 's',
         distance: 222,
         pgaTour: 3.714,
-        eighty: 4.308,
-        ninety: 4.864,
-        oneHundred: 5.42,
-        originalPGA: 3.714
+        amatuer: 4.308,
     }, {
         lie: 's',
         distance: 223,
         pgaTour: 3.721,
-        eighty: 4.315,
-        ninety: 4.871,
-        oneHundred: 5.427,
-        originalPGA: 3.721
+        amatuer: 4.315,
     }, {
         lie: 's',
         distance: 224,
         pgaTour: 3.728,
-        eighty: 4.322,
-        ninety: 4.878,
-        oneHundred: 5.434,
-        originalPGA: 3.728
+        amatuer: 4.322,
     }, {
         lie: 's',
         distance: 225,
         pgaTour: 3.735,
-        eighty: 4.329,
-        ninety: 4.885,
-        oneHundred: 5.441,
-        originalPGA: 3.735
+        amatuer: 4.329,
     }, {
         lie: 's',
         distance: 226,
         pgaTour: 3.742,
-        eighty: 4.336,
-        ninety: 4.892,
-        oneHundred: 5.448,
-        originalPGA: 3.742
+        amatuer: 4.336,
     }, {
         lie: 's',
         distance: 227,
         pgaTour: 3.749,
-        eighty: 4.343,
-        ninety: 4.899,
-        oneHundred: 5.455,
-        originalPGA: 3.749
+        amatuer: 4.343,
     }, {
         lie: 's',
         distance: 228,
         pgaTour: 3.756,
-        eighty: 4.35,
-        ninety: 4.906,
-        oneHundred: 5.462,
-        originalPGA: 3.756
+        amatuer: 4.35,
     }, {
         lie: 's',
         distance: 229,
         pgaTour: 3.763,
-        eighty: 4.357,
-        ninety: 4.913,
-        oneHundred: 5.469,
-        originalPGA: 3.763
+        amatuer: 4.357,
     }, {
         lie: 's',
         distance: 230,
         pgaTour: 3.77,
-        eighty: 4.364,
-        ninety: 4.92,
-        oneHundred: 5.476,
-        originalPGA: 3.77
+        amatuer: 4.364,
     }, {
         lie: 's',
         distance: 231,
         pgaTour: 3.777,
-        eighty: 4.371,
-        ninety: 4.927,
-        oneHundred: 5.483,
-        originalPGA: 3.777
+        amatuer: 4.371,
     }, {
         lie: 's',
         distance: 232,
         pgaTour: 3.784,
-        eighty: 4.378,
-        ninety: 4.934,
-        oneHundred: 5.49,
-        originalPGA: 3.784
+        amatuer: 4.378,
     }, {
         lie: 's',
         distance: 233,
         pgaTour: 3.791,
-        eighty: 4.385,
-        ninety: 4.941,
-        oneHundred: 5.497,
-        originalPGA: 3.791
+        amatuer: 4.385,
     }, {
         lie: 's',
         distance: 234,
         pgaTour: 3.798,
-        eighty: 4.392,
-        ninety: 4.948,
-        oneHundred: 5.504,
-        originalPGA: 3.798
+        amatuer: 4.392,
     }, {
         lie: 's',
         distance: 235,
         pgaTour: 3.805,
-        eighty: 4.399,
-        ninety: 4.955,
-        oneHundred: 5.511,
-        originalPGA: 3.805
+        amatuer: 4.399,
     }, {
         lie: 's',
         distance: 236,
         pgaTour: 3.812,
-        eighty: 4.406,
-        ninety: 4.962,
-        oneHundred: 5.518,
-        originalPGA: 3.812
+        amatuer: 4.406,
     }, {
         lie: 's',
         distance: 237,
         pgaTour: 3.819,
-        eighty: 4.413,
-        ninety: 4.969,
-        oneHundred: 5.525,
-        originalPGA: 3.819
+        amatuer: 4.413,
     }, {
         lie: 's',
         distance: 238,
         pgaTour: 3.826,
-        eighty: 4.42,
-        ninety: 4.976,
-        oneHundred: 5.532,
-        originalPGA: 3.826
+        amatuer: 4.42,
     }, {
         lie: 's',
         distance: 239,
         pgaTour: 3.833,
-        eighty: 4.427,
-        ninety: 4.983,
-        oneHundred: 5.539,
-        originalPGA: 3.833
+        amatuer: 4.427,
     }, {
         lie: 's',
         distance: 240,
         pgaTour: 3.84,
-        eighty: 4.434,
-        ninety: 4.99,
-        oneHundred: 5.546,
-        originalPGA: 3.84
+        amatuer: 4.434,
     }, {
         lie: 's',
         distance: 241,
         pgaTour: 3.845,
-        eighty: 4.439,
-        ninety: 4.995,
-        oneHundred: 5.551,
-        originalPGA: 3.845
+        amatuer: 4.439,
     }, {
         lie: 's',
         distance: 242,
         pgaTour: 3.849,
-        eighty: 4.443,
-        ninety: 4.999,
-        oneHundred: 5.555,
-        originalPGA: 3.849
+        amatuer: 4.443,
     }, {
         lie: 's',
         distance: 243,
         pgaTour: 3.854,
-        eighty: 4.448,
-        ninety: 5.004,
-        oneHundred: 5.56,
-        originalPGA: 3.854
+        amatuer: 4.448,
     }, {
         lie: 's',
         distance: 244,
         pgaTour: 3.858,
-        eighty: 4.452,
-        ninety: 5.008,
-        oneHundred: 5.564,
-        originalPGA: 3.858
+        amatuer: 4.452,
     }, {
         lie: 's',
         distance: 245,
         pgaTour: 3.863,
-        eighty: 4.457,
-        ninety: 5.013,
-        oneHundred: 5.569,
-        originalPGA: 3.863
+        amatuer: 4.457,
     }, {
         lie: 's',
         distance: 246,
         pgaTour: 3.867,
-        eighty: 4.461,
-        ninety: 5.017,
-        oneHundred: 5.573,
-        originalPGA: 3.867
+        amatuer: 4.461,
     }, {
         lie: 's',
         distance: 247,
         pgaTour: 3.872,
-        eighty: 4.466,
-        ninety: 5.022,
-        oneHundred: 5.578,
-        originalPGA: 3.872
+        amatuer: 4.466,
     }, {
         lie: 's',
         distance: 248,
         pgaTour: 3.876,
-        eighty: 4.47,
-        ninety: 5.026,
-        oneHundred: 5.582,
-        originalPGA: 3.876
+        amatuer: 4.47,
     }, {
         lie: 's',
         distance: 249,
         pgaTour: 3.881,
-        eighty: 4.475,
-        ninety: 5.031,
-        oneHundred: 5.587,
-        originalPGA: 3.881
+        amatuer: 4.475,
     }, {
         lie: 's',
         distance: 250,
         pgaTour: 3.885,
-        eighty: 4.479,
-        ninety: 5.035,
-        oneHundred: 5.591,
-        originalPGA: 3.885
+        amatuer: 4.479,
     }, {
         lie: 's',
         distance: 251,
         pgaTour: 3.89,
-        eighty: 4.484,
-        ninety: 5.04,
-        oneHundred: 5.596,
-        originalPGA: 3.89
+        amatuer: 4.484,
     }, {
         lie: 's',
         distance: 252,
         pgaTour: 3.894,
-        eighty: 4.488,
-        ninety: 5.044,
-        oneHundred: 5.6,
-        originalPGA: 3.894
+        amatuer: 4.488,
     }, {
         lie: 's',
         distance: 253,
         pgaTour: 3.899,
-        eighty: 4.493,
-        ninety: 5.049,
-        oneHundred: 5.605,
-        originalPGA: 3.899
+        amatuer: 4.493,
     }, {
         lie: 's',
         distance: 254,
         pgaTour: 3.903,
-        eighty: 4.497,
-        ninety: 5.053,
-        oneHundred: 5.609,
-        originalPGA: 3.903
+        amatuer: 4.497,
     }, {
         lie: 's',
         distance: 255,
         pgaTour: 3.908,
-        eighty: 4.502,
-        ninety: 5.058,
-        oneHundred: 5.614,
-        originalPGA: 3.908
+        amatuer: 4.502,
     }, {
         lie: 's',
         distance: 256,
         pgaTour: 3.912,
-        eighty: 4.506,
-        ninety: 5.062,
-        oneHundred: 5.618,
-        originalPGA: 3.912
+        amatuer: 4.506,
     }, {
         lie: 's',
         distance: 257,
         pgaTour: 3.917,
-        eighty: 4.511,
-        ninety: 5.067,
-        oneHundred: 5.623,
-        originalPGA: 3.917
+        amatuer: 4.511,
     }, {
         lie: 's',
         distance: 258,
         pgaTour: 3.921,
-        eighty: 4.515,
-        ninety: 5.071,
-        oneHundred: 5.627,
-        originalPGA: 3.921
+        amatuer: 4.515,
     }, {
         lie: 's',
         distance: 259,
         pgaTour: 3.926,
-        eighty: 4.52,
-        ninety: 5.076,
-        oneHundred: 5.632,
-        originalPGA: 3.926
+        amatuer: 4.52,
     }, {
         lie: 's',
         distance: 260,
         pgaTour: 3.93,
-        eighty: 4.524,
-        ninety: 5.08,
-        oneHundred: 5.636,
-        originalPGA: 3.93
+        amatuer: 4.524,
     }, {
         lie: 's',
         distance: 261,
         pgaTour: 3.934,
-        eighty: 4.528,
-        ninety: 5.084,
-        oneHundred: 5.64,
-        originalPGA: 3.934
+        amatuer: 4.528,
     }, {
         lie: 's',
         distance: 262,
         pgaTour: 3.937,
-        eighty: 4.531,
-        ninety: 5.087,
-        oneHundred: 5.643,
-        originalPGA: 3.937
+        amatuer: 4.531,
     }, {
         lie: 's',
         distance: 263,
         pgaTour: 3.941,
-        eighty: 4.535,
-        ninety: 5.091,
-        oneHundred: 5.647,
-        originalPGA: 3.941
-    }, {
+        amatuer: 4.535,
+        }, {
         lie: 's',
         distance: 264,
         pgaTour: 3.944,
-        eighty: 4.538,
-        ninety: 5.094,
-        oneHundred: 5.65,
-        originalPGA: 3.944
+        amatuer: 4.538,
     }, {
         lie: 's',
         distance: 265,
         pgaTour: 3.948,
-        eighty: 4.542,
-        ninety: 5.098,
-        oneHundred: 5.654,
-        originalPGA: 3.948
+        amatuer: 4.542,
     }, {
         lie: 's',
         distance: 266,
         pgaTour: 3.951,
-        eighty: 4.545,
-        ninety: 5.101,
-        oneHundred: 5.657,
-        originalPGA: 3.951
+        amatuer: 4.545,
     }, {
         lie: 's',
         distance: 267,
         pgaTour: 3.955,
-        eighty: 4.549,
-        ninety: 5.105,
-        oneHundred: 5.661,
-        originalPGA: 3.955
+        amatuer: 4.549,
     }, {
         lie: 's',
         distance: 268,
         pgaTour: 3.958,
-        eighty: 4.552,
-        ninety: 5.108,
-        oneHundred: 5.664,
-        originalPGA: 3.958
+        amatuer: 4.552,
     }, {
         lie: 's',
         distance: 269,
         pgaTour: 3.962,
-        eighty: 4.556,
-        ninety: 5.112,
-        oneHundred: 5.668,
-        originalPGA: 3.962
+        amatuer: 4.556,
     }, {
         lie: 's',
         distance: 270,
         pgaTour: 3.965,
-        eighty: 4.559,
-        ninety: 5.115,
-        oneHundred: 5.671,
-        originalPGA: 3.965
+        amatuer: 4.559,
     }, {
         lie: 's',
         distance: 271,
         pgaTour: 3.969,
-        eighty: 4.563,
-        ninety: 5.119,
-        oneHundred: 5.675,
-        originalPGA: 3.969
+        amatuer: 4.563,
     }, {
         lie: 's',
         distance: 272,
         pgaTour: 3.972,
-        eighty: 4.566,
-        ninety: 5.122,
-        oneHundred: 5.678,
-        originalPGA: 3.972
+        amatuer: 4.566,
     }, {
         lie: 's',
         distance: 273,
         pgaTour: 3.976,
-        eighty: 4.57,
-        ninety: 5.126,
-        oneHundred: 5.682,
-        originalPGA: 3.976
+        amatuer: 4.57,
     }, {
         lie: 's',
         distance: 274,
         pgaTour: 3.979,
-        eighty: 4.573,
-        ninety: 5.129,
-        oneHundred: 5.685,
-        originalPGA: 3.979
+        amatuer: 4.573,
     }, {
         lie: 's',
         distance: 275,
         pgaTour: 3.983,
-        eighty: 4.577,
-        ninety: 5.133,
-        oneHundred: 5.689,
-        originalPGA: 3.983
+        amatuer: 4.577,
     }, {
         lie: 's',
         distance: 276,
         pgaTour: 3.986,
-        eighty: 4.58,
-        ninety: 5.136,
-        oneHundred: 5.692,
-        originalPGA: 3.986
+        amatuer: 4.58,
     }, {
         lie: 's',
         distance: 277,
         pgaTour: 3.99,
-        eighty: 4.584,
-        ninety: 5.14,
-        oneHundred: 5.696,
-        originalPGA: 3.99
+        amatuer: 4.584,
     }, {
         lie: 's',
         distance: 278,
         pgaTour: 3.993,
-        eighty: 4.587,
-        ninety: 5.143,
-        oneHundred: 5.699,
-        originalPGA: 3.993
+        amatuer: 4.587,
     }, {
         lie: 's',
         distance: 279,
         pgaTour: 3.997,
-        eighty: 4.591,
-        ninety: 5.147,
-        oneHundred: 5.703,
-        originalPGA: 3.997
+        amatuer: 4.591,
     }, {
         lie: 's',
         distance: 280,
         pgaTour: 4,
-        eighty: 4.594,
-        ninety: 5.15,
-        oneHundred: 5.706,
-        originalPGA: 4
+        amatuer: 4.594,
     }, {
         lie: 's',
         distance: 281,
         pgaTour: 4.002,
-        eighty: 4.596,
-        ninety: 5.152,
-        oneHundred: 5.708,
-        originalPGA: 4.002
+        amatuer: 4.596,
     }, {
         lie: 's',
         distance: 282,
         pgaTour: 4.004,
-        eighty: 4.598,
-        ninety: 5.154,
-        oneHundred: 5.71,
-        originalPGA: 4.004
+        amatuer: 4.598,
     }, {
         lie: 's',
         distance: 283,
         pgaTour: 4.006,
-        eighty: 4.6,
-        ninety: 5.156,
-        oneHundred: 5.712,
-        originalPGA: 4.006
+        amatuer: 4.6,
     }, {
         lie: 's',
         distance: 284,
         pgaTour: 4.008,
-        eighty: 4.602,
-        ninety: 5.158,
-        oneHundred: 5.714,
-        originalPGA: 4.008
+        amatuer: 4.602,
     }, {
         lie: 's',
         distance: 285,
         pgaTour: 4.01,
-        eighty: 4.604,
-        ninety: 5.16,
-        oneHundred: 5.716,
-        originalPGA: 4.01
+        amatuer: 4.604,
     }, {
         lie: 's',
         distance: 286,
         pgaTour: 4.012,
-        eighty: 4.606,
-        ninety: 5.162,
-        oneHundred: 5.718,
-        originalPGA: 4.012
+        amatuer: 4.606,
     }, {
         lie: 's',
         distance: 287,
         pgaTour: 4.014,
-        eighty: 4.608,
-        ninety: 5.164,
-        oneHundred: 5.72,
-        originalPGA: 4.014
+        amatuer: 4.608,
     }, {
         lie: 's',
         distance: 288,
         pgaTour: 4.016,
-        eighty: 4.61,
-        ninety: 5.166,
-        oneHundred: 5.722,
-        originalPGA: 4.016
+        amatuer: 4.61,
     }, {
         lie: 's',
         distance: 289,
         pgaTour: 4.018,
-        eighty: 4.612,
-        ninety: 5.168,
-        oneHundred: 5.724,
-        originalPGA: 4.018
+        amatuer: 4.612,
     }, {
         lie: 's',
         distance: 290,
         pgaTour: 4.02,
-        eighty: 4.614,
-        ninety: 5.17,
-        oneHundred: 5.726,
-        originalPGA: 4.02
+        amatuer: 4.614,
     }, {
         lie: 's',
         distance: 291,
         pgaTour: 4.022,
-        eighty: 4.616,
-        ninety: 5.172,
-        oneHundred: 5.728,
-        originalPGA: 4.022
+        amatuer: 4.616,
     }, {
         lie: 's',
         distance: 292,
         pgaTour: 4.024,
-        eighty: 4.618,
-        ninety: 5.174,
-        oneHundred: 5.73,
-        originalPGA: 4.024
+        amatuer: 4.618,
     }, {
         lie: 's',
         distance: 293,
         pgaTour: 4.026,
-        eighty: 4.62,
-        ninety: 5.176,
-        oneHundred: 5.732,
-        originalPGA: 4.026
+        amatuer: 4.62,
     }, {
         lie: 's',
         distance: 294,
         pgaTour: 4.028,
-        eighty: 4.622,
-        ninety: 5.178,
-        oneHundred: 5.734,
-        originalPGA: 4.028
+        amatuer: 4.622,
     }, {
         lie: 's',
         distance: 295,
         pgaTour: 4.03,
-        eighty: 4.624,
-        ninety: 5.18,
-        oneHundred: 5.736,
-        originalPGA: 4.03
+        amatuer: 4.624,
     }, {
         lie: 's',
         distance: 296,
         pgaTour: 4.032,
-        eighty: 4.626,
-        ninety: 5.182,
-        oneHundred: 5.738,
-        originalPGA: 4.032
+        amatuer: 4.626,
     }, {
         lie: 's',
         distance: 297,
         pgaTour: 4.034,
-        eighty: 4.628,
-        ninety: 5.184,
-        oneHundred: 5.74,
-        originalPGA: 4.034
+        amatuer: 4.628,
     }, {
         lie: 's',
         distance: 298,
         pgaTour: 4.036,
-        eighty: 4.63,
-        ninety: 5.186,
-        oneHundred: 5.742,
-        originalPGA: 4.036
+        amatuer: 4.63,
     }, {
         lie: 's',
         distance: 299,
         pgaTour: 4.038,
-        eighty: 4.632,
-        ninety: 5.188,
-        oneHundred: 5.744,
-        originalPGA: 4.038
+        amatuer: 4.632,
     }, {
         lie: 's',
         distance: 300,
         pgaTour: 4.04,
-        eighty: 4.634,
-        ninety: 5.19,
-        oneHundred: 5.746,
-        originalPGA: 4.04
+        amatuer: 4.634,
     }, {
         lie: 's',
         distance: 301,
         pgaTour: 4.044,
-        eighty: 4.638,
-        ninety: 5.194,
-        oneHundred: 5.75,
-        originalPGA: 4.044
+        amatuer: 4.638,
     }, {
         lie: 's',
         distance: 302,
         pgaTour: 4.048,
-        eighty: 4.642,
-        ninety: 5.198,
-        oneHundred: 5.754,
-        originalPGA: 4.048
+        amatuer: 4.642,
     }, {
         lie: 's',
         distance: 303,
         pgaTour: 4.052,
-        eighty: 4.646,
-        ninety: 5.202,
-        oneHundred: 5.758,
-        originalPGA: 4.052
+        amatuer: 4.646,
     }, {
         lie: 's',
         distance: 304,
         pgaTour: 4.056,
-        eighty: 4.65,
-        ninety: 5.206,
-        oneHundred: 5.762,
-        originalPGA: 4.056
+        amatuer: 4.65,
     }, {
         lie: 's',
         distance: 305,
         pgaTour: 4.06,
-        eighty: 4.654,
-        ninety: 5.21,
-        oneHundred: 5.766,
-        originalPGA: 4.06
+        amatuer: 4.654,
     }, {
         lie: 's',
         distance: 306,
         pgaTour: 4.064,
-        eighty: 4.658,
-        ninety: 5.214,
-        oneHundred: 5.77,
-        originalPGA: 4.064
+        amatuer: 4.658,
     }, {
         lie: 's',
         distance: 307,
         pgaTour: 4.068,
-        eighty: 4.662,
-        ninety: 5.218,
-        oneHundred: 5.774,
-        originalPGA: 4.068
+        amatuer: 4.662,
     }, {
         lie: 's',
         distance: 308,
         pgaTour: 4.072,
-        eighty: 4.666,
-        ninety: 5.222,
-        oneHundred: 5.778,
-        originalPGA: 4.072
+        amatuer: 4.666,
     }, {
         lie: 's',
         distance: 309,
         pgaTour: 4.076,
-        eighty: 4.67,
-        ninety: 5.226,
-        oneHundred: 5.782,
-        originalPGA: 4.076
+        amatuer: 4.67,
     }, {
         lie: 's',
         distance: 310,
         pgaTour: 4.08,
-        eighty: 4.674,
-        ninety: 5.23,
-        oneHundred: 5.786,
-        originalPGA: 4.08
+        amatuer: 4.674,
     }, {
         lie: 's',
         distance: 311,
         pgaTour: 4.084,
-        eighty: 4.678,
-        ninety: 5.234,
-        oneHundred: 5.79,
-        originalPGA: 4.084
+        amatuer: 4.678,
     }, {
         lie: 's',
         distance: 312,
         pgaTour: 4.088,
-        eighty: 4.682,
-        ninety: 5.238,
-        oneHundred: 5.794,
-        originalPGA: 4.088
+        amatuer: 4.682,
     }, {
         lie: 's',
         distance: 313,
         pgaTour: 4.092,
-        eighty: 4.686,
-        ninety: 5.242,
-        oneHundred: 5.798,
-        originalPGA: 4.092
+        amatuer: 4.686,
     }, {
         lie: 's',
         distance: 314,
         pgaTour: 4.096,
-        eighty: 4.69,
-        ninety: 5.246,
-        oneHundred: 5.802,
-        originalPGA: 4.096
+        amatuer: 4.69,
     }, {
         lie: 's',
         distance: 315,
         pgaTour: 4.1,
-        eighty: 4.694,
-        ninety: 5.25,
-        oneHundred: 5.806,
-        originalPGA: 4.1
+        amatuer: 4.694,
     }, {
         lie: 's',
         distance: 316,
         pgaTour: 4.104,
-        eighty: 4.698,
-        ninety: 5.254,
-        oneHundred: 5.81,
-        originalPGA: 4.104
+        amatuer: 4.698,
     }, {
         lie: 's',
         distance: 317,
         pgaTour: 4.108,
-        eighty: 4.702,
-        ninety: 5.258,
-        oneHundred: 5.814,
-        originalPGA: 4.108
+        amatuer: 4.702,
     }, {
         lie: 's',
         distance: 318,
         pgaTour: 4.112,
-        eighty: 4.706,
-        ninety: 5.262,
-        oneHundred: 5.818,
-        originalPGA: 4.112
+        amatuer: 4.706,
     }, {
         lie: 's',
         distance: 319,
         pgaTour: 4.116,
-        eighty: 4.71,
-        ninety: 5.266,
-        oneHundred: 5.822,
-        originalPGA: 4.116
+        amatuer: 4.71,
     }, {
         lie: 's',
         distance: 320,
         pgaTour: 4.12,
-        eighty: 4.714,
-        ninety: 5.27,
-        oneHundred: 5.826,
-        originalPGA: 4.12
+        amatuer: 4.714,
     }, {
         lie: 's',
         distance: 321,
         pgaTour: 4.127,
-        eighty: 4.721,
-        ninety: 5.277,
-        oneHundred: 5.833,
-        originalPGA: 4.127
+        amatuer: 4.721,
     }, {
         lie: 's',
         distance: 322,
         pgaTour: 4.134,
-        eighty: 4.728,
-        ninety: 5.284,
-        oneHundred: 5.84,
-        originalPGA: 4.134
+        amatuer: 4.728,
     }, {
         lie: 's',
         distance: 323,
         pgaTour: 4.141,
-        eighty: 4.735,
-        ninety: 5.291,
-        oneHundred: 5.847,
-        originalPGA: 4.141
+        amatuer: 4.735,
     }, {
         lie: 's',
         distance: 324,
         pgaTour: 4.148,
-        eighty: 4.742,
-        ninety: 5.298,
-        oneHundred: 5.854,
-        originalPGA: 4.148
+        amatuer: 4.742,
     }, {
         lie: 's',
         distance: 325,
         pgaTour: 4.155,
-        eighty: 4.749,
-        ninety: 5.305,
-        oneHundred: 5.861,
-        originalPGA: 4.155
+        amatuer: 4.749,
     }, {
         lie: 's',
         distance: 326,
         pgaTour: 4.162,
-        eighty: 4.756,
-        ninety: 5.312,
-        oneHundred: 5.868,
-        originalPGA: 4.162
+        amatuer: 4.756,
     }, {
         lie: 's',
         distance: 327,
         pgaTour: 4.169,
-        eighty: 4.763,
-        ninety: 5.319,
-        oneHundred: 5.875,
-        originalPGA: 4.169
+        amatuer: 4.763,
     }, {
         lie: 's',
         distance: 328,
         pgaTour: 4.176,
-        eighty: 4.77,
-        ninety: 5.326,
-        oneHundred: 5.882,
-        originalPGA: 4.176
+        amatuer: 4.77,
     }, {
         lie: 's',
         distance: 329,
         pgaTour: 4.183,
-        eighty: 4.777,
-        ninety: 5.333,
-        oneHundred: 5.889,
-        originalPGA: 4.183
+        amatuer: 4.777,
     }, {
         lie: 's',
         distance: 330,
         pgaTour: 4.19,
-        eighty: 4.784,
-        ninety: 5.34,
-        oneHundred: 5.896,
-        originalPGA: 4.19
+        amatuer: 4.784,
     }, {
         lie: 's',
         distance: 331,
         pgaTour: 4.197,
-        eighty: 4.791,
-        ninety: 5.347,
-        oneHundred: 5.903,
-        originalPGA: 4.197
+        amatuer: 4.791,
     }, {
         lie: 's',
         distance: 332,
         pgaTour: 4.204,
-        eighty: 4.798,
-        ninety: 5.354,
-        oneHundred: 5.91,
-        originalPGA: 4.204
+        amatuer: 4.798,
     }, {
         lie: 's',
         distance: 333,
         pgaTour: 4.211,
-        eighty: 4.805,
-        ninety: 5.361,
-        oneHundred: 5.917,
-        originalPGA: 4.211
+        amatuer: 4.805,
     }, {
         lie: 's',
         distance: 334,
         pgaTour: 4.218,
-        eighty: 4.812,
-        ninety: 5.368,
-        oneHundred: 5.924,
-        originalPGA: 4.218
+        amatuer: 4.812,
     }, {
         lie: 's',
         distance: 335,
         pgaTour: 4.225,
-        eighty: 4.819,
-        ninety: 5.375,
-        oneHundred: 5.931,
-        originalPGA: 4.225
+        amatuer: 4.819,
     }, {
         lie: 's',
         distance: 336,
         pgaTour: 4.232,
-        eighty: 4.826,
-        ninety: 5.382,
-        oneHundred: 5.938,
-        originalPGA: 4.232
+        amatuer: 4.826,
     }, {
         lie: 's',
         distance: 337,
         pgaTour: 4.239,
-        eighty: 4.833,
-        ninety: 5.389,
-        oneHundred: 5.945,
-        originalPGA: 4.239
+        amatuer: 4.833,
     }, {
         lie: 's',
         distance: 338,
         pgaTour: 4.246,
-        eighty: 4.84,
-        ninety: 5.396,
-        oneHundred: 5.952,
-        originalPGA: 4.246
+        amatuer: 4.84,
     }, {
         lie: 's',
         distance: 339,
         pgaTour: 4.253,
-        eighty: 4.847,
-        ninety: 5.403,
-        oneHundred: 5.959,
-        originalPGA: 4.253
+        amatuer: 4.847,
     }, {
         lie: 's',
         distance: 340,
         pgaTour: 4.26,
-        eighty: 4.854,
-        ninety: 5.41,
-        oneHundred: 5.966,
-        originalPGA: 4.26
+        amatuer: 4.854,
     }, {
         lie: 's',
         distance: 341,
         pgaTour: 4.268,
-        eighty: 4.862,
-        ninety: 5.418,
-        oneHundred: 5.974,
-        originalPGA: 4.268
+        amatuer: 4.862,
     }, {
         lie: 's',
         distance: 342,
         pgaTour: 4.275,
-        eighty: 4.869,
-        ninety: 5.425,
-        oneHundred: 5.981,
-        originalPGA: 4.275
+        amatuer: 4.869,
     }, {
         lie: 's',
         distance: 343,
         pgaTour: 4.283,
-        eighty: 4.877,
-        ninety: 5.433,
-        oneHundred: 5.989,
-        originalPGA: 4.283
+        amatuer: 4.877,
     }, {
         lie: 's',
         distance: 344,
         pgaTour: 4.29,
-        eighty: 4.884,
-        ninety: 5.44,
-        oneHundred: 5.996,
-        originalPGA: 4.29
+        amatuer: 4.884,
     }, {
         lie: 's',
         distance: 345,
         pgaTour: 4.298,
-        eighty: 4.892,
-        ninety: 5.448,
-        oneHundred: 6.004,
-        originalPGA: 4.298
+        amatuer: 4.892,
     }, {
         lie: 's',
         distance: 346,
         pgaTour: 4.305,
-        eighty: 4.899,
-        ninety: 5.455,
-        oneHundred: 6.011,
-        originalPGA: 4.305
+        amatuer: 4.899,
     }, {
         lie: 's',
         distance: 347,
         pgaTour: 4.313,
-        eighty: 4.907,
-        ninety: 5.463,
-        oneHundred: 6.019,
-        originalPGA: 4.313
+        amatuer: 4.907,
     }, {
         lie: 's',
         distance: 348,
         pgaTour: 4.32,
-        eighty: 4.914,
-        ninety: 5.47,
-        oneHundred: 6.026,
-        originalPGA: 4.32
+        amatuer: 4.914,
     }, {
         lie: 's',
         distance: 349,
         pgaTour: 4.328,
-        eighty: 4.922,
-        ninety: 5.478,
-        oneHundred: 6.034,
-        originalPGA: 4.328
+        amatuer: 4.922,
     }, {
         lie: 's',
         distance: 350,
         pgaTour: 4.335,
-        eighty: 4.929,
-        ninety: 5.485,
-        oneHundred: 6.041,
-        originalPGA: 4.335
+        amatuer: 4.929,
     }, {
         lie: 's',
         distance: 351,
         pgaTour: 4.343,
-        eighty: 4.937,
-        ninety: 5.493,
-        oneHundred: 6.049,
-        originalPGA: 4.343
+        amatuer: 4.937,
     }, {
         lie: 's',
         distance: 352,
         pgaTour: 4.35,
-        eighty: 4.944,
-        ninety: 5.5,
-        oneHundred: 6.056,
-        originalPGA: 4.35
+        amatuer: 4.944,
     }, {
         lie: 's',
         distance: 353,
         pgaTour: 4.358,
-        eighty: 4.952,
-        ninety: 5.508,
-        oneHundred: 6.064,
-        originalPGA: 4.358
+        amatuer: 4.952,
     }, {
         lie: 's',
         distance: 354,
         pgaTour: 4.365,
-        eighty: 4.959,
-        ninety: 5.515,
-        oneHundred: 6.071,
-        originalPGA: 4.365
+        amatuer: 4.959,
     }, {
         lie: 's',
         distance: 355,
         pgaTour: 4.373,
-        eighty: 4.967,
-        ninety: 5.523,
-        oneHundred: 6.079,
-        originalPGA: 4.373
+        amatuer: 4.967,
     }, {
         lie: 's',
         distance: 356,
         pgaTour: 4.38,
-        eighty: 4.974,
-        ninety: 5.53,
-        oneHundred: 6.086,
-        originalPGA: 4.38
+        amatuer: 4.974,
     }, {
         lie: 's',
         distance: 357,
         pgaTour: 4.388,
-        eighty: 4.982,
-        ninety: 5.538,
-        oneHundred: 6.094,
-        originalPGA: 4.388
+        amatuer: 4.982,
     }, {
         lie: 's',
         distance: 358,
         pgaTour: 4.395,
-        eighty: 4.989,
-        ninety: 5.545,
-        oneHundred: 6.101,
-        originalPGA: 4.395
+        amatuer: 4.989,
     }, {
         lie: 's',
         distance: 359,
         pgaTour: 4.403,
-        eighty: 4.997,
-        ninety: 5.553,
-        oneHundred: 6.109,
-        originalPGA: 4.403
+        amatuer: 4.997,
     }, {
         lie: 's',
         distance: 360,
         pgaTour: 4.41,
-        eighty: 5.004,
-        ninety: 5.56,
-        oneHundred: 6.116,
-        originalPGA: 4.41
+        amatuer: 5.004,
     }, {
         lie: 's',
         distance: 361,
         pgaTour: 4.417,
-        eighty: 5.011,
-        ninety: 5.567,
-        oneHundred: 6.123,
-        originalPGA: 4.417
+        amatuer: 5.011,
     }, {
         lie: 's',
         distance: 362,
         pgaTour: 4.424,
-        eighty: 5.018,
-        ninety: 5.574,
-        oneHundred: 6.13,
-        originalPGA: 4.424
+        amatuer: 5.018,
     }, {
         lie: 's',
         distance: 363,
         pgaTour: 4.431,
-        eighty: 5.025,
-        ninety: 5.581,
-        oneHundred: 6.137,
-        originalPGA: 4.431
+        amatuer: 5.025,
     }, {
         lie: 's',
         distance: 364,
         pgaTour: 4.438,
-        eighty: 5.032,
-        ninety: 5.588,
-        oneHundred: 6.144,
-        originalPGA: 4.438
+        amatuer: 5.032,
     }, {
         lie: 's',
         distance: 365,
         pgaTour: 4.445,
-        eighty: 5.039,
-        ninety: 5.595,
-        oneHundred: 6.151,
-        originalPGA: 4.445
+        amatuer: 5.039,
     }, {
         lie: 's',
         distance: 366,
         pgaTour: 4.452,
-        eighty: 5.046,
-        ninety: 5.602,
-        oneHundred: 6.158,
-        originalPGA: 4.452
+        amatuer: 5.046,
     }, {
         lie: 's',
         distance: 367,
         pgaTour: 4.459,
-        eighty: 5.053,
-        ninety: 5.609,
-        oneHundred: 6.165,
-        originalPGA: 4.459
+        amatuer: 5.053,
     }, {
         lie: 's',
         distance: 368,
         pgaTour: 4.466,
-        eighty: 5.06,
-        ninety: 5.616,
-        oneHundred: 6.172,
-        originalPGA: 4.466
+        amatuer: 5.06,
     }, {
         lie: 's',
         distance: 369,
         pgaTour: 4.473,
-        eighty: 5.067,
-        ninety: 5.623,
-        oneHundred: 6.179,
-        originalPGA: 4.473
+        amatuer: 5.067,
     }, {
         lie: 's',
         distance: 370,
         pgaTour: 4.48,
-        eighty: 5.074,
-        ninety: 5.63,
-        oneHundred: 6.186,
-        originalPGA: 4.48
+        amatuer: 5.074,
     }, {
         lie: 's',
         distance: 371,
         pgaTour: 4.487,
-        eighty: 5.081,
-        ninety: 5.637,
-        oneHundred: 6.193,
-        originalPGA: 4.487
+        amatuer: 5.081,
     }, {
         lie: 's',
         distance: 372,
         pgaTour: 4.494,
-        eighty: 5.088,
-        ninety: 5.644,
-        oneHundred: 6.2,
-        originalPGA: 4.494
+        amatuer: 5.088,
     }, {
         lie: 's',
         distance: 373,
         pgaTour: 4.501,
-        eighty: 5.095,
-        ninety: 5.651,
-        oneHundred: 6.207,
-        originalPGA: 4.501
+        amatuer: 5.095,
     }, {
         lie: 's',
         distance: 374,
         pgaTour: 4.508,
-        eighty: 5.102,
-        ninety: 5.658,
-        oneHundred: 6.214,
-        originalPGA: 4.508
+        amatuer: 5.102,
     }, {
         lie: 's',
         distance: 375,
         pgaTour: 4.515,
-        eighty: 5.109,
-        ninety: 5.665,
-        oneHundred: 6.221,
-        originalPGA: 4.515
+        amatuer: 5.109,
     }, {
         lie: 's',
         distance: 376,
         pgaTour: 4.522,
-        eighty: 5.116,
-        ninety: 5.672,
-        oneHundred: 6.228,
-        originalPGA: 4.522
+        amatuer: 5.116,
     }, {
         lie: 's',
         distance: 377,
         pgaTour: 4.529,
-        eighty: 5.123,
-        ninety: 5.679,
-        oneHundred: 6.235,
-        originalPGA: 4.529
+        amatuer: 5.123,
     }, {
         lie: 's',
         distance: 378,
         pgaTour: 4.536,
-        eighty: 5.13,
-        ninety: 5.686,
-        oneHundred: 6.242,
-        originalPGA: 4.536
+        amatuer: 5.13,
     }, {
         lie: 's',
         distance: 379,
         pgaTour: 4.543,
-        eighty: 5.137,
-        ninety: 5.693,
-        oneHundred: 6.249,
-        originalPGA: 4.543
+        amatuer: 5.137,
     }, {
         lie: 's',
         distance: 380,
         pgaTour: 4.55,
-        eighty: 5.144,
-        ninety: 5.7,
-        oneHundred: 6.256,
-        originalPGA: 4.55
+        amatuer: 5.144,
     }, {
         lie: 's',
         distance: 381,
         pgaTour: 4.557,
-        eighty: 5.151,
-        ninety: 5.707,
-        oneHundred: 6.263,
-        originalPGA: 4.557
+        amatuer: 5.151,
     }, {
         lie: 's',
         distance: 382,
         pgaTour: 4.564,
-        eighty: 5.158,
-        ninety: 5.714,
-        oneHundred: 6.27,
-        originalPGA: 4.564
+        amatuer: 5.158,
     }, {
         lie: 's',
         distance: 383,
         pgaTour: 4.571,
-        eighty: 5.165,
-        ninety: 5.721,
-        oneHundred: 6.277,
-        originalPGA: 4.571
+        amatuer: 5.165,
     }, {
         lie: 's',
         distance: 384,
         pgaTour: 4.578,
-        eighty: 5.172,
-        ninety: 5.728,
-        oneHundred: 6.284,
-        originalPGA: 4.578
+        amatuer: 5.172,
     }, {
         lie: 's',
         distance: 385,
         pgaTour: 4.585,
-        eighty: 5.179,
-        ninety: 5.735,
-        oneHundred: 6.291,
-        originalPGA: 4.585
+        amatuer: 5.179,
     }, {
         lie: 's',
         distance: 386,
         pgaTour: 4.592,
-        eighty: 5.186,
-        ninety: 5.742,
-        oneHundred: 6.298,
-        originalPGA: 4.592
+        amatuer: 5.186,
     }, {
         lie: 's',
         distance: 387,
         pgaTour: 4.599,
-        eighty: 5.193,
-        ninety: 5.749,
-        oneHundred: 6.305,
-        originalPGA: 4.599
+        amatuer: 5.193,
     }, {
         lie: 's',
         distance: 388,
         pgaTour: 4.606,
-        eighty: 5.2,
-        ninety: 5.756,
-        oneHundred: 6.312,
-        originalPGA: 4.606
+        amatuer: 5.2,
     }, {
         lie: 's',
         distance: 389,
         pgaTour: 4.613,
-        eighty: 5.207,
-        ninety: 5.763,
-        oneHundred: 6.319,
-        originalPGA: 4.613
+        amatuer: 5.207,
     }, {
         lie: 's',
         distance: 390,
         pgaTour: 4.62,
-        eighty: 5.214,
-        ninety: 5.77,
-        oneHundred: 6.326,
-        originalPGA: 4.62
+        amatuer: 5.214,
     }, {
         lie: 's',
         distance: 391,
         pgaTour: 4.627,
-        eighty: 5.221,
-        ninety: 5.777,
-        oneHundred: 6.333,
-        originalPGA: 4.627
+        amatuer: 5.221,
     }, {
         lie: 's',
         distance: 392,
         pgaTour: 4.634,
-        eighty: 5.228,
-        ninety: 5.784,
-        oneHundred: 6.34,
-        originalPGA: 4.634
+        amatuer: 5.228,
     }, {
         lie: 's',
         distance: 393,
         pgaTour: 4.641,
-        eighty: 5.235,
-        ninety: 5.791,
-        oneHundred: 6.347,
-        originalPGA: 4.641
+        amatuer: 5.235,
     }, {
         lie: 's',
         distance: 394,
         pgaTour: 4.648,
-        eighty: 5.242,
-        ninety: 5.798,
-        oneHundred: 6.354,
-        originalPGA: 4.648
+        amatuer: 5.242,
     }, {
         lie: 's',
         distance: 395,
         pgaTour: 4.655,
-        eighty: 5.249,
-        ninety: 5.805,
-        oneHundred: 6.361,
-        originalPGA: 4.655
+        amatuer: 5.249,
     }, {
         lie: 's',
         distance: 396,
         pgaTour: 4.662,
-        eighty: 5.256,
-        ninety: 5.812,
-        oneHundred: 6.368,
-        originalPGA: 4.662
+        amatuer: 5.256,
     }, {
         lie: 's',
         distance: 397,
         pgaTour: 4.669,
-        eighty: 5.263,
-        ninety: 5.819,
-        oneHundred: 6.375,
-        originalPGA: 4.669
+        amatuer: 5.263,
     }, {
         lie: 's',
         distance: 398,
         pgaTour: 4.676,
-        eighty: 5.27,
-        ninety: 5.826,
-        oneHundred: 6.382,
-        originalPGA: 4.676
+        amatuer: 5.27,
     }, {
         lie: 's',
         distance: 399,
         pgaTour: 4.683,
-        eighty: 5.277,
-        ninety: 5.833,
-        oneHundred: 6.389,
-        originalPGA: 4.683
+        amatuer: 5.277,
     }, {
         lie: 's',
         distance: 400,
         pgaTour: 4.69,
-        eighty: 5.284,
-        ninety: 5.84,
-        oneHundred: 6.396,
-        originalPGA: 4.69
+        amatuer: 5.284,
     }, {
         lie: 's',
         distance: 401,
         pgaTour: 4.692,
-        eighty: 5.286,
-        ninety: 5.842,
-        oneHundred: 6.398,
-        originalPGA: 4.692
+        amatuer: 5.286,
     }, {
         lie: 's',
         distance: 402,
         pgaTour: 4.694,
-        eighty: 5.288,
-        ninety: 5.844,
-        oneHundred: 6.4,
-        originalPGA: 4.694
+        amatuer: 5.288,
     }, {
         lie: 's',
         distance: 403,
         pgaTour: 4.696,
-        eighty: 5.29,
-        ninety: 5.846,
-        oneHundred: 6.402,
-        originalPGA: 4.696
+        amatuer: 5.29,
     }, {
         lie: 's',
         distance: 404,
         pgaTour: 4.698,
-        eighty: 5.292,
-        ninety: 5.848,
-        oneHundred: 6.404,
-        originalPGA: 4.698
+        amatuer: 5.292,
     }, {
         lie: 's',
         distance: 405,
         pgaTour: 4.7,
-        eighty: 5.294,
-        ninety: 5.85,
-        oneHundred: 6.406,
-        originalPGA: 4.7
+        amatuer: 5.294,
     }, {
         lie: 's',
         distance: 406,
         pgaTour: 4.702,
-        eighty: 5.296,
-        ninety: 5.852,
-        oneHundred: 6.408,
-        originalPGA: 4.702
+        amatuer: 5.296,
     }, {
         lie: 's',
         distance: 407,
         pgaTour: 4.704,
-        eighty: 5.298,
-        ninety: 5.854,
-        oneHundred: 6.41,
-        originalPGA: 4.704
+        amatuer: 5.298,
     }, {
         lie: 's',
         distance: 408,
         pgaTour: 4.706,
-        eighty: 5.3,
-        ninety: 5.856,
-        oneHundred: 6.412,
-        originalPGA: 4.706
+        amatuer: 5.3,
     }, {
         lie: 's',
         distance: 409,
         pgaTour: 4.708,
-        eighty: 5.302,
-        ninety: 5.858,
-        oneHundred: 6.414,
-        originalPGA: 4.708
+        amatuer: 5.302,
     }, {
         lie: 's',
         distance: 410,
         pgaTour: 4.71,
-        eighty: 5.304,
-        ninety: 5.86,
-        oneHundred: 6.416,
-        originalPGA: 4.71
+        amatuer: 5.304,
     }, {
         lie: 's',
         distance: 411,
         pgaTour: 4.712,
-        eighty: 5.306,
-        ninety: 5.862,
-        oneHundred: 6.418,
-        originalPGA: 4.712
+        amatuer: 5.306,
     }, {
         lie: 's',
         distance: 412,
         pgaTour: 4.714,
-        eighty: 5.308,
-        ninety: 5.864,
-        oneHundred: 6.42,
-        originalPGA: 4.714
+        amatuer: 5.308,
     }, {
         lie: 's',
         distance: 413,
         pgaTour: 4.716,
-        eighty: 5.31,
-        ninety: 5.866,
-        oneHundred: 6.422,
-        originalPGA: 4.716
+        amatuer: 5.31,
     }, {
         lie: 's',
         distance: 414,
         pgaTour: 4.718,
-        eighty: 5.312,
-        ninety: 5.868,
-        oneHundred: 6.424,
-        originalPGA: 4.718
+        amatuer: 5.312,
     }, {
         lie: 's',
         distance: 415,
         pgaTour: 4.72,
-        eighty: 5.314,
-        ninety: 5.87,
-        oneHundred: 6.426,
-        originalPGA: 4.72
+        amatuer: 5.314,
     }, {
         lie: 's',
         distance: 416,
         pgaTour: 4.722,
-        eighty: 5.316,
-        ninety: 5.872,
-        oneHundred: 6.428,
-        originalPGA: 4.722
+        amatuer: 5.316,
     }, {
         lie: 's',
         distance: 417,
         pgaTour: 4.724,
-        eighty: 5.318,
-        ninety: 5.874,
-        oneHundred: 6.43,
-        originalPGA: 4.724
+        amatuer: 5.318,
     }, {
         lie: 's',
         distance: 418,
         pgaTour: 4.726,
-        eighty: 5.32,
-        ninety: 5.876,
-        oneHundred: 6.432,
-        originalPGA: 4.726
+        amatuer: 5.32,
     }, {
         lie: 's',
         distance: 419,
         pgaTour: 4.728,
-        eighty: 5.322,
-        ninety: 5.878,
-        oneHundred: 6.434,
-        originalPGA: 4.728
+        amatuer: 5.322,
     }, {
         lie: 's',
         distance: 420,
         pgaTour: 4.73,
-        eighty: 5.324,
-        ninety: 5.88,
-        oneHundred: 6.436,
-        originalPGA: 4.73
+        amatuer: 5.324,
     }, {
         lie: 's',
         distance: 421,
         pgaTour: 4.733,
-        eighty: 5.327,
-        ninety: 5.883,
-        oneHundred: 6.439,
-        originalPGA: 4.733
+        amatuer: 5.327,
     }, {
         lie: 's',
         distance: 422,
         pgaTour: 4.735,
-        eighty: 5.329,
-        ninety: 5.885,
-        oneHundred: 6.441,
-        originalPGA: 4.735
+        amatuer: 5.329,
     }, {
         lie: 's',
         distance: 423,
         pgaTour: 4.738,
-        eighty: 5.332,
-        ninety: 5.888,
-        oneHundred: 6.444,
-        originalPGA: 4.738
+        amatuer: 5.332,
     }, {
         lie: 's',
         distance: 424,
         pgaTour: 4.74,
-        eighty: 5.334,
-        ninety: 5.89,
-        oneHundred: 6.446,
-        originalPGA: 4.74
+        amatuer: 5.334,
     }, {
         lie: 's',
         distance: 425,
         pgaTour: 4.743,
-        eighty: 5.337,
-        ninety: 5.893,
-        oneHundred: 6.449,
-        originalPGA: 4.743
+        amatuer: 5.337,
     }, {
         lie: 's',
         distance: 426,
         pgaTour: 4.745,
-        eighty: 5.339,
-        ninety: 5.895,
-        oneHundred: 6.451,
-        originalPGA: 4.745
+        amatuer: 5.339,
     }, {
         lie: 's',
         distance: 427,
         pgaTour: 4.748,
-        eighty: 5.342,
-        ninety: 5.898,
-        oneHundred: 6.454,
-        originalPGA: 4.748
+        amatuer: 5.342,
     }, {
         lie: 's',
         distance: 428,
         pgaTour: 4.75,
-        eighty: 5.344,
-        ninety: 5.9,
-        oneHundred: 6.456,
-        originalPGA: 4.75
+        amatuer: 5.344,
     }, {
         lie: 's',
         distance: 429,
         pgaTour: 4.753,
-        eighty: 5.347,
-        ninety: 5.903,
-        oneHundred: 6.459,
-        originalPGA: 4.753
+        amatuer: 5.347,
     }, {
         lie: 's',
         distance: 430,
         pgaTour: 4.755,
-        eighty: 5.349,
-        ninety: 5.905,
-        oneHundred: 6.461,
-        originalPGA: 4.755
+        amatuer: 5.349,
     }, {
         lie: 's',
         distance: 431,
         pgaTour: 4.758,
-        eighty: 5.352,
-        ninety: 5.908,
-        oneHundred: 6.464,
-        originalPGA: 4.758
+        amatuer: 5.352,
     }, {
         lie: 's',
         distance: 432,
         pgaTour: 4.76,
-        eighty: 5.354,
-        ninety: 5.91,
-        oneHundred: 6.466,
-        originalPGA: 4.76
+        amatuer: 5.354,
     }, {
         lie: 's',
         distance: 433,
         pgaTour: 4.763,
-        eighty: 5.357,
-        ninety: 5.913,
-        oneHundred: 6.469,
-        originalPGA: 4.763
+        amatuer: 5.357,
     }, {
         lie: 's',
         distance: 434,
         pgaTour: 4.765,
-        eighty: 5.359,
-        ninety: 5.915,
-        oneHundred: 6.471,
-        originalPGA: 4.765
+        amatuer: 5.359,
     }, {
         lie: 's',
         distance: 435,
         pgaTour: 4.768,
-        eighty: 5.362,
-        ninety: 5.918,
-        oneHundred: 6.474,
-        originalPGA: 4.768
+        amatuer: 5.362,
     }, {
         lie: 's',
         distance: 436,
         pgaTour: 4.77,
-        eighty: 5.364,
-        ninety: 5.92,
-        oneHundred: 6.476,
-        originalPGA: 4.77
+        amatuer: 5.364,
     }, {
         lie: 's',
         distance: 437,
         pgaTour: 4.773,
-        eighty: 5.367,
-        ninety: 5.923,
-        oneHundred: 6.479,
-        originalPGA: 4.773
+        amatuer: 5.367,
     }, {
         lie: 's',
         distance: 438,
         pgaTour: 4.775,
-        eighty: 5.369,
-        ninety: 5.925,
-        oneHundred: 6.481,
-        originalPGA: 4.775
+        amatuer: 5.369,
     }, {
         lie: 's',
         distance: 439,
         pgaTour: 4.778,
-        eighty: 5.372,
-        ninety: 5.928,
-        oneHundred: 6.484,
-        originalPGA: 4.778
+        amatuer: 5.372,
     }, {
         lie: 's',
         distance: 440,
         pgaTour: 4.78,
-        eighty: 5.374,
-        ninety: 5.93,
-        oneHundred: 6.486,
-        originalPGA: 4.78
+        amatuer: 5.374,
     }, {
         lie: 's',
         distance: 441,
         pgaTour: 4.785,
-        eighty: 5.379,
-        ninety: 5.935,
-        oneHundred: 6.491,
-        originalPGA: 4.785
+        amatuer: 5.379,
     }, {
         lie: 's',
         distance: 442,
         pgaTour: 4.789,
-        eighty: 5.383,
-        ninety: 5.939,
-        oneHundred: 6.495,
-        originalPGA: 4.789
+        amatuer: 5.383,
     }, {
         lie: 's',
         distance: 443,
         pgaTour: 4.794,
-        eighty: 5.388,
-        ninety: 5.944,
-        oneHundred: 6.5,
-        originalPGA: 4.794
+        amatuer: 5.388,
     }, {
         lie: 's',
         distance: 444,
         pgaTour: 4.798,
-        eighty: 5.392,
-        ninety: 5.948,
-        oneHundred: 6.504,
-        originalPGA: 4.798
+        amatuer: 5.392,
     }, {
         lie: 's',
         distance: 445,
         pgaTour: 4.803,
-        eighty: 5.397,
-        ninety: 5.953,
-        oneHundred: 6.509,
-        originalPGA: 4.803
+        amatuer: 5.397,
     }, {
         lie: 's',
         distance: 446,
         pgaTour: 4.807,
-        eighty: 5.401,
-        ninety: 5.957,
-        oneHundred: 6.513,
-        originalPGA: 4.807
+        amatuer: 5.401,
     }, {
         lie: 's',
         distance: 447,
         pgaTour: 4.812,
-        eighty: 5.406,
-        ninety: 5.962,
-        oneHundred: 6.518,
-        originalPGA: 4.812
+        amatuer: 5.406,
     }, {
         lie: 's',
         distance: 448,
         pgaTour: 4.816,
-        eighty: 5.41,
-        ninety: 5.966,
-        oneHundred: 6.522,
-        originalPGA: 4.816
+        amatuer: 5.41,
     }, {
         lie: 's',
         distance: 449,
         pgaTour: 4.821,
-        eighty: 5.415,
-        ninety: 5.971,
-        oneHundred: 6.527,
-        originalPGA: 4.821
+        amatuer: 5.415,
     }, {
         lie: 's',
         distance: 450,
         pgaTour: 4.825,
-        eighty: 5.419,
-        ninety: 5.975,
-        oneHundred: 6.531,
-        originalPGA: 4.825
+        amatuer: 5.419,
     }, {
         lie: 's',
         distance: 451,
         pgaTour: 4.83,
-        eighty: 5.424,
-        ninety: 5.98,
-        oneHundred: 6.536,
-        originalPGA: 4.83
+        amatuer: 5.424,
     }, {
         lie: 's',
         distance: 452,
         pgaTour: 4.834,
-        eighty: 5.428,
-        ninety: 5.984,
-        oneHundred: 6.54,
-        originalPGA: 4.834
+        amatuer: 5.428,
     }, {
         lie: 's',
         distance: 453,
         pgaTour: 4.839,
-        eighty: 5.433,
-        ninety: 5.989,
-        oneHundred: 6.545,
-        originalPGA: 4.839
+        amatuer: 5.433,
     }, {
         lie: 's',
         distance: 454,
         pgaTour: 4.843,
-        eighty: 5.437,
-        ninety: 5.993,
-        oneHundred: 6.549,
-        originalPGA: 4.843
+        amatuer: 5.437,
     }, {
         lie: 's',
         distance: 455,
         pgaTour: 4.848,
-        eighty: 5.442,
-        ninety: 5.998,
-        oneHundred: 6.554,
-        originalPGA: 4.848
+        amatuer: 5.442,
     }, {
         lie: 's',
         distance: 456,
         pgaTour: 4.852,
-        eighty: 5.446,
-        ninety: 6.002,
-        oneHundred: 6.558,
-        originalPGA: 4.852
+        amatuer: 5.446,
     }, {
         lie: 's',
         distance: 457,
         pgaTour: 4.857,
-        eighty: 5.451,
-        ninety: 6.007,
-        oneHundred: 6.563,
-        originalPGA: 4.857
+        amatuer: 5.451,
     }, {
         lie: 's',
         distance: 458,
         pgaTour: 4.861,
-        eighty: 5.455,
-        ninety: 6.011,
-        oneHundred: 6.567,
-        originalPGA: 4.861
+        amatuer: 5.455,
     }, {
         lie: 's',
         distance: 459,
         pgaTour: 4.866,
-        eighty: 5.46,
-        ninety: 6.016,
-        oneHundred: 6.572,
-        originalPGA: 4.866
+        amatuer: 5.46,
     }, {
         lie: 's',
         distance: 460,
         pgaTour: 4.87,
-        eighty: 5.464,
-        ninety: 6.02,
-        oneHundred: 6.576,
-        originalPGA: 4.87
+        amatuer: 5.464,
     }, {
         lie: 's',
         distance: 461,
         pgaTour: 4.876,
-        eighty: 5.47,
-        ninety: 6.026,
-        oneHundred: 6.582,
-        originalPGA: 4.876
+        amatuer: 5.47,
     }, {
         lie: 's',
         distance: 462,
         pgaTour: 4.881,
-        eighty: 5.475,
-        ninety: 6.031,
-        oneHundred: 6.587,
-        originalPGA: 4.881
+        amatuer: 5.475,
     }, {
         lie: 's',
         distance: 463,
         pgaTour: 4.887,
-        eighty: 5.481,
-        ninety: 6.037,
-        oneHundred: 6.593,
-        originalPGA: 4.887
+        amatuer: 5.481,
     }, {
         lie: 's',
         distance: 464,
         pgaTour: 4.892,
-        eighty: 5.486,
-        ninety: 6.042,
-        oneHundred: 6.598,
-        originalPGA: 4.892
+        amatuer: 5.486,
     }, {
         lie: 's',
         distance: 465,
         pgaTour: 4.898,
-        eighty: 5.492,
-        ninety: 6.048,
-        oneHundred: 6.604,
-        originalPGA: 4.898
+        amatuer: 5.492,
     }, {
         lie: 's',
         distance: 466,
         pgaTour: 4.903,
-        eighty: 5.497,
-        ninety: 6.053,
-        oneHundred: 6.609,
-        originalPGA: 4.903
+        amatuer: 5.497,
     }, {
         lie: 's',
         distance: 467,
         pgaTour: 4.909,
-        eighty: 5.503,
-        ninety: 6.059,
-        oneHundred: 6.615,
-        originalPGA: 4.909
+        amatuer: 5.503,
     }, {
         lie: 's',
         distance: 468,
         pgaTour: 4.914,
-        eighty: 5.508,
-        ninety: 6.064,
-        oneHundred: 6.62,
-        originalPGA: 4.914
+        amatuer: 5.508,
     }, {
         lie: 's',
         distance: 469,
         pgaTour: 4.92,
-        eighty: 5.514,
-        ninety: 6.07,
-        oneHundred: 6.626,
-        originalPGA: 4.92
+        amatuer: 5.514,
     }, {
         lie: 's',
         distance: 470,
         pgaTour: 4.925,
-        eighty: 5.519,
-        ninety: 6.075,
-        oneHundred: 6.631,
-        originalPGA: 4.925
+        amatuer: 5.519,
     }, {
         lie: 's',
         distance: 471,
         pgaTour: 4.931,
-        eighty: 5.525,
-        ninety: 6.081,
-        oneHundred: 6.637,
-        originalPGA: 4.931
+        amatuer: 5.525,
     }, {
         lie: 's',
         distance: 472,
         pgaTour: 4.936,
-        eighty: 5.53,
-        ninety: 6.086,
-        oneHundred: 6.642,
-        originalPGA: 4.936
+        amatuer: 5.53,
     }, {
         lie: 's',
         distance: 473,
         pgaTour: 4.942,
-        eighty: 5.536,
-        ninety: 6.092,
-        oneHundred: 6.648,
-        originalPGA: 4.942
+        amatuer: 5.536,
     }, {
         lie: 's',
         distance: 474,
         pgaTour: 4.947,
-        eighty: 5.541,
-        ninety: 6.097,
-        oneHundred: 6.653,
-        originalPGA: 4.947
+        amatuer: 5.541,
     }, {
         lie: 's',
         distance: 475,
         pgaTour: 4.953,
-        eighty: 5.547,
-        ninety: 6.103,
-        oneHundred: 6.659,
-        originalPGA: 4.953
+        amatuer: 5.547,
     }, {
         lie: 's',
         distance: 476,
         pgaTour: 4.958,
-        eighty: 5.552,
-        ninety: 6.108,
-        oneHundred: 6.664,
-        originalPGA: 4.958
+        amatuer: 5.552,
     }, {
         lie: 's',
         distance: 477,
         pgaTour: 4.964,
-        eighty: 5.558,
-        ninety: 6.114,
-        oneHundred: 6.67,
-        originalPGA: 4.964
+        amatuer: 5.558,
     }, {
         lie: 's',
         distance: 478,
         pgaTour: 4.969,
-        eighty: 5.563,
-        ninety: 6.119,
-        oneHundred: 6.675,
-        originalPGA: 4.969
+        amatuer: 5.563,
     }, {
         lie: 's',
         distance: 479,
         pgaTour: 4.975,
-        eighty: 5.569,
-        ninety: 6.125,
-        oneHundred: 6.681,
-        originalPGA: 4.975
+        amatuer: 5.569,
     }, {
         lie: 's',
         distance: 480,
         pgaTour: 4.98,
-        eighty: 5.574,
-        ninety: 6.13,
-        oneHundred: 6.686,
-        originalPGA: 4.98
+        amatuer: 5.574,
     }, {
         lie: 's',
         distance: 481,
         pgaTour: 4.987,
-        eighty: 5.581,
-        ninety: 6.137,
-        oneHundred: 6.693,
-        originalPGA: 4.987
+        amatuer: 5.581,
     }, {
         lie: 's',
         distance: 482,
         pgaTour: 4.993,
-        eighty: 5.587,
-        ninety: 6.143,
-        oneHundred: 6.699,
-        originalPGA: 4.993
+        amatuer: 5.587,
     }, {
         lie: 's',
         distance: 483,
         pgaTour: 5,
-        eighty: 5.594,
-        ninety: 6.15,
-        oneHundred: 6.706,
-        originalPGA: 5
+        amatuer: 5.594,
     }, {
         lie: 's',
         distance: 484,
         pgaTour: 5.006,
-        eighty: 5.6,
-        ninety: 6.156,
-        oneHundred: 6.712,
-        originalPGA: 5.006
+        amatuer: 5.6,
     }, {
         lie: 's',
         distance: 485,
         pgaTour: 5.013,
-        eighty: 5.607,
-        ninety: 6.163,
-        oneHundred: 6.719,
-        originalPGA: 5.013
+        amatuer: 5.607,
     }, {
         lie: 's',
         distance: 486,
         pgaTour: 5.019,
-        eighty: 5.613,
-        ninety: 6.169,
-        oneHundred: 6.725,
-        originalPGA: 5.019
+        amatuer: 5.613,
     }, {
         lie: 's',
         distance: 487,
         pgaTour: 5.026,
-        eighty: 5.62,
-        ninety: 6.176,
-        oneHundred: 6.732,
-        originalPGA: 5.026
+        amatuer: 5.62,
     }, {
         lie: 's',
         distance: 488,
         pgaTour: 5.032,
-        eighty: 5.626,
-        ninety: 6.182,
-        oneHundred: 6.738,
-        originalPGA: 5.032
+        amatuer: 5.626,
     }, {
         lie: 's',
         distance: 489,
         pgaTour: 5.039,
-        eighty: 5.633,
-        ninety: 6.189,
-        oneHundred: 6.745,
-        originalPGA: 5.039
+        amatuer: 5.633,
     }, {
         lie: 's',
         distance: 490,
         pgaTour: 5.045,
-        eighty: 5.639,
-        ninety: 6.195,
-        oneHundred: 6.751,
-        originalPGA: 5.045
+        amatuer: 5.639,
     }, {
         lie: 's',
         distance: 491,
         pgaTour: 5.052,
-        eighty: 5.646,
-        ninety: 6.202,
-        oneHundred: 6.758,
-        originalPGA: 5.052
+        amatuer: 5.646,
     }, {
         lie: 's',
         distance: 492,
         pgaTour: 5.058,
-        eighty: 5.652,
-        ninety: 6.208,
-        oneHundred: 6.764,
-        originalPGA: 5.058
+        amatuer: 5.652,
     }, {
         lie: 's',
         distance: 493,
         pgaTour: 5.065,
-        eighty: 5.659,
-        ninety: 6.215,
-        oneHundred: 6.771,
-        originalPGA: 5.065
+        amatuer: 5.659,
     }, {
         lie: 's',
         distance: 494,
         pgaTour: 5.071,
-        eighty: 5.665,
-        ninety: 6.221,
-        oneHundred: 6.777,
-        originalPGA: 5.071
+        amatuer: 5.665,
     }, {
         lie: 's',
         distance: 495,
         pgaTour: 5.078,
-        eighty: 5.672,
-        ninety: 6.228,
-        oneHundred: 6.784,
-        originalPGA: 5.078
+        amatuer: 5.672,
     }, {
         lie: 's',
         distance: 496,
         pgaTour: 5.084,
-        eighty: 5.678,
-        ninety: 6.234,
-        oneHundred: 6.79,
-        originalPGA: 5.084
+        amatuer: 5.678,
     }, {
         lie: 's',
         distance: 497,
         pgaTour: 5.091,
-        eighty: 5.685,
-        ninety: 6.241,
-        oneHundred: 6.797,
-        originalPGA: 5.091
+        amatuer: 5.685,
     }, {
         lie: 's',
         distance: 498,
         pgaTour: 5.097,
-        eighty: 5.691,
-        ninety: 6.247,
-        oneHundred: 6.803,
-        originalPGA: 5.097
+        amatuer: 5.691,
     }, {
         lie: 's',
         distance: 499,
         pgaTour: 5.104,
-        eighty: 5.698,
-        ninety: 6.254,
-        oneHundred: 6.81,
-        originalPGA: 5.104
+        amatuer: 5.698,
     }, {
         lie: 's',
         distance: 500,
         pgaTour: 5.11,
-        eighty: 5.704,
-        ninety: 6.26,
-        oneHundred: 6.816,
-        originalPGA: 5.11
+        amatuer: 5.704,
     }, {
         lie: 's',
         distance: 501,
         pgaTour: 5.117,
-        eighty: 5.711,
-        ninety: 6.267,
-        oneHundred: 6.823,
-        originalPGA: 5.117
+        amatuer: 5.711,
     }, {
         lie: 's',
         distance: 502,
         pgaTour: 5.123,
-        eighty: 5.717,
-        ninety: 6.273,
-        oneHundred: 6.829,
-        originalPGA: 5.123
+        amatuer: 5.717,
     }, {
         lie: 's',
         distance: 503,
         pgaTour: 5.13,
-        eighty: 5.724,
-        ninety: 6.28,
-        oneHundred: 6.836,
-        originalPGA: 5.13
+        amatuer: 5.724,
     }, {
         lie: 's',
         distance: 504,
         pgaTour: 5.136,
-        eighty: 5.73,
-        ninety: 6.286,
-        oneHundred: 6.842,
-        originalPGA: 5.136
+        amatuer: 5.73,
     }, {
         lie: 's',
         distance: 505,
         pgaTour: 5.143,
-        eighty: 5.737,
-        ninety: 6.293,
-        oneHundred: 6.849,
-        originalPGA: 5.143
+        amatuer: 5.737,
     }, {
         lie: 's',
         distance: 506,
         pgaTour: 5.149,
-        eighty: 5.743,
-        ninety: 6.299,
-        oneHundred: 6.855,
-        originalPGA: 5.149
+        amatuer: 5.743,
     }, {
         lie: 's',
         distance: 507,
         pgaTour: 5.156,
-        eighty: 5.75,
-        ninety: 6.306,
-        oneHundred: 6.862,
-        originalPGA: 5.156
+        amatuer: 5.75,
     }, {
         lie: 's',
         distance: 508,
         pgaTour: 5.162,
-        eighty: 5.756,
-        ninety: 6.312,
-        oneHundred: 6.868,
-        originalPGA: 5.162
+        amatuer: 5.756,
     }, {
         lie: 's',
         distance: 509,
         pgaTour: 5.169,
-        eighty: 5.763,
-        ninety: 6.319,
-        oneHundred: 6.875,
-        originalPGA: 5.169
+        amatuer: 5.763,
     }, {
         lie: 's',
         distance: 510,
         pgaTour: 5.175,
-        eighty: 5.769,
-        ninety: 6.325,
-        oneHundred: 6.881,
-        originalPGA: 5.175
+        amatuer: 5.769,
     }, {
         lie: 's',
         distance: 511,
         pgaTour: 5.182,
-        eighty: 5.776,
-        ninety: 6.332,
-        oneHundred: 6.888,
-        originalPGA: 5.182
+        amatuer: 5.776,
     }, {
         lie: 's',
         distance: 512,
         pgaTour: 5.188,
-        eighty: 5.782,
-        ninety: 6.338,
-        oneHundred: 6.894,
-        originalPGA: 5.188
+        amatuer: 5.782,
     }, {
         lie: 's',
         distance: 513,
         pgaTour: 5.195,
-        eighty: 5.789,
-        ninety: 6.345,
-        oneHundred: 6.901,
-        originalPGA: 5.195
+        amatuer: 5.789,
     }, {
         lie: 's',
         distance: 514,
         pgaTour: 5.201,
-        eighty: 5.795,
-        ninety: 6.351,
-        oneHundred: 6.907,
-        originalPGA: 5.201
+        amatuer: 5.795,
     }, {
         lie: 's',
         distance: 515,
         pgaTour: 5.208,
-        eighty: 5.802,
-        ninety: 6.358,
-        oneHundred: 6.914,
-        originalPGA: 5.208
+        amatuer: 5.802,
     }, {
         lie: 's',
         distance: 516,
         pgaTour: 5.214,
-        eighty: 5.808,
-        ninety: 6.364,
-        oneHundred: 6.92,
-        originalPGA: 5.214
+        amatuer: 5.808,
     }, {
         lie: 's',
         distance: 517,
         pgaTour: 5.221,
-        eighty: 5.815,
-        ninety: 6.371,
-        oneHundred: 6.927,
-        originalPGA: 5.221
+        amatuer: 5.815,
     }, {
         lie: 's',
         distance: 518,
         pgaTour: 5.227,
-        eighty: 5.821,
-        ninety: 6.377,
-        oneHundred: 6.933,
-        originalPGA: 5.227
+        amatuer: 5.821,
     }, {
         lie: 's',
         distance: 519,
         pgaTour: 5.234,
-        eighty: 5.828,
-        ninety: 6.384,
-        oneHundred: 6.94,
-        originalPGA: 5.234
+        amatuer: 5.828,
     }, {
         lie: 's',
         distance: 520,
         pgaTour: 5.24,
-        eighty: 5.834,
-        ninety: 6.39,
-        oneHundred: 6.946,
-        originalPGA: 5.24
+        amatuer: 5.834,
     }, {
         lie: 's',
         distance: 521,
         pgaTour: 5.246,
-        eighty: 5.84,
-        ninety: 6.396,
-        oneHundred: 6.952,
-        originalPGA: 5.246
+        amatuer: 5.84,
     }, {
         lie: 's',
         distance: 522,
         pgaTour: 5.252,
-        eighty: 5.846,
-        ninety: 6.402,
-        oneHundred: 6.958,
-        originalPGA: 5.252
+        amatuer: 5.846,
     }, {
         lie: 's',
         distance: 523,
         pgaTour: 5.258,
-        eighty: 5.852,
-        ninety: 6.408,
-        oneHundred: 6.964,
-        originalPGA: 5.258
+        amatuer: 5.852,
     }, {
         lie: 's',
         distance: 524,
         pgaTour: 5.264,
-        eighty: 5.858,
-        ninety: 6.414,
-        oneHundred: 6.97,
-        originalPGA: 5.264
+        amatuer: 5.858,
     }, {
         lie: 's',
         distance: 525,
         pgaTour: 5.27,
-        eighty: 5.864,
-        ninety: 6.42,
-        oneHundred: 6.976,
-        originalPGA: 5.27
+        amatuer: 5.864,
     }, {
         lie: 's',
         distance: 526,
         pgaTour: 5.276,
-        eighty: 5.87,
-        ninety: 6.426,
-        oneHundred: 6.982,
-        originalPGA: 5.276
+        amatuer: 5.87,
     }, {
         lie: 's',
         distance: 527,
         pgaTour: 5.282,
-        eighty: 5.876,
-        ninety: 6.432,
-        oneHundred: 6.988,
-        originalPGA: 5.282
+        amatuer: 5.876,
     }, {
         lie: 's',
         distance: 528,
         pgaTour: 5.288,
-        eighty: 5.882,
-        ninety: 6.438,
-        oneHundred: 6.994,
-        originalPGA: 5.288
+        amatuer: 5.882,
     }, {
         lie: 's',
         distance: 529,
         pgaTour: 5.294,
-        eighty: 5.888,
-        ninety: 6.444,
-        oneHundred: 7,
-        originalPGA: 5.294
+        amatuer: 5.888,
     }, {
         lie: 's',
         distance: 530,
         pgaTour: 5.3,
-        eighty: 5.894,
-        ninety: 6.45,
-        oneHundred: 7.006,
-        originalPGA: 5.3
+        amatuer: 5.894,
     }, {
         lie: 's',
         distance: 531,
         pgaTour: 5.306,
-        eighty: 5.9,
-        ninety: 6.456,
-        oneHundred: 7.012,
-        originalPGA: 5.306
+        amatuer: 5.9,
     }, {
         lie: 's',
         distance: 532,
         pgaTour: 5.312,
-        eighty: 5.906,
-        ninety: 6.462,
-        oneHundred: 7.018,
-        originalPGA: 5.312
+        amatuer: 5.906,
     }, {
         lie: 's',
         distance: 533,
         pgaTour: 5.318,
-        eighty: 5.912,
-        ninety: 6.468,
-        oneHundred: 7.024,
-        originalPGA: 5.318
+        amatuer: 5.912,
     }, {
         lie: 's',
         distance: 534,
         pgaTour: 5.324,
-        eighty: 5.918,
-        ninety: 6.474,
-        oneHundred: 7.03,
-        originalPGA: 5.324
+        amatuer: 5.918,
     }, {
         lie: 's',
         distance: 535,
         pgaTour: 5.33,
-        eighty: 5.924,
-        ninety: 6.48,
-        oneHundred: 7.036,
-        originalPGA: 5.33
+        amatuer: 5.924,
     }, {
         lie: 's',
         distance: 536,
         pgaTour: 5.336,
-        eighty: 5.93,
-        ninety: 6.486,
-        oneHundred: 7.042,
-        originalPGA: 5.336
+        amatuer: 5.93,
     }, {
         lie: 's',
         distance: 537,
         pgaTour: 5.342,
-        eighty: 5.936,
-        ninety: 6.492,
-        oneHundred: 7.048,
-        originalPGA: 5.342
+        amatuer: 5.936,
     }, {
         lie: 's',
         distance: 538,
         pgaTour: 5.348,
-        eighty: 5.942,
-        ninety: 6.498,
-        oneHundred: 7.054,
-        originalPGA: 5.348
+        amatuer: 5.942,
     }, {
         lie: 's',
         distance: 539,
         pgaTour: 5.354,
-        eighty: 5.948,
-        ninety: 6.504,
-        oneHundred: 7.06,
-        originalPGA: 5.354
+        amatuer: 5.948,
     }, {
         lie: 's',
         distance: 540,
         pgaTour: 5.36,
-        eighty: 5.954,
-        ninety: 6.51,
-        oneHundred: 7.066,
-        originalPGA: 5.36
+        amatuer: 5.954,
     }, {
         lie: 's',
         distance: 541,
         pgaTour: 5.364,
-        eighty: 5.958,
-        ninety: 6.514,
-        oneHundred: 7.07,
-        originalPGA: 5.364
+        amatuer: 5.958,
     }, {
         lie: 's',
         distance: 542,
         pgaTour: 5.368,
-        eighty: 5.962,
-        ninety: 6.518,
-        oneHundred: 7.074,
-        originalPGA: 5.368
+        amatuer: 5.962,
     }, {
         lie: 's',
         distance: 543,
         pgaTour: 5.372,
-        eighty: 5.966,
-        ninety: 6.522,
-        oneHundred: 7.078,
-        originalPGA: 5.372
+        amatuer: 5.966,
     }, {
         lie: 's',
         distance: 544,
         pgaTour: 5.376,
-        eighty: 5.97,
-        ninety: 6.526,
-        oneHundred: 7.082,
-        originalPGA: 5.376
+        amatuer: 5.97,
     }, {
         lie: 's',
         distance: 545,
         pgaTour: 5.38,
-        eighty: 5.974,
-        ninety: 6.53,
-        oneHundred: 7.086,
-        originalPGA: 5.38
+        amatuer: 5.974,
     }, {
         lie: 's',
         distance: 546,
         pgaTour: 5.384,
-        eighty: 5.978,
-        ninety: 6.534,
-        oneHundred: 7.09,
-        originalPGA: 5.384
+        amatuer: 5.978,
     }, {
         lie: 's',
         distance: 547,
         pgaTour: 5.388,
-        eighty: 5.982,
-        ninety: 6.538,
-        oneHundred: 7.094,
-        originalPGA: 5.388
+        amatuer: 5.982,
     }, {
         lie: 's',
         distance: 548,
         pgaTour: 5.392,
-        eighty: 5.986,
-        ninety: 6.542,
-        oneHundred: 7.098,
-        originalPGA: 5.392
+        amatuer: 5.986,
     }, {
         lie: 's',
         distance: 549,
         pgaTour: 5.396,
-        eighty: 5.99,
-        ninety: 6.546,
-        oneHundred: 7.102,
-        originalPGA: 5.396
+        amatuer: 5.99,
     }, {
         lie: 's',
         distance: 550,
         pgaTour: 5.4,
-        eighty: 5.994,
-        ninety: 6.55,
-        oneHundred: 7.106,
-        originalPGA: 5.4
+        amatuer: 5.994,
     }, {
         lie: 's',
         distance: 551,
         pgaTour: 5.404,
-        eighty: 5.998,
-        ninety: 6.554,
-        oneHundred: 7.11,
-        originalPGA: 5.404
+        amatuer: 5.998,
     }, {
         lie: 's',
         distance: 552,
         pgaTour: 5.408,
-        eighty: 6.002,
-        ninety: 6.558,
-        oneHundred: 7.114,
-        originalPGA: 5.408
+        amatuer: 6.002,
     }, {
         lie: 's',
         distance: 553,
         pgaTour: 5.412,
-        eighty: 6.006,
-        ninety: 6.562,
-        oneHundred: 7.118,
-        originalPGA: 5.412
+        amatuer: 6.006,
     }, {
         lie: 's',
         distance: 554,
         pgaTour: 5.416,
-        eighty: 6.01,
-        ninety: 6.566,
-        oneHundred: 7.122,
-        originalPGA: 5.416
+        amatuer: 6.01,
     }, {
         lie: 's',
         distance: 555,
         pgaTour: 5.42,
-        eighty: 6.014,
-        ninety: 6.57,
-        oneHundred: 7.126,
-        originalPGA: 5.42
+        amatuer: 6.014,
     }, {
         lie: 's',
         distance: 556,
         pgaTour: 5.424,
-        eighty: 6.018,
-        ninety: 6.574,
-        oneHundred: 7.13,
-        originalPGA: 5.424
+        amatuer: 6.018,
     }, {
         lie: 's',
         distance: 557,
         pgaTour: 5.428,
-        eighty: 6.022,
-        ninety: 6.578,
-        oneHundred: 7.134,
-        originalPGA: 5.428
+        amatuer: 6.022,
     }, {
         lie: 's',
         distance: 558,
         pgaTour: 5.432,
-        eighty: 6.026,
-        ninety: 6.582,
-        oneHundred: 7.138,
-        originalPGA: 5.432
+        amatuer: 6.026,
     }, {
         lie: 's',
         distance: 559,
         pgaTour: 5.436,
-        eighty: 6.03,
-        ninety: 6.586,
-        oneHundred: 7.142,
-        originalPGA: 5.436
+        amatuer: 6.03,
     }, {
         lie: 's',
         distance: 560,
         pgaTour: 5.44,
-        eighty: 6.034,
-        ninety: 6.59,
-        oneHundred: 7.146,
-        originalPGA: 5.44
+        amatuer: 6.034,
     }, {
         lie: 's',
         distance: 561,
         pgaTour: 5.443,
-        eighty: 6.037,
-        ninety: 6.593,
-        oneHundred: 7.149,
-        originalPGA: 5.443
+        amatuer: 6.037,
     }, {
         lie: 's',
         distance: 562,
         pgaTour: 5.445,
-        eighty: 6.039,
-        ninety: 6.595,
-        oneHundred: 7.151,
-        originalPGA: 5.445
+        amatuer: 6.039,
     }, {
         lie: 's',
         distance: 563,
         pgaTour: 5.448,
-        eighty: 6.042,
-        ninety: 6.598,
-        oneHundred: 7.154,
-        originalPGA: 5.448
+        amatuer: 6.042,
     }, {
         lie: 's',
         distance: 564,
         pgaTour: 5.45,
-        eighty: 6.044,
-        ninety: 6.6,
-        oneHundred: 7.156,
-        originalPGA: 5.45
+        amatuer: 6.044,
     }, {
         lie: 's',
         distance: 565,
         pgaTour: 5.453,
-        eighty: 6.047,
-        ninety: 6.603,
-        oneHundred: 7.159,
-        originalPGA: 5.453
+        amatuer: 6.047,
     }, {
         lie: 's',
         distance: 566,
         pgaTour: 5.455,
-        eighty: 6.049,
-        ninety: 6.605,
-        oneHundred: 7.161,
-        originalPGA: 5.455
+        amatuer: 6.049,
     }, {
         lie: 's',
         distance: 567,
         pgaTour: 5.458,
-        eighty: 6.052,
-        ninety: 6.608,
-        oneHundred: 7.164,
-        originalPGA: 5.458
+        amatuer: 6.052,
     }, {
         lie: 's',
         distance: 568,
         pgaTour: 5.46,
-        eighty: 6.054,
-        ninety: 6.61,
-        oneHundred: 7.166,
-        originalPGA: 5.46
+        amatuer: 6.054,
     }, {
         lie: 's',
         distance: 569,
         pgaTour: 5.463,
-        eighty: 6.057,
-        ninety: 6.613,
-        oneHundred: 7.169,
-        originalPGA: 5.463
+        amatuer: 6.057,
     }, {
         lie: 's',
         distance: 570,
         pgaTour: 5.465,
-        eighty: 6.059,
-        ninety: 6.615,
-        oneHundred: 7.171,
-        originalPGA: 5.465
+        amatuer: 6.059,
     }, {
         lie: 's',
         distance: 571,
         pgaTour: 5.468,
-        eighty: 6.062,
-        ninety: 6.618,
-        oneHundred: 7.174,
-        originalPGA: 5.468
+        amatuer: 6.062,
     }, {
         lie: 's',
         distance: 572,
         pgaTour: 5.47,
-        eighty: 6.064,
-        ninety: 6.62,
-        oneHundred: 7.176,
-        originalPGA: 5.47
+        amatuer: 6.064,
     }, {
         lie: 's',
         distance: 573,
         pgaTour: 5.473,
-        eighty: 6.067,
-        ninety: 6.623,
-        oneHundred: 7.179,
-        originalPGA: 5.473
+        amatuer: 6.067,
     }, {
         lie: 's',
         distance: 574,
         pgaTour: 5.475,
-        eighty: 6.069,
-        ninety: 6.625,
-        oneHundred: 7.181,
-        originalPGA: 5.475
+        amatuer: 6.069,
     }, {
         lie: 's',
         distance: 575,
         pgaTour: 5.478,
-        eighty: 6.072,
-        ninety: 6.628,
-        oneHundred: 7.184,
-        originalPGA: 5.478
+        amatuer: 6.072,
     }, {
         lie: 's',
         distance: 576,
         pgaTour: 5.48,
-        eighty: 6.074,
-        ninety: 6.63,
-        oneHundred: 7.186,
-        originalPGA: 5.48
+        amatuer: 6.074,
     }, {
         lie: 's',
         distance: 577,
         pgaTour: 5.483,
-        eighty: 6.077,
-        ninety: 6.633,
-        oneHundred: 7.189,
-        originalPGA: 5.483
+        amatuer: 6.077,
     }, {
         lie: 's',
         distance: 578,
         pgaTour: 5.485,
-        eighty: 6.079,
-        ninety: 6.635,
-        oneHundred: 7.191,
-        originalPGA: 5.485
+        amatuer: 6.079,
     }, {
         lie: 's',
         distance: 579,
         pgaTour: 5.488,
-        eighty: 6.082,
-        ninety: 6.638,
-        oneHundred: 7.194,
-        originalPGA: 5.488
+        amatuer: 6.082,
     }, {
         lie: 's',
         distance: 580,
         pgaTour: 5.49,
-        eighty: 6.084,
-        ninety: 6.64,
-        oneHundred: 7.196,
-        originalPGA: 5.49
+        amatuer: 6.084,
     }, {
         lie: 's',
         distance: 581,
         pgaTour: 5.492,
-        eighty: 6.086,
-        ninety: 6.642,
-        oneHundred: 7.198,
-        originalPGA: 5.492
+        amatuer: 6.086,
     }, {
         lie: 's',
         distance: 582,
         pgaTour: 5.493,
-        eighty: 6.087,
-        ninety: 6.643,
-        oneHundred: 7.199,
-        originalPGA: 5.493
+        amatuer: 6.087,
     }, {
         lie: 's',
         distance: 583,
         pgaTour: 5.495,
-        eighty: 6.089,
-        ninety: 6.645,
-        oneHundred: 7.201,
-        originalPGA: 5.495
+        amatuer: 6.089,
     }, {
         lie: 's',
         distance: 584,
         pgaTour: 5.496,
-        eighty: 6.09,
-        ninety: 6.646,
-        oneHundred: 7.202,
-        originalPGA: 5.496
+        amatuer: 6.09,
     }, {
         lie: 's',
         distance: 585,
         pgaTour: 5.498,
-        eighty: 6.092,
-        ninety: 6.648,
-        oneHundred: 7.204,
-        originalPGA: 5.498
+        amatuer: 6.092,
     }, {
         lie: 's',
         distance: 586,
         pgaTour: 5.499,
-        eighty: 6.093,
-        ninety: 6.649,
-        oneHundred: 7.205,
-        originalPGA: 5.499
+        amatuer: 6.093,
     }, {
         lie: 's',
         distance: 587,
         pgaTour: 5.501,
-        eighty: 6.095,
-        ninety: 6.651,
-        oneHundred: 7.207,
-        originalPGA: 5.501
+        amatuer: 6.095,
     }, {
         lie: 's',
         distance: 588,
         pgaTour: 5.502,
-        eighty: 6.096,
-        ninety: 6.652,
-        oneHundred: 7.208,
-        originalPGA: 5.502
+        amatuer: 6.096,
     }, {
         lie: 's',
         distance: 589,
         pgaTour: 5.504,
-        eighty: 6.098,
-        ninety: 6.654,
-        oneHundred: 7.21,
-        originalPGA: 5.504
+        amatuer: 6.098,
     }, {
         lie: 's',
         distance: 590,
         pgaTour: 5.505,
-        eighty: 6.099,
-        ninety: 6.655,
-        oneHundred: 7.211,
-        originalPGA: 5.505
+        amatuer: 6.099,
     }, {
         lie: 's',
         distance: 591,
         pgaTour: 5.507,
-        eighty: 6.101,
-        ninety: 6.657,
-        oneHundred: 7.213,
-        originalPGA: 5.507
+        amatuer: 6.101,
     }, {
         lie: 's',
         distance: 592,
         pgaTour: 5.508,
-        eighty: 6.102,
-        ninety: 6.658,
-        oneHundred: 7.214,
-        originalPGA: 5.508
+        amatuer: 6.102,
     }, {
         lie: 's',
         distance: 593,
         pgaTour: 5.51,
-        eighty: 6.104,
-        ninety: 6.66,
-        oneHundred: 7.216,
-        originalPGA: 5.51
+        amatuer: 6.104,
     }, {
         lie: 's',
         distance: 594,
         pgaTour: 5.511,
-        eighty: 6.105,
-        ninety: 6.661,
-        oneHundred: 7.217,
-        originalPGA: 5.511
+        amatuer: 6.105,
     }, {
         lie: 's',
         distance: 595,
         pgaTour: 5.513,
-        eighty: 6.107,
-        ninety: 6.663,
-        oneHundred: 7.219,
-        originalPGA: 5.513
+        amatuer: 6.107,
     }, {
         lie: 's',
         distance: 596,
         pgaTour: 5.514,
-        eighty: 6.108,
-        ninety: 6.664,
-        oneHundred: 7.22,
-        originalPGA: 5.514
+        amatuer: 6.108,
     }, {
         lie: 's',
         distance: 597,
         pgaTour: 5.516,
-        eighty: 6.11,
-        ninety: 6.666,
-        oneHundred: 7.222,
-        originalPGA: 5.516
+        amatuer: 6.11,
     }, {
         lie: 's',
         distance: 598,
         pgaTour: 5.517,
-        eighty: 6.111,
-        ninety: 6.667,
-        oneHundred: 7.223,
-        originalPGA: 5.517
+        amatuer: 6.111,
     }, {
         lie: 's',
         distance: 599,
         pgaTour: 5.519,
-        eighty: 6.113,
-        ninety: 6.669,
-        oneHundred: 7.225,
-        originalPGA: 5.519
+        amatuer: 6.113,
     }, {
         lie: 's',
         distance: 600,
         pgaTour: 5.52,
-        eighty: 6.114,
-        ninety: 6.67,
-        oneHundred: 7.226,
-        originalPGA: 5.52
+        amatuer: 6.114,
     },
     // GREEN
     {
         lie: 'g',
         distance: 1,
         pgaTour: 1,
-        eighty: 1.1,
-        ninety: 1.2,
-        oneHundred: 1.3,
-        originalPGA: 1
+        amatuer: 1.1,
     }, {
         lie: 'g',
         distance: 2,
         pgaTour: 1.01,
-        eighty: 1.11,
-        ninety: 1.21,
-        oneHundred: 1.31,
-        originalPGA: 1.01
+        amatuer: 1.11,
     }, {
         lie: 'g',
         distance: 3,
         pgaTour: 1.05,
-        eighty: 1.15,
-        ninety: 1.25,
-        oneHundred: 1.35,
-        originalPGA: 1.05
+        amatuer: 1.15,
     }, {
         lie: 'g',
         distance: 4,
         pgaTour: 1.14,
-        eighty: 1.24,
-        ninety: 1.34,
-        oneHundred: 1.44,
-        originalPGA: 1.14
+        amatuer: 1.24,
     }, {
         lie: 'g',
         distance: 5,
         pgaTour: 1.24,
-        eighty: 1.34,
-        ninety: 1.44,
-        oneHundred: 1.54,
-        originalPGA: 1.24
+        amatuer: 1.34,
     }, {
         lie: 'g',
         distance: 6,
         pgaTour: 1.34,
-        eighty: 1.44,
-        ninety: 1.54,
-        oneHundred: 1.64,
-        originalPGA: 1.34
+        amatuer: 1.44,
     }, {
         lie: 'g',
         distance: 7,
         pgaTour: 1.43,
-        eighty: 1.53,
-        ninety: 1.63,
-        oneHundred: 1.73,
-        originalPGA: 1.43
+        amatuer: 1.53,
     }, {
         lie: 'g',
         distance: 8,
         pgaTour: 1.5,
-        eighty: 1.6,
-        ninety: 1.7,
-        oneHundred: 1.8,
-        originalPGA: 1.5
+        amatuer: 1.6,
     }, {
         lie: 'g',
         distance: 9,
         pgaTour: 1.56,
-        eighty: 1.66,
-        ninety: 1.76,
-        oneHundred: 1.86,
-        originalPGA: 1.56
+        amatuer: 1.66,
     }, {
         lie: 'g',
         distance: 10,
         pgaTour: 1.61,
-        eighty: 1.71,
-        ninety: 1.81,
-        oneHundred: 1.91,
-        originalPGA: 1.61
+        amatuer: 1.71,
     }, {
         lie: 'g',
         distance: 11,
         pgaTour: 1.66,
-        eighty: 1.76,
-        ninety: 1.86,
-        oneHundred: 1.96,
-        originalPGA: 1.66
+        amatuer: 1.76,
     }, {
         lie: 'g',
         distance: 12,
         pgaTour: 1.71,
-        eighty: 1.81,
-        ninety: 1.91,
-        oneHundred: 2.01,
-        originalPGA: 1.71
+        amatuer: 1.81,
     }, {
         lie: 'g',
         distance: 13,
         pgaTour: 1.75,
-        eighty: 1.85,
-        ninety: 1.95,
-        oneHundred: 2.05,
-        originalPGA: 1.75
+        amatuer: 1.85,
     }, {
         lie: 'g',
         distance: 14,
         pgaTour: 1.78,
-        eighty: 1.88,
-        ninety: 1.98,
-        oneHundred: 2.08,
-        originalPGA: 1.78
+        amatuer: 1.88,
     }, {
         lie: 'g',
         distance: 15,
         pgaTour: 1.795,
-        eighty: 1.895,
-        ninety: 1.995,
-        oneHundred: 2.095,
-        originalPGA: 1.795
+        amatuer: 1.895,
     }, {
         lie: 'g',
         distance: 16,
         pgaTour: 1.81,
-        eighty: 1.91,
-        ninety: 2.01,
-        oneHundred: 2.11,
-        originalPGA: 1.81
+        amatuer: 1.91,
     }, {
         lie: 'g',
         distance: 17,
         pgaTour: 1.825,
-        eighty: 1.925,
-        ninety: 2.025,
-        oneHundred: 2.125,
-        originalPGA: 1.825
+        amatuer: 1.925,
     }, {
         lie: 'g',
         distance: 18,
         pgaTour: 1.84,
-        eighty: 1.94,
-        ninety: 2.04,
-        oneHundred: 2.14,
-        originalPGA: 1.84
+        amatuer: 1.94,
     }, {
         lie: 'g',
         distance: 19,
         pgaTour: 1.855,
-        eighty: 1.955,
-        ninety: 2.055,
-        oneHundred: 2.155,
-        originalPGA: 1.855
+        amatuer: 1.955,
     }, {
         lie: 'g',
         distance: 20,
         pgaTour: 1.87,
-        eighty: 1.97,
-        ninety: 2.07,
-        oneHundred: 2.17,
-        originalPGA: 1.87
+        amatuer: 1.97,
     }, {
         lie: 'g',
         distance: 21,
         pgaTour: 1.881,
-        eighty: 1.981,
-        ninety: 2.081,
-        oneHundred: 2.181,
-        originalPGA: 1.881
+        amatuer: 1.981,
     }, {
         lie: 'g',
         distance: 22,
         pgaTour: 1.892,
-        eighty: 1.992,
-        ninety: 2.092,
-        oneHundred: 2.192,
-        originalPGA: 1.892
+        amatuer: 1.992,
     }, {
         lie: 'g',
         distance: 23,
         pgaTour: 1.903,
-        eighty: 2.003,
-        ninety: 2.103,
-        oneHundred: 2.203,
-        originalPGA: 1.903
+        amatuer: 2.003,
     }, {
         lie: 'g',
         distance: 24,
         pgaTour: 1.914,
-        eighty: 2.014,
-        ninety: 2.114,
-        oneHundred: 2.214,
-        originalPGA: 1.914
+        amatuer: 2.014,
     }, {
         lie: 'g',
         distance: 25,
         pgaTour: 1.925,
-        eighty: 2.025,
-        ninety: 2.125,
-        oneHundred: 2.225,
-        originalPGA: 1.925
+        amatuer: 2.025,
     }, {
         lie: 'g',
         distance: 26,
         pgaTour: 1.936,
-        eighty: 2.036,
-        ninety: 2.136,
-        oneHundred: 2.236,
-        originalPGA: 1.936
+        amatuer: 2.036,
     }, {
         lie: 'g',
         distance: 27,
         pgaTour: 1.947,
-        eighty: 2.047,
-        ninety: 2.147,
-        oneHundred: 2.247,
-        originalPGA: 1.947
+        amatuer: 2.047,
     }, {
         lie: 'g',
         distance: 28,
         pgaTour: 1.958,
-        eighty: 2.058,
-        ninety: 2.158,
-        oneHundred: 2.258,
-        originalPGA: 1.958
+        amatuer: 2.058,
     }, {
         lie: 'g',
         distance: 29,
         pgaTour: 1.969,
-        eighty: 2.069,
-        ninety: 2.169,
-        oneHundred: 2.269,
-        originalPGA: 1.969
+        amatuer: 2.069,
     }, {
         lie: 'g',
         distance: 30,
         pgaTour: 1.98,
-        eighty: 2.08,
-        ninety: 2.18,
-        oneHundred: 2.28,
-        originalPGA: 1.98
+        amatuer: 2.08,
     }, {
         lie: 'g',
         distance: 31,
         pgaTour: 1.988,
-        eighty: 2.088,
-        ninety: 2.188,
-        oneHundred: 2.288,
-        originalPGA: 1.988
+        amatuer: 2.088,
     }, {
         lie: 'g',
         distance: 32,
         pgaTour: 1.996,
-        eighty: 2.096,
-        ninety: 2.196,
-        oneHundred: 2.296,
-        originalPGA: 1.996
+        amatuer: 2.096,
     }, {
         lie: 'g',
         distance: 33,
         pgaTour: 2.004,
-        eighty: 2.104,
-        ninety: 2.204,
-        oneHundred: 2.304,
-        originalPGA: 2.004
+        amatuer: 2.104,
     }, {
         lie: 'g',
         distance: 34,
         pgaTour: 2.012,
-        eighty: 2.112,
-        ninety: 2.212,
-        oneHundred: 2.312,
-        originalPGA: 2.012
+        amatuer: 2.112,
     }, {
         lie: 'g',
         distance: 35,
         pgaTour: 2.02,
-        eighty: 2.12,
-        ninety: 2.22,
-        oneHundred: 2.32,
-        originalPGA: 2.02
+        amatuer: 2.12,
     }, {
         lie: 'g',
         distance: 36,
         pgaTour: 2.028,
-        eighty: 2.128,
-        ninety: 2.228,
-        oneHundred: 2.328,
-        originalPGA: 2.028
+        amatuer: 2.128,
     }, {
         lie: 'g',
         distance: 37,
         pgaTour: 2.036,
-        eighty: 2.136,
-        ninety: 2.236,
-        oneHundred: 2.336,
-        originalPGA: 2.036
+        amatuer: 2.136,
     }, {
         lie: 'g',
         distance: 38,
         pgaTour: 2.044,
-        eighty: 2.144,
-        ninety: 2.244,
-        oneHundred: 2.344,
-        originalPGA: 2.044
+        amatuer: 2.144,
     }, {
         lie: 'g',
         distance: 39,
         pgaTour: 2.052,
-        eighty: 2.152,
-        ninety: 2.252,
-        oneHundred: 2.352,
-        originalPGA: 2.052
+        amatuer: 2.152,
     }, {
         lie: 'g',
         distance: 40,
         pgaTour: 2.06,
-        eighty: 2.16,
-        ninety: 2.26,
-        oneHundred: 2.36,
-        originalPGA: 2.06
+        amatuer: 2.16,
     }, {
         lie: 'g',
         distance: 41,
         pgaTour: 2.068,
-        eighty: 2.168,
-        ninety: 2.268,
-        oneHundred: 2.368,
-        originalPGA: 2.068
+        amatuer: 2.168,
     }, {
         lie: 'g',
         distance: 42,
         pgaTour: 2.076,
-        eighty: 2.176,
-        ninety: 2.276,
-        oneHundred: 2.376,
-        originalPGA: 2.076
+        amatuer: 2.176,
     }, {
         lie: 'g',
         distance: 43,
         pgaTour: 2.084,
-        eighty: 2.184,
-        ninety: 2.284,
-        oneHundred: 2.384,
-        originalPGA: 2.084
+        amatuer: 2.184,
     }, {
         lie: 'g',
         distance: 44,
         pgaTour: 2.092,
-        eighty: 2.192,
-        ninety: 2.292,
-        oneHundred: 2.392,
-        originalPGA: 2.092
+        amatuer: 2.192,
     }, {
         lie: 'g',
         distance: 45,
         pgaTour: 2.1,
-        eighty: 2.2,
-        ninety: 2.3,
-        oneHundred: 2.4,
-        originalPGA: 2.1
+        amatuer: 2.2,
     }, {
         lie: 'g',
         distance: 46,
         pgaTour: 2.108,
-        eighty: 2.208,
-        ninety: 2.308,
-        oneHundred: 2.408,
-        originalPGA: 2.108
+        amatuer: 2.208,
     }, {
         lie: 'g',
         distance: 47,
         pgaTour: 2.116,
-        eighty: 2.216,
-        ninety: 2.316,
-        oneHundred: 2.416,
-        originalPGA: 2.116
+        amatuer: 2.216,
     }, {
         lie: 'g',
         distance: 48,
         pgaTour: 2.124,
-        eighty: 2.224,
-        ninety: 2.324,
-        oneHundred: 2.424,
-        originalPGA: 2.124
+        amatuer: 2.224,
     }, {
         lie: 'g',
         distance: 49,
         pgaTour: 2.132,
-        eighty: 2.232,
-        ninety: 2.332,
-        oneHundred: 2.432,
-        originalPGA: 2.132
+        amatuer: 2.232,
     }, {
         lie: 'g',
         distance: 50,
         pgaTour: 2.14,
-        eighty: 2.24,
-        ninety: 2.34,
-        oneHundred: 2.44,
-        originalPGA: 2.14
+        amatuer: 2.24,
     }, {
         lie: 'g',
         distance: 51,
         pgaTour: 2.147,
-        eighty: 2.247,
-        ninety: 2.347,
-        oneHundred: 2.447,
-        originalPGA: 2.147
+        amatuer: 2.247,
     }, {
         lie: 'g',
         distance: 52,
         pgaTour: 2.154,
-        eighty: 2.254,
-        ninety: 2.354,
-        oneHundred: 2.454,
-        originalPGA: 2.154
+        amatuer: 2.254,
     }, {
         lie: 'g',
         distance: 53,
         pgaTour: 2.161,
-        eighty: 2.261,
-        ninety: 2.361,
-        oneHundred: 2.461,
-        originalPGA: 2.161
+        amatuer: 2.261,
     }, {
         lie: 'g',
         distance: 54,
         pgaTour: 2.168,
-        eighty: 2.268,
-        ninety: 2.368,
-        oneHundred: 2.468,
-        originalPGA: 2.168
+        amatuer: 2.268,
     }, {
         lie: 'g',
         distance: 55,
         pgaTour: 2.175,
-        eighty: 2.275,
-        ninety: 2.375,
-        oneHundred: 2.475,
-        originalPGA: 2.175
+        amatuer: 2.275,
     }, {
         lie: 'g',
         distance: 56,
         pgaTour: 2.182,
-        eighty: 2.282,
-        ninety: 2.382,
-        oneHundred: 2.482,
-        originalPGA: 2.182
+        amatuer: 2.282,
     }, {
         lie: 'g',
         distance: 57,
         pgaTour: 2.189,
-        eighty: 2.289,
-        ninety: 2.389,
-        oneHundred: 2.489,
-        originalPGA: 2.189
+        amatuer: 2.289,
     }, {
         lie: 'g',
         distance: 58,
         pgaTour: 2.196,
-        eighty: 2.296,
-        ninety: 2.396,
-        oneHundred: 2.496,
-        originalPGA: 2.196
+        amatuer: 2.296,
     }, {
         lie: 'g',
         distance: 59,
         pgaTour: 2.203,
-        eighty: 2.303,
-        ninety: 2.403,
-        oneHundred: 2.503,
-        originalPGA: 2.203
+        amatuer: 2.303,
     }, {
         lie: 'g',
         distance: 60,
         pgaTour: 2.21,
-        eighty: 2.31,
-        ninety: 2.41,
-        oneHundred: 2.51,
-        originalPGA: 2.21
+        amatuer: 2.31,
     }, {
         lie: 'g',
         distance: 61,
         pgaTour: 2.215,
-        eighty: 2.315,
-        ninety: 2.415,
-        oneHundred: 2.515,
-        originalPGA: 2.215
+        amatuer: 2.315,
     }, {
         lie: 'g',
         distance: 62,
         pgaTour: 2.22,
-        eighty: 2.32,
-        ninety: 2.42,
-        oneHundred: 2.52,
-        originalPGA: 2.22
+        amatuer: 2.32,
     }, {
         lie: 'g',
         distance: 63,
         pgaTour: 2.225,
-        eighty: 2.325,
-        ninety: 2.425,
-        oneHundred: 2.525,
-        originalPGA: 2.225
+        amatuer: 2.325,
     }, {
         lie: 'g',
         distance: 64,
         pgaTour: 2.23,
-        eighty: 2.33,
-        ninety: 2.43,
-        oneHundred: 2.53,
-        originalPGA: 2.23
+        amatuer: 2.33,
     }, {
         lie: 'g',
         distance: 65,
         pgaTour: 2.235,
-        eighty: 2.335,
-        ninety: 2.435,
-        oneHundred: 2.535,
-        originalPGA: 2.235
+        amatuer: 2.335,
     }, {
         lie: 'g',
         distance: 66,
         pgaTour: 2.24,
-        eighty: 2.34,
-        ninety: 2.44,
-        oneHundred: 2.54,
-        originalPGA: 2.24
+        amatuer: 2.34,
     }, {
         lie: 'g',
         distance: 67,
         pgaTour: 2.245,
-        eighty: 2.345,
-        ninety: 2.445,
-        oneHundred: 2.545,
-        originalPGA: 2.245
+        amatuer: 2.345,
     }, {
         lie: 'g',
         distance: 68,
         pgaTour: 2.25,
-        eighty: 2.35,
-        ninety: 2.45,
-        oneHundred: 2.55,
-        originalPGA: 2.25
+        amatuer: 2.35,
     }, {
         lie: 'g',
         distance: 69,
         pgaTour: 2.255,
-        eighty: 2.355,
-        ninety: 2.455,
-        oneHundred: 2.555,
-        originalPGA: 2.255
+        amatuer: 2.355,
     }, {
         lie: 'g',
         distance: 70,
         pgaTour: 2.26,
-        eighty: 2.36,
-        ninety: 2.46,
-        oneHundred: 2.56,
-        originalPGA: 2.26
+        amatuer: 2.36,
     }, {
         lie: 'g',
         distance: 71,
         pgaTour: 2.265,
-        eighty: 2.365,
-        ninety: 2.465,
-        oneHundred: 2.565,
-        originalPGA: 2.265
+        amatuer: 2.365,
     }, {
         lie: 'g',
         distance: 72,
         pgaTour: 2.27,
-        eighty: 2.37,
-        ninety: 2.47,
-        oneHundred: 2.57,
-        originalPGA: 2.27
+        amatuer: 2.37,
     }, {
         lie: 'g',
         distance: 73,
         pgaTour: 2.275,
-        eighty: 2.375,
-        ninety: 2.475,
-        oneHundred: 2.575,
-        originalPGA: 2.275
+        amatuer: 2.375,
     }, {
         lie: 'g',
         distance: 74,
         pgaTour: 2.28,
-        eighty: 2.38,
-        ninety: 2.48,
-        oneHundred: 2.58,
-        originalPGA: 2.28
+        amatuer: 2.38,
     }, {
         lie: 'g',
         distance: 75,
         pgaTour: 2.285,
-        eighty: 2.385,
-        ninety: 2.485,
-        oneHundred: 2.585,
-        originalPGA: 2.285
+        amatuer: 2.385,
     }, {
         lie: 'g',
         distance: 76,
         pgaTour: 2.29,
-        eighty: 2.39,
-        ninety: 2.49,
-        oneHundred: 2.59,
-        originalPGA: 2.29
+        amatuer: 2.39,
     }, {
         lie: 'g',
         distance: 77,
         pgaTour: 2.295,
-        eighty: 2.395,
-        ninety: 2.495,
-        oneHundred: 2.595,
-        originalPGA: 2.295
+        amatuer: 2.395,
     }, {
         lie: 'g',
         distance: 78,
         pgaTour: 2.3,
-        eighty: 2.4,
-        ninety: 2.5,
-        oneHundred: 2.6,
-        originalPGA: 2.3
+        amatuer: 2.4,
     }, {
         lie: 'g',
         distance: 79,
         pgaTour: 2.305,
-        eighty: 2.405,
-        ninety: 2.505,
-        oneHundred: 2.605,
-        originalPGA: 2.305
+        amatuer: 2.405,
     }, {
         lie: 'g',
         distance: 80,
         pgaTour: 2.31,
-        eighty: 2.41,
-        ninety: 2.51,
-        oneHundred: 2.61,
-        originalPGA: 2.31
+        amatuer: 2.41,
     }, {
         lie: 'g',
         distance: 81,
         pgaTour: 2.315,
-        eighty: 2.415,
-        ninety: 2.515,
-        oneHundred: 2.615,
-        originalPGA: 2.315
+        amatuer: 2.415,
     }, {
         lie: 'g',
         distance: 82,
         pgaTour: 2.32,
-        eighty: 2.42,
-        ninety: 2.52,
-        oneHundred: 2.62,
-        originalPGA: 2.32
+        amatuer: 2.42,
     }, {
         lie: 'g',
         distance: 83,
         pgaTour: 2.325,
-        eighty: 2.425,
-        ninety: 2.525,
-        oneHundred: 2.625,
-        originalPGA: 2.325
+        amatuer: 2.425,
     }, {
         lie: 'g',
         distance: 84,
         pgaTour: 2.33,
-        eighty: 2.43,
-        ninety: 2.53,
-        oneHundred: 2.63,
-        originalPGA: 2.33
+        amatuer: 2.43,
     }, {
         lie: 'g',
         distance: 85,
         pgaTour: 2.335,
-        eighty: 2.435,
-        ninety: 2.535,
-        oneHundred: 2.635,
-        originalPGA: 2.335
+        amatuer: 2.435,
     }, {
         lie: 'g',
         distance: 86,
         pgaTour: 2.34,
-        eighty: 2.44,
-        ninety: 2.54,
-        oneHundred: 2.64,
-        originalPGA: 2.34
+        amatuer: 2.44,
     }, {
         lie: 'g',
         distance: 87,
         pgaTour: 2.345,
-        eighty: 2.445,
-        ninety: 2.545,
-        oneHundred: 2.645,
-        originalPGA: 2.345
+        amatuer: 2.445,
     }, {
         lie: 'g',
         distance: 88,
         pgaTour: 2.35,
-        eighty: 2.45,
-        ninety: 2.55,
-        oneHundred: 2.65,
-        originalPGA: 2.35
+        amatuer: 2.45,
     }, {
         lie: 'g',
         distance: 89,
         pgaTour: 2.355,
-        eighty: 2.455,
-        ninety: 2.555,
-        oneHundred: 2.655,
-        originalPGA: 2.355
+        amatuer: 2.455,
     }, {
         lie: 'g',
         distance: 90,
-        eighty: 2.46,
-        ninety: 2.56,
-        oneHundred: 2.66,
-        originalPGA: 2.36
+        amatuer: 2.46,
     }, {
         lie: 'g',
         distance: 91,
         pgaTour: 2.364,
-        eighty: 2.464,
-        ninety: 2.564,
-        oneHundred: 2.664,
-        originalPGA: 2.364
+        amatuer: 2.464,
     }, {
         lie: 'g',
         distance: 92,
         pgaTour: 2.368,
-        eighty: 2.468,
-        ninety: 2.568,
-        oneHundred: 2.668,
-        originalPGA: 2.368
+        amatuer: 2.468,
     }, {
         lie: 'g',
         distance: 93,
         pgaTour: 2.372,
-        eighty: 2.472,
-        ninety: 2.572,
-        oneHundred: 2.672,
-        originalPGA: 2.372
+        amatuer: 2.472,
     }, {
         lie: 'g',
         distance: 94,
         pgaTour: 2.376,
-        eighty: 2.476,
-        ninety: 2.576,
-        oneHundred: 2.676,
-        originalPGA: 2.376
+        amatuer: 2.476,
     }, {
         lie: 'g',
         distance: 95,
         pgaTour: 2.38,
-        eighty: 2.48,
-        ninety: 2.58,
-        oneHundred: 2.68,
-        originalPGA: 2.38
+        amatuer: 2.48,
     }, {
         lie: 'g',
         distance: 96,
         pgaTour: 2.384,
-        eighty: 2.484,
-        ninety: 2.584,
-        oneHundred: 2.684,
-        originalPGA: 2.384
+        amatuer: 2.484,
     }, {
         lie: 'g',
         distance: 97,
         pgaTour: 2.388,
-        eighty: 2.488,
-        ninety: 2.588,
-        oneHundred: 2.688,
-        originalPGA: 2.388
+        amatuer: 2.488,
     }, {
         lie: 'g',
         distance: 98,
         pgaTour: 2.392,
-        eighty: 2.492,
-        ninety: 2.592,
-        oneHundred: 2.692,
-        originalPGA: 2.392
+        amatuer: 2.492,
     }, {
         lie: 'g',
         distance: 99,
         pgaTour: 2.396,
-        eighty: 2.496,
-        ninety: 2.596,
-        oneHundred: 2.696,
-        originalPGA: 2.396
+        amatuer: 2.496,
     }, {
         lie: 'g',
         distance: 100,
         pgaTour: 2.399,
-        eighty: 2.499,
-        ninety: 2.599,
-        oneHundred: 2.699,
-        originalPGA: 2.399
+        amatuer: 2.499,
     }, {
         lie: 'g',
         distance: 101,
         pgaTour: 2.402,
-        eighty: 2.502,
-        ninety: 2.602,
-        oneHundred: 2.702,
-        originalPGA: 2.402
+        amatuer: 2.502,
     }, {
         lie: 'g',
         distance: 102,
         pgaTour: 2.405,
-        eighty: 2.505,
-        ninety: 2.605,
-        oneHundred: 2.705,
-        originalPGA: 2.405
+        amatuer: 2.505,
     }, {
         lie: 'g',
         distance: 103,
         pgaTour: 2.408,
-        eighty: 2.508,
-        ninety: 2.608,
-        oneHundred: 2.708,
-        originalPGA: 2.408
+        amatuer: 2.508,
     }, {
         lie: 'g',
         distance: 104,
         pgaTour: 2.411,
-        eighty: 2.511,
-        ninety: 2.611,
-        oneHundred: 2.711,
-        originalPGA: 2.411
+        amatuer: 2.511,
     }, {
         lie: 'g',
         distance: 105,
         pgaTour: 2.414,
-        eighty: 2.514,
-        ninety: 2.614,
-        oneHundred: 2.714,
-        originalPGA: 2.414
+        amatuer: 2.514,
     }, {
         lie: 'g',
         distance: 106,
         pgaTour: 2.416,
-        eighty: 2.516,
-        ninety: 2.616,
-        oneHundred: 2.716,
-        originalPGA: 2.416
+        amatuer: 2.516,
     }, {
         lie: 'g',
         distance: 107,
         pgaTour: 2.418,
-        eighty: 2.518,
-        ninety: 2.618,
-        oneHundred: 2.718,
-        originalPGA: 2.418
+        amatuer: 2.518,
     }, {
         lie: 'g',
         distance: 108,
         pgaTour: 2.42,
-        eighty: 2.52,
-        ninety: 2.62,
-        oneHundred: 2.72,
-        originalPGA: 2.42
+        amatuer: 2.52,
     }, {
         lie: 'g',
         distance: 109,
         pgaTour: 2.422,
-        eighty: 2.522,
-        ninety: 2.622,
-        oneHundred: 2.722,
-        originalPGA: 2.422
+        amatuer: 2.522,
     }, {
         lie: 'g',
         distance: 110,
         pgaTour: 2.424,
-        eighty: 2.524,
-        ninety: 2.624,
-        oneHundred: 2.724,
-        originalPGA: 2.424
+        amatuer: 2.524,
     }, {
         lie: 'g',
         distance: 111,
         pgaTour: 2.426,
-        eighty: 2.526,
-        ninety: 2.626,
-        oneHundred: 2.726,
-        originalPGA: 2.426
+        amatuer: 2.526,
     }, {
         lie: 'g',
         distance: 112,
         pgaTour: 2.428,
-        eighty: 2.528,
-        ninety: 2.628,
-        oneHundred: 2.728,
-        originalPGA: 2.428
+        amatuer: 2.528,
     }, {
         lie: 'g',
         distance: 113,
         pgaTour: 2.43,
-        eighty: 2.53,
-        ninety: 2.63,
-        oneHundred: 2.73,
-        originalPGA: 2.43
+        amatuer: 2.53,
     }, {
         lie: 'g',
         distance: 114,
         pgaTour: 2.431,
-        eighty: 2.531,
-        ninety: 2.631,
-        oneHundred: 2.731,
-        originalPGA: 2.431
+        amatuer: 2.531,
     }, {
         lie: 'g',
         distance: 115,
         pgaTour: 2.432,
-        eighty: 2.532,
-        ninety: 2.632,
-        oneHundred: 2.732,
-        originalPGA: 2.432
+        amatuer: 2.532,
     }, {
         lie: 'g',
         distance: 116,
         pgaTour: 2.433,
-        eighty: 2.533,
-        ninety: 2.633,
-        oneHundred: 2.733,
-        originalPGA: 2.433
+        amatuer: 2.533,
     }, {
         lie: 'g',
         distance: 117,
         pgaTour: 2.434,
-        eighty: 2.534,
-        ninety: 2.634,
-        oneHundred: 2.734,
-        originalPGA: 2.434
+        amatuer: 2.534,
     }, {
         lie: 'g',
         distance: 118,
         pgaTour: 2.435,
-        eighty: 2.535,
-        ninety: 2.635,
-        oneHundred: 2.735,
-        originalPGA: 2.435
+        amatuer: 2.535,
     }, {
         lie: 'g',
         distance: 119,
         pgaTour: 2.436,
-        eighty: 2.536,
-        ninety: 2.636,
-        oneHundred: 2.736,
-        originalPGA: 2.436
+        amatuer: 2.536,
+    }, {
+        lie: 'g',
+        distance: 120,
+        pgaTour: 2.437,
+        amatuer: 2.537,
     }
 ]
 
@@ -25521,6 +15960,8 @@ for (let i = 0; i < stokesGainedData.length; i++) {
     stokesGainedData[i].sgCode = stokesGainedData[i].distance + stokesGainedData[i].lie
     if (stokesGainedData[i].lie === 'g') {
         stokesGainedData[i].category = 'putt'
+    }else if (stokesGainedData[i].lie === 'x') {
+        stokesGainedData[i].category = 'recovery'
     } else if (stokesGainedData[i].lie === 't') {
         stokesGainedData[i].category = 'tee'
     } else if (stokesGainedData[i].lie !== 'g' && stokesGainedData[i].distance <= 50) {
@@ -25529,8 +15970,3 @@ for (let i = 0; i < stokesGainedData.length; i++) {
         stokesGainedData[i].category = 'app'
     }
 }
-
-// sgCode: 
-// desc: 'teeShot',
-// driveCode: '175-200',
-// sgCategory:  'tee', 'app', 'sg', 'putt'

@@ -10,7 +10,7 @@ Final Product will allow golfers to input shot data and track stats and strokes 
 | **Button** | **Function** |
 | --- | --- |
 | Save | Saves round to local storage (Not Operational) |
-| Reset | Removes all shots and stats from DOM and starts new round ((Not Operational) |
+| Reset | Removes all shots and stats from DOM and starts new round (Not Operational) |
 | Add Shot | Adds a new Shot to that hole |
 | Remove Shot | Removes final shot from that hole |
 
@@ -30,7 +30,8 @@ Final Product will allow golfers to input shot data and track stats and strokes 
 | Fairway | Shots hit from the fairway length cut. | 600 yds |
 | Rough | Shots hit from the grass, with a cut longer than the fairway. | 600 yds
 | Sand | Shots hit from a sandy area. i.e. Waste Area or Bunker | 600 yds |
-| Green | Shots hit on putting green, these will only count as putts | 119 ft |
+| Green | Shots hit on putting green, these will only count as putts | 120 ft |
+| Recovery | Shots hit from anywhere on the course, in which the purpose is to not advance the ball closer to the hole, but to get out of trouble.  Shots hit tagged with a recovery location will count towards the strokes gained catagory of the previous shot | 600 yds |
 
 ## **Stats**
 
@@ -76,6 +77,7 @@ For details on strokes gained [read this from the PGA TOUR](https://www.pgatour.
 | Approach | The number of Approach the Green strokes a player takes from specific locations and distances are measured against a statistical baseline to determine the player's strokes gained or lost on a hole. The total is the sum of all shots in this catagory. Note: Approach to green is defined by shots outside 50 yards from the hole, and Tee Shot for only Par 3's
 | Short Game | The number of Around the Green strokes a player takes from specific locations and distances are measured against a statistical baseline to determine the player's strokes gained or lost on a hole. The total is the sum of all shots in this catagory. Note: Approach to green is defined by shots insidr 50 yards from the hole, and not on the green.
 | Putting | The number of putts a player takes from a specific distance is measured against a statistical baseline to determine the player's strokes gained or lost on a hole.The total is the sum of all shots in this catagory. |
+
 
  * Strokes Gained definitions are modified from defitions used by the [PGATOUR](https://www.pgatour.com/stats.html)
  * POSTIVE NUMBERS INCIDATE SHOTS BETTER THAN THE STATISTICAL BASLINE!

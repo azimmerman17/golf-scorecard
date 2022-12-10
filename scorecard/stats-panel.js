@@ -5,7 +5,7 @@ document.getElementById('statHeading').textContent = statHeader
 
 // array's for stats
 let statDivArr = ['Scoring', 'Hole Scores', 'Performance', 'Strokes Gained']
-let scoreDivArr = ['Score', 'Par', '(+/-)']
+let scoreDivArr = ['Score', 'Par', '(+/-)', 'Expected Score', 'Strokes Gained']
 let parDivArr = ['Eagle+', 'Birdie', 'Par', 'Bogey', 'DblBogey+']
 let perfDivArr = ['Drive Dist', 'Fwy', 'Gir', 'Prox to Hole', 'Scrambling', 'Sand Save', 'Putts']
 let sgDivArr = ['Total', 'Tee', 'Approach', 'Short Game', 'Putting']
@@ -13,12 +13,18 @@ let sgDivArr = ['Total', 'Tee', 'Approach', 'Short Game', 'Putting']
 function statBuild(array, parent) {
     for(let i = 0; i < array.length; i++) {
         const statElm = document.createElement('div');
-            statElm.className = 'p-2 m-2'
+            statElm.className = 'p-2 m-2 stat-panel'
         const statValue = document.createElement('h5');
             statValue.className = 'text-center'
             switch (array[i]) {
                 case '(+/-)':
                     statValue.id = 'vsPar-panel'
+                    break
+                case 'Expected Score':
+                    statValue.id = 'expected-panel'
+                    break
+                case 'Strokes Gained':
+                    statValue.id = 'vsexpected-panel'
                     break
                 case 'Drive Dist':
                     statValue.id = 'driveDist-panel'

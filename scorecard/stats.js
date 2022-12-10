@@ -14,6 +14,7 @@ function Hole(holeNum) {
     this.score = 0,  // shots.length
     this.par = 0,  // user input
     this.lngth = null,  // user input !!Shot 1 dist
+    this.expScore = 0
     this.shots =[] // add shots to arrey
     // strokes gained
     this.sgTee = 0
@@ -57,7 +58,8 @@ const sgObj = {
     approach: 0,
     shortGame: 0,
     putting: 0,
-    total: 0
+    total: 0,
+    expScore: 0,
 }
 
 const holesArr = []
@@ -79,7 +81,7 @@ function updateAddShot(hole) {
         roundScore +=  round.holes[i-1].score
     }
     round.score = roundScore
-
+    updateStats()
 }
 
 function updateRmShot(hole) {
@@ -89,14 +91,19 @@ function updateRmShot(hole) {
         roundScore +=  round.holes[i-1].score
     }
     round.score = roundScore
+    hole.shots[hole.shots.length - 1].endLoc = 'h'
+    hole.shots[hole.shots.length - 1].endDist = 0
+    updateStats()
+
 }
 
 function updatePar(hole, num) {
     hole.par = parseInt(document.getElementById(`parHole${num}`).value)
-    let roundPar = 0
+    round.par = 0
     for (let i = 1; i <= round.holes.length; i++) {
-        roundPar +=  round.holes[i-1].par
+        round.par +=  round.holes[i-1].par
     }
+    updateStats()
 }
 
 function updateDist(holeNmb, shotNmb, hole) {
@@ -136,6 +143,7 @@ function updateStats() {
             updateScrambling(i)
             updateSand(i)
             updateProx(i)
+            strokesGained()
         }
     }
     round.stats.fwy = `${parseInt(round.stats.fwy / countDrive * 100)}%` // round fwy %
@@ -203,7 +211,6 @@ function updateDriveDist(i) {
             }
         }
     }
-    console.log(round.stats.driveDist)
 }
 
 function updatePutts(i) {

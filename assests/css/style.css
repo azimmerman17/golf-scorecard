@@ -31,9 +31,9 @@ nav {
     height: 45px
 }
 
-#stats-main {
-    width: 200px;
-}
+/* #stats-main {
+    width: 200px; */
+/* } */
 
 h6, p {
     font-size: 10px;
@@ -90,3 +90,7 @@ select {
     margin: 2px;
 }
 
+.stats-bar {
+    min-width: 50px;
+    margin: 0 5px
+}

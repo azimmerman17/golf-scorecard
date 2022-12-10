@@ -43,31 +43,46 @@
         <script src="scorecard/stats-panel.js"></script>
     </aside>
     <main id="main">
-        <div class="d-flex justify-content-between">
-            <button class="btn btn-outline-primary" id="addHoleBtn"> 
-                <i class="bi bi-save"></i> 
-                <!-- <i class="bi bi-plus"></i> -->
-                <h6 class="text-center">Save</h6>
-            </button>
-            <div class="d-flex justify-content-evenly" id="stats-main">
-                <div id="score-main-div">
-                    <h3 class="text-center" id="score-main">0</h3>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col" id="ability">
+                    <div id="ability-drop-div">
+                        <label for="ability-drop"></label>
+                        <select class="text-center" name="ability-drop" id="ability-drop">
+                            <option class="option-ability" value="pgaTour">PGA Tour</option>
+                            <option class="option-ability" value="75">75 Average</option>
+                            <option class="option-ability" value="80">80 Average</option>
+                            <option class="option-ability" value="85">85 Average</option>
+                            <option class="option-ability" value="90">90 Average</option>
+                            <option class="option-ability" value="95">95 Average</option>
+                            <option class="option-ability" value="100">100 Average</option>
+                        </select>
+                        <h6 class="text-center">Ability</h6>
+                    </div>
+                </div>
+                <div class="stats-bar col" id="expected-main-div">
+                    <h3 class="text-center" id="expected-main">000.000</h3>
+                    <h6 class="text-center">Expected Score</h6>
+                </div>
+                <div class="stats-bar col" id="vsexpected-main-div">
+                    <h3 class="text-center" id="vsexpected-main">0.000</h3>
+                    <h6 class="text-center">Strokes Gained</h6>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="stats-bar col" id="score-main-div">
+                    <h3 class="text-center" id="score-main">000</h3>
                     <h6 class="text-center">Strokes</h6>
                 </div>
-                <div id="par-main-div">
+                <div class="stats-bar col" id="par-main-div">
                     <h3 class="text-center" id="par-main">0</h3>
                     <h6 class="text-center">Par</h6>
                 </div>
-
-                <div id="vspar-main-div">
+                <div class="stats-bar col" id="vspar-main-div">
                     <h3 class="text-center" id="vspar-main">E</h3>
                     <h6 class="text-center">(+/-)</h6>
-                </div>
+                </div>    
             </div>
-            <button class="btn btn-outline-danger" id="resetBtn">
-                <i class="bi bi-x"></i>
-                <h6 class="text-center">Reset</h6>
-            </button>
         </div>
         <!-- Holes for the scorecard -->
         <div class="accordion" id="accordionGolfHoles">
@@ -759,7 +774,15 @@
     </main>
     <script src="scorecard/scorecard-build.js"></script>
     <footer>
-        <p><super>*</super>Use the unit of YARDS, except for shots on the green, where you need to use thre unit of FEET</p>
+        <button class="btn btn-outline-primary" id="addHoleBtn"> 
+            <i class="bi bi-save"></i> 
+            <!-- <i class="bi bi-plus"></i> -->
+            <h6 class="text-center">Save</h6>
+        </button>
+        <button class="btn btn-outline-danger" id="resetBtn">
+            <i class="bi bi-x"></i>
+            <h6 class="text-center">Reset</h6>
+        </button>
     </footer>
   </body>
 </html>

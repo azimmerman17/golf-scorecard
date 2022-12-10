@@ -11,7 +11,7 @@ lieList.push(new lieLocation('Fairway','f'))
 lieList.push(new lieLocation('Rough','r'))
 lieList.push(new lieLocation('Sand','s'))
 lieList.push(new lieLocation('Green','g'))
-// lieList.push(new lieLocation('Recovery','x'))
+lieList.push(new lieLocation('Recovery','x'))
 // lieList.push(new lieLocation('Penalty','p'))
 
 //listener to add shots to the DOM
@@ -91,7 +91,6 @@ for (let i = 1; i <= round.holes.length; i++) {
         round.holes[i - 1].shots.push(new Shot(round.holes[i - 1].shots.length + 1, ))
         updateAddShot(round.holes[i - 1])
         updateStats()
-        updateDocStats()
         addShot(i)
     }));
 
@@ -102,7 +101,6 @@ for (let i = 1; i <= round.holes.length; i++) {
             document.querySelector(`#h${i}S${round.holes[i-1].score}`).remove()
             updateRmShot(round.holes[i - 1])
             updateStats()
-            updateDocStats()
         }
     }));
 
@@ -114,6 +112,13 @@ for (let i = 1; i <= round.holes.length; i++) {
     }))
 
 };
+
+// change the ability
+document.getElementById('ability-drop').addEventListener('change', (() => {
+    round.ability = document.getElementById('ability-drop').value
+    strokesGained()
+    
+}))
 
 // make this work for the entire document
 function updateDocStats() {
@@ -138,6 +143,10 @@ function updateDocStats() {
         document.getElementById('vsPar-panel').innerHTML = round.score - round.par
         document.getElementById('vspar-main').style.color = 'red'
     }
+    document.getElementById('expected-main').innerHTML = round.sg.expScore.toFixed(3)
+    document.getElementById('expected-panel').innerHTML = round.sg.expScore.toFixed(3)
+    document.getElementById('vsexpected-main').innerHTML = (round.sg.expScore - round.score).toFixed(3)
+    document.getElementById('vsexpected-panel').innerHTML = (round.sg.expScore - round.score).toFixed(3)
 
 // Hole Scores
     let eagle = 0
